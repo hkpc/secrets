@@ -84,7 +84,7 @@ def rename_node(uri, reader):
                     flag = get_flag(match.get('country', {}).get('iso_code'))
 
         short_id = get_short_id(base_uri)
-        new_tag = f"{flag} {country_name} secrets_{short_id}"
+        new_tag = f"{flag} {country_name} 打倒美帝国主义及其一切走狗_{short_id}"
         return f"{base_uri}#{new_tag}"
     except:
         return uri
