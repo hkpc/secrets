@@ -108,7 +108,7 @@ def rename_node(uri, reader):
                     flag = get_flag(match.get('country', {}).get('iso_code'))
 
         short_id = get_short_id(base_uri)
-        new_tag = f"{flag} {country_name} 满城尽带黄金甲_{short_id}"
+        new_tag = f"{flag} {country_name} 用魔法打败魔法_{short_id}"
         return f"{base_uri}#{new_tag}"
     except:
         return uri
