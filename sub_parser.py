@@ -181,12 +181,12 @@ def main():
 
     with open('data/clash.yaml', 'w', encoding='utf-8') as f:
        
-        f.write(f'# 美帝国主义是纸老虎\n# Last Updated: {update_time}\n# Total Nodes: {node_count}\n\n')
+        f.write(f'# Last Updated: {update_time}\n# Total Nodes: {node_count}\n\n')
         yaml.safe_dump(full_config, f, allow_unicode=True, sort_keys=False, indent=2)
 
     
     with open('data/nodes.txt', 'w', encoding='utf-8') as f:
-        f.write(f"# 美帝国主义是纸老虎\n# Updated: {update_time}\n# Total: {node_count}\n")
+        f.write(f"# Updated: {update_time}\n# Total: {node_count}\n")
         f.write("\n".join(final_uris) + "\n")
 
    
