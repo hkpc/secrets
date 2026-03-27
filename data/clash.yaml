@@ -1,4 +1,4 @@
-# Last Updated: 2026-03-27 10:38:22
+# Last Updated: 2026-03-28 00:22:54
 # Total Nodes: 207
 
 port: 7890
@@ -20,556 +20,7 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-- name: 🇳🇱 荷兰 满城尽带黄金甲_608b
-  server: 194.124.250.51
-  port: 443
-  udp: true
-  type: vless
-  uuid: 90c9c25c-df6c-4438-83d3-ef97166a9184
-  tls: true
-  servername: 5post-gate.x5.ru
-  network: tcp
-- name: 🇦🇺 澳大利亚 满城尽带黄金甲_f8f0
-  server: enhanced-crayfish.rooster465.autos
-  port: 443
-  udp: true
-  type: trojan
-  password: IL37892054
-  sni: enhanced-crayfish.rooster465.autos
-  skip-cert-verify: true
-- name: 🇹🇷 土耳其 满城尽带黄金甲_7c4d
-  server: 185.181.208.246
-  port: 443
-  udp: true
-  type: vless
-  uuid: f1f26b76-ebc8-4f46-a3cf-8438c2f249a0
-  tls: true
-  servername: www.google.com
-  network: tcp
-- name: 🇹🇷 土耳其 满城尽带黄金甲_d861
-  server: 82.26.94.193
-  port: 443
-  udp: true
-  type: vless
-  uuid: 66143a11-6e84-466e-9b83-5cfebfd2aea8
-  tls: true
-  servername: www.nvidia.com
-  network: tcp
-- name: 🇺🇸 美国 满城尽带黄金甲_f158
-  server: 80.209.241.190
-  port: 2443
-  udp: true
-  type: vless
-  uuid: c01733dd-3e58-4da9-910b-cdd4560295bc
-  tls: true
-  servername: www.tradingview.com
-  network: tcp
-- name: 🌐 未知地区 满城尽带黄金甲_ef07
-  server: ipv6s235.ccgfw.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947ue122ipv6s235.ccgfw.top
-  network: tcp
-- name: 🇳🇱 荷兰 满城尽带黄金甲_e600
-  server: 141.98.24.151
-  port: 443
-  udp: true
-  type: vless
-  uuid: 4da4c9c7-a587-4894-bfa1-63e2c50aa21e
-  tls: true
-  servername: www.google.com
-  network: tcp
-- name: 🇳🇱 荷兰 满城尽带黄金甲_273e
-  server: s677.ccgfw.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947u9f40s677.ccgfw.top
-  network: tcp
-- name: 🇺🇸 美国 满城尽带黄金甲_ea27
-  server: cdn-gr-cf.barryvpn.com
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 3d737761-5951-462e-86c1-ff921d9f9999
-  tls: true
-  servername: images.apple.com
-  network: tcp
-- name: 🇯🇵 日本 满城尽带黄金甲_1fc8
-  server: 52.192.225.14
-  port: 4019
-  udp: true
-  type: trojan
-  password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: 🌐 未知地区 满城尽带黄金甲_6bac
-  server: 104.18.32.47
-  port: 2052
-  udp: true
-  type: vless
-  uuid: 5e62ddcf-78c9-4b15-803a-436c8c839ddc
-  tls: true
-  servername: 104.18.32.47
-  network: ws
-- name: 🇹🇷 土耳其 满城尽带黄金甲_3473
-  server: 77.92.145.222
-  port: 443
-  udp: true
-  type: vless
-  uuid: 53821f3c-5b03-456a-89f3-f8379f130752
-  tls: true
-  servername: www.vk.com
-  network: tcp
-- name: 🇯🇵 日本 满城尽带黄金甲_0a62
-  server: 160.16.70.180
-  port: 3700
-  udp: true
-  type: trojan
-  password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: 🇯🇵 日本 满城尽带黄金甲_787c
-  server: 18.183.109.144
-  port: 15407
-  udp: true
-  type: trojan
-  password: BxceQaOe
-  sni: t.me/ripaojiedian
-  skip-cert-verify: true
-- name: 🇳🇱 荷兰 满城尽带黄金甲_51cc
-  server: 45.66.163.194
-  port: 443
-  udp: true
-  type: vless
-  uuid: 90c9c25c-df6c-4438-83d3-ef97166a9184
-  tls: true
-  servername: 5post-gate.x5.ru
-  network: tcp
-- name: 🇳🇱 荷兰 满城尽带黄金甲_6026
-  server: s679.ccgfw.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947u562fs679.ccgfw.top
-  network: tcp
-- name: 🇵🇱 波兰 满城尽带黄金甲_1677
-  server: 144.31.1.59
-  port: 443
-  udp: true
-  type: vless
-  uuid: ab1ddafb-9514-40ab-9e4b-a3878f70931d
-  tls: true
-  servername: pl.sky-vault.top
-  network: tcp
-- name: 🇳🇱 荷兰 满城尽带黄金甲_647e
-  server: s502.okgg.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947u809ds502.okgg.top
-  network: tcp
-- name: 🇭🇰 香港 满城尽带黄金甲_e300
-  server: 18.166.177.165
-  port: 49534
-  udp: true
-  type: trojan
-  password: BxceQaOe
-  sni: t.me/ripaojiedian
-  skip-cert-verify: true
-- name: 🌐 未知地区 满城尽带黄金甲_0a32
-  server: ipv6s116.okgfw.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947ub21eipv6s116.okgfw.top
-  network: tcp
-- name: 🇯🇵 日本 满城尽带黄金甲_f22b
-  server: 13.113.229.223
-  port: 3022
-  udp: true
-  type: trojan
-  password: BxceQaOe
-  sni: t.me%2Fripaojiedian
-  skip-cert-verify: true
-- name: 🇯🇵 日本 满城尽带黄金甲_516b
-  server: 18.183.109.144
-  port: 1524
-  udp: true
-  type: trojan
-  password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: 🇺🇸 美国 满城尽带黄金甲_406d
-  server: s174.okgg.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947u02d5s174.okgg.top
-  network: tcp
-- name: 🌐 未知地区 满城尽带黄金甲_96de
-  server: 104.21.44.185
-  port: 2053
-  udp: true
-  type: trojan
-  password: dreDeMpIQpnv
-  sni: aryanews.onetwothree123.ir
-  skip-cert-verify: true
-- name: 🇬🇧 英国 满城尽带黄金甲_0868
-  server: 51.89.229.134
-  port: 443
-  udp: true
-  type: vless
-  uuid: 53821f3c-5b03-456a-89f3-f8379f130752
-  tls: true
-  servername: www.samsung.com
-  network: tcp
-- name: 🇩🇪 德国 满城尽带黄金甲_47a6
-  server: 185.132.53.177
-  port: 443
-  udp: true
-  type: vless
-  uuid: 5952ea01-0669-4f5e-8010-61f8abee3600
-  tls: true
-  servername: nla.grizzlyvpn.work
-  network: tcp
-- name: 🇲🇩 摩尔多瓦 满城尽带黄金甲_181e
-  server: 94.103.0.92
-  port: 2443
-  udp: true
-  type: vless
-  uuid: c01733dd-3e58-4da9-910b-cdd4560295bc
-  tls: true
-  servername: crowdtest.payment-widget-smarttv.plus.tst.kinopoisk.ru
-  network: tcp
-- name: 🇺🇸 美国 满城尽带黄金甲_7b95
-  server: s110.okgfw.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947ucb80s110.okgfw.top
-  network: tcp
-- name: 🇺🇸 美国 满城尽带黄金甲_ff29
-  server: us1.axinode.sbs
-  port: 10965
-  udp: true
-  type: vless
-  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
-  tls: true
-  servername: deepl.com
-  network: tcp
-- name: 🇹🇷 土耳其 满城尽带黄金甲_121c
-  server: 8adeefa1-96b4-42d4-b163-1e0bf13bae5d.quadzero.online
-  port: 443
-  udp: true
-  type: vless
-  uuid: b2f99930-7d48-4a22-8d67-539c440b6a7a
-  tls: true
-  servername: 8adeefa1-96b4-42d4-b163-1e0bf13bae5d.quadzero.online
-  network: ws
-- name: 🇺🇸 美国 满城尽带黄金甲_e0e8
-  server: s842.ccgfw.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947u2bdas842.ccgfw.top
-  network: tcp
-- name: 🇯🇵 日本 满城尽带黄金甲_74bd
-  server: 160.16.124.17
-  port: 1524
-  udp: true
-  type: trojan
-  password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: 🇪🇪 爱沙尼亚 满城尽带黄金甲_19b7
-  server: s501.ccgfw.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947uad5ds501.ccgfw.top
-  network: tcp
-- name: 🇺🇸 美国 满城尽带黄金甲_b84a
-  server: 150.241.75.139
-  port: 443
-  udp: true
-  type: vless
-  uuid: 5f98c4f8-19f4-471d-8ed5-10c0550c0423
-  tls: true
-  servername: tunnel.vk-apps.com
-  network: tcp
-- name: 🇯🇵 日本 满城尽带黄金甲_0064
-  server: 18.183.109.249
-  port: 34818
-  udp: true
-  type: trojan
-  password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: 🇬🇧 英国 满城尽带黄金甲_0247
-  server: 82.41.181.60
-  port: 443
-  udp: true
-  type: vless
-  uuid: a1056081-76c5-4185-a16d-da6657e088d0
-  tls: true
-  servername: www.google.com
-  network: tcp
-- name: 🇩🇪 德国 满城尽带黄金甲_96ad
-  server: fra01.jumperservice.com
-  port: 19001
-  udp: true
-  type: vless
-  uuid: 12eac926-c4ec-4040-8fb8-f316e9fc0fd6
-  tls: true
-  servername: www.speedtest.net
-  network: tcp
-- name: 🌐 未知地区 满城尽带黄金甲_7116
-  server: 104.21.112.1
-  port: 443
-  udp: true
-  type: trojan
-  password: psycho
-  sni: pSYcho.sUeX12.IR
-  skip-cert-verify: true
-- name: 🇺🇸 美国 满城尽带黄金甲_74e6
-  server: download.lastilhame.monster
-  port: 443
-  udp: true
-  type: vless
-  uuid: a8da758c-510d-4827-83cf-2f2b51c49c5b
-  tls: true
-  servername: download.lastilhame.monster
-  network: tcp
-- name: 🇩🇪 德国 满城尽带黄金甲_cbc4
-  server: 89.185.85.107
-  port: 443
-  udp: true
-  type: vless
-  uuid: 658786e5-f302-48e2-b321-f4dc6da2a398
-  tls: true
-  servername: cdnv-img.perekrestok.ru
-  network: tcp
-- name: 🇸🇪 瑞典 满城尽带黄金甲_62e0
-  server: 213.21.240.91
-  port: 443
-  udp: true
-  type: vless
-  uuid: 5952ea01-0669-4f5e-8010-61f8abee3600
-  tls: true
-  servername: swe.grizzlyvpn.work
-  network: tcp
-- name: 🇩🇪 德国 满城尽带黄金甲_9f8b
-  server: de12.frostbot.ru
-  port: 6443
-  udp: true
-  type: vless
-  uuid: fdc8d6e7-9520-4580-aefb-50185b539bdd
-  tls: true
-  servername: github.com
-  network: tcp
-- name: 🌐 未知地区 满城尽带黄金甲_0bdf
-  server: lucy.ns.cloudflare.com
-  port: 443
-  udp: true
-  type: vless
-  uuid: 098fd515-29de-4d74-b77d-d8ab878a7e2c
-  tls: true
-  servername: rivvers.info
-  network: ws
-- name: 🌐 未知地区 满城尽带黄金甲_3475
-  server: 162.159.36.5
-  port: 443
-  udp: true
-  type: vless
-  uuid: 1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63
-  tls: true
-  servername: terazhediii.info
-  network: ws
-- name: 🇵🇱 波兰 满城尽带黄金甲_d03b
-  server: pl5.lckdwn.ru
-  port: 443
-  udp: true
-  type: vless
-  uuid: 6f99ed2f-9879-40e3-b5b4-5590c60f8e4a
-  tls: true
-  servername: vk.ru
-  network: tcp
-- name: 🇩🇪 德国 满城尽带黄金甲_a2ad
-  server: 94.141.123.146
-  port: 10965
-  udp: true
-  type: vless
-  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
-  tls: true
-  servername: deepl.com
-  network: tcp
-- name: 🇪🇪 爱沙尼亚 满城尽带黄金甲_81f8
-  server: 193.109.120.119
-  port: 443
-  udp: true
-  type: vless
-  uuid: fd37be2f-f8d1-47de-97e8-13c28107d31e
-  tls: true
-  servername: est15.frostbot.ru
-  network: tcp
-- name: 🇯🇵 日本 满城尽带黄金甲_e601
-  server: 52.192.225.14
-  port: 1524
-  udp: true
-  type: trojan
-  password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: 🇱🇹 立陶宛 满城尽带黄金甲_d4f1
-  server: 8443.golden-cards.me
-  port: 443
-  udp: true
-  type: trojan
-  password: q2GRUM1-odJBWq_KV6xv2fuNvu8ed-
-  sni: 8443.golden-cards.me
-  skip-cert-verify: true
-- name: 🇺🇸 美国 满城尽带黄金甲_52b5
-  server: 104.167.197.59
-  port: 23335
-  udp: true
-  type: vless
-  uuid: e384913f-8863-47b4-8858-a84b68abb4a6
-  tls: true
-  servername: icloud.com
-  network: tcp
-- name: 🇯🇵 日本 满城尽带黄金甲_3fd5
-  server: 54.238.27.181
-  port: 6313
-  udp: true
-  type: trojan
-  password: BxceQaOe
-  sni: t.me/ripaojiedian
-  skip-cert-verify: true
-- name: 🇦🇱 阿尔巴尼亚 满城尽带黄金甲_e1eb
-  server: 78.159.131.12
-  port: 28259
-  udp: true
-  type: trojan
-  password: MeaDiUmPlkWbZJ2BON8tz
-  sni: ads.x5.ru
-  skip-cert-verify: true
-- name: 🇰🇿 哈萨克斯坦 满城尽带黄金甲_25f8
-  server: 94.131.86.204
-  port: 443
-  udp: true
-  type: vless
-  uuid: 41808414-6496-4d3c-89d6-9442f76a155a
-  tls: true
-  servername: www.google.com
-  network: tcp
-- name: 🇹🇼 台湾 满城尽带黄金甲_4008
-  server: api.livecut.cc
-  port: 443
-  udp: true
-  type: vless
-  uuid: ac421bf3-470d-4e21-a56d-c8d622f6df2f
-  tls: true
-  servername: api.livecut.cc
-  network: ws
-- name: 🇳🇱 荷兰 满城尽带黄金甲_0187
-  server: 178.173.250.59
-  port: 443
-  udp: true
-  type: vless
-  uuid: f2a806c6-f36b-4cd9-8bb6-7addb218ad2d
-  tls: true
-  servername: 178.173.250.59
-  network: ws
-- name: 🇺🇸 美国 满城尽带黄金甲_ce21
-  server: s843.ccgfw.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947ucc20s843.ccgfw.top
-  network: tcp
-- name: 🇺🇸 美国 满城尽带黄金甲_1644
-  server: s113.okgfw.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947u555ds113.okgfw.top
-  network: tcp
-- name: 🇺🇸 美国 满城尽带黄金甲_cedd
-  server: s719.okgfw.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947ufa4bs719.okgfw.top
-  network: tcp
-- name: 🇳🇱 荷兰 满城尽带黄金甲_59bf
-  server: 45.15.128.75
-  port: 8443
-  udp: true
-  type: vless
-  uuid: fad2b7e0-d80c-4b7b-a84f-d86e0e49f627
-  tls: true
-  servername: max.ru
-  network: tcp
-- name: 🇺🇸 美国 满城尽带黄金甲_bff2
-  server: s173.okgg.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947u92b9s173.okgg.top
-  network: tcp
-- name: 🇩🇪 德国 满城尽带黄金甲_db5c
-  server: 63.180.254.10
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🌐 未知地区 满城尽带黄金甲_e0d2
-  server: ipv6s732.ccgfw.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947ub3fcipv6s732.ccgfw.top
-  network: tcp
-- name: 🇯🇵 日本 满城尽带黄金甲_5560
-  server: 160.16.70.180
-  port: 1524
-  udp: true
-  type: trojan
-  password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: 🇺🇸 美国 满城尽带黄金甲_eddd
+- name: 🇺🇸 美国 用魔法打败魔法_eddd
   server: s720.okgfw.top
   port: 443
   udp: true
@@ -578,7 +29,1057 @@ proxies:
   tls: true
   servername: u710947u33a1s720.okgfw.top
   network: tcp
-- name: 🇺🇸 美国 满城尽带黄金甲_6a3a
+- name: 🇯🇵 日本 用魔法打败魔法_e3fb
+  server: 160.16.106.99
+  port: 4937
+  udp: true
+  type: trojan
+  password: 6d29eb2f74293cb01a19b32cf08ad2e9
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇵🇱 波兰 用魔法打败魔法_ed9f
+  server: fluent-stingray.crayfish192.xyz
+  port: 443
+  udp: true
+  type: trojan
+  password: IL37892054
+  sni: fluent-stingray.crayfish192.xyz
+  skip-cert-verify: true
+- name: 🇺🇸 美国 用魔法打败魔法_1538
+  server: 85.209.159.22
+  port: 443
+  udp: true
+  type: vless
+  uuid: 90c9c25c-df6c-4438-83d3-ef97166a9184
+  tls: true
+  servername: 5post-gate.x5.ru
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_d079
+  server: 104.17.152.254
+  port: 80
+  udp: true
+  type: vless
+  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
+  tls: true
+  servername: 104.17.152.254
+  network: ws
+- name: 🇪🇪 爱沙尼亚 用魔法打败魔法_19b7
+  server: s501.ccgfw.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947uad5ds501.ccgfw.top
+  network: tcp
+- name: 🇺🇸 美国 用魔法打败魔法_f158
+  server: 80.209.241.190
+  port: 2443
+  udp: true
+  type: vless
+  uuid: c01733dd-3e58-4da9-910b-cdd4560295bc
+  tls: true
+  servername: www.tradingview.com
+  network: tcp
+- name: 🇺🇸 美国 用魔法打败魔法_ff29
+  server: us1.axinode.sbs
+  port: 10965
+  udp: true
+  type: vless
+  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
+  tls: true
+  servername: deepl.com
+  network: tcp
+- name: 🇺🇸 美国 用魔法打败魔法_ab04
+  server: s531.ccgfw.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947u9042s531.ccgfw.top
+  network: tcp
+- name: 🇺🇸 美国 用魔法打败魔法_ea27
+  server: cdn-gr-cf.barryvpn.com
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 3d737761-5951-462e-86c1-ff921d9f9999
+  tls: true
+  servername: images.apple.com
+  network: tcp
+- name: 🇯🇵 日本 用魔法打败魔法_e601
+  server: 52.192.225.14
+  port: 1524
+  udp: true
+  type: trojan
+  password: 6d29eb2f74293cb01a19b32cf08ad2e9
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_0bdf
+  server: lucy.ns.cloudflare.com
+  port: 443
+  udp: true
+  type: vless
+  uuid: 098fd515-29de-4d74-b77d-d8ab878a7e2c
+  tls: true
+  servername: rivvers.info
+  network: ws
+- name: 🇺🇸 美国 用魔法打败魔法_297b
+  server: it1.axinode.sbs
+  port: 10965
+  udp: true
+  type: vless
+  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
+  tls: true
+  servername: deepl.com
+  network: tcp
+- name: 🇬🇧 英国 用魔法打败魔法_0dba
+  server: 144.31.213.102
+  port: 10121
+  udp: true
+  type: vless
+  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
+  tls: true
+  servername: apple.com
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_4751
+  server: 188.114.98.0
+  port: 2096
+  udp: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  servername: null
+  network: tcp
+- name: 🇺🇸 美国 用魔法打败魔法_cc72
+  server: 150.241.203.76
+  port: 11846
+  udp: true
+  type: vless
+  uuid: ae0e984d-423e-4d80-8c0e-1d127340b3b9
+  tls: true
+  servername: www.google.com
+  network: tcp
+- name: 🇹🇷 土耳其 用魔法打败魔法_1888
+  server: 94.131.123.167
+  port: 443
+  udp: true
+  type: vless
+  uuid: a44e0875-210f-4941-9062-89b6361a14c6
+  tls: true
+  servername: apple.com
+  network: tcp
+- name: 🇹🇷 土耳其 用魔法打败魔法_121c
+  server: 8adeefa1-96b4-42d4-b163-1e0bf13bae5d.quadzero.online
+  port: 443
+  udp: true
+  type: vless
+  uuid: b2f99930-7d48-4a22-8d67-539c440b6a7a
+  tls: true
+  servername: 8adeefa1-96b4-42d4-b163-1e0bf13bae5d.quadzero.online
+  network: ws
+- name: 🇺🇸 美国 用魔法打败魔法_24df
+  server: s393.ccgfw.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947u5903s393.ccgfw.top
+  network: tcp
+- name: 🇫🇮 芬兰 用魔法打败魔法_0766
+  server: 144.31.239.139
+  port: 25340
+  udp: true
+  type: vless
+  uuid: 40fb2d29-374c-4255-ae56-bf3ad95b8b37
+  tls: true
+  servername: www.sony.com
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_e366
+  server: 104.21.227.134
+  port: 443
+  udp: true
+  type: vless
+  uuid: 53f0bca8-f170-4ef7-8031-c7d441189dbf
+  tls: true
+  servername: 639073677259599430.civic-perma.info
+  network: ws
+- name: 🇩🇪 德国 用魔法打败魔法_e85f
+  server: 181.214.99.162
+  port: 35000
+  udp: true
+  type: hysteria2
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  sni: null
+  skip-cert-verify: true
+- name: 🇪🇪 爱沙尼亚 用魔法打败魔法_f816
+  server: s348.ccgfw.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947ud504s348.ccgfw.top
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_207e
+  server: ipv6s372.ccgfw.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947ue5e5ipv6s372.ccgfw.top
+  network: tcp
+- name: 🇺🇸 美国 用魔法打败魔法_f902
+  server: 158.51.99.69
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947u85f7s394.ccgfw.top
+  network: tcp
+- name: 🇺🇸 美国 用魔法打败魔法_ca74
+  server: s246.ccgfw.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947u86ffs246.ccgfw.top
+  network: tcp
+- name: 🇯🇵 日本 用魔法打败魔法_0064
+  server: 18.183.109.249
+  port: 34818
+  udp: true
+  type: trojan
+  password: 6d29eb2f74293cb01a19b32cf08ad2e9
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇪🇪 爱沙尼亚 用魔法打败魔法_81f8
+  server: 193.109.120.119
+  port: 443
+  udp: true
+  type: vless
+  uuid: fd37be2f-f8d1-47de-97e8-13c28107d31e
+  tls: true
+  servername: est15.frostbot.ru
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_04a1
+  server: 188.114.98.0
+  port: 443
+  udp: true
+  type: vless
+  uuid: 42b32d2f-42c1-4f63-a005-22ffbddcda53
+  tls: true
+  servername: 639073677236045352.mustang-perma.info
+  network: ws
+- name: 🇯🇵 日本 用魔法打败魔法_3d31
+  server: 160.16.124.17
+  port: 34818
+  udp: true
+  type: trojan
+  password: 6d29eb2f74293cb01a19b32cf08ad2e9
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇩🇪 德国 用魔法打败魔法_f40c
+  server: 194.5.65.88
+  port: 587
+  udp: true
+  type: vless
+  uuid: d08a63e7-dbea-4a36-a239-9f0b37a46b40
+  tls: true
+  servername: cdn.jsdelivr.net
+  network: tcp
+- name: 🇺🇸 美国 用魔法打败魔法_7b95
+  server: s110.okgfw.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947ucb80s110.okgfw.top
+  network: tcp
+- name: 🇸🇪 瑞典 用魔法打败魔法_62e0
+  server: 213.21.240.91
+  port: 443
+  udp: true
+  type: vless
+  uuid: 5952ea01-0669-4f5e-8010-61f8abee3600
+  tls: true
+  servername: swe.grizzlyvpn.work
+  network: tcp
+- name: 🇯🇵 日本 用魔法打败魔法_0a62
+  server: 160.16.70.180
+  port: 3700
+  udp: true
+  type: trojan
+  password: 6d29eb2f74293cb01a19b32cf08ad2e9
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇬🇧 英国 用魔法打败魔法_0247
+  server: 82.41.181.60
+  port: 443
+  udp: true
+  type: vless
+  uuid: a1056081-76c5-4185-a16d-da6657e088d0
+  tls: true
+  servername: www.google.com
+  network: tcp
+- name: 🇳🇱 荷兰 用魔法打败魔法_1bfc
+  server: 144.31.130.25
+  port: 443
+  udp: true
+  type: vless
+  uuid: 897f023a-7507-40c0-9a74-ab77be0a47f0
+  tls: true
+  servername: nt1-2.buzzapi.space
+  network: tcp
+- name: 🇻🇳 越南 用魔法打败魔法_48c1
+  server: s228.okgg.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947u6deds228.okgg.top
+  network: tcp
+- name: 🇳🇴 挪威 用魔法打败魔法_0b14
+  server: 148.135.195.143
+  port: 443
+  udp: true
+  type: vless
+  uuid: 19cb2ba5-d074-42d6-8400-6d9183514f48
+  tls: true
+  servername: www.google.com
+  network: tcp
+- name: 🇩🇪 德国 用魔法打败魔法_7260
+  server: s244.ayxj.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947uc81es244.ayxj.top
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_e0d2
+  server: ipv6s732.ccgfw.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947ub3fcipv6s732.ccgfw.top
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_3a2f
+  server: s1.eldoradu.ir
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 9caafed4-04ba-41b2-9c64-e4ce39a985d6
+  tls: true
+  servername: fz3.sellink.ir
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_7217
+  server: 172.64.33.91
+  port: 443
+  udp: true
+  type: vless
+  uuid: 53f0bca8-f170-4ef7-8031-c7d441189dbf
+  tls: true
+  servername: 639073677260074624.civic-perma.info
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_b87d
+  server: 188.114.98.0
+  port: 80
+  udp: true
+  type: vless
+  uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622
+  tls: true
+  servername: 188.114.98.0
+  network: ws
+- name: 🇵🇱 波兰 用魔法打败魔法_ddce
+  server: 144.31.4.127
+  port: 443
+  udp: true
+  type: vless
+  uuid: 7e0a9f75-b424-493b-b7e6-cebd7ea8642d
+  tls: true
+  servername: plcdn14.melodramaonline.net
+  network: tcp
+- name: 🇺🇸 美国 用魔法打败魔法_ea92
+  server: 135.84.72.18
+  port: 443
+  udp: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: true
+  servername: sni.111000.dynv6.net
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_be51
+  server: 172.64.32.75
+  port: 443
+  udp: true
+  type: vless
+  uuid: 130e98f6-18ad-4505-9a6e-6e00424bd058
+  tls: true
+  servername: 639073677251729790.corolla-perma.info
+  network: ws
+- name: 🇫🇮 芬兰 用魔法打败魔法_dc9f
+  server: 85.192.49.230
+  port: 443
+  udp: true
+  type: vless
+  uuid: 8de7627c-1995-41f7-93e6-7fd9715514a2
+  tls: true
+  servername: www.google.com
+  network: tcp
+- name: 🇳🇱 荷兰 用魔法打败魔法_d15d
+  server: 45.136.126.16
+  port: 443
+  udp: true
+  type: vless
+  uuid: 203b0744-f943-4bba-a8d2-cab635467c46
+  tls: true
+  servername: google.com
+  network: tcp
+- name: 🇯🇵 日本 用魔法打败魔法_9277
+  server: 13.230.200.237
+  port: 3057
+  udp: true
+  type: trojan
+  password: 6d29eb2f74293cb01a19b32cf08ad2e9
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇱🇹 立陶宛 用魔法打败魔法_d4f1
+  server: 8443.golden-cards.me
+  port: 443
+  udp: true
+  type: trojan
+  password: q2GRUM1-odJBWq_KV6xv2fuNvu8ed-
+  sni: 8443.golden-cards.me
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_6bac
+  server: 104.18.32.47
+  port: 2052
+  udp: true
+  type: vless
+  uuid: 5e62ddcf-78c9-4b15-803a-436c8c839ddc
+  tls: true
+  servername: 104.18.32.47
+  network: ws
+- name: 🇬🇧 英国 用魔法打败魔法_55ec
+  server: 45.150.65.43
+  port: 443
+  udp: true
+  type: vless
+  uuid: fd37be2f-f8d1-47de-97e8-13c28107d31e
+  tls: true
+  servername: us1.frostbot.ru
+  network: tcp
+- name: 🇺🇸 美国 用魔法打败魔法_054f
+  server: 38.150.1.229
+  port: 19001
+  udp: true
+  type: vless
+  uuid: 4e607c90-e3cf-4e02-9d3e-5aa5a5567f71
+  tls: true
+  servername: www.icloud.com
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_f511
+  server: ipv6s117.okgfw.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947ucb27ipv6s117.okgfw.top
+  network: tcp
+- name: 🇩🇪 德国 用魔法打败魔法_db5c
+  server: 63.180.254.10
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇨🇿 捷克 用魔法打败魔法_cea3
+  server: 194.87.44.157
+  port: 443
+  udp: true
+  type: vless
+  uuid: fd37be2f-f8d1-47de-97e8-13c28107d31e
+  tls: true
+  servername: nld10.frostbot.ru
+  network: tcp
+- name: 🇳🇱 荷兰 用魔法打败魔法_273e
+  server: s677.ccgfw.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947u9f40s677.ccgfw.top
+  network: tcp
+- name: 🇬🇧 英国 用魔法打败魔法_34da
+  server: 185.116.214.253
+  port: 443
+  udp: true
+  type: vless
+  uuid: ad51da8f-c04c-4843-afaa-295accf942e3
+  tls: true
+  servername: www.google.com
+  network: tcp
+- name: 🇺🇸 美国 用魔法打败魔法_e2ce
+  server: 45.15.125.8
+  port: 8443
+  udp: true
+  type: vless
+  uuid: b9e5c4b7-1e9b-4ca5-82dc-43f3a440484c
+  tls: true
+  servername: max.ru
+  network: tcp
+- name: 🇩🇪 德国 用魔法打败魔法_8613
+  server: 185.125.103.147
+  port: 443
+  udp: true
+  type: vless
+  uuid: 21915536-afb5-4a0c-b047-fcf549d3a173
+  tls: true
+  servername: wikihow.com
+  network: tcp
+- name: 🇩🇪 德国 用魔法打败魔法_a2c0
+  server: 64.188.106.173
+  port: 2443
+  udp: true
+  type: vless
+  uuid: b9662467-171c-4afc-8fac-dabf62fc47cc
+  tls: true
+  servername: www.microsoft.com
+  network: tcp
+- name: 🇵🇱 波兰 用魔法打败魔法_36e6
+  server: top-goshawk.rooster465.autos
+  port: 443
+  udp: true
+  type: trojan
+  password: WF42809561
+  sni: top-goshawk.rooster465.autos
+  skip-cert-verify: true
+- name: 🇩🇪 德国 用魔法打败魔法_cb03
+  server: 64.188.106.202
+  port: 38765
+  udp: true
+  type: vless
+  uuid: 7a0ae662-eee7-44c0-8998-d575870bd749
+  tls: true
+  servername: aws.amazon.com
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_7116
+  server: 104.21.112.1
+  port: 443
+  udp: true
+  type: trojan
+  password: psycho
+  sni: pSYcho.sUeX12.IR
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 用魔法打败魔法_82ee
+  server: vps.zakir.web.id
+  port: 80
+  udp: true
+  type: vless
+  uuid: ca73d911-29f4-42d8-ada5-81dee679e96a
+  tls: true
+  servername: vps.zakir.web.id
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_172c
+  server: 162.159.44.45
+  port: 443
+  udp: true
+  type: vless
+  uuid: 7270612b-49f6-4b04-999c-34d8263da767
+  tls: true
+  servername: picassooo.info
+  network: ws
+- name: 🇺🇸 美国 用魔法打败魔法_e0e8
+  server: s842.ccgfw.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947u2bdas842.ccgfw.top
+  network: tcp
+- name: 🇳🇱 荷兰 用魔法打败魔法_4a30
+  server: nl-4.tr202512.com
+  port: 443
+  udp: true
+  type: trojan
+  password: M08tvzYWtUEJNtbpHp
+  sni: nl-4.tr202512.com
+  skip-cert-verify: true
+- name: 🇳🇱 荷兰 用魔法打败魔法_e600
+  server: 141.98.24.151
+  port: 443
+  udp: true
+  type: vless
+  uuid: 4da4c9c7-a587-4894-bfa1-63e2c50aa21e
+  tls: true
+  servername: www.google.com
+  network: tcp
+- name: 🇷🇺 俄罗斯联邦 用魔法打败魔法_1684
+  server: 5.42.116.74
+  port: 52006
+  udp: true
+  type: vless
+  uuid: 1f0a8364-ae34-07d0-b999-34a723111ebd
+  tls: true
+  servername: max.ru
+  network: tcp
+- name: 🇦🇺 澳大利亚 用魔法打败魔法_7eaf
+  server: steady-lemming.rooster465.autos
+  port: 443
+  udp: true
+  type: trojan
+  password: IL37892054
+  sni: steady-lemming.rooster465.autos
+  skip-cert-verify: true
+- name: 🇭🇰 香港 用魔法打败魔法_74ae
+  server: 95.40.2.4
+  port: 22045
+  udp: true
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+  skip-cert-verify: true
+- name: 🇳🇱 荷兰 用魔法打败魔法_51cc
+  server: 45.66.163.194
+  port: 443
+  udp: true
+  type: vless
+  uuid: 90c9c25c-df6c-4438-83d3-ef97166a9184
+  tls: true
+  servername: 5post-gate.x5.ru
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_dbea
+  server: 162.159.36.20
+  port: 443
+  udp: true
+  type: vless
+  uuid: 94daa8ad-75ed-4dbf-a6de-d05036d98df5
+  tls: true
+  servername: vangoghhh.info
+  network: ws
+- name: 🇳🇱 荷兰 用魔法打败魔法_0187
+  server: 178.173.250.59
+  port: 443
+  udp: true
+  type: vless
+  uuid: f2a806c6-f36b-4cd9-8bb6-7addb218ad2d
+  tls: true
+  servername: 178.173.250.59
+  network: ws
+- name: 🇳🇱 荷兰 用魔法打败魔法_6026
+  server: s679.ccgfw.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947u562fs679.ccgfw.top
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_b7ce
+  server: ipv6s316.okgg.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947u3360ipv6s316.okgg.top
+  network: tcp
+- name: 🇳🇱 荷兰 用魔法打败魔法_9db9
+  server: s722.okgfw.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947u3516s722.okgfw.top
+  network: tcp
+- name: 🇯🇵 日本 用魔法打败魔法_f22b
+  server: 13.113.229.223
+  port: 3022
+  udp: true
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+  skip-cert-verify: true
+- name: 🇯🇵 日本 用魔法打败魔法_516b
+  server: 18.183.109.144
+  port: 1524
+  udp: true
+  type: trojan
+  password: 6d29eb2f74293cb01a19b32cf08ad2e9
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇩🇪 德国 用魔法打败魔法_d6f7
+  server: 138.124.186.80
+  port: 443
+  udp: true
+  type: vless
+  uuid: e346f220-4ca4-4f69-a66b-52e992b3b625
+  tls: true
+  servername: www.fh-aachen.de
+  network: tcp
+- name: 🇰🇷 韩国 用魔法打败魔法_15e4
+  server: glowing-deer.rooster465.autos
+  port: 443
+  udp: true
+  type: trojan
+  password: ZY07256934
+  sni: glowing-deer.rooster465.autos
+  skip-cert-verify: true
+- name: 🇦🇺 澳大利亚 用魔法打败魔法_f8f0
+  server: enhanced-crayfish.rooster465.autos
+  port: 443
+  udp: true
+  type: trojan
+  password: IL37892054
+  sni: enhanced-crayfish.rooster465.autos
+  skip-cert-verify: true
+- name: 🇩🇪 德国 用魔法打败魔法_e249
+  server: 144.31.238.232
+  port: 443
+  udp: true
+  type: vless
+  uuid: a1afced8-420b-430d-b25a-08db1c3332da
+  tls: true
+  servername: www.apple.com
+  network: tcp
+- name: 🇭🇰 香港 用魔法打败魔法_8971
+  server: growing-tuna.rooster465.autos
+  port: 443
+  udp: true
+  type: trojan
+  password: IL37892054
+  sni: growing-tuna.rooster465.autos
+  skip-cert-verify: true
+- name: 🇯🇵 日本 用魔法打败魔法_3fd5
+  server: 54.238.27.181
+  port: 6313
+  udp: true
+  type: trojan
+  password: BxceQaOe
+  sni: t.me/ripaojiedian
+  skip-cert-verify: true
+- name: 🇺🇸 美国 用魔法打败魔法_e71d
+  server: 192.200.160.20
+  port: 443
+  udp: true
+  type: vless
+  uuid: ee248e40-9468-4ef6-81b7-707a1e47c54a
+  tls: true
+  servername: 639073677243557970.camry-perma.info
+  network: ws
+- name: 🇺🇸 美国 用魔法打败魔法_52b5
+  server: 104.167.197.59
+  port: 23335
+  udp: true
+  type: vless
+  uuid: e384913f-8863-47b4-8858-a84b68abb4a6
+  tls: true
+  servername: icloud.com
+  network: tcp
+- name: 🇯🇵 日本 用魔法打败魔法_69c1
+  server: 54.95.21.63
+  port: 36854
+  udp: true
+  type: trojan
+  password: BxceQaOe
+  sni: t.me/ripaojiedian
+  skip-cert-verify: true
+- name: 🇳🇱 荷兰 用魔法打败魔法_b02f
+  server: 89.125.78.120
+  port: 443
+  udp: true
+  type: vless
+  uuid: 1babf197-af69-406e-aae2-83c411ae979f
+  tls: true
+  servername: google.com
+  network: tcp
+- name: 🇬🇧 英国 用魔法打败魔法_0868
+  server: 51.89.229.134
+  port: 443
+  udp: true
+  type: vless
+  uuid: 53821f3c-5b03-456a-89f3-f8379f130752
+  tls: true
+  servername: www.samsung.com
+  network: tcp
+- name: 🇯🇵 日本 用魔法打败魔法_706a
+  server: 18.183.109.249
+  port: 29370
+  udp: true
+  type: trojan
+  password: 6d29eb2f74293cb01a19b32cf08ad2e9
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_ff9b
+  server: ipv6s258.ayxj.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947u1fa1ipv6s258.ayxj.top
+  network: tcp
+- name: 🇺🇸 美国 用魔法打败魔法_9a96
+  server: e2.aurorix.net
+  port: 25930
+  udp: true
+  type: vless
+  uuid: d70415c7-b3fb-43e9-915a-df66b2274c32
+  tls: true
+  servername: www.microsoft.com
+  network: tcp
+- name: 🇺🇸 美国 用魔法打败魔法_4b90
+  server: s111.okgfw.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947ue189s111.okgfw.top
+  network: tcp
+- name: 🇺🇸 美国 用魔法打败魔法_bff2
+  server: s173.okgg.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947u92b9s173.okgg.top
+  network: tcp
+- name: 🇩🇪 德国 用魔法打败魔法_32d6
+  server: 87.120.165.70
+  port: 443
+  udp: true
+  type: vless
+  uuid: ce540111-fd82-4459-b974-06d83beb01d5
+  tls: true
+  servername: www.microsoft.com
+  network: tcp
+- name: 🇦🇪 阿联酋 用魔法打败魔法_a9ee
+  server: 89.35.73.250
+  port: 443
+  udp: true
+  type: vless
+  uuid: 30dc00c9-16c5-4573-b5b2-532940febfd6
+  tls: true
+  servername: www.refersion.com
+  network: tcp
+- name: 🇩🇪 德国 用魔法打败魔法_bba3
+  server: 80.253.249.251
+  port: 443
+  udp: true
+  type: vless
+  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
+  tls: true
+  servername: apple.com
+  network: tcp
+- name: 🇨🇾 塞浦路斯 用魔法打败魔法_c071
+  server: 45.15.152.226
+  port: 443
+  udp: true
+  type: vless
+  uuid: fd37be2f-f8d1-47de-97e8-13c28107d31e
+  tls: true
+  servername: fin2.frostbot.ru
+  network: tcp
+- name: 🇭🇰 香港 用魔法打败魔法_2ac3
+  server: s299.okgg.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947u15c5s299.okgg.top
+  network: tcp
+- name: 🇺🇸 美国 用魔法打败魔法_90cf
+  server: 150.241.74.1
+  port: 443
+  udp: true
+  type: vless
+  uuid: 5f98c4f8-19f4-471d-8ed5-10c0550c0423
+  tls: true
+  servername: tunnel.vk-apps.com
+  network: tcp
+- name: 🇯🇵 日本 用魔法打败魔法_4aef
+  server: 54.95.21.63
+  port: 6313
+  udp: true
+  type: trojan
+  password: BxceQaOe
+  sni: t.me/ripaojiedian
+  skip-cert-verify: true
+- name: 🇩🇪 德国 用魔法打败魔法_47a6
+  server: 185.132.53.177
+  port: 443
+  udp: true
+  type: vless
+  uuid: 5952ea01-0669-4f5e-8010-61f8abee3600
+  tls: true
+  servername: nla.grizzlyvpn.work
+  network: tcp
+- name: 🇩🇪 德国 用魔法打败魔法_9001
+  server: 152.53.135.159
+  port: 443
+  udp: true
+  type: vless
+  uuid: de7dae5a-f817-4c80-9543-ff9b8a4fd035
+  tls: true
+  servername: us.reality.tv123.ru
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_7c53
+  server: v1.dabache.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 94daa8ad-75ed-4dbf-a6de-d05036d98df5
+  tls: true
+  servername: vangoghhh.info
+  network: ws
+- name: 🇺🇸 美国 用魔法打败魔法_b0b0
+  server: s844.ccgfw.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947u5b85s844.ccgfw.top
+  network: tcp
+- name: 🇺🇸 美国 用魔法打败魔法_6996
+  server: s570.okgfw.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947uc043s570.okgfw.top
+  network: tcp
+- name: 🇩🇪 德国 用魔法打败魔法_4a58
+  server: 57.129.119.115
+  port: 443
+  udp: true
+  type: vless
+  uuid: 1e97f262-296c-45cf-afc0-6ed86f768013
+  tls: true
+  servername: 57.129.119.115
+  network: ws
+- name: 🇹🇷 土耳其 用魔法打败魔法_7c4d
+  server: 185.181.208.246
+  port: 443
+  udp: true
+  type: vless
+  uuid: f1f26b76-ebc8-4f46-a3cf-8438c2f249a0
+  tls: true
+  servername: www.google.com
+  network: tcp
+- name: 🇩🇪 德国 用魔法打败魔法_21f7
+  server: 64.188.79.195
+  port: 443
+  udp: true
+  type: vless
+  uuid: 1babf197-af69-406e-aae2-83c411ae979f
+  tls: true
+  servername: google.com
+  network: tcp
+- name: 🇩🇪 德国 用魔法打败魔法_cbc4
+  server: 89.185.85.107
+  port: 443
+  udp: true
+  type: vless
+  uuid: 658786e5-f302-48e2-b321-f4dc6da2a398
+  tls: true
+  servername: cdnv-img.perekrestok.ru
+  network: tcp
+- name: 🇭🇰 香港 用魔法打败魔法_08e8
+  server: caring-ghoul.rooster465.autos
+  port: 443
+  udp: true
+  type: trojan
+  password: IL37892054
+  sni: caring-ghoul.rooster465.autos
+  skip-cert-verify: true
+- name: 🇯🇵 日本 用魔法打败魔法_787c
+  server: 18.183.109.144
+  port: 15407
+  udp: true
+  type: trojan
+  password: BxceQaOe
+  sni: t.me/ripaojiedian
+  skip-cert-verify: true
+- name: 🇸🇨 塞舌尔 用魔法打败魔法_db9e
+  server: 45.151.106.62
+  port: 5443
+  udp: true
+  type: vless
+  uuid: 18f2f9bc-c55b-40c4-a762-0394b2e11fcf
+  tls: true
+  servername: eh.vk.com
+  network: tcp
+- name: 🇯🇵 日本 用魔法打败魔法_5560
+  server: 160.16.70.180
+  port: 1524
+  udp: true
+  type: trojan
+  password: 6d29eb2f74293cb01a19b32cf08ad2e9
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇺🇸 美国 用魔法打败魔法_1047
+  server: s175.okgg.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947ud086s175.okgg.top
+  network: tcp
+- name: 🇮🇶 伊拉克 用魔法打败魔法_4a83
+  server: scvad1tel-ru.golden-cards.me
+  port: 443
+  udp: true
+  type: vless
+  uuid: a774f61d-a518-4c61-902f-807797da6caf
+  tls: true
+  servername: avatars.mds.yandex.net
+  network: tcp
+- name: 🇳🇱 荷兰 用魔法打败魔法_59bf
+  server: 45.15.128.75
+  port: 8443
+  udp: true
+  type: vless
+  uuid: fad2b7e0-d80c-4b7b-a84f-d86e0e49f627
+  tls: true
+  servername: max.ru
+  network: tcp
+- name: 🇯🇵 日本 用魔法打败魔法_67d0
+  server: 52.195.175.93
+  port: 921
+  udp: true
+  type: trojan
+  password: 6d29eb2f74293cb01a19b32cf08ad2e9
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇭🇰 香港 用魔法打败魔法_e300
+  server: 18.166.177.165
+  port: 49534
+  udp: true
+  type: trojan
+  password: BxceQaOe
+  sni: t.me/ripaojiedian
+  skip-cert-verify: true
+- name: 🇺🇸 美国 用魔法打败魔法_6a3a
   server: 150.241.74.185
   port: 443
   udp: true
@@ -587,16 +1088,130 @@ proxies:
   tls: true
   servername: tunnel.vk-apps.com
   network: tcp
-- name: 🇭🇰 香港 满城尽带黄金甲_e1a1
-  server: s298.okgg.top
+- name: 🇭🇰 香港 用魔法打败魔法_ce52
+  server: 16.162.188.92
+  port: 12070
+  udp: true
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+  skip-cert-verify: true
+- name: 🇺🇸 美国 用魔法打败魔法_bce9
+  server: s392.ccgfw.top
   port: 443
   udp: true
   type: vless
   uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
   tls: true
-  servername: u710947u9d8cs298.okgg.top
+  servername: u710947u635fs392.ccgfw.top
   network: tcp
-- name: 🌐 未知地区 满城尽带黄金甲_794e
+- name: 🇺🇸 美国 用魔法打败魔法_5906
+  server: usap01.jumperservice.com
+  port: 19001
+  udp: true
+  type: vless
+  uuid: 4e607c90-e3cf-4e02-9d3e-5aa5a5567f71
+  tls: true
+  servername: www.icloud.com
+  network: tcp
+- name: 🇹🇷 土耳其 用魔法打败魔法_d861
+  server: 82.26.94.193
+  port: 443
+  udp: true
+  type: vless
+  uuid: 66143a11-6e84-466e-9b83-5cfebfd2aea8
+  tls: true
+  servername: www.nvidia.com
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_3475
+  server: 162.159.36.5
+  port: 443
+  udp: true
+  type: vless
+  uuid: 1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63
+  tls: true
+  servername: terazhediii.info
+  network: ws
+- name: 🇺🇸 美国 用魔法打败魔法_74e6
+  server: download.lastilhame.monster
+  port: 443
+  udp: true
+  type: vless
+  uuid: a8da758c-510d-4827-83cf-2f2b51c49c5b
+  tls: true
+  servername: download.lastilhame.monster
+  network: tcp
+- name: 🇱🇻 拉脱维亚 用魔法打败魔法_15d1
+  server: 188.253.22.2
+  port: 443
+  udp: true
+  type: vless
+  uuid: 3ddce082-7e03-429c-8af8-9a873d23f0ba
+  tls: true
+  servername: 188.253.22.2
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_2b4e
+  server: ipv6s561.ccgfw.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947u8b2eipv6s561.ccgfw.top
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_96de
+  server: 104.21.44.185
+  port: 2053
+  udp: true
+  type: trojan
+  password: dreDeMpIQpnv
+  sni: aryanews.onetwothree123.ir
+  skip-cert-verify: true
+- name: 🇪🇪 爱沙尼亚 用魔法打败魔法_4b84
+  server: est.vles.space
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 7f37b28b-cfcb-4c2a-ae41-8f2ddc9325dd
+  tls: true
+  servername: sun2-16.userapi.com
+  network: tcp
+- name: 🇺🇸 美国 用魔法打败魔法_1644
+  server: s113.okgfw.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947u555ds113.okgfw.top
+  network: tcp
+- name: 🇯🇵 日本 用魔法打败魔法_02bd
+  server: 52.195.4.144
+  port: 2001
+  udp: true
+  type: trojan
+  password: 6d29eb2f74293cb01a19b32cf08ad2e9
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇳🇱 荷兰 用魔法打败魔法_647e
+  server: s502.okgg.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947u809ds502.okgg.top
+  network: tcp
+- name: 🇨🇭 瑞士 用魔法打败魔法_535f
+  server: ch.fasti.win
+  port: 443
+  udp: true
+  type: vless
+  uuid: a16bd0e2-ff2e-4e4c-a955-0c684255a065
+  tls: true
+  servername: ch.fasti.win
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_794e
   server: eyj2ijogijiilcaichmioiaiw1znrvntxsb2mtauagrhy2quy29tojmwoda3iiwgimfkzci6icj2mtauagrhy2quy29tiiwginbvcnqioiaimza4mdcilcaiawqioiaiy2jim2y4nzctzdfmyi0zndrjltg3ytktzde1m2jmzmq1ndg0iiwgimfpzci6idisicjuzxqioiaidgnwiiwginr5cguioiaibm9uzsisicjob3n0ijogiiisicjwyxroijogiiisicj0bhmioiaiiiwginnuasi6iciifq==
   port: 443
   udp: true
@@ -606,457 +1221,7 @@ proxies:
   cipher: auto
   tls: false
   network: tcp
-- name: 🇪🇪 爱沙尼亚 满城尽带黄金甲_dd52
-  server: 77.239.126.65
-  port: 5540
-  udp: true
-  type: trojan
-  password: mj5JfghL49jcoBbx4E1GsjQ7YFtC9pYG
-  sni: eh.vk.com
-  skip-cert-verify: true
-- name: 🇺🇸 美国 满城尽带黄金甲_4b90
-  server: s111.okgfw.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947ue189s111.okgfw.top
-  network: tcp
-- name: 🇳🇱 荷兰 满城尽带黄金甲_4a30
-  server: nl-4.tr202512.com
-  port: 443
-  udp: true
-  type: trojan
-  password: M08tvzYWtUEJNtbpHp
-  sni: nl-4.tr202512.com
-  skip-cert-verify: true
-- name: 🇭🇰 香港 满城尽带黄金甲_74ae
-  server: 95.40.2.4
-  port: 22045
-  udp: true
-  type: trojan
-  password: BxceQaOe
-  sni: t.me%2Fripaojiedian
-  skip-cert-verify: true
-- name: 🇯🇵 日本 满城尽带黄金甲_4aef
-  server: 54.95.21.63
-  port: 6313
-  udp: true
-  type: trojan
-  password: BxceQaOe
-  sni: t.me/ripaojiedian
-  skip-cert-verify: true
-- name: 🌐 未知地区 满城尽带黄金甲_dbea
-  server: 162.159.36.20
-  port: 443
-  udp: true
-  type: vless
-  uuid: 94daa8ad-75ed-4dbf-a6de-d05036d98df5
-  tls: true
-  servername: vangoghhh.info
-  network: ws
-- name: 🇬🇧 英国 满城尽带黄金甲_d23e
-  server: 5.180.97.139
-  port: 443
-  udp: true
-  type: vless
-  uuid: a384c715-aeb5-45e8-859b-f687ca6c083f
-  tls: true
-  servername: google.com
-  network: tcp
-- name: 🇸🇬 新加坡 满城尽带黄金甲_522b
-  server: ubu.okaoclax.me
-  port: 443
-  udp: true
-  type: trojan
-  password: 13c169be-8592-4eaa-94cb-69c859e7d987
-  sni: ubu.okaoclax.me
-  skip-cert-verify: true
-- name: 🇦🇺 澳大利亚 满城尽带黄金甲_7eaf
-  server: steady-lemming.rooster465.autos
-  port: 443
-  udp: true
-  type: trojan
-  password: IL37892054
-  sni: steady-lemming.rooster465.autos
-  skip-cert-verify: true
-- name: 🇨🇿 捷克 满城尽带黄金甲_cea3
-  server: 194.87.44.157
-  port: 443
-  udp: true
-  type: vless
-  uuid: fd37be2f-f8d1-47de-97e8-13c28107d31e
-  tls: true
-  servername: nld10.frostbot.ru
-  network: tcp
-- name: 🇬🇧 英国 满城尽带黄金甲_55ec
-  server: 45.150.65.43
-  port: 443
-  udp: true
-  type: vless
-  uuid: fd37be2f-f8d1-47de-97e8-13c28107d31e
-  tls: true
-  servername: us1.frostbot.ru
-  network: tcp
-- name: 🇻🇳 越南 满城尽带黄金甲_48c1
-  server: s228.okgg.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947u6deds228.okgg.top
-  network: tcp
-- name: 🇺🇸 美国 满城尽带黄金甲_4611
-  server: 209.94.90.138
-  port: 2096
-  udp: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  servername: sni.111000.indevs.in
-  network: ws
-- name: 🇺🇸 美国 满城尽带黄金甲_054f
-  server: 38.150.1.229
-  port: 19001
-  udp: true
-  type: vless
-  uuid: 4e607c90-e3cf-4e02-9d3e-5aa5a5567f71
-  tls: true
-  servername: www.icloud.com
-  network: tcp
-- name: 🌐 未知地区 满城尽带黄金甲_cc95
-  server: ipv6s315.okgg.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947ua758ipv6s315.okgg.top
-  network: tcp
-- name: 🌐 未知地区 满城尽带黄金甲_7c53
-  server: v1.dabache.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 94daa8ad-75ed-4dbf-a6de-d05036d98df5
-  tls: true
-  servername: vangoghhh.info
-  network: ws
-- name: 🌐 未知地区 满城尽带黄金甲_8552
-  server: 172.64.147.223
-  port: 80
-  udp: true
-  type: vless
-  uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622
-  tls: true
-  servername: 172.64.147.223
-  network: ws
-- name: 🇮🇳 印度 满城尽带黄金甲_9c3c
-  server: 139.59.3.70
-  port: 24725
-  udp: true
-  type: vless
-  uuid: 48ddd7e3-5d31-46ab-9153-16c0e4d92adc
-  tls: true
-  servername: dash.cloudflare.com
-  network: tcp
-- name: 🇺🇸 美国 满城尽带黄金甲_1538
-  server: 85.209.159.22
-  port: 443
-  udp: true
-  type: vless
-  uuid: 90c9c25c-df6c-4438-83d3-ef97166a9184
-  tls: true
-  servername: 5post-gate.x5.ru
-  network: tcp
-- name: 🇺🇸 美国 满城尽带黄金甲_b0b0
-  server: s844.ccgfw.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947u5b85s844.ccgfw.top
-  network: tcp
-- name: 🇺🇸 美国 满城尽带黄金甲_bce9
-  server: s392.ccgfw.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947u635fs392.ccgfw.top
-  network: tcp
-- name: 🇺🇸 美国 满城尽带黄金甲_34b1
-  server: 192.0.54.238
-  port: 2096
-  udp: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: false
-  servername: null
-  network: tcp
-- name: 🇨🇭 瑞士 满城尽带黄金甲_535f
-  server: ch.fasti.win
-  port: 443
-  udp: true
-  type: vless
-  uuid: a16bd0e2-ff2e-4e4c-a955-0c684255a065
-  tls: true
-  servername: ch.fasti.win
-  network: tcp
-- name: 🌐 未知地区 满城尽带黄金甲_331a
-  server: vip3.kaixincloud.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63
-  tls: true
-  servername: terazhediii.info
-  network: ws
-- name: 🇺🇸 美国 满城尽带黄金甲_c443
-  server: 185.161.70.10
-  port: 443
-  udp: true
-  type: vless
-  uuid: 21915536-afb5-4a0c-b047-fcf549d3a173
-  tls: true
-  servername: wikihow.com
-  network: tcp
-- name: 🇩🇪 德国 满城尽带黄金甲_29f6
-  server: 93.94.51.8
-  port: 13380
-  udp: true
-  type: vless
-  uuid: e8fb0f43-3497-4ef3-8a89-35bae56549b7
-  tls: true
-  servername: yandex.ru
-  network: tcp
-- name: 🇳🇱 荷兰 满城尽带黄金甲_d15d
-  server: 45.136.126.16
-  port: 443
-  udp: true
-  type: vless
-  uuid: 203b0744-f943-4bba-a8d2-cab635467c46
-  tls: true
-  servername: google.com
-  network: tcp
-- name: 🇯🇵 日本 满城尽带黄金甲_67d0
-  server: 52.195.175.93
-  port: 921
-  udp: true
-  type: trojan
-  password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: 🌐 未知地区 满城尽带黄金甲_6f00
-  server: 172.64.146.138
-  port: 443
-  udp: true
-  type: vless
-  uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
-  tls: true
-  servername: octopusss4.com
-  network: ws
-- name: 🌐 未知地区 满城尽带黄金甲_f508
-  server: elliot.ns.cloudflare.com
-  port: 443
-  udp: true
-  type: vless
-  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
-  tls: true
-  servername: octopusss5.info
-  network: ws
-- name: 🌐 未知地区 满城尽带黄金甲_e366
-  server: 104.21.227.134
-  port: 443
-  udp: true
-  type: vless
-  uuid: 53f0bca8-f170-4ef7-8031-c7d441189dbf
-  tls: true
-  servername: 639073677259599430.civic-perma.info
-  network: ws
-- name: 🇬🇧 英国 满城尽带黄金甲_34da
-  server: 185.116.214.253
-  port: 443
-  udp: true
-  type: vless
-  uuid: ad51da8f-c04c-4843-afaa-295accf942e3
-  tls: true
-  servername: www.google.com
-  network: tcp
-- name: 🇩🇪 德国 满城尽带黄金甲_f40c
-  server: 194.5.65.88
-  port: 587
-  udp: true
-  type: vless
-  uuid: d08a63e7-dbea-4a36-a239-9f0b37a46b40
-  tls: true
-  servername: cdn.jsdelivr.net
-  network: tcp
-- name: 🇳🇱 荷兰 满城尽带黄金甲_1bfc
-  server: 144.31.130.25
-  port: 443
-  udp: true
-  type: vless
-  uuid: 897f023a-7507-40c0-9a74-ab77be0a47f0
-  tls: true
-  servername: nt1-2.buzzapi.space
-  network: tcp
-- name: 🌐 未知地区 满城尽带黄金甲_7217
-  server: 172.64.33.91
-  port: 443
-  udp: true
-  type: vless
-  uuid: 53f0bca8-f170-4ef7-8031-c7d441189dbf
-  tls: true
-  servername: 639073677260074624.civic-perma.info
-  network: ws
-- name: 🇫🇮 芬兰 满城尽带黄金甲_dc9f
-  server: 85.192.49.230
-  port: 443
-  udp: true
-  type: vless
-  uuid: 8de7627c-1995-41f7-93e6-7fd9715514a2
-  tls: true
-  servername: www.google.com
-  network: tcp
-- name: 🇺🇸 美国 满城尽带黄金甲_9a96
-  server: e2.aurorix.net
-  port: 25930
-  udp: true
-  type: vless
-  uuid: d70415c7-b3fb-43e9-915a-df66b2274c32
-  tls: true
-  servername: www.microsoft.com
-  network: tcp
-- name: 🇩🇪 德国 满城尽带黄金甲_7260
-  server: s244.ayxj.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947uc81es244.ayxj.top
-  network: tcp
-- name: 🌐 未知地区 满城尽带黄金甲_2b4e
-  server: ipv6s561.ccgfw.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947u8b2eipv6s561.ccgfw.top
-  network: tcp
-- name: 🇮🇶 伊拉克 满城尽带黄金甲_4a83
-  server: scvad1tel-ru.golden-cards.me
-  port: 443
-  udp: true
-  type: vless
-  uuid: a774f61d-a518-4c61-902f-807797da6caf
-  tls: true
-  servername: avatars.mds.yandex.net
-  network: tcp
-- name: 🇳🇱 荷兰 满城尽带黄金甲_b02f
-  server: 89.125.78.120
-  port: 443
-  udp: true
-  type: vless
-  uuid: 1babf197-af69-406e-aae2-83c411ae979f
-  tls: true
-  servername: google.com
-  network: tcp
-- name: 🇺🇸 美国 满城尽带黄金甲_5906
-  server: usap01.jumperservice.com
-  port: 19001
-  udp: true
-  type: vless
-  uuid: 4e607c90-e3cf-4e02-9d3e-5aa5a5567f71
-  tls: true
-  servername: www.icloud.com
-  network: tcp
-- name: 🇺🇸 美国 满城尽带黄金甲_6996
-  server: s570.okgfw.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947uc043s570.okgfw.top
-  network: tcp
-- name: 🇺🇸 美国 满城尽带黄金甲_4470
-  server: 72.56.12.195
-  port: 52006
-  udp: true
-  type: vless
-  uuid: 1f0a8364-ae34-07d0-b999-34a723111ebd
-  tls: true
-  servername: max.ru
-  network: tcp
-- name: 🌐 未知地区 满城尽带黄金甲_ff9b
-  server: ipv6s258.ayxj.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947u1fa1ipv6s258.ayxj.top
-  network: tcp
-- name: 🇯🇵 日本 满城尽带黄金甲_706a
-  server: 18.183.109.249
-  port: 29370
-  udp: true
-  type: trojan
-  password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: 🇫🇮 芬兰 满城尽带黄金甲_0766
-  server: 144.31.239.139
-  port: 25340
-  udp: true
-  type: vless
-  uuid: 40fb2d29-374c-4255-ae56-bf3ad95b8b37
-  tls: true
-  servername: www.sony.com
-  network: tcp
-- name: 🌐 未知地区 满城尽带黄金甲_172c
-  server: 162.159.44.45
-  port: 443
-  udp: true
-  type: vless
-  uuid: 7270612b-49f6-4b04-999c-34d8263da767
-  tls: true
-  servername: picassooo.info
-  network: ws
-- name: 🇨🇾 塞浦路斯 满城尽带黄金甲_823d
-  server: ro01.zqwerty.ru
-  port: 2053
-  udp: true
-  type: vless
-  uuid: 110d7bad-5e17-4ce3-afd0-2cf2ebc71787
-  tls: true
-  servername: music.yandex.ru
-  network: tcp
-- name: 🇯🇵 日本 满城尽带黄金甲_3d31
-  server: 160.16.124.17
-  port: 34818
-  udp: true
-  type: trojan
-  password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: 🌐 未知地区 满城尽带黄金甲_91a6
-  server: 172.64.147.236
-  port: 443
-  udp: true
-  type: vless
-  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
-  tls: true
-  servername: octopusss5.info
-  network: ws
-- name: 🇹🇷 土耳其 满城尽带黄金甲_5f3f
+- name: 🇹🇷 土耳其 用魔法打败魔法_5f3f
   server: tr.morty02.shop
   port: 46567
   udp: true
@@ -1065,323 +1230,7 @@ proxies:
   tls: true
   servername: tr.morty02.shop
   network: tcp
-- name: 🇪🇪 爱沙尼亚 满城尽带黄金甲_4b84
-  server: est.vles.space
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 7f37b28b-cfcb-4c2a-ae41-8f2ddc9325dd
-  tls: true
-  servername: sun2-16.userapi.com
-  network: tcp
-- name: 🌐 未知地区 满城尽带黄金甲_be51
-  server: 172.64.32.75
-  port: 443
-  udp: true
-  type: vless
-  uuid: 130e98f6-18ad-4505-9a6e-6e00424bd058
-  tls: true
-  servername: 639073677251729790.corolla-perma.info
-  network: ws
-- name: 🇺🇸 美国 满城尽带黄金甲_cc72
-  server: 150.241.203.76
-  port: 11846
-  udp: true
-  type: vless
-  uuid: ae0e984d-423e-4d80-8c0e-1d127340b3b9
-  tls: true
-  servername: www.google.com
-  network: tcp
-- name: 🇺🇸 美国 满城尽带黄金甲_8fa8
-  server: 72.18.132.149
-  port: 2053
-  udp: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  servername: sni.111000.indevs.in
-  network: ws
-- name: 🇺🇸 美国 满城尽带黄金甲_ab04
-  server: s531.ccgfw.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947u9042s531.ccgfw.top
-  network: tcp
-- name: 🇯🇵 日本 满城尽带黄金甲_f0a8
-  server: 52.195.4.144
-  port: 4674
-  udp: true
-  type: trojan
-  password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: 🇪🇪 爱沙尼亚 满城尽带黄金甲_438c
-  server: s473.ccgfw.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947u8d8bs473.ccgfw.top
-  network: tcp
-- name: 🇩🇪 德国 满城尽带黄金甲_cb03
-  server: 64.188.106.202
-  port: 38765
-  udp: true
-  type: vless
-  uuid: 7a0ae662-eee7-44c0-8998-d575870bd749
-  tls: true
-  servername: aws.amazon.com
-  network: tcp
-- name: 🇺🇸 美国 满城尽带黄金甲_e2ce
-  server: 45.15.125.8
-  port: 8443
-  udp: true
-  type: vless
-  uuid: b9e5c4b7-1e9b-4ca5-82dc-43f3a440484c
-  tls: true
-  servername: max.ru
-  network: tcp
-- name: 🇨🇭 瑞士 满城尽带黄金甲_465a
-  server: 138.124.6.182
-  port: 10965
-  udp: true
-  type: vless
-  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
-  tls: true
-  servername: deepl.com
-  network: tcp
-- name: 🇩🇪 德国 满城尽带黄金甲_b064
-  server: 144.31.74.41
-  port: 8443
-  udp: true
-  type: vless
-  uuid: cef12ad2-fb16-4ace-ab26-2a026d40a7d2
-  tls: true
-  servername: sun6-21.userapi.com
-  network: tcp
-- name: 🇬🇧 英国 满城尽带黄金甲_0dba
-  server: 144.31.213.102
-  port: 10121
-  udp: true
-  type: vless
-  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
-  tls: true
-  servername: apple.com
-  network: tcp
-- name: 🇰🇷 韩国 满城尽带黄金甲_ab81
-  server: select-marmoset.rooster465.autos
-  port: 443
-  udp: true
-  type: trojan
-  password: IL37892054
-  sni: select-marmoset.rooster465.autos
-  skip-cert-verify: true
-- name: 🇵🇱 波兰 满城尽带黄金甲_ddce
-  server: 144.31.4.127
-  port: 443
-  udp: true
-  type: vless
-  uuid: 7e0a9f75-b424-493b-b7e6-cebd7ea8642d
-  tls: true
-  servername: plcdn14.melodramaonline.net
-  network: tcp
-- name: 🇺🇸 美国 满城尽带黄金甲_c7a9
-  server: 80.209.241.190
-  port: 443
-  udp: true
-  type: vless
-  uuid: c01733dd-3e58-4da9-910b-cdd4560295bc
-  tls: true
-  servername: www.tradingview.com
-  network: tcp
-- name: 🇭🇰 香港 满城尽带黄金甲_2ac3
-  server: s299.okgg.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947u15c5s299.okgg.top
-  network: tcp
-- name: 🇩🇪 德国 满城尽带黄金甲_4a58
-  server: 57.129.119.115
-  port: 443
-  udp: true
-  type: vless
-  uuid: 1e97f262-296c-45cf-afc0-6ed86f768013
-  tls: true
-  servername: 57.129.119.115
-  network: ws
-- name: 🇩🇪 德国 满城尽带黄金甲_a2c0
-  server: 64.188.106.173
-  port: 2443
-  udp: true
-  type: vless
-  uuid: b9662467-171c-4afc-8fac-dabf62fc47cc
-  tls: true
-  servername: www.microsoft.com
-  network: tcp
-- name: 🇵🇱 波兰 满城尽带黄金甲_6643
-  server: funky-platypus.rooster465.autos
-  port: 443
-  udp: true
-  type: trojan
-  password: WF42809561
-  sni: funky-platypus.rooster465.autos
-  skip-cert-verify: true
-- name: 🇩🇪 德国 满城尽带黄金甲_3b07
-  server: 64.188.106.203
-  port: 59851
-  udp: true
-  type: vless
-  uuid: 60c63b41-63f3-4602-b9f3-9ee2e1369447
-  tls: true
-  servername: www.icloud.com
-  network: tcp
-- name: 🌐 未知地区 满城尽带黄金甲_4751
-  server: 188.114.98.0
-  port: 2096
-  udp: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: false
-  servername: null
-  network: tcp
-- name: 🇩🇪 德国 满城尽带黄金甲_8613
-  server: 185.125.103.147
-  port: 443
-  udp: true
-  type: vless
-  uuid: 21915536-afb5-4a0c-b047-fcf549d3a173
-  tls: true
-  servername: wikihow.com
-  network: tcp
-- name: 🇺🇸 美国 满城尽带黄金甲_297b
-  server: it1.axinode.sbs
-  port: 10965
-  udp: true
-  type: vless
-  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
-  tls: true
-  servername: deepl.com
-  network: tcp
-- name: 🇭🇰 香港 满城尽带黄金甲_8971
-  server: growing-tuna.rooster465.autos
-  port: 443
-  udp: true
-  type: trojan
-  password: IL37892054
-  sni: growing-tuna.rooster465.autos
-  skip-cert-verify: true
-- name: 🇳🇱 荷兰 满城尽带黄金甲_1fae
-  server: 89.124.89.24
-  port: 443
-  udp: true
-  type: vless
-  uuid: f7bae22e-20ab-11f1-835c-0242ac110002
-  tls: true
-  servername: nl1.cyphervpn.pro
-  network: tcp
-- name: 🇩🇪 德国 满城尽带黄金甲_e249
-  server: 144.31.238.232
-  port: 443
-  udp: true
-  type: vless
-  uuid: a1afced8-420b-430d-b25a-08db1c3332da
-  tls: true
-  servername: www.apple.com
-  network: tcp
-- name: 🇩🇪 德国 满城尽带黄金甲_9001
-  server: 152.53.135.159
-  port: 443
-  udp: true
-  type: vless
-  uuid: de7dae5a-f817-4c80-9543-ff9b8a4fd035
-  tls: true
-  servername: us.reality.tv123.ru
-  network: tcp
-- name: 🇭🇰 香港 满城尽带黄金甲_aa1c
-  server: 18.162.133.44
-  port: 5823
-  udp: true
-  type: trojan
-  password: BxceQaOe
-  sni: t.me/ripaojiedian
-  skip-cert-verify: true
-- name: 🌐 未知地区 满城尽带黄金甲_4e36
-  server: ipv6s262.ayxj.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947ud718ipv6s262.ayxj.top
-  network: tcp
-- name: 🌐 未知地区 满城尽带黄金甲_04a1
-  server: 188.114.98.0
-  port: 443
-  udp: true
-  type: vless
-  uuid: 42b32d2f-42c1-4f63-a005-22ffbddcda53
-  tls: true
-  servername: 639073677236045352.mustang-perma.info
-  network: ws
-- name: 🇩🇪 德国 满城尽带黄金甲_d6f7
-  server: 138.124.186.80
-  port: 443
-  udp: true
-  type: vless
-  uuid: e346f220-4ca4-4f69-a66b-52e992b3b625
-  tls: true
-  servername: www.fh-aachen.de
-  network: tcp
-- name: 🇯🇵 日本 满城尽带黄金甲_e3fb
-  server: 160.16.106.99
-  port: 4937
-  udp: true
-  type: trojan
-  password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: 🇵🇱 波兰 满城尽带黄金甲_ed9f
-  server: fluent-stingray.crayfish192.xyz
-  port: 443
-  udp: true
-  type: trojan
-  password: IL37892054
-  sni: fluent-stingray.crayfish192.xyz
-  skip-cert-verify: true
-- name: 🇯🇵 日本 满城尽带黄金甲_f9c3
-  server: 18.183.109.249
-  port: 4937
-  udp: true
-  type: trojan
-  password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: 🇹🇷 土耳其 满城尽带黄金甲_1888
-  server: 94.131.123.167
-  port: 443
-  udp: true
-  type: vless
-  uuid: a44e0875-210f-4941-9062-89b6361a14c6
-  tls: true
-  servername: apple.com
-  network: tcp
-- name: 🇺🇸 美国 满城尽带黄金甲_ca74
-  server: s246.ccgfw.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947u86ffs246.ccgfw.top
-  network: tcp
-- name: 🇬🇧 英国 满城尽带黄金甲_3393
+- name: 🇬🇧 英国 用魔法打败魔法_3393
   server: 144.31.213.101
   port: 10121
   udp: true
@@ -1390,394 +1239,7 @@ proxies:
   tls: true
   servername: apple.com
   network: tcp
-- name: 🇭🇰 香港 满城尽带黄金甲_ce52
-  server: 16.162.188.92
-  port: 12070
-  udp: true
-  type: trojan
-  password: BxceQaOe
-  sni: t.me%2Fripaojiedian
-  skip-cert-verify: true
-- name: 🇵🇱 波兰 满城尽带黄金甲_36e6
-  server: top-goshawk.rooster465.autos
-  port: 443
-  udp: true
-  type: trojan
-  password: WF42809561
-  sni: top-goshawk.rooster465.autos
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 满城尽带黄金甲_82ee
-  server: vps.zakir.web.id
-  port: 80
-  udp: true
-  type: vless
-  uuid: ca73d911-29f4-42d8-ada5-81dee679e96a
-  tls: true
-  servername: vps.zakir.web.id
-  network: ws
-- name: 🇯🇵 日本 满城尽带黄金甲_69c1
-  server: 54.95.21.63
-  port: 36854
-  udp: true
-  type: trojan
-  password: BxceQaOe
-  sni: t.me/ripaojiedian
-  skip-cert-verify: true
-- name: 🇨🇾 塞浦路斯 满城尽带黄金甲_c071
-  server: 45.15.152.226
-  port: 443
-  udp: true
-  type: vless
-  uuid: fd37be2f-f8d1-47de-97e8-13c28107d31e
-  tls: true
-  servername: fin2.frostbot.ru
-  network: tcp
-- name: 🇬🇧 英国 满城尽带黄金甲_7a3f
-  server: s643.ccgfw.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947u7190s643.ccgfw.top
-  network: tcp
-- name: 🇺🇸 美国 满城尽带黄金甲_f902
-  server: 158.51.99.69
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947u85f7s394.ccgfw.top
-  network: tcp
-- name: 🇯🇵 日本 满城尽带黄金甲_4a3a
-  server: 18.183.73.66
-  port: 921
-  udp: true
-  type: trojan
-  password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: 🇪🇪 爱沙尼亚 满城尽带黄金甲_f816
-  server: s348.ccgfw.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947ud504s348.ccgfw.top
-  network: tcp
-- name: 🇺🇸 美国 满城尽带黄金甲_90cf
-  server: 150.241.74.1
-  port: 443
-  udp: true
-  type: vless
-  uuid: 5f98c4f8-19f4-471d-8ed5-10c0550c0423
-  tls: true
-  servername: tunnel.vk-apps.com
-  network: tcp
-- name: 🌐 未知地区 满城尽带黄金甲_f511
-  server: ipv6s117.okgfw.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947ucb27ipv6s117.okgfw.top
-  network: tcp
-- name: 🇬🇧 英国 满城尽带黄金甲_5bbd
-  server: s642.ccgfw.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947u4c78s642.ccgfw.top
-  network: tcp
-- name: 🇷🇺 俄罗斯联邦 满城尽带黄金甲_f2e8
-  server: 176.124.223.138
-  port: 2096
-  udp: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  servername: sni.111000.indevs.in
-  network: ws
-- name: 🇫🇮 芬兰 满城尽带黄金甲_a210
-  server: fi2.grizzlyvpn.work
-  port: 443
-  udp: true
-  type: vless
-  uuid: 5952ea01-0669-4f5e-8010-61f8abee3600
-  tls: true
-  servername: fi2.grizzlyvpn.work
-  network: tcp
-- name: 🇺🇸 美国 满城尽带黄金甲_f7e1
-  server: 5rp8xz.maps-yandex.com
-  port: 10121
-  udp: true
-  type: vless
-  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
-  tls: true
-  servername: apple.com
-  network: tcp
-- name: 🇰🇷 韩国 满城尽带黄金甲_15e4
-  server: glowing-deer.rooster465.autos
-  port: 443
-  udp: true
-  type: trojan
-  password: ZY07256934
-  sni: glowing-deer.rooster465.autos
-  skip-cert-verify: true
-- name: 🌐 未知地区 满城尽带黄金甲_3a2f
-  server: s1.eldoradu.ir
-  port: 2053
-  udp: true
-  type: vless
-  uuid: 9caafed4-04ba-41b2-9c64-e4ce39a985d6
-  tls: true
-  servername: fz3.sellink.ir
-  network: ws
-- name: 🇦🇪 阿联酋 满城尽带黄金甲_a9ee
-  server: 89.35.73.250
-  port: 443
-  udp: true
-  type: vless
-  uuid: 30dc00c9-16c5-4573-b5b2-532940febfd6
-  tls: true
-  servername: www.refersion.com
-  network: tcp
-- name: 🇩🇪 德国 满城尽带黄金甲_e85f
-  server: 181.214.99.162
-  port: 35000
-  udp: true
-  type: hysteria2
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  sni: null
-  skip-cert-verify: true
-- name: 🌐 未知地区 满城尽带黄金甲_b7ce
-  server: ipv6s316.okgg.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947u3360ipv6s316.okgg.top
-  network: tcp
-- name: 🌐 未知地区 满城尽带黄金甲_5410
-  server: 108.162.194.99
-  port: 443
-  udp: true
-  type: vless
-  uuid: 53f0bca8-f170-4ef7-8031-c7d441189dbf
-  tls: true
-  servername: 639073677259599430.civic-perma.info
-  network: ws
-- name: 🇺🇸 美国 满城尽带黄金甲_e71d
-  server: 192.200.160.20
-  port: 443
-  udp: true
-  type: vless
-  uuid: ee248e40-9468-4ef6-81b7-707a1e47c54a
-  tls: true
-  servername: 639073677243557970.camry-perma.info
-  network: ws
-- name: 🌐 未知地区 满城尽带黄金甲_207e
-  server: ipv6s372.ccgfw.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947ue5e5ipv6s372.ccgfw.top
-  network: tcp
-- name: 🇳🇴 挪威 满城尽带黄金甲_0b14
-  server: 148.135.195.143
-  port: 443
-  udp: true
-  type: vless
-  uuid: 19cb2ba5-d074-42d6-8400-6d9183514f48
-  tls: true
-  servername: www.google.com
-  network: tcp
-- name: 🇩🇪 德国 满城尽带黄金甲_bba3
-  server: 80.253.249.251
-  port: 443
-  udp: true
-  type: vless
-  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
-  tls: true
-  servername: apple.com
-  network: tcp
-- name: 🇺🇸 美国 满城尽带黄金甲_24df
-  server: s393.ccgfw.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947u5903s393.ccgfw.top
-  network: tcp
-- name: 🇺🇸 美国 满城尽带黄金甲_ea92
-  server: 135.84.72.18
-  port: 443
-  udp: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  servername: sni.111000.dynv6.net
-  network: ws
-- name: 🇺🇸 美国 满城尽带黄金甲_a7c2
-  server: usadt01.jumperservice.com
-  port: 19001
-  udp: true
-  type: vless
-  uuid: b5be8e3f-a17d-479c-ebdb-9c3265c2cab7
-  tls: true
-  servername: www.speedtest.org
-  network: tcp
-- name: 🇱🇻 拉脱维亚 满城尽带黄金甲_15d1
-  server: 188.253.22.2
-  port: 443
-  udp: true
-  type: vless
-  uuid: 3ddce082-7e03-429c-8af8-9a873d23f0ba
-  tls: true
-  servername: 188.253.22.2
-  network: ws
-- name: 🇩🇪 德国 满城尽带黄金甲_32d6
-  server: 87.120.165.70
-  port: 443
-  udp: true
-  type: vless
-  uuid: ce540111-fd82-4459-b974-06d83beb01d5
-  tls: true
-  servername: www.microsoft.com
-  network: tcp
-- name: 🇺🇸 美国 满城尽带黄金甲_1047
-  server: s175.okgg.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947ud086s175.okgg.top
-  network: tcp
-- name: 🇸🇨 塞舌尔 满城尽带黄金甲_db9e
-  server: 45.151.106.62
-  port: 5443
-  udp: true
-  type: vless
-  uuid: 18f2f9bc-c55b-40c4-a762-0394b2e11fcf
-  tls: true
-  servername: eh.vk.com
-  network: tcp
-- name: 🇷🇺 俄罗斯联邦 满城尽带黄金甲_86da
-  server: 89.19.215.209
-  port: 443
-  udp: true
-  type: vless
-  uuid: 90c9c25c-df6c-4438-83d3-ef97166a9184
-  tls: true
-  servername: 5post-gate.x5.ru
-  network: tcp
-- name: 🇻🇳 越南 满城尽带黄金甲_5ad3
-  server: s226.okgg.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947ueb11s226.okgg.top
-  network: tcp
-- name: 🇯🇵 日本 满城尽带黄金甲_9277
-  server: 13.230.200.237
-  port: 3057
-  udp: true
-  type: trojan
-  password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: 🇩🇪 德国 满城尽带黄金甲_21f7
-  server: 64.188.79.195
-  port: 443
-  udp: true
-  type: vless
-  uuid: 1babf197-af69-406e-aae2-83c411ae979f
-  tls: true
-  servername: google.com
-  network: tcp
-- name: 🇹🇷 土耳其 满城尽带黄金甲_69b2
-  server: 185.72.9.200
-  port: 56126
-  udp: true
-  type: vless
-  uuid: 9bde09b3-09b5-4d7a-b5fd-3fae8dfeed5a
-  tls: true
-  servername: 185.72.9.200
-  network: tcp
-- name: 🌐 未知地区 满城尽带黄金甲_b87d
-  server: 188.114.98.0
-  port: 80
-  udp: true
-  type: vless
-  uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622
-  tls: true
-  servername: 188.114.98.0
-  network: ws
-- name: 🇯🇵 日本 满城尽带黄金甲_02bd
-  server: 52.195.4.144
-  port: 2001
-  udp: true
-  type: trojan
-  password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: 🇬🇧 英国 满城尽带黄金甲_7600
-  server: s644.ccgfw.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-  tls: true
-  servername: u710947ud3c8s644.ccgfw.top
-  network: tcp
-- name: 🇭🇰 香港 满城尽带黄金甲_08e8
-  server: caring-ghoul.rooster465.autos
-  port: 443
-  udp: true
-  type: trojan
-  password: IL37892054
-  sni: caring-ghoul.rooster465.autos
-  skip-cert-verify: true
-- name: 🌐 未知地区 满城尽带黄金甲_d079
-  server: 104.17.152.254
-  port: 80
-  udp: true
-  type: vless
-  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
-  tls: true
-  servername: 104.17.152.254
-  network: ws
-- name: 🇺🇸 美国 满城尽带黄金甲_0f63
-  server: la1.zqwerty.ru
-  port: 2053
-  udp: true
-  type: vless
-  uuid: 110d7bad-5e17-4ce3-afd0-2cf2ebc71787
-  tls: true
-  servername: music.yandex.ru
-  network: tcp
-- name: 🇲🇩 摩尔多瓦 满城尽带黄金甲_d46f
-  server: 45.84.0.217
-  port: 2443
-  udp: true
-  type: vless
-  uuid: c01733dd-3e58-4da9-910b-cdd4560295bc
-  tls: true
-  servername: eh.vk.com
-  network: tcp
-- name: 🇲🇩 摩尔多瓦 满城尽带黄金甲_dded
+- name: 🇲🇩 摩尔多瓦 用魔法打败魔法_dded
   server: 94.131.8.31
   port: 2053
   udp: true
@@ -1786,7 +1248,211 @@ proxies:
   tls: true
   servername: music.yandex.ru
   network: tcp
-- name: 🇯🇵 日本 满城尽带黄金甲_18ed
+- name: 🇩🇪 德国 用魔法打败魔法_a2ad
+  server: 94.141.123.146
+  port: 10965
+  udp: true
+  type: vless
+  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
+  tls: true
+  servername: deepl.com
+  network: tcp
+- name: 🇹🇼 台湾 用魔法打败魔法_4008
+  server: api.livecut.cc
+  port: 443
+  udp: true
+  type: vless
+  uuid: ac421bf3-470d-4e21-a56d-c8d622f6df2f
+  tls: true
+  servername: api.livecut.cc
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_ef07
+  server: ipv6s235.ccgfw.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947ue122ipv6s235.ccgfw.top
+  network: tcp
+- name: 🇹🇷 土耳其 用魔法打败魔法_69b2
+  server: 185.72.9.200
+  port: 56126
+  udp: true
+  type: vless
+  uuid: 9bde09b3-09b5-4d7a-b5fd-3fae8dfeed5a
+  tls: true
+  servername: 185.72.9.200
+  network: tcp
+- name: 🇵🇱 波兰 用魔法打败魔法_d03b
+  server: pl5.lckdwn.ru
+  port: 443
+  udp: true
+  type: vless
+  uuid: 6f99ed2f-9879-40e3-b5b4-5590c60f8e4a
+  tls: true
+  servername: vk.ru
+  network: tcp
+- name: 🇩🇪 德国 用魔法打败魔法_29f6
+  server: 93.94.51.8
+  port: 13380
+  udp: true
+  type: vless
+  uuid: e8fb0f43-3497-4ef3-8a89-35bae56549b7
+  tls: true
+  servername: yandex.ru
+  network: tcp
+- name: 🇹🇷 土耳其 用魔法打败魔法_3473
+  server: 77.92.145.222
+  port: 443
+  udp: true
+  type: vless
+  uuid: 53821f3c-5b03-456a-89f3-f8379f130752
+  tls: true
+  servername: www.vk.com
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_6f00
+  server: 172.64.146.138
+  port: 443
+  udp: true
+  type: vless
+  uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
+  tls: true
+  servername: octopusss4.com
+  network: ws
+- name: 🇵🇱 波兰 用魔法打败魔法_6643
+  server: funky-platypus.rooster465.autos
+  port: 443
+  udp: true
+  type: trojan
+  password: WF42809561
+  sni: funky-platypus.rooster465.autos
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_cc95
+  server: ipv6s315.okgg.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947ua758ipv6s315.okgg.top
+  network: tcp
+- name: 🇮🇳 印度 用魔法打败魔法_9c3c
+  server: 139.59.3.70
+  port: 24725
+  udp: true
+  type: vless
+  uuid: 48ddd7e3-5d31-46ab-9153-16c0e4d92adc
+  tls: true
+  servername: dash.cloudflare.com
+  network: tcp
+- name: 🇲🇩 摩尔多瓦 用魔法打败魔法_d46f
+  server: 45.84.0.217
+  port: 2443
+  udp: true
+  type: vless
+  uuid: c01733dd-3e58-4da9-910b-cdd4560295bc
+  tls: true
+  servername: eh.vk.com
+  network: tcp
+- name: 🇩🇪 德国 用魔法打败魔法_9f8b
+  server: de12.frostbot.ru
+  port: 6443
+  udp: true
+  type: vless
+  uuid: fdc8d6e7-9520-4580-aefb-50185b539bdd
+  tls: true
+  servername: github.com
+  network: tcp
+- name: 🇸🇬 新加坡 用魔法打败魔法_522b
+  server: ubu.okaoclax.me
+  port: 443
+  udp: true
+  type: trojan
+  password: 13c169be-8592-4eaa-94cb-69c859e7d987
+  sni: ubu.okaoclax.me
+  skip-cert-verify: true
+- name: 🇷🇺 俄罗斯联邦 用魔法打败魔法_86da
+  server: 89.19.215.209
+  port: 443
+  udp: true
+  type: vless
+  uuid: 90c9c25c-df6c-4438-83d3-ef97166a9184
+  tls: true
+  servername: 5post-gate.x5.ru
+  network: tcp
+- name: 🇺🇸 美国 用魔法打败魔法_f7e1
+  server: 5rp8xz.maps-yandex.com
+  port: 10121
+  udp: true
+  type: vless
+  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
+  tls: true
+  servername: apple.com
+  network: tcp
+- name: 🇬🇧 英国 用魔法打败魔法_d23e
+  server: 5.180.97.139
+  port: 443
+  udp: true
+  type: vless
+  uuid: a384c715-aeb5-45e8-859b-f687ca6c083f
+  tls: true
+  servername: google.com
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_5410
+  server: 108.162.194.99
+  port: 443
+  udp: true
+  type: vless
+  uuid: 53f0bca8-f170-4ef7-8031-c7d441189dbf
+  tls: true
+  servername: 639073677259599430.civic-perma.info
+  network: ws
+- name: 🇻🇳 越南 用魔法打败魔法_5ad3
+  server: s226.okgg.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947ueb11s226.okgg.top
+  network: tcp
+- name: 🇯🇵 日本 用魔法打败魔法_f0a8
+  server: 52.195.4.144
+  port: 4674
+  udp: true
+  type: trojan
+  password: 6d29eb2f74293cb01a19b32cf08ad2e9
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇳🇱 荷兰 用魔法打败魔法_608b
+  server: 194.124.250.51
+  port: 443
+  udp: true
+  type: vless
+  uuid: 90c9c25c-df6c-4438-83d3-ef97166a9184
+  tls: true
+  servername: 5post-gate.x5.ru
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_91a6
+  server: 172.64.147.236
+  port: 443
+  udp: true
+  type: vless
+  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
+  tls: true
+  servername: octopusss5.info
+  network: ws
+- name: 🇺🇸 美国 用魔法打败魔法_0f63
+  server: la1.zqwerty.ru
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 110d7bad-5e17-4ce3-afd0-2cf2ebc71787
+  tls: true
+  servername: music.yandex.ru
+  network: tcp
+- name: 🇯🇵 日本 用魔法打败魔法_18ed
   server: 18.183.109.144
   port: 4945
   udp: true
@@ -1794,7 +1460,87 @@ proxies:
   password: BxceQaOe
   sni: t.me%2Fripaojiedian
   skip-cert-verify: true
-- name: 🇳🇱 荷兰 满城尽带黄金甲_2dfb
+- name: 🌐 未知地区 用魔法打败魔法_f508
+  server: elliot.ns.cloudflare.com
+  port: 443
+  udp: true
+  type: vless
+  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
+  tls: true
+  servername: octopusss5.info
+  network: ws
+- name: 🇪🇪 爱沙尼亚 用魔法打败魔法_438c
+  server: s473.ccgfw.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947u8d8bs473.ccgfw.top
+  network: tcp
+- name: 🇬🇧 英国 用魔法打败魔法_7600
+  server: s644.ccgfw.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947ud3c8s644.ccgfw.top
+  network: tcp
+- name: 🇨🇾 塞浦路斯 用魔法打败魔法_823d
+  server: ro01.zqwerty.ru
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 110d7bad-5e17-4ce3-afd0-2cf2ebc71787
+  tls: true
+  servername: music.yandex.ru
+  network: tcp
+- name: 🇰🇿 哈萨克斯坦 用魔法打败魔法_25f8
+  server: 94.131.86.204
+  port: 443
+  udp: true
+  type: vless
+  uuid: 41808414-6496-4d3c-89d6-9442f76a155a
+  tls: true
+  servername: www.google.com
+  network: tcp
+- name: 🇯🇵 日本 用魔法打败魔法_1fc8
+  server: 52.192.225.14
+  port: 4019
+  udp: true
+  type: trojan
+  password: 6d29eb2f74293cb01a19b32cf08ad2e9
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇺🇸 美国 用魔法打败魔法_8fa8
+  server: 72.18.132.149
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: true
+  servername: sni.111000.indevs.in
+  network: ws
+- name: 🇺🇸 美国 用魔法打败魔法_cedd
+  server: s719.okgfw.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947ufa4bs719.okgfw.top
+  network: tcp
+- name: 🇺🇸 美国 用魔法打败魔法_4470
+  server: 72.56.12.195
+  port: 52006
+  udp: true
+  type: vless
+  uuid: 1f0a8364-ae34-07d0-b999-34a723111ebd
+  tls: true
+  servername: max.ru
+  network: tcp
+- name: 🇳🇱 荷兰 用魔法打败魔法_2dfb
   server: s678.ccgfw.top
   port: 443
   udp: true
@@ -1803,16 +1549,130 @@ proxies:
   tls: true
   servername: u710947u2968s678.ccgfw.top
   network: tcp
-- name: 🇳🇱 荷兰 满城尽带黄金甲_9db9
-  server: s722.okgfw.top
+- name: 🇪🇪 爱沙尼亚 用魔法打败魔法_dd52
+  server: 77.239.126.65
+  port: 5540
+  udp: true
+  type: trojan
+  password: mj5JfghL49jcoBbx4E1GsjQ7YFtC9pYG
+  sni: eh.vk.com
+  skip-cert-verify: true
+- name: 🇬🇧 英国 用魔法打败魔法_5bbd
+  server: s642.ccgfw.top
   port: 443
   udp: true
   type: vless
   uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
   tls: true
-  servername: u710947u3516s722.okgfw.top
+  servername: u710947u4c78s642.ccgfw.top
   network: tcp
-- name: 🇫🇮 芬兰 满城尽带黄金甲_4318
+- name: 🌐 未知地区 用魔法打败魔法_331a
+  server: vip3.kaixincloud.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63
+  tls: true
+  servername: terazhediii.info
+  network: ws
+- name: 🇭🇰 香港 用魔法打败魔法_e1a1
+  server: s298.okgg.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947u9d8cs298.okgg.top
+  network: tcp
+- name: 🇩🇪 德国 用魔法打败魔法_3b07
+  server: 64.188.106.203
+  port: 59851
+  udp: true
+  type: vless
+  uuid: 60c63b41-63f3-4602-b9f3-9ee2e1369447
+  tls: true
+  servername: www.icloud.com
+  network: tcp
+- name: 🇩🇪 德国 用魔法打败魔法_b064
+  server: 144.31.74.41
+  port: 8443
+  udp: true
+  type: vless
+  uuid: cef12ad2-fb16-4ace-ab26-2a026d40a7d2
+  tls: true
+  servername: sun6-21.userapi.com
+  network: tcp
+- name: 🇵🇱 波兰 用魔法打败魔法_1677
+  server: 144.31.1.59
+  port: 443
+  udp: true
+  type: vless
+  uuid: ab1ddafb-9514-40ab-9e4b-a3878f70931d
+  tls: true
+  servername: pl.sky-vault.top
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_8552
+  server: 172.64.147.223
+  port: 80
+  udp: true
+  type: vless
+  uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622
+  tls: true
+  servername: 172.64.147.223
+  network: ws
+- name: 🇨🇭 瑞士 用魔法打败魔法_465a
+  server: 138.124.6.182
+  port: 10965
+  udp: true
+  type: vless
+  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
+  tls: true
+  servername: deepl.com
+  network: tcp
+- name: 🇳🇱 荷兰 用魔法打败魔法_1fae
+  server: 89.124.89.24
+  port: 443
+  udp: true
+  type: vless
+  uuid: f7bae22e-20ab-11f1-835c-0242ac110002
+  tls: true
+  servername: nl1.cyphervpn.pro
+  network: tcp
+- name: 🇺🇸 美国 用魔法打败魔法_a7c2
+  server: usadt01.jumperservice.com
+  port: 19001
+  udp: true
+  type: vless
+  uuid: b5be8e3f-a17d-479c-ebdb-9c3265c2cab7
+  tls: true
+  servername: www.speedtest.org
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_0a32
+  server: ipv6s116.okgfw.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947ub21eipv6s116.okgfw.top
+  network: tcp
+- name: 🇯🇵 日本 用魔法打败魔法_f9c3
+  server: 18.183.109.249
+  port: 4937
+  udp: true
+  type: trojan
+  password: 6d29eb2f74293cb01a19b32cf08ad2e9
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇯🇵 日本 用魔法打败魔法_74bd
+  server: 160.16.124.17
+  port: 1524
+  udp: true
+  type: trojan
+  password: 6d29eb2f74293cb01a19b32cf08ad2e9
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇫🇮 芬兰 用魔法打败魔法_4318
   server: 77.42.67.4
   port: 47141
   udp: true
@@ -1821,7 +1681,156 @@ proxies:
   tls: true
   servername: www.cloudflare.com
   network: tcp
-- name: 🇵🇱 波兰 满城尽带黄金甲_e8a8
+- name: 🇺🇸 美国 用魔法打败魔法_b84a
+  server: 150.241.75.139
+  port: 443
+  udp: true
+  type: vless
+  uuid: 5f98c4f8-19f4-471d-8ed5-10c0550c0423
+  tls: true
+  servername: tunnel.vk-apps.com
+  network: tcp
+- name: 🇺🇸 美国 用魔法打败魔法_34b1
+  server: 192.0.54.238
+  port: 2096
+  udp: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  servername: null
+  network: tcp
+- name: 🇺🇸 美国 用魔法打败魔法_c7a9
+  server: 80.209.241.190
+  port: 443
+  udp: true
+  type: vless
+  uuid: c01733dd-3e58-4da9-910b-cdd4560295bc
+  tls: true
+  servername: www.tradingview.com
+  network: tcp
+- name: 🇬🇧 英国 用魔法打败魔法_7a3f
+  server: s643.ccgfw.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947u7190s643.ccgfw.top
+  network: tcp
+- name: 🇯🇵 日本 用魔法打败魔法_4a3a
+  server: 18.183.73.66
+  port: 921
+  udp: true
+  type: trojan
+  password: 6d29eb2f74293cb01a19b32cf08ad2e9
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇲🇩 摩尔多瓦 用魔法打败魔法_181e
+  server: 94.103.0.92
+  port: 2443
+  udp: true
+  type: vless
+  uuid: c01733dd-3e58-4da9-910b-cdd4560295bc
+  tls: true
+  servername: crowdtest.payment-widget-smarttv.plus.tst.kinopoisk.ru
+  network: tcp
+- name: 🇺🇸 美国 用魔法打败魔法_ce21
+  server: s843.ccgfw.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947ucc20s843.ccgfw.top
+  network: tcp
+- name: 🇩🇪 德国 用魔法打败魔法_96ad
+  server: fra01.jumperservice.com
+  port: 19001
+  udp: true
+  type: vless
+  uuid: 12eac926-c4ec-4040-8fb8-f316e9fc0fd6
+  tls: true
+  servername: www.speedtest.net
+  network: tcp
+- name: 🇺🇸 美国 用魔法打败魔法_c443
+  server: 185.161.70.10
+  port: 443
+  udp: true
+  type: vless
+  uuid: 21915536-afb5-4a0c-b047-fcf549d3a173
+  tls: true
+  servername: wikihow.com
+  network: tcp
+- name: 🇭🇰 香港 用魔法打败魔法_aa1c
+  server: 18.162.133.44
+  port: 5823
+  udp: true
+  type: trojan
+  password: BxceQaOe
+  sni: t.me/ripaojiedian
+  skip-cert-verify: true
+- name: 🇺🇸 美国 用魔法打败魔法_406d
+  server: s174.okgg.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947u02d5s174.okgg.top
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_4e36
+  server: ipv6s262.ayxj.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+  tls: true
+  servername: u710947ud718ipv6s262.ayxj.top
+  network: tcp
+- name: 🇰🇷 韩国 用魔法打败魔法_ab81
+  server: select-marmoset.rooster465.autos
+  port: 443
+  udp: true
+  type: trojan
+  password: IL37892054
+  sni: select-marmoset.rooster465.autos
+  skip-cert-verify: true
+- name: 🇺🇸 美国 用魔法打败魔法_4611
+  server: 209.94.90.138
+  port: 2096
+  udp: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: true
+  servername: sni.111000.indevs.in
+  network: ws
+- name: 🇦🇱 阿尔巴尼亚 用魔法打败魔法_e1eb
+  server: 78.159.131.12
+  port: 28259
+  udp: true
+  type: trojan
+  password: MeaDiUmPlkWbZJ2BON8tz
+  sni: ads.x5.ru
+  skip-cert-verify: true
+- name: 🇫🇮 芬兰 用魔法打败魔法_a210
+  server: fi2.grizzlyvpn.work
+  port: 443
+  udp: true
+  type: vless
+  uuid: 5952ea01-0669-4f5e-8010-61f8abee3600
+  tls: true
+  servername: fi2.grizzlyvpn.work
+  network: tcp
+- name: 🇷🇺 俄罗斯联邦 用魔法打败魔法_f2e8
+  server: 176.124.223.138
+  port: 2096
+  udp: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: true
+  servername: sni.111000.indevs.in
+  network: ws
+- name: 🇵🇱 波兰 用魔法打败魔法_e8a8
   server: outgoing-ladybird.rooster465.autos
   port: 443
   udp: true
@@ -1829,439 +1838,430 @@ proxies:
   password: IL37892054
   sni: outgoing-ladybird.rooster465.autos
   skip-cert-verify: true
-- name: 🇷🇺 俄罗斯联邦 满城尽带黄金甲_1684
-  server: 5.42.116.74
-  port: 52006
-  udp: true
-  type: vless
-  uuid: 1f0a8364-ae34-07d0-b999-34a723111ebd
-  tls: true
-  servername: max.ru
-  network: tcp
 proxy-groups:
 - name: 🔰 节点选择
   type: select
   proxies:
   - 🚀 自动测速
   - DIRECT
-  - 🇳🇱 荷兰 满城尽带黄金甲_608b
-  - 🇦🇺 澳大利亚 满城尽带黄金甲_f8f0
-  - 🇹🇷 土耳其 满城尽带黄金甲_7c4d
-  - 🇹🇷 土耳其 满城尽带黄金甲_d861
-  - 🇺🇸 美国 满城尽带黄金甲_f158
-  - 🌐 未知地区 满城尽带黄金甲_ef07
-  - 🇳🇱 荷兰 满城尽带黄金甲_e600
-  - 🇳🇱 荷兰 满城尽带黄金甲_273e
-  - 🇺🇸 美国 满城尽带黄金甲_ea27
-  - 🇯🇵 日本 满城尽带黄金甲_1fc8
-  - 🌐 未知地区 满城尽带黄金甲_6bac
-  - 🇹🇷 土耳其 满城尽带黄金甲_3473
-  - 🇯🇵 日本 满城尽带黄金甲_0a62
-  - 🇯🇵 日本 满城尽带黄金甲_787c
-  - 🇳🇱 荷兰 满城尽带黄金甲_51cc
-  - 🇳🇱 荷兰 满城尽带黄金甲_6026
-  - 🇵🇱 波兰 满城尽带黄金甲_1677
-  - 🇳🇱 荷兰 满城尽带黄金甲_647e
-  - 🇭🇰 香港 满城尽带黄金甲_e300
-  - 🌐 未知地区 满城尽带黄金甲_0a32
-  - 🇯🇵 日本 满城尽带黄金甲_f22b
-  - 🇯🇵 日本 满城尽带黄金甲_516b
-  - 🇺🇸 美国 满城尽带黄金甲_406d
-  - 🌐 未知地区 满城尽带黄金甲_96de
-  - 🇬🇧 英国 满城尽带黄金甲_0868
-  - 🇩🇪 德国 满城尽带黄金甲_47a6
-  - 🇲🇩 摩尔多瓦 满城尽带黄金甲_181e
-  - 🇺🇸 美国 满城尽带黄金甲_7b95
-  - 🇺🇸 美国 满城尽带黄金甲_ff29
-  - 🇹🇷 土耳其 满城尽带黄金甲_121c
-  - 🇺🇸 美国 满城尽带黄金甲_e0e8
-  - 🇯🇵 日本 满城尽带黄金甲_74bd
-  - 🇪🇪 爱沙尼亚 满城尽带黄金甲_19b7
-  - 🇺🇸 美国 满城尽带黄金甲_b84a
-  - 🇯🇵 日本 满城尽带黄金甲_0064
-  - 🇬🇧 英国 满城尽带黄金甲_0247
-  - 🇩🇪 德国 满城尽带黄金甲_96ad
-  - 🌐 未知地区 满城尽带黄金甲_7116
-  - 🇺🇸 美国 满城尽带黄金甲_74e6
-  - 🇩🇪 德国 满城尽带黄金甲_cbc4
-  - 🇸🇪 瑞典 满城尽带黄金甲_62e0
-  - 🇩🇪 德国 满城尽带黄金甲_9f8b
-  - 🌐 未知地区 满城尽带黄金甲_0bdf
-  - 🌐 未知地区 满城尽带黄金甲_3475
-  - 🇵🇱 波兰 满城尽带黄金甲_d03b
-  - 🇩🇪 德国 满城尽带黄金甲_a2ad
-  - 🇪🇪 爱沙尼亚 满城尽带黄金甲_81f8
-  - 🇯🇵 日本 满城尽带黄金甲_e601
-  - 🇱🇹 立陶宛 满城尽带黄金甲_d4f1
-  - 🇺🇸 美国 满城尽带黄金甲_52b5
-  - 🇯🇵 日本 满城尽带黄金甲_3fd5
-  - 🇦🇱 阿尔巴尼亚 满城尽带黄金甲_e1eb
-  - 🇰🇿 哈萨克斯坦 满城尽带黄金甲_25f8
-  - 🇹🇼 台湾 满城尽带黄金甲_4008
-  - 🇳🇱 荷兰 满城尽带黄金甲_0187
-  - 🇺🇸 美国 满城尽带黄金甲_ce21
-  - 🇺🇸 美国 满城尽带黄金甲_1644
-  - 🇺🇸 美国 满城尽带黄金甲_cedd
-  - 🇳🇱 荷兰 满城尽带黄金甲_59bf
-  - 🇺🇸 美国 满城尽带黄金甲_bff2
-  - 🇩🇪 德国 满城尽带黄金甲_db5c
-  - 🌐 未知地区 满城尽带黄金甲_e0d2
-  - 🇯🇵 日本 满城尽带黄金甲_5560
-  - 🇺🇸 美国 满城尽带黄金甲_eddd
-  - 🇺🇸 美国 满城尽带黄金甲_6a3a
-  - 🇭🇰 香港 满城尽带黄金甲_e1a1
-  - 🌐 未知地区 满城尽带黄金甲_794e
-  - 🇪🇪 爱沙尼亚 满城尽带黄金甲_dd52
-  - 🇺🇸 美国 满城尽带黄金甲_4b90
-  - 🇳🇱 荷兰 满城尽带黄金甲_4a30
-  - 🇭🇰 香港 满城尽带黄金甲_74ae
-  - 🇯🇵 日本 满城尽带黄金甲_4aef
-  - 🌐 未知地区 满城尽带黄金甲_dbea
-  - 🇬🇧 英国 满城尽带黄金甲_d23e
-  - 🇸🇬 新加坡 满城尽带黄金甲_522b
-  - 🇦🇺 澳大利亚 满城尽带黄金甲_7eaf
-  - 🇨🇿 捷克 满城尽带黄金甲_cea3
-  - 🇬🇧 英国 满城尽带黄金甲_55ec
-  - 🇻🇳 越南 满城尽带黄金甲_48c1
-  - 🇺🇸 美国 满城尽带黄金甲_4611
-  - 🇺🇸 美国 满城尽带黄金甲_054f
-  - 🌐 未知地区 满城尽带黄金甲_cc95
-  - 🌐 未知地区 满城尽带黄金甲_7c53
-  - 🌐 未知地区 满城尽带黄金甲_8552
-  - 🇮🇳 印度 满城尽带黄金甲_9c3c
-  - 🇺🇸 美国 满城尽带黄金甲_1538
-  - 🇺🇸 美国 满城尽带黄金甲_b0b0
-  - 🇺🇸 美国 满城尽带黄金甲_bce9
-  - 🇺🇸 美国 满城尽带黄金甲_34b1
-  - 🇨🇭 瑞士 满城尽带黄金甲_535f
-  - 🌐 未知地区 满城尽带黄金甲_331a
-  - 🇺🇸 美国 满城尽带黄金甲_c443
-  - 🇩🇪 德国 满城尽带黄金甲_29f6
-  - 🇳🇱 荷兰 满城尽带黄金甲_d15d
-  - 🇯🇵 日本 满城尽带黄金甲_67d0
-  - 🌐 未知地区 满城尽带黄金甲_6f00
-  - 🌐 未知地区 满城尽带黄金甲_f508
-  - 🌐 未知地区 满城尽带黄金甲_e366
-  - 🇬🇧 英国 满城尽带黄金甲_34da
-  - 🇩🇪 德国 满城尽带黄金甲_f40c
-  - 🇳🇱 荷兰 满城尽带黄金甲_1bfc
-  - 🌐 未知地区 满城尽带黄金甲_7217
-  - 🇫🇮 芬兰 满城尽带黄金甲_dc9f
-  - 🇺🇸 美国 满城尽带黄金甲_9a96
-  - 🇩🇪 德国 满城尽带黄金甲_7260
-  - 🌐 未知地区 满城尽带黄金甲_2b4e
-  - 🇮🇶 伊拉克 满城尽带黄金甲_4a83
-  - 🇳🇱 荷兰 满城尽带黄金甲_b02f
-  - 🇺🇸 美国 满城尽带黄金甲_5906
-  - 🇺🇸 美国 满城尽带黄金甲_6996
-  - 🇺🇸 美国 满城尽带黄金甲_4470
-  - 🌐 未知地区 满城尽带黄金甲_ff9b
-  - 🇯🇵 日本 满城尽带黄金甲_706a
-  - 🇫🇮 芬兰 满城尽带黄金甲_0766
-  - 🌐 未知地区 满城尽带黄金甲_172c
-  - 🇨🇾 塞浦路斯 满城尽带黄金甲_823d
-  - 🇯🇵 日本 满城尽带黄金甲_3d31
-  - 🌐 未知地区 满城尽带黄金甲_91a6
-  - 🇹🇷 土耳其 满城尽带黄金甲_5f3f
-  - 🇪🇪 爱沙尼亚 满城尽带黄金甲_4b84
-  - 🌐 未知地区 满城尽带黄金甲_be51
-  - 🇺🇸 美国 满城尽带黄金甲_cc72
-  - 🇺🇸 美国 满城尽带黄金甲_8fa8
-  - 🇺🇸 美国 满城尽带黄金甲_ab04
-  - 🇯🇵 日本 满城尽带黄金甲_f0a8
-  - 🇪🇪 爱沙尼亚 满城尽带黄金甲_438c
-  - 🇩🇪 德国 满城尽带黄金甲_cb03
-  - 🇺🇸 美国 满城尽带黄金甲_e2ce
-  - 🇨🇭 瑞士 满城尽带黄金甲_465a
-  - 🇩🇪 德国 满城尽带黄金甲_b064
-  - 🇬🇧 英国 满城尽带黄金甲_0dba
-  - 🇰🇷 韩国 满城尽带黄金甲_ab81
-  - 🇵🇱 波兰 满城尽带黄金甲_ddce
-  - 🇺🇸 美国 满城尽带黄金甲_c7a9
-  - 🇭🇰 香港 满城尽带黄金甲_2ac3
-  - 🇩🇪 德国 满城尽带黄金甲_4a58
-  - 🇩🇪 德国 满城尽带黄金甲_a2c0
-  - 🇵🇱 波兰 满城尽带黄金甲_6643
-  - 🇩🇪 德国 满城尽带黄金甲_3b07
-  - 🌐 未知地区 满城尽带黄金甲_4751
-  - 🇩🇪 德国 满城尽带黄金甲_8613
-  - 🇺🇸 美国 满城尽带黄金甲_297b
-  - 🇭🇰 香港 满城尽带黄金甲_8971
-  - 🇳🇱 荷兰 满城尽带黄金甲_1fae
-  - 🇩🇪 德国 满城尽带黄金甲_e249
-  - 🇩🇪 德国 满城尽带黄金甲_9001
-  - 🇭🇰 香港 满城尽带黄金甲_aa1c
-  - 🌐 未知地区 满城尽带黄金甲_4e36
-  - 🌐 未知地区 满城尽带黄金甲_04a1
-  - 🇩🇪 德国 满城尽带黄金甲_d6f7
-  - 🇯🇵 日本 满城尽带黄金甲_e3fb
-  - 🇵🇱 波兰 满城尽带黄金甲_ed9f
-  - 🇯🇵 日本 满城尽带黄金甲_f9c3
-  - 🇹🇷 土耳其 满城尽带黄金甲_1888
-  - 🇺🇸 美国 满城尽带黄金甲_ca74
-  - 🇬🇧 英国 满城尽带黄金甲_3393
-  - 🇭🇰 香港 满城尽带黄金甲_ce52
-  - 🇵🇱 波兰 满城尽带黄金甲_36e6
-  - 🇸🇬 新加坡 满城尽带黄金甲_82ee
-  - 🇯🇵 日本 满城尽带黄金甲_69c1
-  - 🇨🇾 塞浦路斯 满城尽带黄金甲_c071
-  - 🇬🇧 英国 满城尽带黄金甲_7a3f
-  - 🇺🇸 美国 满城尽带黄金甲_f902
-  - 🇯🇵 日本 满城尽带黄金甲_4a3a
-  - 🇪🇪 爱沙尼亚 满城尽带黄金甲_f816
-  - 🇺🇸 美国 满城尽带黄金甲_90cf
-  - 🌐 未知地区 满城尽带黄金甲_f511
-  - 🇬🇧 英国 满城尽带黄金甲_5bbd
-  - 🇷🇺 俄罗斯联邦 满城尽带黄金甲_f2e8
-  - 🇫🇮 芬兰 满城尽带黄金甲_a210
-  - 🇺🇸 美国 满城尽带黄金甲_f7e1
-  - 🇰🇷 韩国 满城尽带黄金甲_15e4
-  - 🌐 未知地区 满城尽带黄金甲_3a2f
-  - 🇦🇪 阿联酋 满城尽带黄金甲_a9ee
-  - 🇩🇪 德国 满城尽带黄金甲_e85f
-  - 🌐 未知地区 满城尽带黄金甲_b7ce
-  - 🌐 未知地区 满城尽带黄金甲_5410
-  - 🇺🇸 美国 满城尽带黄金甲_e71d
-  - 🌐 未知地区 满城尽带黄金甲_207e
-  - 🇳🇴 挪威 满城尽带黄金甲_0b14
-  - 🇩🇪 德国 满城尽带黄金甲_bba3
-  - 🇺🇸 美国 满城尽带黄金甲_24df
-  - 🇺🇸 美国 满城尽带黄金甲_ea92
-  - 🇺🇸 美国 满城尽带黄金甲_a7c2
-  - 🇱🇻 拉脱维亚 满城尽带黄金甲_15d1
-  - 🇩🇪 德国 满城尽带黄金甲_32d6
-  - 🇺🇸 美国 满城尽带黄金甲_1047
-  - 🇸🇨 塞舌尔 满城尽带黄金甲_db9e
-  - 🇷🇺 俄罗斯联邦 满城尽带黄金甲_86da
-  - 🇻🇳 越南 满城尽带黄金甲_5ad3
-  - 🇯🇵 日本 满城尽带黄金甲_9277
-  - 🇩🇪 德国 满城尽带黄金甲_21f7
-  - 🇹🇷 土耳其 满城尽带黄金甲_69b2
-  - 🌐 未知地区 满城尽带黄金甲_b87d
-  - 🇯🇵 日本 满城尽带黄金甲_02bd
-  - 🇬🇧 英国 满城尽带黄金甲_7600
-  - 🇭🇰 香港 满城尽带黄金甲_08e8
-  - 🌐 未知地区 满城尽带黄金甲_d079
-  - 🇺🇸 美国 满城尽带黄金甲_0f63
-  - 🇲🇩 摩尔多瓦 满城尽带黄金甲_d46f
-  - 🇲🇩 摩尔多瓦 满城尽带黄金甲_dded
-  - 🇯🇵 日本 满城尽带黄金甲_18ed
-  - 🇳🇱 荷兰 满城尽带黄金甲_2dfb
-  - 🇳🇱 荷兰 满城尽带黄金甲_9db9
-  - 🇫🇮 芬兰 满城尽带黄金甲_4318
-  - 🇵🇱 波兰 满城尽带黄金甲_e8a8
-  - 🇷🇺 俄罗斯联邦 满城尽带黄金甲_1684
+  - 🇺🇸 美国 用魔法打败魔法_eddd
+  - 🇯🇵 日本 用魔法打败魔法_e3fb
+  - 🇵🇱 波兰 用魔法打败魔法_ed9f
+  - 🇺🇸 美国 用魔法打败魔法_1538
+  - 🌐 未知地区 用魔法打败魔法_d079
+  - 🇪🇪 爱沙尼亚 用魔法打败魔法_19b7
+  - 🇺🇸 美国 用魔法打败魔法_f158
+  - 🇺🇸 美国 用魔法打败魔法_ff29
+  - 🇺🇸 美国 用魔法打败魔法_ab04
+  - 🇺🇸 美国 用魔法打败魔法_ea27
+  - 🇯🇵 日本 用魔法打败魔法_e601
+  - 🌐 未知地区 用魔法打败魔法_0bdf
+  - 🇺🇸 美国 用魔法打败魔法_297b
+  - 🇬🇧 英国 用魔法打败魔法_0dba
+  - 🌐 未知地区 用魔法打败魔法_4751
+  - 🇺🇸 美国 用魔法打败魔法_cc72
+  - 🇹🇷 土耳其 用魔法打败魔法_1888
+  - 🇹🇷 土耳其 用魔法打败魔法_121c
+  - 🇺🇸 美国 用魔法打败魔法_24df
+  - 🇫🇮 芬兰 用魔法打败魔法_0766
+  - 🌐 未知地区 用魔法打败魔法_e366
+  - 🇩🇪 德国 用魔法打败魔法_e85f
+  - 🇪🇪 爱沙尼亚 用魔法打败魔法_f816
+  - 🌐 未知地区 用魔法打败魔法_207e
+  - 🇺🇸 美国 用魔法打败魔法_f902
+  - 🇺🇸 美国 用魔法打败魔法_ca74
+  - 🇯🇵 日本 用魔法打败魔法_0064
+  - 🇪🇪 爱沙尼亚 用魔法打败魔法_81f8
+  - 🌐 未知地区 用魔法打败魔法_04a1
+  - 🇯🇵 日本 用魔法打败魔法_3d31
+  - 🇩🇪 德国 用魔法打败魔法_f40c
+  - 🇺🇸 美国 用魔法打败魔法_7b95
+  - 🇸🇪 瑞典 用魔法打败魔法_62e0
+  - 🇯🇵 日本 用魔法打败魔法_0a62
+  - 🇬🇧 英国 用魔法打败魔法_0247
+  - 🇳🇱 荷兰 用魔法打败魔法_1bfc
+  - 🇻🇳 越南 用魔法打败魔法_48c1
+  - 🇳🇴 挪威 用魔法打败魔法_0b14
+  - 🇩🇪 德国 用魔法打败魔法_7260
+  - 🌐 未知地区 用魔法打败魔法_e0d2
+  - 🌐 未知地区 用魔法打败魔法_3a2f
+  - 🌐 未知地区 用魔法打败魔法_7217
+  - 🌐 未知地区 用魔法打败魔法_b87d
+  - 🇵🇱 波兰 用魔法打败魔法_ddce
+  - 🇺🇸 美国 用魔法打败魔法_ea92
+  - 🌐 未知地区 用魔法打败魔法_be51
+  - 🇫🇮 芬兰 用魔法打败魔法_dc9f
+  - 🇳🇱 荷兰 用魔法打败魔法_d15d
+  - 🇯🇵 日本 用魔法打败魔法_9277
+  - 🇱🇹 立陶宛 用魔法打败魔法_d4f1
+  - 🌐 未知地区 用魔法打败魔法_6bac
+  - 🇬🇧 英国 用魔法打败魔法_55ec
+  - 🇺🇸 美国 用魔法打败魔法_054f
+  - 🌐 未知地区 用魔法打败魔法_f511
+  - 🇩🇪 德国 用魔法打败魔法_db5c
+  - 🇨🇿 捷克 用魔法打败魔法_cea3
+  - 🇳🇱 荷兰 用魔法打败魔法_273e
+  - 🇬🇧 英国 用魔法打败魔法_34da
+  - 🇺🇸 美国 用魔法打败魔法_e2ce
+  - 🇩🇪 德国 用魔法打败魔法_8613
+  - 🇩🇪 德国 用魔法打败魔法_a2c0
+  - 🇵🇱 波兰 用魔法打败魔法_36e6
+  - 🇩🇪 德国 用魔法打败魔法_cb03
+  - 🌐 未知地区 用魔法打败魔法_7116
+  - 🇸🇬 新加坡 用魔法打败魔法_82ee
+  - 🌐 未知地区 用魔法打败魔法_172c
+  - 🇺🇸 美国 用魔法打败魔法_e0e8
+  - 🇳🇱 荷兰 用魔法打败魔法_4a30
+  - 🇳🇱 荷兰 用魔法打败魔法_e600
+  - 🇷🇺 俄罗斯联邦 用魔法打败魔法_1684
+  - 🇦🇺 澳大利亚 用魔法打败魔法_7eaf
+  - 🇭🇰 香港 用魔法打败魔法_74ae
+  - 🇳🇱 荷兰 用魔法打败魔法_51cc
+  - 🌐 未知地区 用魔法打败魔法_dbea
+  - 🇳🇱 荷兰 用魔法打败魔法_0187
+  - 🇳🇱 荷兰 用魔法打败魔法_6026
+  - 🌐 未知地区 用魔法打败魔法_b7ce
+  - 🇳🇱 荷兰 用魔法打败魔法_9db9
+  - 🇯🇵 日本 用魔法打败魔法_f22b
+  - 🇯🇵 日本 用魔法打败魔法_516b
+  - 🇩🇪 德国 用魔法打败魔法_d6f7
+  - 🇰🇷 韩国 用魔法打败魔法_15e4
+  - 🇦🇺 澳大利亚 用魔法打败魔法_f8f0
+  - 🇩🇪 德国 用魔法打败魔法_e249
+  - 🇭🇰 香港 用魔法打败魔法_8971
+  - 🇯🇵 日本 用魔法打败魔法_3fd5
+  - 🇺🇸 美国 用魔法打败魔法_e71d
+  - 🇺🇸 美国 用魔法打败魔法_52b5
+  - 🇯🇵 日本 用魔法打败魔法_69c1
+  - 🇳🇱 荷兰 用魔法打败魔法_b02f
+  - 🇬🇧 英国 用魔法打败魔法_0868
+  - 🇯🇵 日本 用魔法打败魔法_706a
+  - 🌐 未知地区 用魔法打败魔法_ff9b
+  - 🇺🇸 美国 用魔法打败魔法_9a96
+  - 🇺🇸 美国 用魔法打败魔法_4b90
+  - 🇺🇸 美国 用魔法打败魔法_bff2
+  - 🇩🇪 德国 用魔法打败魔法_32d6
+  - 🇦🇪 阿联酋 用魔法打败魔法_a9ee
+  - 🇩🇪 德国 用魔法打败魔法_bba3
+  - 🇨🇾 塞浦路斯 用魔法打败魔法_c071
+  - 🇭🇰 香港 用魔法打败魔法_2ac3
+  - 🇺🇸 美国 用魔法打败魔法_90cf
+  - 🇯🇵 日本 用魔法打败魔法_4aef
+  - 🇩🇪 德国 用魔法打败魔法_47a6
+  - 🇩🇪 德国 用魔法打败魔法_9001
+  - 🌐 未知地区 用魔法打败魔法_7c53
+  - 🇺🇸 美国 用魔法打败魔法_b0b0
+  - 🇺🇸 美国 用魔法打败魔法_6996
+  - 🇩🇪 德国 用魔法打败魔法_4a58
+  - 🇹🇷 土耳其 用魔法打败魔法_7c4d
+  - 🇩🇪 德国 用魔法打败魔法_21f7
+  - 🇩🇪 德国 用魔法打败魔法_cbc4
+  - 🇭🇰 香港 用魔法打败魔法_08e8
+  - 🇯🇵 日本 用魔法打败魔法_787c
+  - 🇸🇨 塞舌尔 用魔法打败魔法_db9e
+  - 🇯🇵 日本 用魔法打败魔法_5560
+  - 🇺🇸 美国 用魔法打败魔法_1047
+  - 🇮🇶 伊拉克 用魔法打败魔法_4a83
+  - 🇳🇱 荷兰 用魔法打败魔法_59bf
+  - 🇯🇵 日本 用魔法打败魔法_67d0
+  - 🇭🇰 香港 用魔法打败魔法_e300
+  - 🇺🇸 美国 用魔法打败魔法_6a3a
+  - 🇭🇰 香港 用魔法打败魔法_ce52
+  - 🇺🇸 美国 用魔法打败魔法_bce9
+  - 🇺🇸 美国 用魔法打败魔法_5906
+  - 🇹🇷 土耳其 用魔法打败魔法_d861
+  - 🌐 未知地区 用魔法打败魔法_3475
+  - 🇺🇸 美国 用魔法打败魔法_74e6
+  - 🇱🇻 拉脱维亚 用魔法打败魔法_15d1
+  - 🌐 未知地区 用魔法打败魔法_2b4e
+  - 🌐 未知地区 用魔法打败魔法_96de
+  - 🇪🇪 爱沙尼亚 用魔法打败魔法_4b84
+  - 🇺🇸 美国 用魔法打败魔法_1644
+  - 🇯🇵 日本 用魔法打败魔法_02bd
+  - 🇳🇱 荷兰 用魔法打败魔法_647e
+  - 🇨🇭 瑞士 用魔法打败魔法_535f
+  - 🌐 未知地区 用魔法打败魔法_794e
+  - 🇹🇷 土耳其 用魔法打败魔法_5f3f
+  - 🇬🇧 英国 用魔法打败魔法_3393
+  - 🇲🇩 摩尔多瓦 用魔法打败魔法_dded
+  - 🇩🇪 德国 用魔法打败魔法_a2ad
+  - 🇹🇼 台湾 用魔法打败魔法_4008
+  - 🌐 未知地区 用魔法打败魔法_ef07
+  - 🇹🇷 土耳其 用魔法打败魔法_69b2
+  - 🇵🇱 波兰 用魔法打败魔法_d03b
+  - 🇩🇪 德国 用魔法打败魔法_29f6
+  - 🇹🇷 土耳其 用魔法打败魔法_3473
+  - 🌐 未知地区 用魔法打败魔法_6f00
+  - 🇵🇱 波兰 用魔法打败魔法_6643
+  - 🌐 未知地区 用魔法打败魔法_cc95
+  - 🇮🇳 印度 用魔法打败魔法_9c3c
+  - 🇲🇩 摩尔多瓦 用魔法打败魔法_d46f
+  - 🇩🇪 德国 用魔法打败魔法_9f8b
+  - 🇸🇬 新加坡 用魔法打败魔法_522b
+  - 🇷🇺 俄罗斯联邦 用魔法打败魔法_86da
+  - 🇺🇸 美国 用魔法打败魔法_f7e1
+  - 🇬🇧 英国 用魔法打败魔法_d23e
+  - 🌐 未知地区 用魔法打败魔法_5410
+  - 🇻🇳 越南 用魔法打败魔法_5ad3
+  - 🇯🇵 日本 用魔法打败魔法_f0a8
+  - 🇳🇱 荷兰 用魔法打败魔法_608b
+  - 🌐 未知地区 用魔法打败魔法_91a6
+  - 🇺🇸 美国 用魔法打败魔法_0f63
+  - 🇯🇵 日本 用魔法打败魔法_18ed
+  - 🌐 未知地区 用魔法打败魔法_f508
+  - 🇪🇪 爱沙尼亚 用魔法打败魔法_438c
+  - 🇬🇧 英国 用魔法打败魔法_7600
+  - 🇨🇾 塞浦路斯 用魔法打败魔法_823d
+  - 🇰🇿 哈萨克斯坦 用魔法打败魔法_25f8
+  - 🇯🇵 日本 用魔法打败魔法_1fc8
+  - 🇺🇸 美国 用魔法打败魔法_8fa8
+  - 🇺🇸 美国 用魔法打败魔法_cedd
+  - 🇺🇸 美国 用魔法打败魔法_4470
+  - 🇳🇱 荷兰 用魔法打败魔法_2dfb
+  - 🇪🇪 爱沙尼亚 用魔法打败魔法_dd52
+  - 🇬🇧 英国 用魔法打败魔法_5bbd
+  - 🌐 未知地区 用魔法打败魔法_331a
+  - 🇭🇰 香港 用魔法打败魔法_e1a1
+  - 🇩🇪 德国 用魔法打败魔法_3b07
+  - 🇩🇪 德国 用魔法打败魔法_b064
+  - 🇵🇱 波兰 用魔法打败魔法_1677
+  - 🌐 未知地区 用魔法打败魔法_8552
+  - 🇨🇭 瑞士 用魔法打败魔法_465a
+  - 🇳🇱 荷兰 用魔法打败魔法_1fae
+  - 🇺🇸 美国 用魔法打败魔法_a7c2
+  - 🌐 未知地区 用魔法打败魔法_0a32
+  - 🇯🇵 日本 用魔法打败魔法_f9c3
+  - 🇯🇵 日本 用魔法打败魔法_74bd
+  - 🇫🇮 芬兰 用魔法打败魔法_4318
+  - 🇺🇸 美国 用魔法打败魔法_b84a
+  - 🇺🇸 美国 用魔法打败魔法_34b1
+  - 🇺🇸 美国 用魔法打败魔法_c7a9
+  - 🇬🇧 英国 用魔法打败魔法_7a3f
+  - 🇯🇵 日本 用魔法打败魔法_4a3a
+  - 🇲🇩 摩尔多瓦 用魔法打败魔法_181e
+  - 🇺🇸 美国 用魔法打败魔法_ce21
+  - 🇩🇪 德国 用魔法打败魔法_96ad
+  - 🇺🇸 美国 用魔法打败魔法_c443
+  - 🇭🇰 香港 用魔法打败魔法_aa1c
+  - 🇺🇸 美国 用魔法打败魔法_406d
+  - 🌐 未知地区 用魔法打败魔法_4e36
+  - 🇰🇷 韩国 用魔法打败魔法_ab81
+  - 🇺🇸 美国 用魔法打败魔法_4611
+  - 🇦🇱 阿尔巴尼亚 用魔法打败魔法_e1eb
+  - 🇫🇮 芬兰 用魔法打败魔法_a210
+  - 🇷🇺 俄罗斯联邦 用魔法打败魔法_f2e8
+  - 🇵🇱 波兰 用魔法打败魔法_e8a8
 - name: 🚀 自动测速
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇳🇱 荷兰 满城尽带黄金甲_608b
-  - 🇦🇺 澳大利亚 满城尽带黄金甲_f8f0
-  - 🇹🇷 土耳其 满城尽带黄金甲_7c4d
-  - 🇹🇷 土耳其 满城尽带黄金甲_d861
-  - 🇺🇸 美国 满城尽带黄金甲_f158
-  - 🌐 未知地区 满城尽带黄金甲_ef07
-  - 🇳🇱 荷兰 满城尽带黄金甲_e600
-  - 🇳🇱 荷兰 满城尽带黄金甲_273e
-  - 🇺🇸 美国 满城尽带黄金甲_ea27
-  - 🇯🇵 日本 满城尽带黄金甲_1fc8
-  - 🌐 未知地区 满城尽带黄金甲_6bac
-  - 🇹🇷 土耳其 满城尽带黄金甲_3473
-  - 🇯🇵 日本 满城尽带黄金甲_0a62
-  - 🇯🇵 日本 满城尽带黄金甲_787c
-  - 🇳🇱 荷兰 满城尽带黄金甲_51cc
-  - 🇳🇱 荷兰 满城尽带黄金甲_6026
-  - 🇵🇱 波兰 满城尽带黄金甲_1677
-  - 🇳🇱 荷兰 满城尽带黄金甲_647e
-  - 🇭🇰 香港 满城尽带黄金甲_e300
-  - 🌐 未知地区 满城尽带黄金甲_0a32
-  - 🇯🇵 日本 满城尽带黄金甲_f22b
-  - 🇯🇵 日本 满城尽带黄金甲_516b
-  - 🇺🇸 美国 满城尽带黄金甲_406d
-  - 🌐 未知地区 满城尽带黄金甲_96de
-  - 🇬🇧 英国 满城尽带黄金甲_0868
-  - 🇩🇪 德国 满城尽带黄金甲_47a6
-  - 🇲🇩 摩尔多瓦 满城尽带黄金甲_181e
-  - 🇺🇸 美国 满城尽带黄金甲_7b95
-  - 🇺🇸 美国 满城尽带黄金甲_ff29
-  - 🇹🇷 土耳其 满城尽带黄金甲_121c
-  - 🇺🇸 美国 满城尽带黄金甲_e0e8
-  - 🇯🇵 日本 满城尽带黄金甲_74bd
-  - 🇪🇪 爱沙尼亚 满城尽带黄金甲_19b7
-  - 🇺🇸 美国 满城尽带黄金甲_b84a
-  - 🇯🇵 日本 满城尽带黄金甲_0064
-  - 🇬🇧 英国 满城尽带黄金甲_0247
-  - 🇩🇪 德国 满城尽带黄金甲_96ad
-  - 🌐 未知地区 满城尽带黄金甲_7116
-  - 🇺🇸 美国 满城尽带黄金甲_74e6
-  - 🇩🇪 德国 满城尽带黄金甲_cbc4
-  - 🇸🇪 瑞典 满城尽带黄金甲_62e0
-  - 🇩🇪 德国 满城尽带黄金甲_9f8b
-  - 🌐 未知地区 满城尽带黄金甲_0bdf
-  - 🌐 未知地区 满城尽带黄金甲_3475
-  - 🇵🇱 波兰 满城尽带黄金甲_d03b
-  - 🇩🇪 德国 满城尽带黄金甲_a2ad
-  - 🇪🇪 爱沙尼亚 满城尽带黄金甲_81f8
-  - 🇯🇵 日本 满城尽带黄金甲_e601
-  - 🇱🇹 立陶宛 满城尽带黄金甲_d4f1
-  - 🇺🇸 美国 满城尽带黄金甲_52b5
-  - 🇯🇵 日本 满城尽带黄金甲_3fd5
-  - 🇦🇱 阿尔巴尼亚 满城尽带黄金甲_e1eb
-  - 🇰🇿 哈萨克斯坦 满城尽带黄金甲_25f8
-  - 🇹🇼 台湾 满城尽带黄金甲_4008
-  - 🇳🇱 荷兰 满城尽带黄金甲_0187
-  - 🇺🇸 美国 满城尽带黄金甲_ce21
-  - 🇺🇸 美国 满城尽带黄金甲_1644
-  - 🇺🇸 美国 满城尽带黄金甲_cedd
-  - 🇳🇱 荷兰 满城尽带黄金甲_59bf
-  - 🇺🇸 美国 满城尽带黄金甲_bff2
-  - 🇩🇪 德国 满城尽带黄金甲_db5c
-  - 🌐 未知地区 满城尽带黄金甲_e0d2
-  - 🇯🇵 日本 满城尽带黄金甲_5560
-  - 🇺🇸 美国 满城尽带黄金甲_eddd
-  - 🇺🇸 美国 满城尽带黄金甲_6a3a
-  - 🇭🇰 香港 满城尽带黄金甲_e1a1
-  - 🌐 未知地区 满城尽带黄金甲_794e
-  - 🇪🇪 爱沙尼亚 满城尽带黄金甲_dd52
-  - 🇺🇸 美国 满城尽带黄金甲_4b90
-  - 🇳🇱 荷兰 满城尽带黄金甲_4a30
-  - 🇭🇰 香港 满城尽带黄金甲_74ae
-  - 🇯🇵 日本 满城尽带黄金甲_4aef
-  - 🌐 未知地区 满城尽带黄金甲_dbea
-  - 🇬🇧 英国 满城尽带黄金甲_d23e
-  - 🇸🇬 新加坡 满城尽带黄金甲_522b
-  - 🇦🇺 澳大利亚 满城尽带黄金甲_7eaf
-  - 🇨🇿 捷克 满城尽带黄金甲_cea3
-  - 🇬🇧 英国 满城尽带黄金甲_55ec
-  - 🇻🇳 越南 满城尽带黄金甲_48c1
-  - 🇺🇸 美国 满城尽带黄金甲_4611
-  - 🇺🇸 美国 满城尽带黄金甲_054f
-  - 🌐 未知地区 满城尽带黄金甲_cc95
-  - 🌐 未知地区 满城尽带黄金甲_7c53
-  - 🌐 未知地区 满城尽带黄金甲_8552
-  - 🇮🇳 印度 满城尽带黄金甲_9c3c
-  - 🇺🇸 美国 满城尽带黄金甲_1538
-  - 🇺🇸 美国 满城尽带黄金甲_b0b0
-  - 🇺🇸 美国 满城尽带黄金甲_bce9
-  - 🇺🇸 美国 满城尽带黄金甲_34b1
-  - 🇨🇭 瑞士 满城尽带黄金甲_535f
-  - 🌐 未知地区 满城尽带黄金甲_331a
-  - 🇺🇸 美国 满城尽带黄金甲_c443
-  - 🇩🇪 德国 满城尽带黄金甲_29f6
-  - 🇳🇱 荷兰 满城尽带黄金甲_d15d
-  - 🇯🇵 日本 满城尽带黄金甲_67d0
-  - 🌐 未知地区 满城尽带黄金甲_6f00
-  - 🌐 未知地区 满城尽带黄金甲_f508
-  - 🌐 未知地区 满城尽带黄金甲_e366
-  - 🇬🇧 英国 满城尽带黄金甲_34da
-  - 🇩🇪 德国 满城尽带黄金甲_f40c
-  - 🇳🇱 荷兰 满城尽带黄金甲_1bfc
-  - 🌐 未知地区 满城尽带黄金甲_7217
-  - 🇫🇮 芬兰 满城尽带黄金甲_dc9f
-  - 🇺🇸 美国 满城尽带黄金甲_9a96
-  - 🇩🇪 德国 满城尽带黄金甲_7260
-  - 🌐 未知地区 满城尽带黄金甲_2b4e
-  - 🇮🇶 伊拉克 满城尽带黄金甲_4a83
-  - 🇳🇱 荷兰 满城尽带黄金甲_b02f
-  - 🇺🇸 美国 满城尽带黄金甲_5906
-  - 🇺🇸 美国 满城尽带黄金甲_6996
-  - 🇺🇸 美国 满城尽带黄金甲_4470
-  - 🌐 未知地区 满城尽带黄金甲_ff9b
-  - 🇯🇵 日本 满城尽带黄金甲_706a
-  - 🇫🇮 芬兰 满城尽带黄金甲_0766
-  - 🌐 未知地区 满城尽带黄金甲_172c
-  - 🇨🇾 塞浦路斯 满城尽带黄金甲_823d
-  - 🇯🇵 日本 满城尽带黄金甲_3d31
-  - 🌐 未知地区 满城尽带黄金甲_91a6
-  - 🇹🇷 土耳其 满城尽带黄金甲_5f3f
-  - 🇪🇪 爱沙尼亚 满城尽带黄金甲_4b84
-  - 🌐 未知地区 满城尽带黄金甲_be51
-  - 🇺🇸 美国 满城尽带黄金甲_cc72
-  - 🇺🇸 美国 满城尽带黄金甲_8fa8
-  - 🇺🇸 美国 满城尽带黄金甲_ab04
-  - 🇯🇵 日本 满城尽带黄金甲_f0a8
-  - 🇪🇪 爱沙尼亚 满城尽带黄金甲_438c
-  - 🇩🇪 德国 满城尽带黄金甲_cb03
-  - 🇺🇸 美国 满城尽带黄金甲_e2ce
-  - 🇨🇭 瑞士 满城尽带黄金甲_465a
-  - 🇩🇪 德国 满城尽带黄金甲_b064
-  - 🇬🇧 英国 满城尽带黄金甲_0dba
-  - 🇰🇷 韩国 满城尽带黄金甲_ab81
-  - 🇵🇱 波兰 满城尽带黄金甲_ddce
-  - 🇺🇸 美国 满城尽带黄金甲_c7a9
-  - 🇭🇰 香港 满城尽带黄金甲_2ac3
-  - 🇩🇪 德国 满城尽带黄金甲_4a58
-  - 🇩🇪 德国 满城尽带黄金甲_a2c0
-  - 🇵🇱 波兰 满城尽带黄金甲_6643
-  - 🇩🇪 德国 满城尽带黄金甲_3b07
-  - 🌐 未知地区 满城尽带黄金甲_4751
-  - 🇩🇪 德国 满城尽带黄金甲_8613
-  - 🇺🇸 美国 满城尽带黄金甲_297b
-  - 🇭🇰 香港 满城尽带黄金甲_8971
-  - 🇳🇱 荷兰 满城尽带黄金甲_1fae
-  - 🇩🇪 德国 满城尽带黄金甲_e249
-  - 🇩🇪 德国 满城尽带黄金甲_9001
-  - 🇭🇰 香港 满城尽带黄金甲_aa1c
-  - 🌐 未知地区 满城尽带黄金甲_4e36
-  - 🌐 未知地区 满城尽带黄金甲_04a1
-  - 🇩🇪 德国 满城尽带黄金甲_d6f7
-  - 🇯🇵 日本 满城尽带黄金甲_e3fb
-  - 🇵🇱 波兰 满城尽带黄金甲_ed9f
-  - 🇯🇵 日本 满城尽带黄金甲_f9c3
-  - 🇹🇷 土耳其 满城尽带黄金甲_1888
-  - 🇺🇸 美国 满城尽带黄金甲_ca74
-  - 🇬🇧 英国 满城尽带黄金甲_3393
-  - 🇭🇰 香港 满城尽带黄金甲_ce52
-  - 🇵🇱 波兰 满城尽带黄金甲_36e6
-  - 🇸🇬 新加坡 满城尽带黄金甲_82ee
-  - 🇯🇵 日本 满城尽带黄金甲_69c1
-  - 🇨🇾 塞浦路斯 满城尽带黄金甲_c071
-  - 🇬🇧 英国 满城尽带黄金甲_7a3f
-  - 🇺🇸 美国 满城尽带黄金甲_f902
-  - 🇯🇵 日本 满城尽带黄金甲_4a3a
-  - 🇪🇪 爱沙尼亚 满城尽带黄金甲_f816
-  - 🇺🇸 美国 满城尽带黄金甲_90cf
-  - 🌐 未知地区 满城尽带黄金甲_f511
-  - 🇬🇧 英国 满城尽带黄金甲_5bbd
-  - 🇷🇺 俄罗斯联邦 满城尽带黄金甲_f2e8
-  - 🇫🇮 芬兰 满城尽带黄金甲_a210
-  - 🇺🇸 美国 满城尽带黄金甲_f7e1
-  - 🇰🇷 韩国 满城尽带黄金甲_15e4
-  - 🌐 未知地区 满城尽带黄金甲_3a2f
-  - 🇦🇪 阿联酋 满城尽带黄金甲_a9ee
-  - 🇩🇪 德国 满城尽带黄金甲_e85f
-  - 🌐 未知地区 满城尽带黄金甲_b7ce
-  - 🌐 未知地区 满城尽带黄金甲_5410
-  - 🇺🇸 美国 满城尽带黄金甲_e71d
-  - 🌐 未知地区 满城尽带黄金甲_207e
-  - 🇳🇴 挪威 满城尽带黄金甲_0b14
-  - 🇩🇪 德国 满城尽带黄金甲_bba3
-  - 🇺🇸 美国 满城尽带黄金甲_24df
-  - 🇺🇸 美国 满城尽带黄金甲_ea92
-  - 🇺🇸 美国 满城尽带黄金甲_a7c2
-  - 🇱🇻 拉脱维亚 满城尽带黄金甲_15d1
-  - 🇩🇪 德国 满城尽带黄金甲_32d6
-  - 🇺🇸 美国 满城尽带黄金甲_1047
-  - 🇸🇨 塞舌尔 满城尽带黄金甲_db9e
-  - 🇷🇺 俄罗斯联邦 满城尽带黄金甲_86da
-  - 🇻🇳 越南 满城尽带黄金甲_5ad3
-  - 🇯🇵 日本 满城尽带黄金甲_9277
-  - 🇩🇪 德国 满城尽带黄金甲_21f7
-  - 🇹🇷 土耳其 满城尽带黄金甲_69b2
-  - 🌐 未知地区 满城尽带黄金甲_b87d
-  - 🇯🇵 日本 满城尽带黄金甲_02bd
-  - 🇬🇧 英国 满城尽带黄金甲_7600
-  - 🇭🇰 香港 满城尽带黄金甲_08e8
-  - 🌐 未知地区 满城尽带黄金甲_d079
-  - 🇺🇸 美国 满城尽带黄金甲_0f63
-  - 🇲🇩 摩尔多瓦 满城尽带黄金甲_d46f
-  - 🇲🇩 摩尔多瓦 满城尽带黄金甲_dded
-  - 🇯🇵 日本 满城尽带黄金甲_18ed
-  - 🇳🇱 荷兰 满城尽带黄金甲_2dfb
-  - 🇳🇱 荷兰 满城尽带黄金甲_9db9
-  - 🇫🇮 芬兰 满城尽带黄金甲_4318
-  - 🇵🇱 波兰 满城尽带黄金甲_e8a8
-  - 🇷🇺 俄罗斯联邦 满城尽带黄金甲_1684
+  - 🇺🇸 美国 用魔法打败魔法_eddd
+  - 🇯🇵 日本 用魔法打败魔法_e3fb
+  - 🇵🇱 波兰 用魔法打败魔法_ed9f
+  - 🇺🇸 美国 用魔法打败魔法_1538
+  - 🌐 未知地区 用魔法打败魔法_d079
+  - 🇪🇪 爱沙尼亚 用魔法打败魔法_19b7
+  - 🇺🇸 美国 用魔法打败魔法_f158
+  - 🇺🇸 美国 用魔法打败魔法_ff29
+  - 🇺🇸 美国 用魔法打败魔法_ab04
+  - 🇺🇸 美国 用魔法打败魔法_ea27
+  - 🇯🇵 日本 用魔法打败魔法_e601
+  - 🌐 未知地区 用魔法打败魔法_0bdf
+  - 🇺🇸 美国 用魔法打败魔法_297b
+  - 🇬🇧 英国 用魔法打败魔法_0dba
+  - 🌐 未知地区 用魔法打败魔法_4751
+  - 🇺🇸 美国 用魔法打败魔法_cc72
+  - 🇹🇷 土耳其 用魔法打败魔法_1888
+  - 🇹🇷 土耳其 用魔法打败魔法_121c
+  - 🇺🇸 美国 用魔法打败魔法_24df
+  - 🇫🇮 芬兰 用魔法打败魔法_0766
+  - 🌐 未知地区 用魔法打败魔法_e366
+  - 🇩🇪 德国 用魔法打败魔法_e85f
+  - 🇪🇪 爱沙尼亚 用魔法打败魔法_f816
+  - 🌐 未知地区 用魔法打败魔法_207e
+  - 🇺🇸 美国 用魔法打败魔法_f902
+  - 🇺🇸 美国 用魔法打败魔法_ca74
+  - 🇯🇵 日本 用魔法打败魔法_0064
+  - 🇪🇪 爱沙尼亚 用魔法打败魔法_81f8
+  - 🌐 未知地区 用魔法打败魔法_04a1
+  - 🇯🇵 日本 用魔法打败魔法_3d31
+  - 🇩🇪 德国 用魔法打败魔法_f40c
+  - 🇺🇸 美国 用魔法打败魔法_7b95
+  - 🇸🇪 瑞典 用魔法打败魔法_62e0
+  - 🇯🇵 日本 用魔法打败魔法_0a62
+  - 🇬🇧 英国 用魔法打败魔法_0247
+  - 🇳🇱 荷兰 用魔法打败魔法_1bfc
+  - 🇻🇳 越南 用魔法打败魔法_48c1
+  - 🇳🇴 挪威 用魔法打败魔法_0b14
+  - 🇩🇪 德国 用魔法打败魔法_7260
+  - 🌐 未知地区 用魔法打败魔法_e0d2
+  - 🌐 未知地区 用魔法打败魔法_3a2f
+  - 🌐 未知地区 用魔法打败魔法_7217
+  - 🌐 未知地区 用魔法打败魔法_b87d
+  - 🇵🇱 波兰 用魔法打败魔法_ddce
+  - 🇺🇸 美国 用魔法打败魔法_ea92
+  - 🌐 未知地区 用魔法打败魔法_be51
+  - 🇫🇮 芬兰 用魔法打败魔法_dc9f
+  - 🇳🇱 荷兰 用魔法打败魔法_d15d
+  - 🇯🇵 日本 用魔法打败魔法_9277
+  - 🇱🇹 立陶宛 用魔法打败魔法_d4f1
+  - 🌐 未知地区 用魔法打败魔法_6bac
+  - 🇬🇧 英国 用魔法打败魔法_55ec
+  - 🇺🇸 美国 用魔法打败魔法_054f
+  - 🌐 未知地区 用魔法打败魔法_f511
+  - 🇩🇪 德国 用魔法打败魔法_db5c
+  - 🇨🇿 捷克 用魔法打败魔法_cea3
+  - 🇳🇱 荷兰 用魔法打败魔法_273e
+  - 🇬🇧 英国 用魔法打败魔法_34da
+  - 🇺🇸 美国 用魔法打败魔法_e2ce
+  - 🇩🇪 德国 用魔法打败魔法_8613
+  - 🇩🇪 德国 用魔法打败魔法_a2c0
+  - 🇵🇱 波兰 用魔法打败魔法_36e6
+  - 🇩🇪 德国 用魔法打败魔法_cb03
+  - 🌐 未知地区 用魔法打败魔法_7116
+  - 🇸🇬 新加坡 用魔法打败魔法_82ee
+  - 🌐 未知地区 用魔法打败魔法_172c
+  - 🇺🇸 美国 用魔法打败魔法_e0e8
+  - 🇳🇱 荷兰 用魔法打败魔法_4a30
+  - 🇳🇱 荷兰 用魔法打败魔法_e600
+  - 🇷🇺 俄罗斯联邦 用魔法打败魔法_1684
+  - 🇦🇺 澳大利亚 用魔法打败魔法_7eaf
+  - 🇭🇰 香港 用魔法打败魔法_74ae
+  - 🇳🇱 荷兰 用魔法打败魔法_51cc
+  - 🌐 未知地区 用魔法打败魔法_dbea
+  - 🇳🇱 荷兰 用魔法打败魔法_0187
+  - 🇳🇱 荷兰 用魔法打败魔法_6026
+  - 🌐 未知地区 用魔法打败魔法_b7ce
+  - 🇳🇱 荷兰 用魔法打败魔法_9db9
+  - 🇯🇵 日本 用魔法打败魔法_f22b
+  - 🇯🇵 日本 用魔法打败魔法_516b
+  - 🇩🇪 德国 用魔法打败魔法_d6f7
+  - 🇰🇷 韩国 用魔法打败魔法_15e4
+  - 🇦🇺 澳大利亚 用魔法打败魔法_f8f0
+  - 🇩🇪 德国 用魔法打败魔法_e249
+  - 🇭🇰 香港 用魔法打败魔法_8971
+  - 🇯🇵 日本 用魔法打败魔法_3fd5
+  - 🇺🇸 美国 用魔法打败魔法_e71d
+  - 🇺🇸 美国 用魔法打败魔法_52b5
+  - 🇯🇵 日本 用魔法打败魔法_69c1
+  - 🇳🇱 荷兰 用魔法打败魔法_b02f
+  - 🇬🇧 英国 用魔法打败魔法_0868
+  - 🇯🇵 日本 用魔法打败魔法_706a
+  - 🌐 未知地区 用魔法打败魔法_ff9b
+  - 🇺🇸 美国 用魔法打败魔法_9a96
+  - 🇺🇸 美国 用魔法打败魔法_4b90
+  - 🇺🇸 美国 用魔法打败魔法_bff2
+  - 🇩🇪 德国 用魔法打败魔法_32d6
+  - 🇦🇪 阿联酋 用魔法打败魔法_a9ee
+  - 🇩🇪 德国 用魔法打败魔法_bba3
+  - 🇨🇾 塞浦路斯 用魔法打败魔法_c071
+  - 🇭🇰 香港 用魔法打败魔法_2ac3
+  - 🇺🇸 美国 用魔法打败魔法_90cf
+  - 🇯🇵 日本 用魔法打败魔法_4aef
+  - 🇩🇪 德国 用魔法打败魔法_47a6
+  - 🇩🇪 德国 用魔法打败魔法_9001
+  - 🌐 未知地区 用魔法打败魔法_7c53
+  - 🇺🇸 美国 用魔法打败魔法_b0b0
+  - 🇺🇸 美国 用魔法打败魔法_6996
+  - 🇩🇪 德国 用魔法打败魔法_4a58
+  - 🇹🇷 土耳其 用魔法打败魔法_7c4d
+  - 🇩🇪 德国 用魔法打败魔法_21f7
+  - 🇩🇪 德国 用魔法打败魔法_cbc4
+  - 🇭🇰 香港 用魔法打败魔法_08e8
+  - 🇯🇵 日本 用魔法打败魔法_787c
+  - 🇸🇨 塞舌尔 用魔法打败魔法_db9e
+  - 🇯🇵 日本 用魔法打败魔法_5560
+  - 🇺🇸 美国 用魔法打败魔法_1047
+  - 🇮🇶 伊拉克 用魔法打败魔法_4a83
+  - 🇳🇱 荷兰 用魔法打败魔法_59bf
+  - 🇯🇵 日本 用魔法打败魔法_67d0
+  - 🇭🇰 香港 用魔法打败魔法_e300
+  - 🇺🇸 美国 用魔法打败魔法_6a3a
+  - 🇭🇰 香港 用魔法打败魔法_ce52
+  - 🇺🇸 美国 用魔法打败魔法_bce9
+  - 🇺🇸 美国 用魔法打败魔法_5906
+  - 🇹🇷 土耳其 用魔法打败魔法_d861
+  - 🌐 未知地区 用魔法打败魔法_3475
+  - 🇺🇸 美国 用魔法打败魔法_74e6
+  - 🇱🇻 拉脱维亚 用魔法打败魔法_15d1
+  - 🌐 未知地区 用魔法打败魔法_2b4e
+  - 🌐 未知地区 用魔法打败魔法_96de
+  - 🇪🇪 爱沙尼亚 用魔法打败魔法_4b84
+  - 🇺🇸 美国 用魔法打败魔法_1644
+  - 🇯🇵 日本 用魔法打败魔法_02bd
+  - 🇳🇱 荷兰 用魔法打败魔法_647e
+  - 🇨🇭 瑞士 用魔法打败魔法_535f
+  - 🌐 未知地区 用魔法打败魔法_794e
+  - 🇹🇷 土耳其 用魔法打败魔法_5f3f
+  - 🇬🇧 英国 用魔法打败魔法_3393
+  - 🇲🇩 摩尔多瓦 用魔法打败魔法_dded
+  - 🇩🇪 德国 用魔法打败魔法_a2ad
+  - 🇹🇼 台湾 用魔法打败魔法_4008
+  - 🌐 未知地区 用魔法打败魔法_ef07
+  - 🇹🇷 土耳其 用魔法打败魔法_69b2
+  - 🇵🇱 波兰 用魔法打败魔法_d03b
+  - 🇩🇪 德国 用魔法打败魔法_29f6
+  - 🇹🇷 土耳其 用魔法打败魔法_3473
+  - 🌐 未知地区 用魔法打败魔法_6f00
+  - 🇵🇱 波兰 用魔法打败魔法_6643
+  - 🌐 未知地区 用魔法打败魔法_cc95
+  - 🇮🇳 印度 用魔法打败魔法_9c3c
+  - 🇲🇩 摩尔多瓦 用魔法打败魔法_d46f
+  - 🇩🇪 德国 用魔法打败魔法_9f8b
+  - 🇸🇬 新加坡 用魔法打败魔法_522b
+  - 🇷🇺 俄罗斯联邦 用魔法打败魔法_86da
+  - 🇺🇸 美国 用魔法打败魔法_f7e1
+  - 🇬🇧 英国 用魔法打败魔法_d23e
+  - 🌐 未知地区 用魔法打败魔法_5410
+  - 🇻🇳 越南 用魔法打败魔法_5ad3
+  - 🇯🇵 日本 用魔法打败魔法_f0a8
+  - 🇳🇱 荷兰 用魔法打败魔法_608b
+  - 🌐 未知地区 用魔法打败魔法_91a6
+  - 🇺🇸 美国 用魔法打败魔法_0f63
+  - 🇯🇵 日本 用魔法打败魔法_18ed
+  - 🌐 未知地区 用魔法打败魔法_f508
+  - 🇪🇪 爱沙尼亚 用魔法打败魔法_438c
+  - 🇬🇧 英国 用魔法打败魔法_7600
+  - 🇨🇾 塞浦路斯 用魔法打败魔法_823d
+  - 🇰🇿 哈萨克斯坦 用魔法打败魔法_25f8
+  - 🇯🇵 日本 用魔法打败魔法_1fc8
+  - 🇺🇸 美国 用魔法打败魔法_8fa8
+  - 🇺🇸 美国 用魔法打败魔法_cedd
+  - 🇺🇸 美国 用魔法打败魔法_4470
+  - 🇳🇱 荷兰 用魔法打败魔法_2dfb
+  - 🇪🇪 爱沙尼亚 用魔法打败魔法_dd52
+  - 🇬🇧 英国 用魔法打败魔法_5bbd
+  - 🌐 未知地区 用魔法打败魔法_331a
+  - 🇭🇰 香港 用魔法打败魔法_e1a1
+  - 🇩🇪 德国 用魔法打败魔法_3b07
+  - 🇩🇪 德国 用魔法打败魔法_b064
+  - 🇵🇱 波兰 用魔法打败魔法_1677
+  - 🌐 未知地区 用魔法打败魔法_8552
+  - 🇨🇭 瑞士 用魔法打败魔法_465a
+  - 🇳🇱 荷兰 用魔法打败魔法_1fae
+  - 🇺🇸 美国 用魔法打败魔法_a7c2
+  - 🌐 未知地区 用魔法打败魔法_0a32
+  - 🇯🇵 日本 用魔法打败魔法_f9c3
+  - 🇯🇵 日本 用魔法打败魔法_74bd
+  - 🇫🇮 芬兰 用魔法打败魔法_4318
+  - 🇺🇸 美国 用魔法打败魔法_b84a
+  - 🇺🇸 美国 用魔法打败魔法_34b1
+  - 🇺🇸 美国 用魔法打败魔法_c7a9
+  - 🇬🇧 英国 用魔法打败魔法_7a3f
+  - 🇯🇵 日本 用魔法打败魔法_4a3a
+  - 🇲🇩 摩尔多瓦 用魔法打败魔法_181e
+  - 🇺🇸 美国 用魔法打败魔法_ce21
+  - 🇩🇪 德国 用魔法打败魔法_96ad
+  - 🇺🇸 美国 用魔法打败魔法_c443
+  - 🇭🇰 香港 用魔法打败魔法_aa1c
+  - 🇺🇸 美国 用魔法打败魔法_406d
+  - 🌐 未知地区 用魔法打败魔法_4e36
+  - 🇰🇷 韩国 用魔法打败魔法_ab81
+  - 🇺🇸 美国 用魔法打败魔法_4611
+  - 🇦🇱 阿尔巴尼亚 用魔法打败魔法_e1eb
+  - 🇫🇮 芬兰 用魔法打败魔法_a210
+  - 🇷🇺 俄罗斯联邦 用魔法打败魔法_f2e8
+  - 🇵🇱 波兰 用魔法打败魔法_e8a8
 rules:
 - MATCH,🔰 节点选择
