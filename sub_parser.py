@@ -1,5 +1,29 @@
 import os, requests, base64, re, socket, maxminddb, concurrent.futures, json, yaml, hashlib, time
 from urllib.parse import urlparse, unquote
+from datetime import datetime
+
+# ================= 配置区 =================
+CLASH_BASE_CONFIG = {
+    "port": 7890,
+    "socks-port": 7891,
+    "allow-lan": True,
+    "mode": "Rule",
+    "log-level": "info",
+    "external-controller": ":9090",
+    "dns": {
+        "enable": True,
+        "enhanced-mode": "fake-ip",
+        "nameserver": ["119.29.29.29", "223.5.5.5"],
+        "fallback": [
+            "8.8.8.8", 
+            "8.8.4.4", 
+            "1.1.1.1", 
+            "tls://1.0.0.1:853", 
+            "tls://dns.google:853"
+        ]
+    }
+}
+# ==========================================
 
 def get_flag(code):
     if not code: return "🌐"
@@ -84,13 +108,12 @@ def rename_node(uri, reader):
                     flag = get_flag(match.get('country', {}).get('iso_code'))
 
         short_id = get_short_id(base_uri)
-        new_tag = f"{flag} {country_name} 打倒美帝国主义及其一切走狗_{short_id}"
+        new_tag = f"{flag} {country_name} 满城尽带黄金甲_{short_id}"
         return f"{base_uri}#{new_tag}"
     except:
         return uri
 
-def fetch_source(url_info):
-    idx, url = url_info
+def fetch_source(url):
     try:
         headers = {'User-Agent': 'ClashMeta/1.16.0 v2rayN/6.23'}
         resp = requests.get(url, headers=headers, timeout=15)
@@ -98,16 +121,11 @@ def fetch_source(url_info):
         
         content = resp.text.strip()
         info = parse_usage_and_expire(content, resp.headers)
-        u, d, total = info.get("upload", 0), info.get("download", 0), info.get("total", 0)
-        expire = info.get("expire")
-        now = int(time.time())
-        THRESHOLD_1GB = 1024 * 1024 * 1024
-
-        if total > 0:
-            remaining = total - (u + d)
-            if remaining < THRESHOLD_1GB: return []
-        if expire and expire > 0:
-            if now >= expire: return []
+        
+        if info['total'] > 0 and (info['total'] - (info['upload'] + info['download'])) < 1024**3:
+            return []
+        if info['expire'] > 0 and int(time.time()) >= info['expire']:
+            return []
 
         if "://" not in content:
             decoded = decode_base64(content)
@@ -119,8 +137,8 @@ def fetch_source(url_info):
         return []
 
 def main():
-    link_env = os.environ.get('LINK', '').strip()
-    if not link_env: return
+  
+    link_env = os.environ['LINK'].strip()
 
     for line in link_env.split('\n'):
         if line.strip(): print(f"::add-mask::{line.strip()}")
@@ -128,12 +146,13 @@ def main():
     links = [l.strip() for l in link_env.split('\n') if l.strip()]
     all_uris = []
     
-    with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
-        results = list(executor.map(fetch_source, list(enumerate(links))))
+    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+        results = list(executor.map(fetch_source, links))
         for r in results: all_uris.extend(r)
     
     unique_uris = list(set(all_uris))
-    reader = maxminddb.open_database('GeoLite2-Country.mmdb') if os.path.exists('GeoLite2-Country.mmdb') else None
+    mmdb_path = 'GeoLite2-Country.mmdb'
+    reader = maxminddb.open_database(mmdb_path) if os.path.exists(mmdb_path) else None
     
     final_uris = []
     for u in unique_uris:
@@ -142,32 +161,41 @@ def main():
     if reader: reader.close()
 
     clash_proxies = [parse_uri_to_clash(u) for u in final_uris if parse_uri_to_clash(u)]
-    if not clash_proxies: return
-
+    
+    update_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    node_count = len(clash_proxies)
     os.makedirs('data', exist_ok=True)
 
+  
+    full_config = CLASH_BASE_CONFIG.copy()
+    proxy_names = [p['name'] for p in clash_proxies]
+    
+    full_config.update({
+        "proxies": clash_proxies,
+        "proxy-groups": [
+            {"name": "🔰 节点选择", "type": "select", "proxies": ["🚀 自动测速", "DIRECT"] + proxy_names},
+            {"name": "🚀 自动测速", "type": "url-test", "url": "http://www.gstatic.com/generate_204", "interval": 300, "proxies": proxy_names}
+        ],
+        "rules": ["MATCH,🔰 节点选择"]
+    })
+
     with open('data/clash.yaml', 'w', encoding='utf-8') as f:
-        f.write('# profile-title: "Aggregated Subscription"\n')
-        proxy_names = [p['name'] for p in clash_proxies]
-        config = {
-            "proxies": clash_proxies,
-            "proxy-groups": [
-                {"name": "🔰 节点选择", "type": "select", "proxies": ["🚀 自动测速", "DIRECT"] + proxy_names},
-                {"name": "🚀 自动测速", "type": "url-test", "url": "http://www.gstatic.com/generate_204", "interval": 300, "proxies": proxy_names}
-            ],
-            "rules": ["MATCH,🔰 节点选择"]
-        }
-        yaml.safe_dump(config, f, allow_unicode=True, sort_keys=False)
+       
+        f.write(f'# 美帝国主义是纸老虎\n# Last Updated: {update_time}\n# Total Nodes: {node_count}\n\n')
+        yaml.safe_dump(full_config, f, allow_unicode=True, sort_keys=False, indent=2)
 
-    nodes_content = "\n".join(final_uris) + "\n"
+    
     with open('data/nodes.txt', 'w', encoding='utf-8') as f:
-        f.write(nodes_content)
+        f.write(f"# 美帝国主义是纸老虎\n# Updated: {update_time}\n# Total: {node_count}\n")
+        f.write("\n".join(final_uris) + "\n")
 
+   
+    nodes_content = "\n".join(final_uris) + "\n"
     b64_content = base64.b64encode(nodes_content.encode('utf-8')).decode('utf-8')
     with open('data/v2ray.txt', 'w', encoding='utf-8') as f:
         f.write(b64_content)
 
-    print(f"✨ 任务完成！有效节点: {len(clash_proxies)}")
+    print(f"✨ 任务完成！有效节点: {node_count}")
 
 if __name__ == "__main__":
     main()
