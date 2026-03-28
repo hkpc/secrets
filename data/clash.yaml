@@ -1,5 +1,5 @@
-# Last Updated: 2026-03-28 23:19:32
-# Total Nodes: 0
+# Last Updated: 2026-03-28 23:27:51
+# Total Nodes: 607
 
 port: 7890
 socks-port: 7891
@@ -19,17 +19,6391 @@ dns:
   - 1.1.1.1
   - tls://1.0.0.1:853
   - tls://dns.google:853
-proxies: []
+proxies:
+- name: 🌐 未知地区 用魔法打败魔法_2a86
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgzhxhvkodnjxhvkzgy4ifx1n2y4zvx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfmmnkmiisicjhzgqioiaiaw1nmwxhcy5jbg91zgrhdgfzzxj2awnllm5ldcisicjwb3j0ijogiji0nte2iiwgimlkijogijdlytljyjfmltqyztgtndy4yi04mwm4ltexnzhlmmzhnwviyyisicjhawqioiaimcisicjuzxqioiaidgnwiiwginr5cguioiaibm9uzsisicjob3n0ijogiiisicjwyxroijogiiisicj0bhmioiaidgxziiwginnuasi6icjpbwcxbgfzlmnsb3vkzgf0yxnlcnzpy2uubmv0in0=
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 7ea9cb1f-42e8-468b-81c8-1178e2fa5ebc
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_89e5
+  server: cf.090227.xyz
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_b522
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgu4xhvkodnjxhvkzgyzifx1nguyzfx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfnwewmyisicjhzgqioiaibmuty2jlngs3dnoubmv1cml4lnnicyisicjwb3j0ijogijewmdayiiwgimlkijogimq4m2rhntyyltu1zmutngvkni05zdaxlwm5mzywmgm2zjy0ysisicjhawqioiaimcisicjuzxqioiaidgnwiiwginr5cguioiaibm9uzsisicjob3n0ijogiiisicjwyxroijogiiisicj0bhmioiaidgxziiwginnuasi6icj1czazlm5ldxjpec5py3uilcaiznaioiaic2fmyxjpin0=
+  port: 443
+  udp: true
+  type: vmess
+  uuid: d83da562-55fe-4ed6-9d01-c93600c6f64a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_9954
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgzhxhvkodnjxhvkzgy4ifx1n2y4zvx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfnde5msisicjhzgqioiaiaw1nmwxhcy5jbg91zgrhdgfzzxj2awnllm5ldcisicjwb3j0ijogiji0nte2iiwgimlkijogijdlytljyjfmltqyztgtndy4yi04mwm4ltexnzhlmmzhnwviyyisicjhawqioiaimcisicjuzxqioiaidgnwiiwginr5cguioiaibm9uzsisicjob3n0ijogiiisicjwyxroijogiiisicj0bhmioiaidgxziiwginnuasi6icjpbwcxbgfzlmnsb3vkzgf0yxnlcnzpy2uubmv0in0=
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 7ea9cb1f-42e8-468b-81c8-1178e2fa5ebc
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_ec87
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgu4xhvkodnjxhvkzgyzifx1nguyzfx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfmgjlncisicjhzgqioiaibmuty2jlngs3dnoubmv1cml4lnnicyisicjwb3j0ijogijewmdayiiwgimlkijogimvlztywzwyyltbjyjitndq4os04zgvhltniytuxzji4ntfhzcisicjhawqioiaimcisicjuzxqioiaidgnwiiwginr5cguioiaibm9uzsisicjob3n0ijogiiisicjwyxroijogiiisicj0bhmioiaidgxziiwginnuasi6icj1czazlm5ldxjpec5py3uilcaiznaioiaiaw9zin0=
+  port: 443
+  udp: true
+  type: vmess
+  uuid: eee60ef2-0cb2-4489-8dea-3ba51f2851ad
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_8c62
+  server: cf.090227.xyz
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_3b32
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgzhxhvkodnjxhvkzgy4ifx1n2y4zvx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfownmmcisicjhzgqioiaiaw1nmwxhcy5jbg91zgrhdgfzzxj2awnllm5ldcisicjwb3j0ijogiji0nte2iiwgimlkijogijk1mdiznjqylwnkmdctndgzys1hmme5ltuwm2e2zjrkmjmxysisicjhawqioiaimcisicjuzxqioiaidgnwiiwginr5cguioiaibm9uzsisicjob3n0ijogiiisicjwyxroijogiiisicj0bhmioiaidgxziiwginnuasi6icjpbwcxbgfzlmnsb3vkzgf0yxnlcnzpy2uubmv0in0=
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 95023642-cd07-483a-a2a9-503a6f4d231a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_6bc4
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgu4xhvkodnjxhvkzgyzifx1nguyzfx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfmtgzmiisicjhzgqioiaibmuty2jlngs3dnoubmv1cml4lnnicyisicjwb3j0ijogijewmdaxiiwgimlkijogimq4m2rhntyyltu1zmutngvkni05zdaxlwm5mzywmgm2zjy0ysisicjhawqioiaimcisicjuzxqioiaidgnwiiwginr5cguioiaibm9uzsisicjob3n0ijogiiisicjwyxroijogiiisicj0bhmioiaidgxziiwginnuasi6icj1czaylm5ldxjpec5py3uilcaiznaioiaizwrnzsj9
+  port: 443
+  udp: true
+  type: vmess
+  uuid: d83da562-55fe-4ed6-9d01-c93600c6f64a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_93b5
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgzhxhvkodnjxhvkzgy4ifx1n2y4zvx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfmgfhosisicjhzgqioiaiaw1nmwxhcy5jbg91zgrhdgfzzxj2awnllm5ldcisicjwb3j0ijogiji0nte2iiwgimlkijogijk1mdiznjqylwnkmdctndgzys1hmme5ltuwm2e2zjrkmjmxysisicjhawqioiaimcisicjuzxqioiaidgnwiiwginr5cguioiaibm9uzsisicjob3n0ijogiiisicjwyxroijogiiisicj0bhmioiaidgxziiwginnuasi6icjpbwcxbgfzlmnsb3vkzgf0yxnlcnzpy2uubmv0in0=
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 95023642-cd07-483a-a2a9-503a6f4d231a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_be20
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgu4xhvkodnjxhvkzgyzifx1nguyzfx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfotywnsisicjhzgqioiaibmuty2jlngs3dnoubmv1cml4lnnicyisicjwb3j0ijogijewmdawiiwgimlkijogimvlztywzwyyltbjyjitndq4os04zgvhltniytuxzji4ntfhzcisicjhawqioiaimcisicjuzxqioiaidgnwiiwginr5cguioiaibm9uzsisicjob3n0ijogiiisicjwyxroijogiiisicj0bhmioiaidgxziiwginnuasi6icj1czaxlm5ldxjpec5py3uilcaiznaioiaizwrnzsj9
+  port: 443
+  udp: true
+  type: vmess
+  uuid: eee60ef2-0cb2-4489-8dea-3ba51f2851ad
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_1877
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgzhxhvkodnjxhvkzgy4ifx1n2y4zvx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfndi1niisicjhzgqioiaiaw1nmwxhcy5jbg91zgrhdgfzzxj2awnllm5ldcisicjwb3j0ijogiji0nte2iiwgimlkijogijdlytljyjfmltqyztgtndy4yi04mwm4ltexnzhlmmzhnwviyyisicjhawqioiaimcisicjuzxqioiaidgnwiiwginr5cguioiaibm9uzsisicjob3n0ijogiiisicjwyxroijogiiisicj0bhmioiaidgxziiwginnuasi6icjpbwcxbgfzlmnsb3vkzgf0yxnlcnzpy2uubmv0in0=
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 7ea9cb1f-42e8-468b-81c8-1178e2fa5ebc
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_0ed1
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgu4xhvkodnjxhvkzgyzifx1nguyzfx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfmjy4ocisicjhzgqioiaibmuty2jlngs3dnoubmv1cml4lnnicyisicjwb3j0ijogijewmdaziiwgimlkijogimuxyzgymmrklta2zjmtndm4ns1hmda5lwe2odyzztjmmgm0ysisicjhawqioiaimcisicjuzxqioiaidgnwiiwginr5cguioiaibm9uzsisicjob3n0ijogiiisicjwyxroijogiiisicj0bhmioiaidgxziiwginnuasi6icj1cza0lm5ldxjpec5py3uilcaiznaioiaizmlyzwzvecj9
+  port: 443
+  udp: true
+  type: vmess
+  uuid: e1c822dd-06f3-4385-a009-a6863e2f0c4a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_e801
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgu4xhvkodnjxhvkzgyzifx1nguyzfx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfyzrmncisicjhzgqioiaibmuty2jlngs3dnoubmv1cml4lnnicyisicjwb3j0ijogijewmdayiiwgimlkijogimywmdk1ngvklwm4nwutnda2mc1inwyzlwrhztlimjg1odzhmyisicjhawqioiaimcisicjuzxqioiaidgnwiiwginr5cguioiaibm9uzsisicjob3n0ijogiiisicjwyxroijogiiisicj0bhmioiaidgxziiwginnuasi6icj1czazlm5ldxjpec5py3uilcaiznaioiaicxeifq==
+  port: 443
+  udp: true
+  type: vmess
+  uuid: f00954ed-c85e-4060-b5f3-dae9b28586a3
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_3edc
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgu4xhvkodnjxhvkzgyzifx1nguyzfx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfnmeynyisicjhzgqioiaibmuty2jlngs3dnoubmv1cml4lnnicyisicjwb3j0ijogijewmdayiiwgimlkijogimuxyzgymmrklta2zjmtndm4ns1hmda5lwe2odyzztjmmgm0ysisicjhawqioiaimcisicjuzxqioiaidgnwiiwginr5cguioiaibm9uzsisicjob3n0ijogiiisicjwyxroijogiiisicj0bhmioiaidgxziiwginnuasi6icj1czazlm5ldxjpec5py3uilcaiznaioiaizwrnzsj9
+  port: 443
+  udp: true
+  type: vmess
+  uuid: e1c822dd-06f3-4385-a009-a6863e2f0c4a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_29c6
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgu4xhvkodnjxhvkzgyzifx1nguyzfx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfzdg2ncisicjhzgqioiaibmuty2jlngs3dnoubmv1cml4lnnicyisicjwb3j0ijogijewmdaxiiwgimlkijogimuxyzgymmrklta2zjmtndm4ns1hmda5lwe2odyzztjmmgm0ysisicjhawqioiaimcisicjuzxqioiaidgnwiiwginr5cguioiaibm9uzsisicjob3n0ijogiiisicjwyxroijogiiisicj0bhmioiaidgxziiwginnuasi6icj1czaylm5ldxjpec5py3uilcaiznaioiaiy2hyb21lin0=
+  port: 443
+  udp: true
+  type: vmess
+  uuid: e1c822dd-06f3-4385-a009-a6863e2f0c4a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_b408
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgu4xhvkodnjxhvkzgyzifx1nguyzfx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfzthknyisicjhzgqioiaibmuty2jlngs3dnoubmv1cml4lnnicyisicjwb3j0ijogijewmdaziiwgimlkijogimywmdk1ngvklwm4nwutnda2mc1inwyzlwrhztlimjg1odzhmyisicjhawqioiaimcisicjuzxqioiaidgnwiiwginr5cguioiaibm9uzsisicjob3n0ijogiiisicjwyxroijogiiisicj0bhmioiaidgxziiwginnuasi6icj1cza0lm5ldxjpec5py3uilcaiznaioiaic2fmyxjpin0=
+  port: 443
+  udp: true
+  type: vmess
+  uuid: f00954ed-c85e-4060-b5f3-dae9b28586a3
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_56a6
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgzhxhvkodnjxhvkzgy4ifx1n2y4zvx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfyte4zcisicjhzgqioiaiaw1nmwxhcy1ybi5jbg91zgrhdgfzzxj2awnllm5ldcisicjwb3j0ijogiji0nte2iiwgimlkijogijk1mdiznjqylwnkmdctndgzys1hmme5ltuwm2e2zjrkmjmxysisicjhawqioiaimcisicjuzxqioiaidgnwiiwginr5cguioiaibm9uzsisicjob3n0ijogiiisicjwyxroijogiiisicj0bhmioiaidgxziiwginnuasi6icjpbwcxbgfzlxjulmnsb3vkzgf0yxnlcnzpy2uubmv0in0=
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 95023642-cd07-483a-a2a9-503a6f4d231a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: tcp
+- name: 🇮🇩 印度尼西亚 用魔法打败魔法_3ddb
+  server: ydnxy1.cebaoge.me
+  port: 2325
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a0f866f2-084a-47f7-9c09-9fa5e38f6eda
+- name: 🌐 未知地区 用魔法打败魔法_c9ce
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgu4xhvkodnjxhvkzgyzifx1nguyzfx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfyze2ziisicjhzgqioiaibmuty2jlngs3dnoubmv1cml4lnnicyisicjwb3j0ijogijewmdawiiwgimlkijogimuxyzgymmrklta2zjmtndm4ns1hmda5lwe2odyzztjmmgm0ysisicjhawqioiaimcisicjuzxqioiaidgnwiiwginr5cguioiaibm9uzsisicjob3n0ijogiiisicjwyxroijogiiisicj0bhmioiaidgxziiwginnuasi6icj1czaxlm5ldxjpec5py3uilcaiznaioiaizmlyzwzvecj9
+  port: 443
+  udp: true
+  type: vmess
+  uuid: e1c822dd-06f3-4385-a009-a6863e2f0c4a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_1356
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgu4xhvkodnjxhvkzgyzifx1nguyzfx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfmwnjmyisicjhzgqioiaibmuty2jlngs3dnoubmv1cml4lnnicyisicjwb3j0ijogijewmdaxiiwgimlkijogimywmdk1ngvklwm4nwutnda2mc1inwyzlwrhztlimjg1odzhmyisicjhawqioiaimcisicjuzxqioiaidgnwiiwginr5cguioiaibm9uzsisicjob3n0ijogiiisicjwyxroijogiiisicj0bhmioiaidgxziiwginnuasi6icj1czaylm5ldxjpec5py3uilcaiznaioiaiaw9zin0=
+  port: 443
+  udp: true
+  type: vmess
+  uuid: f00954ed-c85e-4060-b5f3-dae9b28586a3
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_8669
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgzhxhvkodnjxhvkzgy4ifx1n2y4zvx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfzgjkyiisicjhzgqioiaiaw1nmwxhcy5jbg91zgrhdgfzzxj2awnllm5ldcisicjwb3j0ijogiji0nte2iiwgimlkijogijk1mdiznjqylwnkmdctndgzys1hmme5ltuwm2e2zjrkmjmxysisicjhawqioiaimcisicjuzxqioiaidgnwiiwginr5cguioiaibm9uzsisicjob3n0ijogiiisicjwyxroijogiiisicj0bhmioiaidgxziiwginnuasi6icjpbwcxbgfzlmnsb3vkzgf0yxnlcnzpy2uubmv0in0=
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 95023642-cd07-483a-a2a9-503a6f4d231a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_8a62
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgu4xhvkodnjxhvkzgyzifx1nguyzfx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfnjzjysisicjhzgqioiaibmuty2jlngs3dnoubmv1cml4lnnicyisicjwb3j0ijogijewmdaziiwgimlkijogimvlztywzwyyltbjyjitndq4os04zgvhltniytuxzji4ntfhzcisicjhawqioiaimcisicjuzxqioiaidgnwiiwginr5cguioiaibm9uzsisicjob3n0ijogiiisicjwyxroijogiiisicj0bhmioiaidgxziiwginnuasi6icj1cza0lm5ldxjpec5py3uilcaiznaioiaizwrnzsj9
+  port: 443
+  udp: true
+  type: vmess
+  uuid: eee60ef2-0cb2-4489-8dea-3ba51f2851ad
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_1117
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgu4xhvkodnjxhvkzgyzifx1nguyzfx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfotvinyisicjhzgqioiaibmuty2jlngs3dnoubmv1cml4lnnicyisicjwb3j0ijogijewmdawiiwgimlkijogimywmdk1ngvklwm4nwutnda2mc1inwyzlwrhztlimjg1odzhmyisicjhawqioiaimcisicjuzxqioiaidgnwiiwginr5cguioiaibm9uzsisicjob3n0ijogiiisicjwyxroijogiiisicj0bhmioiaidgxziiwginnuasi6icj1czaxlm5ldxjpec5py3uilcaiznaioiaizwrnzsj9
+  port: 443
+  udp: true
+  type: vmess
+  uuid: f00954ed-c85e-4060-b5f3-dae9b28586a3
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_f169
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgzhxhvkodnjxhvkzgy4ifx1n2y4zvx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfzjcxziisicjhzgqioiaiaw1nmwxhcy1ybi5jbg91zgrhdgfzzxj2awnllm5ldcisicjwb3j0ijogiji0nte2iiwgimlkijogijdlytljyjfmltqyztgtndy4yi04mwm4ltexnzhlmmzhnwviyyisicjhawqioiaimcisicjuzxqioiaidgnwiiwginr5cguioiaibm9uzsisicjob3n0ijogiiisicjwyxroijogiiisicj0bhmioiaidgxziiwginnuasi6icjpbwcxbgfzlxjulmnsb3vkzgf0yxnlcnzpy2uubmv0in0=
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 7ea9cb1f-42e8-468b-81c8-1178e2fa5ebc
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_5bf7
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgu4xhvkodnjxhvkzgyzifx1nguyzfx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfnzq0myisicjhzgqioiaibmuty2jlngs3dnoubmv1cml4lnnicyisicjwb3j0ijogijewmdawiiwgimlkijogimq4m2rhntyyltu1zmutngvkni05zdaxlwm5mzywmgm2zjy0ysisicjhawqioiaimcisicjuzxqioiaidgnwiiwginr5cguioiaibm9uzsisicjob3n0ijogiiisicjwyxroijogiiisicj0bhmioiaidgxziiwginnuasi6icj1czaxlm5ldxjpec5py3uilcaiznaioiaicxeifq==
+  port: 443
+  udp: true
+  type: vmess
+  uuid: d83da562-55fe-4ed6-9d01-c93600c6f64a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_58d9
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgu4xhvkodnjxhvkzgyzifx1nguyzfx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfmdbhmcisicjhzgqioiaibmuty2jlngs3dnoubmv1cml4lnnicyisicjwb3j0ijogijewmdaxiiwgimlkijogimvlztywzwyyltbjyjitndq4os04zgvhltniytuxzji4ntfhzcisicjhawqioiaimcisicjuzxqioiaidgnwiiwginr5cguioiaibm9uzsisicjob3n0ijogiiisicjwyxroijogiiisicj0bhmioiaidgxziiwginnuasi6icj1czaylm5ldxjpec5py3uilcaiznaioiaiaw9zin0=
+  port: 443
+  udp: true
+  type: vmess
+  uuid: eee60ef2-0cb2-4489-8dea-3ba51f2851ad
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_833e
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgu4xhvkodnjxhvkzgyzifx1nguyzfx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfodi0nsisicjhzgqioiaibmuty2jlngs3dnoubmv1cml4lnnicyisicjwb3j0ijogijewmdaziiwgimlkijogimq4m2rhntyyltu1zmutngvkni05zdaxlwm5mzywmgm2zjy0ysisicjhawqioiaimcisicjuzxqioiaidgnwiiwginr5cguioiaibm9uzsisicjob3n0ijogiiisicjwyxroijogiiisicj0bhmioiaidgxziiwginnuasi6icj1cza0lm5ldxjpec5py3uilcaiznaioiaicxeifq==
+  port: 443
+  udp: true
+  type: vmess
+  uuid: d83da562-55fe-4ed6-9d01-c93600c6f64a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_0696
+  server: cname.xirancdn.us
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_355b
+  server: cname.xirancdn.us
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_6185
+  server: gbyz.asia
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_566d
+  server: gbyz.asia
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_1e62
+  server: gbyz.asia
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_75e9
+  server: gbyz.asia
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_8489
+  server: speed.marisalnc.com
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_813d
+  server: speed.marisalnc.com
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🇺🇸 美国 用魔法打败魔法_31b2
+  server: cfip.cfcdn.vip
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_3b5a
+  server: speed.marisalnc.com
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_4d17
+  server: speed.marisalnc.com
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🇺🇸 美国 用魔法打败魔法_8d3e
+  server: cfip.cfcdn.vip
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_9408
+  server: 8.889288.xyz
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_f6d0
+  server: 8.889288.xyz
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_892c
+  server: cdn.tzpro.xyz
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_bef7
+  server: cdn.tzpro.xyz
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🇨🇳 中国 用魔法打败魔法_54c3
+  server: ts-mix-good.gym0boy.com
+  port: 32417
+  udp: true
+  type: vless
+  uuid: a0f866f2-084a-47f7-9c09-9fa5e38f6eda
+  tls: true
+  servername: apps.apple.com
+  network: tcp
+  reality-opts:
+    public-key: O0ZJdY_R2XSeqDv8Zj_FZtZMyn9Q_XH8d4Cjc4Vm3g4
+    short-id: 16926c59
+- name: 🇺🇸 美国 用魔法打败魔法_9f3c
+  server: cfip.cfcdn.vip
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🇺🇸 美国 用魔法打败魔法_8427
+  server: cfip.cfcdn.vip
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🇨🇳 中国 用魔法打败魔法_c591
+  server: ts-mix-good.gym0boy.com
+  port: 32425
+  udp: true
+  type: vless
+  uuid: a0f866f2-084a-47f7-9c09-9fa5e38f6eda
+  tls: true
+  servername: apps.apple.com
+  network: tcp
+  reality-opts:
+    public-key: O0ZJdY_R2XSeqDv8Zj_FZtZMyn9Q_XH8d4Cjc4Vm3g4
+    short-id: 16926c59
+- name: 🌐 未知地区 用魔法打败魔法_d0d4
+  server: cf.090227.xyz
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_6e2c
+  server: cf.090227.xyz
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🇨🇳 中国 用魔法打败魔法_cddf
+  server: ts-mix-good.gym0boy.com
+  port: 32422
+  udp: true
+  type: vless
+  uuid: a0f866f2-084a-47f7-9c09-9fa5e38f6eda
+  tls: true
+  servername: apps.apple.com
+  network: tcp
+  reality-opts:
+    public-key: O0ZJdY_R2XSeqDv8Zj_FZtZMyn9Q_XH8d4Cjc4Vm3g4
+    short-id: 16926c59
+- name: 🇨🇳 中国 用魔法打败魔法_9799
+  server: ts-mix-good.gym0boy.com
+  port: 32416
+  udp: true
+  type: vless
+  uuid: a0f866f2-084a-47f7-9c09-9fa5e38f6eda
+  tls: true
+  servername: apps.apple.com
+  network: tcp
+  reality-opts:
+    public-key: qXWNo2CbU40pjw71Uw3OUx3VioO-4lB-cNs-3xyE6DA
+    short-id: 2cc6c781b6
+- name: 🇨🇳 中国 用魔法打败魔法_0ae2
+  server: ts-mix-good.gym0boy.com
+  port: 32419
+  udp: true
+  type: vless
+  uuid: a0f866f2-084a-47f7-9c09-9fa5e38f6eda
+  tls: true
+  servername: apps.apple.com
+  network: tcp
+  reality-opts:
+    public-key: O0ZJdY_R2XSeqDv8Zj_FZtZMyn9Q_XH8d4Cjc4Vm3g4
+    short-id: 16926c59
+- name: 🇨🇳 中国 用魔法打败魔法_a698
+  server: ts-mix-good.gym0boy.com
+  port: 32411
+  udp: true
+  type: vless
+  uuid: f5b2e4c8-b448-49c0-9f55-3b902e9864aa
+  tls: true
+  servername: apps.apple.com
+  network: tcp
+  reality-opts:
+    public-key: O0ZJdY_R2XSeqDv8Zj_FZtZMyn9Q_XH8d4Cjc4Vm3g4
+    short-id: 16926c59
+- name: 🇨🇳 中国 用魔法打败魔法_5bbd
+  server: ts-mix-good.gym0boy.com
+  port: 32418
+  udp: true
+  type: vless
+  uuid: f5b2e4c8-b448-49c0-9f55-3b902e9864aa
+  tls: true
+  servername: apps.apple.com
+  network: tcp
+  reality-opts:
+    public-key: O0ZJdY_R2XSeqDv8Zj_FZtZMyn9Q_XH8d4Cjc4Vm3g4
+    short-id: 16926c59
+- name: 🇨🇳 中国 用魔法打败魔法_60b5
+  server: ts-mix-good.gym0boy.com
+  port: 32414
+  udp: true
+  type: vless
+  uuid: a0f866f2-084a-47f7-9c09-9fa5e38f6eda
+  tls: true
+  servername: apps.apple.com
+  network: tcp
+  reality-opts:
+    public-key: LcyhZVEUgr37xRQnStCV8f_dvK2ldm6MNWeDvlRQ2HI
+    short-id: eb42364ea3
+- name: 🌐 未知地区 用魔法打败魔法_eb20
+  server: cloudflare.9jy.cc
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_afbd
+  server: cname.xirancdn.us
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_d647
+  server: cname.xirancdn.us
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_40c6
+  server: cloudflare.9jy.cc
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🇨🇳 中国 用魔法打败魔法_bffa
+  server: shrimp-door-9527.gym0boy.com
+  port: 15335
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: f5b2e4c8-b448-49c0-9f55-3b902e9864aa
+- name: 🌐 未知地区 用魔法打败魔法_283a
+  server: 8.889288.xyz
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_6dcb
+  server: 8.889288.xyz
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_6897
+  server: cdn.tzpro.xyz
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_ea53
+  server: cdn.tzpro.xyz
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🇨🇳 中国 用魔法打败魔法_270b
+  server: shrimp-door-9527.gym0boy.com
+  port: 23311
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: f5b2e4c8-b448-49c0-9f55-3b902e9864aa
+- name: 🇨🇳 中国 用魔法打败魔法_685f
+  server: shrimp-door-9527.gym0boy.com
+  port: 23317
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: f5b2e4c8-b448-49c0-9f55-3b902e9864aa
+- name: 🇨🇳 中国 用魔法打败魔法_45ef
+  server: shrimp-door-9527.gym0boy.com
+  port: 20480
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a0f866f2-084a-47f7-9c09-9fa5e38f6eda
+- name: 🇨🇳 中国 用魔法打败魔法_2b58
+  server: shrimp-door-9527.gym0boy.com
+  port: 23129
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: f5b2e4c8-b448-49c0-9f55-3b902e9864aa
+- name: 🌐 未知地区 用魔法打败魔法_c784
+  server: 172.64.146.186
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_1c6a
+  server: 172.64.146.186
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_e820
+  server: 172.64.146.238
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_a6f1
+  server: 172.64.146.238
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_54fd
+  server: 104.25.247.118
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_a261
+  server: 104.25.247.118
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_5a8a
+  server: 172.64.146.8
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_1a05
+  server: 172.64.146.8
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_e338
+  server: 104.25.253.47
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_5fca
+  server: 104.25.253.47
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_43f1
+  server: 104.17.138.213
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_3c4e
+  server: 104.17.138.213
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_39c2
+  server: 104.17.136.60
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_e439
+  server: 104.17.136.60
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_f1fa
+  server: 104.17.146.211
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_f9d3
+  server: 104.17.146.211
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_b97c
+  server: 104.17.150.235
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_c74f
+  server: 104.17.150.235
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_d106
+  server: 104.17.138.163
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_f485
+  server: 104.17.138.163
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_94ac
+  server: 162.159.22.74
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_6da1
+  server: 162.159.22.74
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_40ad
+  server: 162.159.45.125
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_4fd5
+  server: 162.159.45.125
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_ec76
+  server: 162.159.45.220
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_6690
+  server: 162.159.45.220
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_09b5
+  server: 162.159.22.115
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_1a30
+  server: 162.159.22.115
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_b8d8
+  server: 162.159.44.135
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_8399
+  server: 162.159.44.135
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_1998
+  server: 2606:4700:9647::5de4:d1d6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_4022
+  server: 2606:4700:9647::5de4:d1d6
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_6cd3
+  server: 2606:4700:9ad7::ca28:6055
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_d50b
+  server: 2606:4700:9ad7::ca28:6055
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_4d84
+  server: 2606:4700:57::2c95:eb5
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_040e
+  server: 2606:4700:57::2c95:eb5
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_4a30
+  server: 2606:4700:57::be70:3f16
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_893a
+  server: 2606:4700:57::be70:3f16
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_dbb4
+  server: 2606:4700:57::7173:9296
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_0a68
+  server: 2606:4700:57::7173:9296
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_7023
+  server: 2606:4700:56::c23a:4d92
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_5041
+  server: 2606:4700:56::c23a:4d92
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_b7aa
+  server: 2803:f800:54::40d0:e209
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_4003
+  server: 2803:f800:54::40d0:e209
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_c60c
+  server: 2a06:98c1:310a::2cc7:eae2
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_cb22
+  server: 2a06:98c1:310a::2cc7:eae2
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🇨🇳 中国 用魔法打败魔法_d156
+  server: shrimp-door-9527.gym0boy.com
+  port: 23333
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: f5b2e4c8-b448-49c0-9f55-3b902e9864aa
+- name: 🌐 未知地区 用魔法打败魔法_aa19
+  server: 2a06:98c1:3103::e54c:ac7f
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🇨🇳 中国 用魔法打败魔法_f556
+  server: shrimp-door-9527.gym0boy.com
+  port: 23318
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a0f866f2-084a-47f7-9c09-9fa5e38f6eda
+- name: 🌐 未知地区 用魔法打败魔法_3457
+  server: 2606:4700:56::3bed:8462
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_a6b1
+  server: 172.64.146.186
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_23ba
+  server: 172.64.146.186
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_7bd9
+  server: 172.64.146.238
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_fcd9
+  server: 172.64.146.238
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_ac59
+  server: 104.25.247.118
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_f30b
+  server: 104.25.247.118
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_179c
+  server: 172.64.146.8
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_aa4f
+  server: 172.64.146.8
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_cc40
+  server: 104.25.253.47
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_a58f
+  server: 104.25.253.47
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_131a
+  server: 104.17.138.213
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_6eb8
+  server: 104.17.138.213
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_a88e
+  server: 104.17.136.60
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_19f5
+  server: 104.17.136.60
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_eb83
+  server: 104.17.146.211
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_bbc2
+  server: 104.17.146.211
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_a9c5
+  server: 104.17.150.235
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_f590
+  server: 104.17.150.235
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_4df0
+  server: 104.17.138.163
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_143f
+  server: 104.17.138.163
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_f181
+  server: 162.159.22.74
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_b4e2
+  server: 162.159.22.74
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_bcff
+  server: 162.159.45.125
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_24ed
+  server: 162.159.45.125
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_9a5c
+  server: 162.159.45.220
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_57c0
+  server: 162.159.45.220
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_b180
+  server: 162.159.22.115
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_2d25
+  server: 162.159.22.115
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_23ed
+  server: 162.159.44.135
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_b30a
+  server: 162.159.44.135
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_1647
+  server: 2606:4700:9647::5de4:d1d6
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_8a11
+  server: 2606:4700:9647::5de4:d1d6
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_c6ea
+  server: 2606:4700:9ad7::ca28:6055
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_8cf8
+  server: 2606:4700:9ad7::ca28:6055
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_53fc
+  server: 2606:4700:57::2c95:eb5
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_9e2e
+  server: 2606:4700:57::2c95:eb5
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_8e23
+  server: 2606:4700:57::be70:3f16
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_4075
+  server: 2606:4700:57::be70:3f16
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_5aa3
+  server: 2606:4700:57::7173:9296
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_9fed
+  server: 2606:4700:57::7173:9296
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_7054
+  server: 2606:4700:56::c23a:4d92
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_b222
+  server: 2606:4700:56::c23a:4d92
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_8022
+  server: 2803:f800:54::40d0:e209
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_ef94
+  server: 2803:f800:54::40d0:e209
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_b93a
+  server: 2a06:98c1:310a::2cc7:eae2
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_44a1
+  server: 2a06:98c1:310a::2cc7:eae2
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_8cf5
+  server: 2a06:98c1:3103::e54c:ac7f
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_4326
+  server: 2a06:98c1:3103::e54c:ac7f
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_90de
+  server: 2606:4700:56::3bed:8462
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_114c
+  server: 2606:4700:56::3bed:8462
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_199c
+  server: 2606:4700:56::3bed:8462
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🇲🇾 马来西亚 用魔法打败魔法_8362
+  server: 38.246.73.124
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🇵🇭 菲律宾 用魔法打败魔法_bbb6
+  server: 8.220.134.136
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_49d7
+  server: xn--b6gac.eu.org
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🇲🇾 马来西亚 用魔法打败魔法_01b3
+  server: 38.246.73.124
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🇵🇭 菲律宾 用魔法打败魔法_e9c8
+  server: 8.220.134.136
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🇨🇳 中国 用魔法打败魔法_9717
+  server: shrimp-door-9527.gym0boy.com
+  port: 23131
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a0f866f2-084a-47f7-9c09-9fa5e38f6eda
+- name: 🇨🇳 中国 用魔法打败魔法_cc44
+  server: shrimp-door-9527.gym0boy.com
+  port: 23249
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: f5b2e4c8-b448-49c0-9f55-3b902e9864aa
+- name: 🇨🇳 中国 用魔法打败魔法_3867
+  server: shrimp-door-9527.gym0boy.com
+  port: 18937
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: f5b2e4c8-b448-49c0-9f55-3b902e9864aa
+- name: 🇨🇳 中国 用魔法打败魔法_7cb5
+  server: shrimp-door-9527.gym0boy.com
+  port: 17779
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: f5b2e4c8-b448-49c0-9f55-3b902e9864aa
+- name: 🇨🇳 中国 用魔法打败魔法_d345
+  server: shrimp-door-9527.gym0boy.com
+  port: 12212
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a0f866f2-084a-47f7-9c09-9fa5e38f6eda
+- name: 🇨🇳 中国 用魔法打败魔法_8372
+  server: shrimp-door-9527.gym0boy.com
+  port: 14275
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a0f866f2-084a-47f7-9c09-9fa5e38f6eda
+- name: 🇨🇳 中国 用魔法打败魔法_cc3c
+  server: shrimp-door-9527.gym0boy.com
+  port: 23314
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: f5b2e4c8-b448-49c0-9f55-3b902e9864aa
+- name: 🇨🇳 中国 用魔法打败魔法_df31
+  server: shrimp-door-9527.gym0boy.com
+  port: 23242
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: f5b2e4c8-b448-49c0-9f55-3b902e9864aa
+- name: 🇨🇳 中国 用魔法打败魔法_3906
+  server: shrimp-door-9527.gym0boy.com
+  port: 16325
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a0f866f2-084a-47f7-9c09-9fa5e38f6eda
+- name: 🇨🇳 中国 用魔法打败魔法_a1ae
+  server: shrimp-door-9527.gym0boy.com
+  port: 23234
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a0f866f2-084a-47f7-9c09-9fa5e38f6eda
+- name: 🇨🇳 中国 用魔法打败魔法_9a40
+  server: shrimp-door-9527.gym0boy.com
+  port: 47077
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: f5b2e4c8-b448-49c0-9f55-3b902e9864aa
+- name: 🇨🇳 中国 用魔法打败魔法_d443
+  server: shrimp-door-9527.gym0boy.com
+  port: 12218
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: f5b2e4c8-b448-49c0-9f55-3b902e9864aa
+- name: 🇨🇳 中国 用魔法打败魔法_1cd8
+  server: shrimp-door-9527.gym0boy.com
+  port: 23312
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a0f866f2-084a-47f7-9c09-9fa5e38f6eda
+- name: 🇨🇳 中国 用魔法打败魔法_8f6a
+  server: shrimp-door-9527.gym0boy.com
+  port: 23155
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a0f866f2-084a-47f7-9c09-9fa5e38f6eda
+- name: 🌐 未知地区 用魔法打败魔法_17be
+  server: xn--b6gac.eu.org
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_926e
+  server: xn--b6gac.eu.org
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_d650
+  server: 2a06:98c1:3103::e54c:ac7f
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🇨🇳 中国 用魔法打败魔法_cf93
+  server: shrimp-door-9527.gym0boy.com
+  port: 47052
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: f5b2e4c8-b448-49c0-9f55-3b902e9864aa
+- name: 🌐 未知地区 用魔法打败魔法_f260
+  server: xn--b6gac.eu.org
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🇬🇧 英国 用魔法打败魔法_1777
+  server: fr.fastsnaillink.com
+  port: 20012
+  udp: true
+  type: vless
+  uuid: 0689c140-baa3-4170-97bd-2d08f053f8c8
+  tls: false
+  servername: null
+  network: tcp
+- name: 🇹🇼 台湾 用魔法打败魔法_d133
+  server: twa-shadowsocks.fastsnaillink.com
+  port: 20047
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 0689c140-baa3-4170-97bd-2d08f053f8c8
+- name: 🇯🇵 日本 用魔法打败魔法_ebf3
+  server: jpb-shadowsocks.fastsnaillink.com
+  port: 20098
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 0689c140-baa3-4170-97bd-2d08f053f8c8
+- name: 🇺🇸 美国 用魔法打败魔法_62eb
+  server: us.fastsnaillink.com
+  port: 20003
+  udp: true
+  type: vless
+  uuid: 0689c140-baa3-4170-97bd-2d08f053f8c8
+  tls: false
+  servername: null
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_bfef
+  server: 127.0.0.1
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: subscription-reminder
+- name: 🇬🇧 英国 用魔法打败魔法_1876
+  server: uk.fastsnaillink.com
+  port: 20011
+  udp: true
+  type: vless
+  uuid: 0689c140-baa3-4170-97bd-2d08f053f8c8
+  tls: false
+  servername: null
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_f151
+  server: main.jiasuhu.com
+  port: 10086
+  udp: true
+  type: vless
+  uuid: 0310c6d3-0b1e-3382-b64a-a02adc57e6f1
+  tls: false
+  servername: null
+  network: tcp
+- name: 🇸🇬 新加坡 用魔法打败魔法_6b3c
+  server: 47.74.128.123
+  port: 52416
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: f4g9rnwf9gtgweg5g66h
+- name: 🇨🇦 加拿大 用魔法打败魔法_4ba3
+  server: ca.fastsnaillink.com
+  port: 20014
+  udp: true
+  type: vless
+  uuid: 0689c140-baa3-4170-97bd-2d08f053f8c8
+  tls: false
+  servername: null
+  network: tcp
+- name: 🇯🇵 日本 用魔法打败魔法_92b4
+  server: jpc-shadowsocks.fastsnaillink.com
+  port: 20081
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 0689c140-baa3-4170-97bd-2d08f053f8c8
+- name: 🇸🇬 新加坡 用魔法打败魔法_209a
+  server: sgp-shadowsocks.fastsnaillink.com
+  port: 20042
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 0689c140-baa3-4170-97bd-2d08f053f8c8
+- name: 🇬🇧 英国 用魔法打败魔法_0754
+  server: fr-shadowsocks.fastsnaillink.com
+  port: 20036
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 0689c140-baa3-4170-97bd-2d08f053f8c8
+- name: 🇨🇳 中国 用魔法打败魔法_37bd
+  server: i2plcwjnhrl6.gym0boy.com
+  port: 32415
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a0f866f2-084a-47f7-9c09-9fa5e38f6eda
+- name: 🇭🇰 香港 用魔法打败魔法_8e9e
+  server: hkb-shadowsocks.fastsnaillink.com
+  port: 20039
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 0689c140-baa3-4170-97bd-2d08f053f8c8
+- name: 🌐 未知地区 用魔法打败魔法_d8c4
+  server: f3058171cad.002404.xyz
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_ff7e
+  server: f3058171cad.002404.xyz
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_5553
+  server: f3058171cad.002404.xyz
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_5ac3
+  server: f3058171cad.002404.xyz
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🇷🇺 俄罗斯联邦 用魔法打败魔法_dfe7
+  server: ru.fastsnaillink.com
+  port: 20001
+  udp: true
+  type: vless
+  uuid: 0689c140-baa3-4170-97bd-2d08f053f8c8
+  tls: false
+  servername: null
+  network: tcp
+- name: 🇨🇭 瑞士 用魔法打败魔法_fcc8
+  server: swa-shadowsocks.fastsnaillink.com
+  port: 20048
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 0689c140-baa3-4170-97bd-2d08f053f8c8
+- name: 🌐 未知地区 用魔法打败魔法_43f6
+  server: cf.0sm.com
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_426e
+  server: cf.0sm.com
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_ee50
+  server: cf.0sm.com
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_7536
+  server: cf.0sm.com
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🇵🇭 菲律宾 用魔法打败魔法_0a1a
+  server: ph-shadowsocks.fastsnaillink.com
+  port: 20051
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 0689c140-baa3-4170-97bd-2d08f053f8c8
+- name: 🌐 未知地区 用魔法打败魔法_3edf
+  server: cloudflare.182682.xyz
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_ac56
+  server: cloudflare.182682.xyz
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_da84
+  server: cloudflare.182682.xyz
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_de23
+  server: cloudflare.182682.xyz
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🇬🇧 英国 用魔法打败魔法_a0c1
+  server: uka-shadowsocks.fastsnaillink.com
+  port: 20044
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 0689c140-baa3-4170-97bd-2d08f053f8c8
+- name: 🇯🇵 日本 用魔法打败魔法_beae
+  server: jpc.fastsnaillink.com
+  port: 20080
+  udp: true
+  type: vless
+  uuid: 0689c140-baa3-4170-97bd-2d08f053f8c8
+  tls: false
+  servername: null
+  network: tcp
+- name: 🇵🇭 菲律宾 用魔法打败魔法_6ea9
+  server: ph.fastsnaillink.com
+  port: 20009
+  udp: true
+  type: vless
+  uuid: 0689c140-baa3-4170-97bd-2d08f053f8c8
+  tls: false
+  servername: null
+  network: tcp
+- name: 🇹🇭 泰国 用魔法打败魔法_fdee
+  server: tha-shadowsocks.fastsnaillink.com
+  port: 20046
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 0689c140-baa3-4170-97bd-2d08f053f8c8
+- name: 🇹🇭 泰国 用魔法打败魔法_5eeb
+  server: th.fastsnaillink.com
+  port: 20008
+  udp: true
+  type: vless
+  uuid: 0689c140-baa3-4170-97bd-2d08f053f8c8
+  tls: false
+  servername: null
+  network: tcp
+- name: 🇭🇰 香港 用魔法打败魔法_6585
+  server: hka-shadowsocks.fastsnaillink.com
+  port: 20037
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 0689c140-baa3-4170-97bd-2d08f053f8c8
+- name: 🇨🇦 加拿大 用魔法打败魔法_fd5d
+  server: ca-shadowsocks.fastsnaillink.com
+  port: 20033
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 0689c140-baa3-4170-97bd-2d08f053f8c8
+- name: 🇸🇬 新加坡 用魔法打败魔法_81ae
+  server: 115155.xyz
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🇸🇬 新加坡 用魔法打败魔法_1e51
+  server: 115155.xyz
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🇭🇰 香港 用魔法打败魔法_7e08
+  server: 210.0.244.51
+  port: 443
+  udp: true
+  type: vless
+  uuid: 7e511626-bcec-4936-be67-c4945dbf7b30
+  tls: true
+  servername: www.apple.com
+  network: tcp
+  reality-opts:
+    public-key: SP6vmf1e63Bq4ioIMuXQr5ueD332dXwNjOn1TuhueyE
+    short-id: 41fe56
+- name: 🇸🇬 新加坡 用魔法打败魔法_4827
+  server: 115155.xyz
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 用魔法打败魔法_9993
+  server: 115155.xyz
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🇮🇩 印度尼西亚 用魔法打败魔法_c943
+  server: id.fastsnaillink.com
+  port: 20010
+  udp: true
+  type: vless
+  uuid: 0689c140-baa3-4170-97bd-2d08f053f8c8
+  tls: false
+  servername: null
+  network: tcp
+- name: 🇵🇱 波兰 用魔法打败魔法_3003
+  server: pl-shadowsocks.fastsnaillink.com
+  port: 20035
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 0689c140-baa3-4170-97bd-2d08f053f8c8
+- name: 🇦🇺 澳大利亚 用魔法打败魔法_2c4d
+  server: au-shadowsocks.fastsnaillink.com
+  port: 20031
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 0689c140-baa3-4170-97bd-2d08f053f8c8
+- name: 🇰🇷 韩国 用魔法打败魔法_dfdf
+  server: krb-shadowsocks.fastsnaillink.com
+  port: 20049
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 0689c140-baa3-4170-97bd-2d08f053f8c8
+- name: 🌐 未知地区 用魔法打败魔法_b4cf
+  server: cf.zerone-cdn.pp.ua
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_6ae7
+  server: cf.zerone-cdn.pp.ua
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_368e
+  server: cf.zerone-cdn.pp.ua
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_7b31
+  server: cf.zerone-cdn.pp.ua
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🇦🇪 阿联酋 用魔法打败魔法_d065
+  server: in.fastsnaillink.com
+  port: 20023
+  udp: true
+  type: vless
+  uuid: 0689c140-baa3-4170-97bd-2d08f053f8c8
+  tls: false
+  servername: null
+  network: tcp
+- name: 🇲🇾 马来西亚 用魔法打败魔法_cb76
+  server: ml.fastsnaillink.com
+  port: 20007
+  udp: true
+  type: vless
+  uuid: 0689c140-baa3-4170-97bd-2d08f053f8c8
+  tls: false
+  servername: null
+  network: tcp
+- name: 🇨🇳 中国 用魔法打败魔法_e499
+  server: zf.sg-iepl.com
+  port: 21386
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: c9134cdd-7d77-466f-aa5d-5b8c1fbcb31b
+- name: 🇨🇳 中国 用魔法打败魔法_8386
+  server: zf.sg-iepl.com
+  port: 6740
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: c9134cdd-7d77-466f-aa5d-5b8c1fbcb31b
+- name: 🇨🇳 中国 用魔法打败魔法_4c1f
+  server: zf.sg-iepl.com
+  port: 29110
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: c9134cdd-7d77-466f-aa5d-5b8c1fbcb31b
+- name: 🇨🇳 中国 用魔法打败魔法_7714
+  server: zf.sg-iepl.com
+  port: 8641
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: c9134cdd-7d77-466f-aa5d-5b8c1fbcb31b
+- name: 🇨🇳 中国 用魔法打败魔法_18a9
+  server: zf.sg-iepl.com
+  port: 57598
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e511626-bcec-4936-be67-c4945dbf7b30
+- name: 🇨🇳 中国 用魔法打败魔法_adf5
+  server: zf.sg-iepl.com
+  port: 49642
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e511626-bcec-4936-be67-c4945dbf7b30
+- name: 🇨🇳 中国 用魔法打败魔法_12b4
+  server: zf.sg-iepl.com
+  port: 58490
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e511626-bcec-4936-be67-c4945dbf7b30
+- name: 🇨🇳 中国 用魔法打败魔法_caf8
+  server: zf.sg-iepl.com
+  port: 35058
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e511626-bcec-4936-be67-c4945dbf7b30
+- name: 🇨🇳 中国 用魔法打败魔法_b7b6
+  server: zf.sg-iepl.com
+  port: 56512
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: c9134cdd-7d77-466f-aa5d-5b8c1fbcb31b
+- name: 🇨🇳 中国 用魔法打败魔法_09b9
+  server: zf.sg-iepl.com
+  port: 25429
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e511626-bcec-4936-be67-c4945dbf7b30
+- name: 🇨🇳 中国 用魔法打败魔法_73f7
+  server: zf.sg-iepl.com
+  port: 51467
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e511626-bcec-4936-be67-c4945dbf7b30
+- name: 🇨🇳 中国 用魔法打败魔法_2a38
+  server: zf.sg-iepl.com
+  port: 42721
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: c9134cdd-7d77-466f-aa5d-5b8c1fbcb31b
+- name: 🇨🇳 中国 用魔法打败魔法_3b45
+  server: zf.sg-iepl.com
+  port: 22168
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e511626-bcec-4936-be67-c4945dbf7b30
+- name: 🇨🇳 中国 用魔法打败魔法_fae3
+  server: zf.sg-iepl.com
+  port: 50155
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: c9134cdd-7d77-466f-aa5d-5b8c1fbcb31b
+- name: 🇯🇵 日本 用魔法打败魔法_b53a
+  server: 154.83.94.7
+  port: 30043
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 179dc58c-2fc6-4190-8b7c-3a8465a47df3
+- name: 🇯🇵 日本 用魔法打败魔法_f684
+  server: 156.231.115.233
+  port: 30044
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 179dc58c-2fc6-4190-8b7c-3a8465a47df3
+- name: 🇨🇳 中国 用魔法打败魔法_51fa
+  server: zf.sg-iepl.com
+  port: 13599
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: c9134cdd-7d77-466f-aa5d-5b8c1fbcb31b
+- name: 🌐 未知地区 用魔法打败魔法_9fd6
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgvkxhvkodnjxhvkzgywifx1otk5ovx1nmuyzibcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfymzhyiisicjhzgqioiaic2l0ztazlnbznjyudwsilcaicg9ydci6ici1oda4osisicjpzci6icixnji2njc3ms1jnzhiltq2zgytowm4nc03oty4ogmwndmzodiilcaiywlkijogijailcaibmv0ijogindziiwginr5cguioiaid3milcaiag9zdci6iciilcaicgf0aci6icivzwr1iiwginrscyi6icj0bhmifq==
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 16266771-c78b-46df-9c84-79688c043382
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /edu
+    headers:
+      Host: ''
+- name: 🌐 未知地区 用魔法打败魔法_b68e
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgvkxhvkodnjxhvkzgywifx1otk5ovx1nmuyzibcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfnmywzsisicjhzgqioiaic2l0ztazlnbznjyudwsilcaicg9ydci6ici1oda4osisicjpzci6ici2m2ezyjq1nc02zmi5ltrhzdqtowyxny0wyme2nddlmmm2mdkilcaiywlkijogijailcaibmv0ijogindziiwginr5cguioiaid3milcaiag9zdci6iciilcaicgf0aci6icivzwr1iiwginrscyi6icj0bhmifq==
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 63a3b454-6fb9-4ad4-9f17-0ba647e2c609
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /edu
+    headers:
+      Host: ''
+- name: 🌐 未知地区 用魔法打败魔法_4fb1
+  server: 1.1.1.1
+  port: 443
+  udp: true
+  type: vless
+  uuid: 60df53ee-5790-425c-8925-19f32ff0b20b
+  tls: true
+  servername: hh.com
+  network: tcp
+- name: 🇹🇼 台湾 用魔法打败魔法_555f
+  server: tw.fastsnaillink.com
+  port: 20002
+  udp: true
+  type: vless
+  uuid: 0689c140-baa3-4170-97bd-2d08f053f8c8
+  tls: false
+  servername: null
+  network: tcp
+- name: 🇨🇭 瑞士 用魔法打败魔法_872a
+  server: sw.fastsnaillink.com
+  port: 20020
+  udp: true
+  type: vless
+  uuid: 0689c140-baa3-4170-97bd-2d08f053f8c8
+  tls: false
+  servername: null
+  network: tcp
+- name: 🇷🇺 俄罗斯联邦 用魔法打败魔法_ddc6
+  server: ru-shadowsocks.fastsnaillink.com
+  port: 20041
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 0689c140-baa3-4170-97bd-2d08f053f8c8
+- name: 🇯🇵 日本 用魔法打败魔法_3d0f
+  server: jpb.fastsnaillink.com
+  port: 20099
+  udp: true
+  type: vless
+  uuid: 0689c140-baa3-4170-97bd-2d08f053f8c8
+  tls: false
+  servername: null
+  network: tcp
+- name: 🇮🇱 以色列 用魔法打败魔法_b0ed
+  server: isr1-vul.vxrelay.xyz
+  port: 443
+  udp: true
+  type: vless
+  uuid: 7e511626-bcec-4936-be67-c4945dbf7b30
+  tls: true
+  servername: www.bing.com
+  network: tcp
+  reality-opts:
+    public-key: NJ4w-uWI3Ncwc-RS7ZP3a1-2g2KTeSRSbn4t7Z5usA4
+    short-id: 296444e1bd7f2f
+- name: 🇰🇷 韩国 用魔法打败魔法_37cf
+  server: krb.fastsnaillink.com
+  port: 20028
+  udp: true
+  type: vless
+  uuid: 0689c140-baa3-4170-97bd-2d08f053f8c8
+  tls: false
+  servername: null
+  network: tcp
+- name: 🇭🇰 香港 用魔法打败魔法_aed0
+  server: hk.fastsnaillink.com
+  port: 20001
+  udp: true
+  type: vless
+  uuid: 0689c140-baa3-4170-97bd-2d08f053f8c8
+  tls: false
+  servername: null
+  network: tcp
+- name: 🇨🇳 中国 用魔法打败魔法_935c
+  server: 120.232.89.242
+  port: 49020
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🇮🇩 印度尼西亚 用魔法打败魔法_2610
+  server: id-shadowsocks.fastsnaillink.com
+  port: 20043
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 0689c140-baa3-4170-97bd-2d08f053f8c8
+- name: 🇺🇸 美国 用魔法打败魔法_19d5
+  server: usa-shadowsocks.fastsnaillink.com
+  port: 20045
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 0689c140-baa3-4170-97bd-2d08f053f8c8
+- name: 🇨🇳 中国 用魔法打败魔法_d9a6
+  server: hk92.appmimi.com
+  port: 49012
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🇸🇬 新加坡 用魔法打败魔法_1cce
+  server: sgp.fastsnaillink.com
+  port: 20005
+  udp: true
+  type: vless
+  uuid: 0689c140-baa3-4170-97bd-2d08f053f8c8
+  tls: false
+  servername: null
+  network: tcp
+- name: 🇵🇱 波兰 用魔法打败魔法_4167
+  server: pl.fastsnaillink.com
+  port: 20015
+  udp: true
+  type: vless
+  uuid: 0689c140-baa3-4170-97bd-2d08f053f8c8
+  tls: false
+  servername: null
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_5880
+  server: cloudflare.9jy.cc
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_1a6b
+  server: cloudflare.9jy.cc
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🇭🇰 香港 用魔法打败魔法_a08f
+  server: hkb.fastsnaillink.com
+  port: 20022
+  udp: true
+  type: vless
+  uuid: 0689c140-baa3-4170-97bd-2d08f053f8c8
+  tls: false
+  servername: null
+  network: tcp
+- name: 🇦🇺 澳大利亚 用魔法打败魔法_27a7
+  server: au.fastsnaillink.com
+  port: 20013
+  udp: true
+  type: vless
+  uuid: 0689c140-baa3-4170-97bd-2d08f053f8c8
+  tls: false
+  servername: null
+  network: tcp
+- name: 🇲🇾 马来西亚 用魔法打败魔法_8396
+  server: ml-shadowsocks.fastsnaillink.com
+  port: 20030
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 0689c140-baa3-4170-97bd-2d08f053f8c8
+- name: 🌐 未知地区 用魔法打败魔法_3b85
+  server: cf.877771.xyz
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_c5e6
+  server: cf.877771.xyz
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_f761
+  server: cf.877771.xyz
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_459a
+  server: cf.877771.xyz
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🇨🇳 中国 用魔法打败魔法_e6a1
+  server: tw92.appmimi.com
+  port: 49022
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🇦🇪 阿联酋 用魔法打败魔法_68d0
+  server: in-shadowsocks.fastsnaillink.com
+  port: 20040
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 0689c140-baa3-4170-97bd-2d08f053f8c8
+- name: 🇨🇳 中国 用魔法打败魔法_e231
+  server: us93.appmimi.com
+  port: 49063
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🇺🇸 美国 用魔法打败魔法_b368
+  server: us2.cco.pp.ua
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 68e295af-2284-48d7-939f-253bed341848
+  tls: true
+  servername: us2.cco.pp.ua
+  network: ws
+- name: 🇨🇳 中国 用魔法打败魔法_6f71
+  server: sg93.appmimi.com
+  port: 49043
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🇨🇳 中国 用魔法打败魔法_be94
+  server: tw91.appmimi.com
+  port: 49021
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🇨🇳 中国 用魔法打败魔法_c003
+  server: jp95.appmimi.com
+  port: 49040
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🇨🇳 中国 用魔法打败魔法_7ac7
+  server: gb91.appmimi.com
+  port: 49081
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🌐 未知地区 用魔法打败魔法_f5d5
+  server: bestcf.top
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_7b1b
+  server: bestcf.top
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_c569
+  server: bestcf.top
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_32ab
+  server: bestcf.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🇺🇸 美国 用魔法打败魔法_10fa
+  server: dd02.appmimi.com
+  port: 19201
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🌐 未知地区 用魔法打败魔法_1452
+  server: xj99.appmimi.com
+  port: 19201
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🌐 未知地区 用魔法打败魔法_b0ab
+  server: cfip.1323123.xyz
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_3f69
+  server: cfip.1323123.xyz
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_28eb
+  server: cfip.1323123.xyz
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_39cc
+  server: cfip.1323123.xyz
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_60e5
+  server: cnamefuckxxs.yuchen.icu
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_a902
+  server: cnamefuckxxs.yuchen.icu
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_6cf9
+  server: cnamefuckxxs.yuchen.icu
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_38a3
+  server: cnamefuckxxs.yuchen.icu
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🇺🇸 美国 用魔法打败魔法_fc44
+  server: dd01.appmimi.com
+  port: 19201
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🇨🇳 中国 用魔法打败魔法_dd2a
+  server: jp91.appmimi.com
+  port: 49031
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🇭🇰 香港 用魔法打败魔法_9c31
+  server: site03.ps66.uk
+  port: 58087
+  udp: true
+  type: vless
+  uuid: 63a3b454-6fb9-4ad4-9f17-0ba647e2c609
+  tls: true
+  servername: null
+  network: tcp
+- name: 🇨🇳 中国 用魔法打败魔法_5154
+  server: us94.appmimi.com
+  port: 49064
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🌐 未知地区 用魔法打败魔法_8ad9
+  server: cdn.2020111.xyz
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_80c6
+  server: cdn.2020111.xyz
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_5eae
+  server: cdn.2020111.xyz
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_d4a3
+  server: cdn.2020111.xyz
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🇨🇳 中国 用魔法打败魔法_3c71
+  server: us95.appmimi.com
+  port: 49065
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🇨🇳 中国 用魔法打败魔法_ade0
+  server: sg91.appmimi.com
+  port: 49041
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🇨🇳 中国 用魔法打败魔法_61af
+  server: us92.appmimi.com
+  port: 49062
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🇨🇳 中国 用魔法打败魔法_1e28
+  server: hk95.appmimi.com
+  port: 49015
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🇨🇳 中国 用魔法打败魔法_484a
+  server: jp94.appmimi.com
+  port: 49034
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🇨🇳 中国 用魔法打败魔法_759e
+  server: jp92.appmimi.com
+  port: 49032
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🇨🇳 中国 用魔法打败魔法_d420
+  server: hk97.appmimi.com
+  port: 49017
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🌐 未知地区 用魔法打败魔法_c0bd
+  server: cloudflare-ip.mofashi.ltd
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_b341
+  server: cloudflare-ip.mofashi.ltd
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_753b
+  server: cloudflare-ip.mofashi.ltd
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_8733
+  server: cloudflare-ip.mofashi.ltd
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🇯🇵 日本 用魔法打败魔法_3fb8
+  server: testnode.v2test.top
+  port: 8989
+  udp: true
+  type: vless
+  uuid: a387259a-1d98-4473-acdb-775f672256af
+  tls: true
+  servername: www.blablabuild.com
+  network: tcp
+  reality-opts:
+    public-key: BqYX5bMiXaUMWmpSViU6WU990d6IZ4DYNs_6kymLhQo
+    short-id: a9f3c7e2b84d1f6c
+- name: 🌐 未知地区 用魔法打败魔法_cff2
+  server: saas.sin.fan
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_28ff
+  server: saas.sin.fan
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🇨🇳 中国 用魔法打败魔法_d5d3
+  server: kr91.appmimi.com
+  port: 49026
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🇨🇳 中国 用魔法打败魔法_b6db
+  server: hk94.appmimi.com
+  port: 49014
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🇨🇳 中国 用魔法打败魔法_42cd
+  server: hk91.appmimi.com
+  port: 49011
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🇨🇳 中国 用魔法打败魔法_dfce
+  server: hk90.appmimi.com
+  port: 49000
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🇨🇳 中国 用魔法打败魔法_707b
+  server: jp93.appmimi.com
+  port: 49033
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🇨🇳 中国 用魔法打败魔法_d2f9
+  server: vn91.appmimi.com
+  port: 49048
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🇨🇳 中国 用魔法打败魔法_7318
+  server: us91.appmimi.com
+  port: 49061
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🇨🇳 中国 用魔法打败魔法_0b62
+  server: hk96.appmimi.com
+  port: 49016
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🇺🇸 美国 用魔法打败魔法_91e7
+  server: 77.110.125.140
+  port: 42201
+  udp: true
+  type: trojan
+  password: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  sni: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇺🇸 美国 用魔法打败魔法_93f8
+  server: 77.110.125.140
+  port: 33003
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+- name: 🇺🇸 美国 用魔法打败魔法_ad8d
+  server: 77.110.125.140
+  port: 42301
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇨🇳 中国 用魔法打败魔法_676d
+  server: jmswyh.edu2026.cn
+  port: 4206
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e511626-bcec-4936-be67-c4945dbf7b30
+- name: 🇨🇳 中国 用魔法打败魔法_7f6b
+  server: jmswyh.edu2026.cn
+  port: 34759
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: c9134cdd-7d77-466f-aa5d-5b8c1fbcb31b
+- name: 🇺🇸 美国 用魔法打败魔法_1d22
+  server: 146.19.167.182
+  port: 42305
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇨🇳 中国 用魔法打败魔法_0620
+  server: jmswyh.edu2026.cn
+  port: 47496
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e511626-bcec-4936-be67-c4945dbf7b30
+- name: 🇨🇳 中国 用魔法打败魔法_f17f
+  server: jmswyh.edu2026.cn
+  port: 11862
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e511626-bcec-4936-be67-c4945dbf7b30
+- name: 🇨🇳 中国 用魔法打败魔法_b427
+  server: jmswyh.edu2026.cn
+  port: 4059
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e511626-bcec-4936-be67-c4945dbf7b30
+- name: 🇨🇳 中国 用魔法打败魔法_314f
+  server: jmswyh.edu2026.cn
+  port: 19307
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: c9134cdd-7d77-466f-aa5d-5b8c1fbcb31b
+- name: 🇨🇳 中国 用魔法打败魔法_b42e
+  server: jmswyh.edu2026.cn
+  port: 36289
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e511626-bcec-4936-be67-c4945dbf7b30
+- name: 🇨🇳 中国 用魔法打败魔法_cb09
+  server: jmswyh.edu2026.cn
+  port: 20372
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e511626-bcec-4936-be67-c4945dbf7b30
+- name: 🇨🇳 中国 用魔法打败魔法_d6fc
+  server: jmswyh.edu2026.cn
+  port: 59071
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: c9134cdd-7d77-466f-aa5d-5b8c1fbcb31b
+- name: 🇨🇳 中国 用魔法打败魔法_764e
+  server: jmswyh.edu2026.cn
+  port: 26433
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e511626-bcec-4936-be67-c4945dbf7b30
+- name: 🇨🇳 中国 用魔法打败魔法_8b9e
+  server: jmswyh.edu2026.cn
+  port: 27919
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e511626-bcec-4936-be67-c4945dbf7b30
+- name: 🇨🇳 中国 用魔法打败魔法_0b6c
+  server: jmswyh.edu2026.cn
+  port: 52778
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: c9134cdd-7d77-466f-aa5d-5b8c1fbcb31b
+- name: 🇨🇳 中国 用魔法打败魔法_8cd0
+  server: jmswyh.edu2026.cn
+  port: 24344
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: c9134cdd-7d77-466f-aa5d-5b8c1fbcb31b
+- name: 🇨🇳 中国 用魔法打败魔法_0914
+  server: jmswyh.edu2026.cn
+  port: 30037
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: c9134cdd-7d77-466f-aa5d-5b8c1fbcb31b
+- name: 🇨🇳 中国 用魔法打败魔法_a8f8
+  server: jmswyh.edu2026.cn
+  port: 26859
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: c9134cdd-7d77-466f-aa5d-5b8c1fbcb31b
+- name: 🌐 未知地区 用魔法打败魔法_c594
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgzhxhvkodnjxhvkzgy4ifx1n2y4zvx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfyja5niisicjhzgqioiainzcumtewljexos4xmtiilcaicg9ydci6icixodg4ocisicjpzci6icizzji5ntk3zc0zytvkltq3odutogjjoc1kmjgynda1ztlmmzailcaiywlkijogijailcaic2n5ijogimf1dg8ilcaibmv0ijoginrjccisicj0exblijogim5vbmuilcaiag9zdci6iciilcaicgf0aci6iciilcaidgxzijogiiisicjmcci6icjjahjvbwuifq==
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_f54e
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgvmxhvkodnjxhvkzgy1ifx1njvlnvx1njcyyybcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfzmi2mcisicjhzgqioiaiodcumtiwljiwnc4xmzuilcaicg9ydci6ici0mjewmiisicjpzci6icizzji5ntk3zc0zytvkltq3odutogjjoc1kmjgynda1ztlmmzailcaiywlkijogijailcaic2n5ijogimf1dg8ilcaibmv0ijoginrjccisicj0exblijogim5vbmuilcaiag9zdci6iciilcaicgf0aci6iciilcaidgxzijogiiisicjmcci6icjjahjvbwuifq==
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_74e6
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgzhxhvkodnjxhvkzgy4ifx1n2y4zvx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfytm3ncisicjhzgqioiaidjmudg9wchauy2milcaicg9ydci6ici0mjewmyisicjpzci6icizzji5ntk3zc0zytvkltq3odutogjjoc1kmjgynda1ztlmmzailcaiywlkijogijailcaic2n5ijogimf1dg8ilcaibmv0ijoginrjccisicj0exblijogim5vbmuilcaiag9zdci6iciilcaicgf0aci6iciilcaidgxzijogiiisicjmcci6icjjahjvbwuifq==
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_53bf
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgzhxhvkodnjxhvkzgy4ifx1n2y4zvx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfntzkyiisicjhzgqioiainzcumtewljewos4xnjgilcaicg9ydci6ici0mjewncisicjpzci6icizzji5ntk3zc0zytvkltq3odutogjjoc1kmjgynda1ztlmmzailcaiywlkijogijailcaic2n5ijogimf1dg8ilcaibmv0ijoginrjccisicj0exblijogim5vbmuilcaiag9zdci6iciilcaicgf0aci6iciilcaidgxzijogiiisicjmcci6icjjahjvbwuifq==
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_d7ac
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgvkxhvkodnjxhvkzgywifx1otk5ovx1nmuyzibcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfzdnmmiisicjhzgqioiains4xmdiumti0ljeyosisicjwb3j0ijogijqymta1iiwgimlkijogijnmmjk1otdkltnhnwqtndc4ns04ymm4lwqyodi0mdvlowyzmcisicjhawqioiaimcisicjzy3kioiaiyxv0byisicjuzxqioiaidgnwiiwginr5cguioiaibm9uzsisicjob3n0ijogiiisicjwyxroijogiiisicj0bhmioiaiiiwgimzwijogimnocm9tzsj9
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_b237
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgywxhvkodnjxhvkzgy3ifx1otdlovx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfmtqzmcisicjhzgqioiaidjyudg9wchauy2milcaicg9ydci6ici0mjewniisicjpzci6icizzji5ntk3zc0zytvkltq3odutogjjoc1kmjgynda1ztlmmzailcaiywlkijogijailcaic2n5ijogimf1dg8ilcaibmv0ijoginrjccisicj0exblijogim5vbmuilcaiag9zdci6iciilcaicgf0aci6iciilcaidgxzijogiiisicjmcci6icjjahjvbwuifq==
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_e096
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgvkxhvkodnjxhvkzgywifx1otk5ovx1nmuyzibcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfyjflnyisicjhzgqioiaidjcudg9wchauy2milcaicg9ydci6ici0mjewnyisicjpzci6icizzji5ntk3zc0zytvkltq3odutogjjoc1kmjgynda1ztlmmzailcaiywlkijogijailcaic2n5ijogimf1dg8ilcaibmv0ijoginrjccisicj0exblijogim5vbmuilcaiag9zdci6iciilcaicgf0aci6iciilcaidgxzijogiiisicjmcci6icjjahjvbwuifq==
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_d38e
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgywxhvkodnjxhvkzgy3ifx1otdlovx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfn2vhnyisicjhzgqioiaidjgudg9wchauy2milcaicg9ydci6ici0mjewocisicjpzci6icizzji5ntk3zc0zytvkltq3odutogjjoc1kmjgynda1ztlmmzailcaiywlkijogijailcaic2n5ijogimf1dg8ilcaibmv0ijoginrjccisicj0exblijogim5vbmuilcaiag9zdci6iciilcaicgf0aci6iciilcaidgxzijogiiisicjmcci6icjjahjvbwuifq==
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_f623
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgywxhvkodnjxhvkzgy3ifx1otdlovx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfztg0niisicjhzgqioiaidjkudg9wchauy2milcaicg9ydci6ici0mjewosisicjpzci6icizzji5ntk3zc0zytvkltq3odutogjjoc1kmjgynda1ztlmmzailcaiywlkijogijailcaic2n5ijogimf1dg8ilcaibmv0ijoginrjccisicj0exblijogim5vbmuilcaiag9zdci6iciilcaicgf0aci6iciilcaidgxzijogiiisicjmcci6icjjahjvbwuifq==
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_565a
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgywxhvkodnjxhvkzgy3ifx1otdlovx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfnwrlocisicjhzgqioiaidjewlnrvchbwlmnjiiwginbvcnqioiaindixmtailcaiawqioiaim2yyotu5n2qtm2e1zc00nzg1lthiyzgtzdi4mjqwnwu5zjmwiiwgimfpzci6iciwiiwginnjesi6icjhdxrviiwgim5ldci6icj0y3ailcaidhlwzsi6icjub25liiwgimhvc3qioiaiiiwginbhdggioiaiiiwginrscyi6iciilcaiznaioiaiy2hyb21lin0=
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_00b9
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzjewifx1njcyyvx1nzdlnvx1ntczmfx1ntmzysbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfywjmzcisicjhzgqioiaidjexlnrvchbwlmnjiiwginbvcnqioiaindixmteilcaiawqioiaim2yyotu5n2qtm2e1zc00nzg1lthiyzgtzdi4mjqwnwu5zjmwiiwgimfpzci6iciwiiwginnjesi6icjhdxrviiwgim5ldci6icj0y3ailcaidhlwzsi6icjub25liiwgimhvc3qioiaiiiwginbhdggioiaiiiwginrscyi6iciilcaiznaioiaiy2hyb21lin0=
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_b4b7
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzjewifx1njcyyvx1nzdlnvx1ntczmfx1ntmzysbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfodrlyyisicjhzgqioiaidjeylnrvchbwlmnjiiwginbvcnqioiaindixmtiilcaiawqioiaim2yyotu5n2qtm2e1zc00nzg1lthiyzgtzdi4mjqwnwu5zjmwiiwgimfpzci6iciwiiwginnjesi6icjhdxrviiwgim5ldci6icj0y3ailcaidhlwzsi6icjub25liiwgimhvc3qioiaiiiwginbhdggioiaiiiwginrscyi6iciilcaiznaioiaiy2hyb21lin0=
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_db81
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzjewifx1njcyyvx1nzdlnvx1ntczmfx1ntmzysbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfzwvlniisicjhzgqioiaidjeylnrvchbwlmnjiiwginbvcnqioiaindixmtmilcaiawqioiaim2yyotu5n2qtm2e1zc00nzg1lthiyzgtzdi4mjqwnwu5zjmwiiwgimfpzci6iciwiiwginnjesi6icjhdxrviiwgim5ldci6icj0y3ailcaidhlwzsi6icjub25liiwgimhvc3qioiaiiiwginbhdggioiaiiiwginrscyi6iciilcaiznaioiaiy2hyb21lin0=
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_3331
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgywxhvkodnjxhvkzgy3ifx1otdlovx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfyzc1yiisicjhzgqioiaidm0zlmrvb29vlnrvccisicjwb3j0ijogijqymte0iiwgimlkijogijnmmjk1otdkltnhnwqtndc4ns04ymm4lwqyodi0mdvlowyzmcisicjhawqioiaimcisicjzy3kioiaiyxv0byisicjuzxqioiaidgnwiiwginr5cguioiaibm9uzsisicjob3n0ijogiiisicjwyxroijogiiisicj0bhmioiaiiiwgimzwijogimnocm9tzsj9
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_30b4
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgywxhvkodnjxhvkzgy3ifx1otdlovx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfztgzyyisicjhzgqioiaidm0zlmrvb29vlnrvccisicjwb3j0ijogijqymte1iiwgimlkijogijnmmjk1otdkltnhnwqtndc4ns04ymm4lwqyodi0mdvlowyzmcisicjhawqioiaimcisicjzy3kioiaiyxv0byisicjuzxqioiaidgnwiiwginr5cguioiaibm9uzsisicjob3n0ijogiiisicjwyxroijogiiisicj0bhmioiaiiiwgimzwijogimnocm9tzsj9
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_5bda
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgywxhvkodnjxhvkzgy3ifx1otdlovx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfngnkosisicjhzgqioiaidm0zlmrvb29vlnrvccisicjwb3j0ijogijqymte2iiwgimlkijogijnmmjk1otdkltnhnwqtndc4ns04ymm4lwqyodi0mdvlowyzmcisicjhawqioiaimcisicjzy3kioiaiyxv0byisicjuzxqioiaidgnwiiwginr5cguioiaibm9uzsisicjob3n0ijogiiisicjwyxroijogiiisicj0bhmioiaiiiwgimzwijogimnocm9tzsj9
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_e7ec
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgywxhvkodnjxhvkzgy3ifx1otdlovx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfodmwnyisicjhzgqioiaidm0zlmrvb29vlnrvccisicjwb3j0ijogijqymte3iiwgimlkijogijnmmjk1otdkltnhnwqtndc4ns04ymm4lwqyodi0mdvlowyzmcisicjhawqioiaimcisicjzy3kioiaiyxv0byisicjuzxqioiaidgnwiiwginr5cguioiaibm9uzsisicjob3n0ijogiiisicjwyxroijogiiisicj0bhmioiaiiiwgimzwijogimnocm9tzsj9
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_2048
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgzhxhvkodnjxhvkzgy4ifx1n2y4zvx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfmtjkyiisicjhzgqioiaidje4lnrvchbwlmnjiiwginbvcnqioiaindixmtgilcaiawqioiaim2yyotu5n2qtm2e1zc00nzg1lthiyzgtzdi4mjqwnwu5zjmwiiwgimfpzci6iciwiiwginnjesi6icjhdxrviiwgim5ldci6icj0y3ailcaidhlwzsi6icjub25liiwgimhvc3qioiaiiiwginbhdggioiaiiiwginrscyi6iciilcaiznaioiaiy2hyb21lin0=
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+- name: 🇨🇳 中国 用魔法打败魔法_9011
+  server: zf.sg-iepl.com
+  port: 2433
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 3b27ad91-6118-4698-b775-1d2a90e1c98e
+- name: 🇨🇳 中国 用魔法打败魔法_26ca
+  server: jmswyh.edu2026.cn
+  port: 20342
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e511626-bcec-4936-be67-c4945dbf7b30
+- name: 🇨🇳 中国 用魔法打败魔法_a2fe
+  server: ru91.appmimi.com
+  port: 49094
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🇺🇸 美国 用魔法打败魔法_a143
+  server: a3.toppp.cc
+  port: 42303
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇰🇷 韩国 用魔法打败魔法_71dd
+  server: a20.toppp.cc
+  port: 42320
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇺🇸 美国 用魔法打败魔法_feec
+  server: a4.toppp.cc
+  port: 42304
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_f370
+  server: cf.zhetengsha.eu.org
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_c160
+  server: cf.zhetengsha.eu.org
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_0aeb
+  server: cf.zhetengsha.eu.org
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🇨🇳 中国 用魔法打败魔法_9631
+  server: sg92.appmimi.com
+  port: 49042
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🌐 未知地区 用魔法打败魔法_4b76
+  server: cf.zhetengsha.eu.org
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_2029
+  server: rhfghfghfg
+  port: 1424
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 3c57cff4-f282-4be8-9c8b-b2271bda5308
+- name: 🌐 未知地区 用魔法打败魔法_d2f8
+  server: sdgjlkdsgg
+  port: 6331
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 3c57cff4-f282-4be8-9c8b-b2271bda5308
+- name: 🇩🇪 德国 用魔法打败魔法_866a
+  server: a15.toppp.cc
+  port: 42315
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇨🇳 中国 用魔法打败魔法_4ea6
+  server: jry.izenny.com
+  port: 26535
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 3856e79b-8ba1-43f0-b693-6b0adb31147c
+- name: 🌐 未知地区 用魔法打败魔法_29a6
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgvkxhvkodnjxhvkzgywifx1otk5ovx1nmuyzibcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfmju3msisicjhzgqioiaiagsuywljdmlkzw8uaw5mbyisicjwb3j0ijogijg0ndmilcaiawqioiaindrjnzq2nwytntzmyy00yjixlwi0nwutodjjmdflnzgxmwq0iiwgimfpzci6iciwiiwgim5ldci6icj0y3ailcaidhlwzsi6icjub25liiwgimhvc3qioiaiiiwginbhdggioiaiiiwginrscyi6icj0bhmifq==
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 44c7465f-56fc-4b21-b45e-82c01e7811d4
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_b801
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgvkxhvkodnjxhvkzgywifx1otk5ovx1nmuyzibcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfztlkocisicjhzgqioiaiagsuywljdmlkzw8uaw5mbyisicjwb3j0ijogijg0ndmilcaiawqioiaindrjnzq2nwytntzmyy00yjixlwi0nwutodjjmdflnzgxmwq0iiwgimfpzci6iciwiiwgim5ldci6icj0y3ailcaidhlwzsi6icjub25liiwgimhvc3qioiaiiiwginbhdggioiaiiiwginrscyi6icj0bhmifq==
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 44c7465f-56fc-4b21-b45e-82c01e7811d4
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_dc77
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgvkxhvkodnjxhvkzgywifx1otk5ovx1nmuyzibcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfy2i4ziisicjhzgqioiaiagsuywljdmlkzw8uaw5mbyisicjwb3j0ijogijg0ndmilcaiawqioiaindrjnzq2nwytntzmyy00yjixlwi0nwutodjjmdflnzgxmwq0iiwgimfpzci6iciwiiwgim5ldci6icj0y3ailcaidhlwzsi6icjub25liiwgimhvc3qioiaiiiwginbhdggioiaiiiwginrscyi6icj0bhmifq==
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 44c7465f-56fc-4b21-b45e-82c01e7811d4
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: tcp
+- name: 🇺🇸 美国 用魔法打败魔法_da26
+  server: 107.172.219.230
+  port: 2096
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 44c7465f-56fc-4b21-b45e-82c01e7811d4
+- name: 🇨🇳 中国 用魔法打败魔法_f94f
+  server: jry.izenny.com
+  port: 29571
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 3856e79b-8ba1-43f0-b693-6b0adb31147c
+- name: 🌐 未知地区 用魔法打败魔法_0461
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgvkxhvkodnjxhvkzgywifx1otk5ovx1nmuyzibcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfnwy2myisicjhzgqioiaiagsuywljdmlkzw8uaw5mbyisicjwb3j0ijogijg4mtailcaiawqioiaindrjnzq2nwytntzmyy00yjixlwi0nwutodjjmdflnzgxmwq0iiwgimfpzci6iciwiiwgim5ldci6icj3cyisicj0exblijogindziiwgimhvc3qioiaid3d3lmjpbmcuy29tiiwginbhdggioiail2rncyisicj0bhmioiaidgxziiwginnuasi6icjoay5hawn2awrlby5pbmzvin0=
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 44c7465f-56fc-4b21-b45e-82c01e7811d4
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /dgs
+    headers:
+      Host: www.bing.com
+- name: 🌐 未知地区 用魔法打败魔法_de13
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgvkxhvkodnjxhvkzgywifx1otk5ovx1nmuyzibcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfodi1zsisicjhzgqioiaiagsuywljdmlkzw8uaw5mbyisicjwb3j0ijogijg0ndmilcaiawqioiaimjizotdlmtytngzmms00mmjhlwjmytctotu4zjg5ndizzteyiiwgimfpzci6iciwiiwgim5ldci6icj0y3ailcaidhlwzsi6icjub25liiwgimhvc3qioiaiiiwginbhdggioiaiiiwginrscyi6icj0bhmifq==
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 22397e16-4ff1-42ba-bfa7-958f89423e12
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_40fa
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgvkxhvkodnjxhvkzgywifx1otk5ovx1nmuyzibcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfmmyxyiisicjhzgqioiaiagsuywljdmlkzw8uaw5mbyisicjwb3j0ijogijg0ndmilcaiawqioiaimjizotdlmtytngzmms00mmjhlwjmytctotu4zjg5ndizzteyiiwgimfpzci6iciwiiwgim5ldci6icj0y3ailcaidhlwzsi6icjub25liiwgimhvc3qioiaiiiwginbhdggioiaiiiwginrscyi6icj0bhmifq==
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 22397e16-4ff1-42ba-bfa7-958f89423e12
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_5d70
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgvkxhvkodnjxhvkzgywifx1otk5ovx1nmuyzibcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfzgrmmcisicjhzgqioiaiagsuywljdmlkzw8uaw5mbyisicjwb3j0ijogijg0ndmilcaiawqioiaimjizotdlmtytngzmms00mmjhlwjmytctotu4zjg5ndizzteyiiwgimfpzci6iciwiiwgim5ldci6icj0y3ailcaidhlwzsi6icjub25liiwgimhvc3qioiaiiiwginbhdggioiaiiiwginrscyi6icj0bhmifq==
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 22397e16-4ff1-42ba-bfa7-958f89423e12
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: tcp
+- name: 🇨🇳 中国 用魔法打败魔法_c5da
+  server: jry.izenny.com
+  port: 47831
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 3856e79b-8ba1-43f0-b693-6b0adb31147c
+- name: 🌐 未知地区 用魔法打败魔法_c2e4
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgvkxhvkodnjxhvkzgywifx1otk5ovx1nmuyzibcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfzji5miisicjhzgqioiaiagsuywljdmlkzw8uaw5mbyisicjwb3j0ijogijg4mtailcaiawqioiaimjizotdlmtytngzmms00mmjhlwjmytctotu4zjg5ndizzteyiiwgimfpzci6iciwiiwgim5ldci6icj3cyisicj0exblijogindziiwgimhvc3qioiaid3d3lmjpbmcuy29tiiwginbhdggioiail2rncyisicj0bhmioiaidgxziiwginnuasi6icjoay5hawn2awrlby5pbmzvin0=
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 22397e16-4ff1-42ba-bfa7-958f89423e12
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /dgs
+    headers:
+      Host: www.bing.com
+- name: 🌐 未知地区 用魔法打败魔法_0dad
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgvkxhvkodnjxhvkzgywifx1otk5ovx1nmuyzibcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfnjfjzsisicjhzgqioiaiagsuywljdmlkzw8uaw5mbyisicjwb3j0ijogijg0ndmilcaiawqioiaiogi2otuwyjktyzywmy00y2vllwe4ndetzjzlmjaymmy5nmriiiwgimfpzci6iciwiiwgim5ldci6icj0y3ailcaidhlwzsi6icjub25liiwgimhvc3qioiaiiiwginbhdggioiaiiiwginrscyi6icj0bhmifq==
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 8b6950b9-c603-4cee-a841-f6e2022f96db
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_d61f
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgvkxhvkodnjxhvkzgywifx1otk5ovx1nmuyzibcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfzwu2niisicjhzgqioiaiagsuywljdmlkzw8uaw5mbyisicjwb3j0ijogijg0ndmilcaiawqioiaiogi2otuwyjktyzywmy00y2vllwe4ndetzjzlmjaymmy5nmriiiwgimfpzci6iciwiiwgim5ldci6icj0y3ailcaidhlwzsi6icjub25liiwgimhvc3qioiaiiiwginbhdggioiaiiiwginrscyi6icj0bhmifq==
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 8b6950b9-c603-4cee-a841-f6e2022f96db
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: tcp
+- name: 🌐 未知地区 用魔法打败魔法_9e69
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgvkxhvkodnjxhvkzgywifx1otk5ovx1nmuyzibcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfnjc5zsisicjhzgqioiaiagsuywljdmlkzw8uaw5mbyisicjwb3j0ijogijg0ndmilcaiawqioiaiogi2otuwyjktyzywmy00y2vllwe4ndetzjzlmjaymmy5nmriiiwgimfpzci6iciwiiwgim5ldci6icj0y3ailcaidhlwzsi6icjub25liiwgimhvc3qioiaiiiwginbhdggioiaiiiwginrscyi6icj0bhmifq==
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 8b6950b9-c603-4cee-a841-f6e2022f96db
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: tcp
+- name: 🇨🇳 中国 用魔法打败魔法_08ed
+  server: jry.izenny.com
+  port: 57884
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 3856e79b-8ba1-43f0-b693-6b0adb31147c
+- name: 🌐 未知地区 用魔法打败魔法_66cc
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgvkxhvkodnjxhvkzgywifx1otk5ovx1nmuyzibcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfytu4yiisicjhzgqioiaiagsuywljdmlkzw8uaw5mbyisicjwb3j0ijogijg4mtailcaiawqioiaiogi2otuwyjktyzywmy00y2vllwe4ndetzjzlmjaymmy5nmriiiwgimfpzci6iciwiiwgim5ldci6icj3cyisicj0exblijogindziiwgimhvc3qioiaid3d3lmjpbmcuy29tiiwginbhdggioiail2rncyisicj0bhmioiaidgxziiwginnuasi6icjoay5hawn2awrlby5pbmzvin0=
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 8b6950b9-c603-4cee-a841-f6e2022f96db
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /dgs
+    headers:
+      Host: www.bing.com
+- name: 🇨🇳 中国 用魔法打败魔法_26bc
+  server: jry.izenny.com
+  port: 27689
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 3856e79b-8ba1-43f0-b693-6b0adb31147c
+- name: 🌐 未知地区 用魔法打败魔法_d77c
+  server: 104.25.246.251
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_b0c1
+  server: 104.25.246.251
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_8268
+  server: 172.64.146.171
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_f976
+  server: 172.64.146.171
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_0bf4
+  server: 104.19.34.169
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_b505
+  server: 104.19.34.169
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_2643
+  server: 104.25.242.206
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_d6fd
+  server: 104.25.242.206
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_36d1
+  server: 104.25.253.239
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_9cf5
+  server: 104.25.253.239
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_918d
+  server: 104.17.138.177
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_c397
+  server: 104.17.138.177
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_fa73
+  server: 104.17.136.203
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_a066
+  server: 104.17.136.203
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_b0ce
+  server: 104.17.136.161
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_86ac
+  server: 104.17.136.161
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_61ab
+  server: 104.17.143.95
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_b229
+  server: 104.17.143.95
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_8b9b
+  server: 104.17.129.106
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_78cb
+  server: 104.17.129.106
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_2f06
+  server: 162.159.44.95
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_8b50
+  server: 162.159.44.95
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_3567
+  server: 162.159.38.20
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_55d1
+  server: 162.159.38.20
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_2dde
+  server: 162.159.39.162
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_ef34
+  server: 162.159.39.162
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_3d3d
+  server: 162.159.38.191
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_4984
+  server: 162.159.38.191
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_e8a6
+  server: 162.159.39.27
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_221d
+  server: 162.159.39.27
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_32d1
+  server: 2606:4700:57::73dc:9ede
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_91be
+  server: 2606:4700:57::73dc:9ede
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_9f1f
+  server: 2606:4700:83ba::86b8:cc17
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_33de
+  server: 2606:4700:83ba::86b8:cc17
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_92b0
+  server: 2606:4700:57::ae19:e515
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_a861
+  server: 2606:4700:57::ae19:e515
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_d6d4
+  server: 2606:4700:57::2f51:3c9b
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_2efa
+  server: 2606:4700:57::2f51:3c9b
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_3119
+  server: 2606:4700:57::3fdc:456d
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_ed36
+  server: 2606:4700:57::3fdc:456d
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_1ed6
+  server: 2a06:98c1:3106::2352:7683
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_5dd1
+  server: 2a06:98c1:3106::2352:7683
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_4f72
+  server: 2803:f800:53::2ab6:587
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_110a
+  server: 2803:f800:53::2ab6:587
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_2c54
+  server: 2a06:98c1:3104::4a31:cbfb
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_6c1f
+  server: 2a06:98c1:3104::4a31:cbfb
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_2918
+  server: 2803:f800:51::e391:207
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_f92e
+  server: 2803:f800:51::e391:207
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_74bd
+  server: 2606:4700:4405::67cb:e34f
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_f507
+  server: 2606:4700:4405::67cb:e34f
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_929e
+  server: 104.25.246.251
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_b987
+  server: 104.25.246.251
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_c870
+  server: 172.64.146.171
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_714d
+  server: 172.64.146.171
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_f790
+  server: 104.19.34.169
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_1324
+  server: 104.19.34.169
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_a6cd
+  server: 104.25.242.206
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_8ac3
+  server: 104.25.242.206
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_16f3
+  server: 104.25.253.239
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_773e
+  server: 104.25.253.239
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_5092
+  server: 104.17.138.177
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_a5a5
+  server: 104.17.138.177
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_f469
+  server: 104.17.136.203
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_72b9
+  server: 104.17.136.203
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_80a6
+  server: 104.17.136.161
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_9c48
+  server: 104.17.136.161
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_652c
+  server: 104.17.143.95
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_8d1f
+  server: 104.17.143.95
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_81f1
+  server: 104.17.129.106
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_1c2e
+  server: 104.17.129.106
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_c093
+  server: 162.159.44.95
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_b66a
+  server: 162.159.44.95
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_cf31
+  server: 162.159.38.20
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_0631
+  server: 162.159.38.20
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_9f60
+  server: 162.159.39.162
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_c73c
+  server: 162.159.39.162
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_2a5b
+  server: 162.159.38.191
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_73b8
+  server: 162.159.38.191
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_5f08
+  server: 162.159.39.27
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_daee
+  server: 162.159.39.27
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_9a09
+  server: 2606:4700:57::73dc:9ede
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_303a
+  server: 2606:4700:57::73dc:9ede
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_49c9
+  server: 2606:4700:83ba::86b8:cc17
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_7b41
+  server: 2606:4700:83ba::86b8:cc17
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_422f
+  server: 2606:4700:57::ae19:e515
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_beb8
+  server: 2606:4700:57::ae19:e515
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_21a3
+  server: 2606:4700:57::2f51:3c9b
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_e0fe
+  server: 2606:4700:57::2f51:3c9b
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_fee7
+  server: 2606:4700:57::3fdc:456d
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_dc91
+  server: 2606:4700:57::3fdc:456d
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_a378
+  server: 2a06:98c1:3106::2352:7683
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_de96
+  server: 2a06:98c1:3106::2352:7683
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_be1a
+  server: 2803:f800:53::2ab6:587
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_8892
+  server: 2803:f800:53::2ab6:587
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_7db7
+  server: 2a06:98c1:3104::4a31:cbfb
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_444c
+  server: 2a06:98c1:3104::4a31:cbfb
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_872f
+  server: 2803:f800:51::e391:207
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_03b7
+  server: 2803:f800:51::e391:207
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_044e
+  server: 2606:4700:4405::67cb:e34f
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_f237
+  server: 2606:4700:4405::67cb:e34f
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🇨🇳 中国 用魔法打败魔法_c5a1
+  server: th91.appmimi.com
+  port: 49047
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🌐 未知地区 用魔法打败魔法_eb02
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgzhxhvkodnjxhvkzgy4ifx1n2y4zvx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfmmjiziisicjhzgqioiaiz29vz2xllmnvbsisicjwb3j0ijogijg4odgilcaiawqioiaimzzjnmjlodetnmvjzc00ztaylwi4ztitzgq3nzqymzuwmgiwiiwgimfpzci6iciwiiwgim5ldci6icj3cyisicj0exblijogim5vbmuilcaiag9zdci6iciilcaicgf0aci6iciilcaidgxzijogiij9
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 36c6be81-6ecd-4e02-b8e2-dd77423500b0
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: ''
+    headers:
+      Host: ''
+- name: 🌐 未知地区 用魔法打败魔法_c765
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgzhxhvkodnjxhvkzgy4ifx1n2y4zvx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfotc0osisicjhzgqioiaiz29vz2xllmnvbsisicjwb3j0ijogijg4odgilcaiawqioiaimzzjnmjlodetnmvjzc00ztaylwi4ztitzgq3nzqymzuwmgiwiiwgimfpzci6iciwiiwgim5ldci6icj3cyisicj0exblijogim5vbmuilcaiag9zdci6iciilcaicgf0aci6iciilcaidgxzijogiij9
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 36c6be81-6ecd-4e02-b8e2-dd77423500b0
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: ''
+    headers:
+      Host: ''
+- name: 🌐 未知地区 用魔法打败魔法_9ff8
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgzhxhvkodnjxhvkzgy4ifx1n2y4zvx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfmjc2zcisicjhzgqioiaiz29vz2xllmnvbsisicjwb3j0ijogijg4odgilcaiawqioiaimzzjnmjlodetnmvjzc00ztaylwi4ztitzgq3nzqymzuwmgiwiiwgimfpzci6iciwiiwgim5ldci6icj3cyisicj0exblijogim5vbmuilcaiag9zdci6iciilcaicgf0aci6iciilcaidgxzijogiij9
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 36c6be81-6ecd-4e02-b8e2-dd77423500b0
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: ''
+    headers:
+      Host: ''
+- name: 🌐 未知地区 用魔法打败魔法_42fd
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgzhxhvkodnjxhvkzgy4ifx1n2y4zvx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfyzg1osisicjhzgqioiaiz29vz2xllmnvbsisicjwb3j0ijogijg4odgilcaiawqioiaimti5nwnjzgutnmi2os00zgrjlwe3mtqtzgmxmgy5yzljntg1iiwgimfpzci6iciwiiwgim5ldci6icj3cyisicj0exblijogim5vbmuilcaiag9zdci6iciilcaicgf0aci6iciilcaidgxzijogiij9
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 1295ccde-6b69-4ddc-a714-dc10f9c9c585
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: ''
+    headers:
+      Host: ''
+- name: 🌐 未知地区 用魔法打败魔法_9310
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgzhxhvkodnjxhvkzgy4ifx1n2y4zvx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfnjrincisicjhzgqioiaiz29vz2xllmnvbsisicjwb3j0ijogijg4odgilcaiawqioiaimti5nwnjzgutnmi2os00zgrjlwe3mtqtzgmxmgy5yzljntg1iiwgimfpzci6iciwiiwgim5ldci6icj3cyisicj0exblijogim5vbmuilcaiag9zdci6iciilcaicgf0aci6iciilcaidgxzijogiij9
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 1295ccde-6b69-4ddc-a714-dc10f9c9c585
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: ''
+    headers:
+      Host: ''
+- name: 🌐 未知地区 用魔法打败魔法_04c4
+  server: eyj2ijogijiilcaichmioiaixhvkodnjxhvkzgzhxhvkodnjxhvkzgy4ifx1n2y4zvx1ntzmzcbcdtyyntncdtuwmtjcdtdmogvcdtvlmwrcdtu2zmrcdtrlm2jcdtrlndlcdtuzy2fcdtuxnzzcdtrlmdbcdtuymddcdthknzbcdtcyzddfoty0zcisicjhzgqioiaiz29vz2xllmnvbsisicjwb3j0ijogijg4odgilcaiawqioiaimti5nwnjzgutnmi2os00zgrjlwe3mtqtzgmxmgy5yzljntg1iiwgimfpzci6iciwiiwgim5ldci6icj3cyisicj0exblijogim5vbmuilcaiag9zdci6iciilcaicgf0aci6iciilcaidgxzijogiij9
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 1295ccde-6b69-4ddc-a714-dc10f9c9c585
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: ''
+    headers:
+      Host: ''
+- name: 🌐 未知地区 用魔法打败魔法_3f90
+  server: empty.node
+  port: 443
+  udp: true
+  type: trojan
+  password: eebedd5c-c0bf-433c-9ed8-ac0e1220c698
+  sni: empty.node
+  skip-cert-verify: true
+- name: 🇺🇸 美国 用魔法打败魔法_5c1a
+  server: a9.toppp.cc
+  port: 42309
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇭🇰 香港 用魔法打败魔法_a770
+  server: hk.aicvideo.info
+  port: 8809
+  udp: true
+  type: trojan
+  password: 44c7465f-56fc-4b21-b45e-82c01e7811d4
+  sni: hk.aicvideo.info
+  skip-cert-verify: true
+- name: 🇹🇼 台湾 用魔法打败魔法_0c9d
+  server: a10.toppp.cc
+  port: 42310
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_4953
+  server: shayu.pages.dev
+  port: 123
+  udp: true
+  type: vless
+  uuid: 092161df-9e74-470a-9a95-a36de63b6d36
+  tls: false
+  servername: null
+  network: tcp
+- name: 🇯🇵 日本 用魔法打败魔法_6443
+  server: shayu.hk-1.798777.xyz
+  port: 22201
+  udp: true
+  type: vless
+  uuid: 092161df-9e74-470a-9a95-a36de63b6d36
+  tls: true
+  servername: www.python.org
+  network: tcp
+  reality-opts:
+    public-key: JbI8N9AA8JfEywe4O6yXgAQCa7yRr0KbUqHEzBdP72M
+    short-id: d993fccf35bf7c
+- name: 🇺🇸 美国 用魔法打败魔法_2fef
+  server: shayu.us-1.798777.xyz
+  port: 11101
+  udp: true
+  type: vless
+  uuid: 092161df-9e74-470a-9a95-a36de63b6d36
+  tls: true
+  servername: www.python.org
+  network: tcp
+  reality-opts:
+    public-key: ui6P-1Zw1dI2HlSUHtnbJW1EsGmDLmGrE3LtmFC8Fzk
+    short-id: d993fccf35bf7c
+- name: 🇯🇵 日本 用魔法打败魔法_d956
+  server: shayu.jp-1.798777.xyz
+  port: 33301
+  udp: true
+  type: vless
+  uuid: 092161df-9e74-470a-9a95-a36de63b6d36
+  tls: true
+  servername: www.python.org
+  network: tcp
+  reality-opts:
+    public-key: 56aXDZX6qtDfwb3ycu7fm3ETMLKJZVdn619U6p7hlHs
+    short-id: d993fccf35bf7c
+- name: 🇨🇳 中国 用魔法打败魔法_06fe
+  server: wyy1.gdnye.cn
+  port: 19008
+  udp: true
+  type: ss
+  cipher: 2022-blake3-aes-128-gcm
+  password: NDc4NDg1MjA4YTI0YTU1Zg==
+- name: 🇨🇳 中国 用魔法打败魔法_889c
+  server: hk99.appmimi.com
+  port: 49019
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🇺🇸 美国 用魔法打败魔法_4c68
+  server: tc1.naicn.top
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 3c57cff4-f282-4be8-9c8b-b2271bda5308
+  sni: tc1.naicn.top
+  skip-cert-verify: true
+- name: 🇺🇸 美国 用魔法打败魔法_59dd
+  server: ssh.naicn.top
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 3c57cff4-f282-4be8-9c8b-b2271bda5308
+  tls: true
+  servername: ssh.naicn.top
+  skip-cert-verify: false
+- name: 🇺🇸 美国 用魔法打败魔法_d5ab
+  server: ny1.naicn.top
+  port: 8443
+  udp: true
+  type: hysteria2
+  password: 3c57cff4-f282-4be8-9c8b-b2271bda5308
+  sni: ny1.naicn.top
+  skip-cert-verify: true
+- name: 🇨🇳 中国 用魔法打败魔法_27da
+  server: hk98.appmimi.com
+  port: 49018
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🇨🇳 中国 用魔法打败魔法_b88f
+  server: hk93.appmimi.com
+  port: 49013
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🇭🇰 香港 用魔法打败魔法_c8a2
+  server: akhk1.naicn.top
+  port: 8443
+  udp: true
+  type: hysteria2
+  password: 3c57cff4-f282-4be8-9c8b-b2271bda5308
+  sni: akhk1.naicn.top
+  skip-cert-verify: true
+- name: 🇩🇪 德国 用魔法打败魔法_017f
+  server: yyastw0fz8ubjiq5agcr.02.karyl.top
+  port: 32100
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: tw.karyl.cc
+  skip-cert-verify: true
+- name: 🇰🇷 韩国 用魔法打败魔法_22b7
+  server: 1ywwmv7t3zbfnnhdplgu.02.karyl.top
+  port: 32104
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: us.karyl.cc
+  skip-cert-verify: true
+- name: 🇨🇳 中国 用魔法打败魔法_be7f
+  server: ar91.appmimi.com
+  port: 49073
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🇩🇪 德国 用魔法打败魔法_944b
+  server: igc65t7h8sby9cljpdki.a.karyl.top
+  port: 32202
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: s1.hdslb.com
+  skip-cert-verify: true
+- name: 🇨🇳 中国 用魔法打败魔法_ee17
+  server: tr91.appmimi.com
+  port: 49050
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cb0239fd-949e-4878-98a5-ea89fe0662d7
+- name: 🇸🇨 塞舌尔 用魔法打败魔法_b5d3
+  server: jp1.naicn.top
+  port: 8443
+  udp: true
+  type: hysteria2
+  password: 3c57cff4-f282-4be8-9c8b-b2271bda5308
+  sni: jp1.naicn.top
+  skip-cert-verify: true
+- name: 🇩🇪 德国 用魔法打败魔法_278e
+  server: yvio1qslaxza8zo67vrj.a.karyl.top
+  port: 32301
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: s1.hdslb.com
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 用魔法打败魔法_f35d
+  server: roua7axiwvuqsxypm0nk.01.karyl.top
+  port: 32104
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: us.karyl.cc
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 用魔法打败魔法_4128
+  server: u1ifzk83zfqmw76odvxm.b.karyl.top
+  port: 32202
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: s1.hdslb.com
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 用魔法打败魔法_94e9
+  server: q1fim7stgcwzk43yxgru.03.karyl.top
+  port: 32102
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: sg.karyl.cc
+  skip-cert-verify: true
+- name: 🇭🇰 香港 用魔法打败魔法_0fe7
+  server: a25.toppp.cc
+  port: 42325
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 用魔法打败魔法_bd16
+  server: r2th4wgvw1oujdyqflaf.01.karyl.top
+  port: 32100
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: tw.karyl.cc
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 用魔法打败魔法_b4af
+  server: w2yupgeaqg8q7m136vb9.01.karyl.top
+  port: 32101
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: hk.karyl.cc
+  skip-cert-verify: true
+- name: 🇯🇵 日本 用魔法打败魔法_d3fd
+  server: a21.toppp.cc
+  port: 42321
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇯🇵 日本 用魔法打败魔法_b87d
+  server: a6.toppp.cc
+  port: 42306
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 用魔法打败魔法_92cd
+  server: i8ykv9o4ajvdzhrd0i1n.a.karyl.top
+  port: 32205
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: s1.hdslb.com
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 用魔法打败魔法_1e8a
+  server: bpi23kzllmghbq5ytxnw.01.karyl.top
+  port: 32103
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: jp.karyl.cc
+  skip-cert-verify: true
+- name: 🇭🇰 香港 用魔法打败魔法_b4d6
+  server: a27.toppp.cc
+  port: 42327
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 用魔法打败魔法_3e6a
+  server: cyteun1j6ioe3kap20lx.a.karyl.top
+  port: 32206
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: s1.hdslb.com
+  skip-cert-verify: true
+- name: 🇨🇳 中国 用魔法打败魔法_47f6
+  server: fsydg.ny111xx.xin
+  port: 33002
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 3b27ad91-6118-4698-b775-1d2a90e1c98e
+- name: 🇯🇵 日本 用魔法打败魔法_ead9
+  server: a7.toppp.cc
+  port: 42307
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 用魔法打败魔法_a280
+  server: icau7igl2skr4ybydpzo.b.karyl.top
+  port: 32205
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: s1.hdslb.com
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 用魔法打败魔法_00f2
+  server: juizme3p4skg6mxejsza.b.karyl.top
+  port: 32201
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: s1.hdslb.com
+  skip-cert-verify: true
+- name: 🇭🇰 香港 用魔法打败魔法_c05d
+  server: a51.topzz.cc
+  port: 42351
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 用魔法打败魔法_fbd4
+  server: zbw4jy1suoxcqri5kali.02.karyl.top
+  port: 32102
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: sg.karyl.cc
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 用魔法打败魔法_891e
+  server: w7usnwzkbxiqjoh43gm0.a.karyl.top
+  port: 32203
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: s1.hdslb.com
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 用魔法打败魔法_702d
+  server: qomlbehwevtj6ct7khg2.03.karyl.top
+  port: 32104
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: us.karyl.cc
+  skip-cert-verify: true
+- name: 🇰🇷 韩国 用魔法打败魔法_b983
+  server: a12.toppp.cc
+  port: 42312
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 用魔法打败魔法_cedc
+  server: bxqxdy8zaegkuwdcgo9f.a.karyl.top
+  port: 32209
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: s1.hdslb.com
+  skip-cert-verify: true
+- name: 🇰🇷 韩国 用魔法打败魔法_4c10
+  server: a8.toppp.cc
+  port: 42308
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 用魔法打败魔法_12d5
+  server: 3wgkooibfnuhb1tuczmy.03.karyl.top
+  port: 32101
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: hk.karyl.cc
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 用魔法打败魔法_971d
+  server: cid93jla2ywr0onsw1xc.b.karyl.top
+  port: 32208
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: s1.hdslb.com
+  skip-cert-verify: true
+- name: 🇯🇵 日本 用魔法打败魔法_f335
+  server: a23.toppp.cc
+  port: 42323
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇨🇳 中国 用魔法打败魔法_be64
+  server: gzydee.ny111xx.xin
+  port: 33003
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 3b27ad91-6118-4698-b775-1d2a90e1c98e
+- name: 🇯🇵 日本 用魔法打败魔法_37e2
+  server: a22.toppp.cc
+  port: 42322
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇯🇵 日本 用魔法打败魔法_430e
+  server: a17.toppp.cc
+  port: 42317
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 用魔法打败魔法_da22
+  server: wzbwcmg0e9r3hvqixjbt.01.karyl.top
+  port: 32102
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: sg.karyl.cc
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 用魔法打败魔法_25b4
+  server: r2ecjhlokbc5aziev1th.03.karyl.top
+  port: 32103
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: jp.karyl.cc
+  skip-cert-verify: true
+- name: 🇨🇳 中国 用魔法打败魔法_70dd
+  server: jmyd.ny111xx.xin
+  port: 1433
+  udp: true
+  type: vless
+  uuid: 3b27ad91-6118-4698-b775-1d2a90e1c98e
+  tls: true
+  servername: www.amazon.com
+  network: tcp
+  reality-opts:
+    public-key: 9UfSpnzt2XyMAVfarRymSA1SRYn4TxOzgQk-HlfqqkU
+    short-id: 6ba85179e30d4fc2
+- name: 🇨🇳 中国 用魔法打败魔法_8c6d
+  server: jmyd.ny111xx.xin
+  port: 3369
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: b8e01371-deef-449f-b06a-cc050ba40926
+- name: 🇨🇳 中国 用魔法打败魔法_9cc2
+  server: jmyd.ny111xx.xin
+  port: 36001
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: b8e01371-deef-449f-b06a-cc050ba40926
+- name: 🇨🇳 中国 用魔法打败魔法_3243
+  server: jmyd.ny111xx.xin
+  port: 34001
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 3b27ad91-6118-4698-b775-1d2a90e1c98e
+- name: 🇨🇳 中国 用魔法打败魔法_50af
+  server: jmyd.ny111xx.xin
+  port: 33001
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: b8e01371-deef-449f-b06a-cc050ba40926
+- name: 🇸🇬 新加坡 用魔法打败魔法_5c66
+  server: o29egblposqetyhayz7q.02.karyl.top
+  port: 32103
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: jp.karyl.cc
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 用魔法打败魔法_6e51
+  server: mfqlnvlkjgcnzadwud6h.a.karyl.top
+  port: 32207
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: s1.hdslb.com
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 用魔法打败魔法_6710
+  server: pxxz2wndbqhkto3bqvkg.b.karyl.top
+  port: 32203
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: s1.hdslb.com
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 用魔法打败魔法_d0c4
+  server: hapky6ujef4ryqoaj8bw.a.karyl.top
+  port: 32201
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: s1.hdslb.com
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 用魔法打败魔法_39de
+  server: ldmwhkoqu3j1lr4pa9v8.b.karyl.top
+  port: 32204
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: s1.hdslb.com
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 用魔法打败魔法_cd99
+  server: 0rnfgj9lokvtx73lwbmt.b.karyl.top
+  port: 32206
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: s1.hdslb.com
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 用魔法打败魔法_ae68
+  server: qzclwxmoontwiaviqdzk.b.karyl.top
+  port: 32209
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: s1.hdslb.com
+  skip-cert-verify: true
+- name: 🇯🇵 日本 用魔法打败魔法_ca76
+  server: a41.topzz.cc
+  port: 42341
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇨🇳 中国 用魔法打败魔法_3c16
+  server: wyy5.gdnye.cn
+  port: 19006
+  udp: true
+  type: ss
+  cipher: 2022-blake3-aes-128-gcm
+  password: MjQyYTM1YzM2Nzc0MzM4Nw==
+- name: 🇯🇵 日本 用魔法打败魔法_3bfe
+  server: a28.toppp.cc
+  port: 42328
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 用魔法打败魔法_d237
+  server: xqle7yjftt1yeu4xmszo.a.karyl.top
+  port: 32204
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: s1.hdslb.com
+  skip-cert-verify: true
+- name: 🇭🇰 香港 用魔法打败魔法_46b8
+  server: a26.toppp.cc
+  port: 42326
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 用魔法打败魔法_15dd
+  server: sjutf6kgockxwx9nhhb3.b.karyl.top
+  port: 32207
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: s1.hdslb.com
+  skip-cert-verify: true
+- name: 🇰🇷 韩国 用魔法打败魔法_2a70
+  server: a16.toppp.cc
+  port: 42316
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇯🇵 日本 用魔法打败魔法_67bb
+  server: a31.topzz.cc
+  port: 42331
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇯🇵 日本 用魔法打败魔法_30c5
+  server: a32.topzz.cc
+  port: 42332
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇯🇵 日本 用魔法打败魔法_6045
+  server: a40.topzz.cc
+  port: 42340
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇰🇷 韩国 用魔法打败魔法_febb
+  server: a11.toppp.cc
+  port: 42311
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇯🇵 日本 用魔法打败魔法_671e
+  server: a35.topzz.cc
+  port: 42335
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇯🇵 日本 用魔法打败魔法_dd5c
+  server: a33.topzz.cc
+  port: 42333
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇯🇵 日本 用魔法打败魔法_fa2c
+  server: a24.toppp.cc
+  port: 42324
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇯🇵 日本 用魔法打败魔法_0fb6
+  server: a36.topzz.cc
+  port: 42336
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇰🇷 韩国 用魔法打败魔法_2a6d
+  server: a13.toppp.cc
+  port: 42313
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇰🇷 韩国 用魔法打败魔法_301d
+  server: a18.toppp.cc
+  port: 42318
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇯🇵 日本 用魔法打败魔法_8257
+  server: a30.topzz.cc
+  port: 42330
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 用魔法打败魔法_c720
+  server: 7r3fcx8s2j4btq0anvwu.03.karyl.top
+  port: 32100
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: tw.karyl.cc
+  skip-cert-verify: true
+- name: 🇯🇵 日本 用魔法打败魔法_afef
+  server: a29.topzz.cc
+  port: 42329
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇯🇵 日本 用魔法打败魔法_1029
+  server: a34.topzz.cc
+  port: 42334
+  udp: true
+  type: vless
+  uuid: 3f29597d-3a5d-4785-8bc8-d282405e9f30
+  tls: true
+  servername: osxapps.itunes.apple.com
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 用魔法打败魔法_2c6a
+  server: nv45wbrqlykkfygta3o8.02.karyl.top
+  port: 32101
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: hk.karyl.cc
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 用魔法打败魔法_5ee3
+  server: gepxbeak8lpuqgtznmqc.a.karyl.top
+  port: 32208
+  udp: true
+  type: trojan
+  password: cb602590-80db-41c8-8871-72f46b03d8a3
+  sni: s1.hdslb.com
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_bafa
+  server: freeyx.cloudflare88.eu.org
+  port: 80
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: null
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_6a08
+  server: freeyx.cloudflare88.eu.org
+  port: 443
+  udp: true
+  type: trojan
+  password: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  sni: gbyz.asia
+  skip-cert-verify: true
+- name: 🌐 未知地区 用魔法打败魔法_ee9c
+  server: freeyx.cloudflare88.eu.org
+  port: 80
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: false
+  servername: null
+  network: ws
+- name: 🌐 未知地区 用魔法打败魔法_a727
+  server: freeyx.cloudflare88.eu.org
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06ccdb80-4617-4a4d-b3c6-f754899dce25
+  tls: true
+  servername: gbyz.asia
+  network: ws
 proxy-groups:
 - name: 🔰 节点选择
   type: select
   proxies:
   - 🚀 自动测速
   - DIRECT
+  - 🌐 未知地区 用魔法打败魔法_2a86
+  - 🌐 未知地区 用魔法打败魔法_89e5
+  - 🌐 未知地区 用魔法打败魔法_b522
+  - 🌐 未知地区 用魔法打败魔法_9954
+  - 🌐 未知地区 用魔法打败魔法_ec87
+  - 🌐 未知地区 用魔法打败魔法_8c62
+  - 🌐 未知地区 用魔法打败魔法_3b32
+  - 🌐 未知地区 用魔法打败魔法_6bc4
+  - 🌐 未知地区 用魔法打败魔法_93b5
+  - 🌐 未知地区 用魔法打败魔法_be20
+  - 🌐 未知地区 用魔法打败魔法_1877
+  - 🌐 未知地区 用魔法打败魔法_0ed1
+  - 🌐 未知地区 用魔法打败魔法_e801
+  - 🌐 未知地区 用魔法打败魔法_3edc
+  - 🌐 未知地区 用魔法打败魔法_29c6
+  - 🌐 未知地区 用魔法打败魔法_b408
+  - 🌐 未知地区 用魔法打败魔法_56a6
+  - 🇮🇩 印度尼西亚 用魔法打败魔法_3ddb
+  - 🌐 未知地区 用魔法打败魔法_c9ce
+  - 🌐 未知地区 用魔法打败魔法_1356
+  - 🌐 未知地区 用魔法打败魔法_8669
+  - 🌐 未知地区 用魔法打败魔法_8a62
+  - 🌐 未知地区 用魔法打败魔法_1117
+  - 🌐 未知地区 用魔法打败魔法_f169
+  - 🌐 未知地区 用魔法打败魔法_5bf7
+  - 🌐 未知地区 用魔法打败魔法_58d9
+  - 🌐 未知地区 用魔法打败魔法_833e
+  - 🌐 未知地区 用魔法打败魔法_0696
+  - 🌐 未知地区 用魔法打败魔法_355b
+  - 🌐 未知地区 用魔法打败魔法_6185
+  - 🌐 未知地区 用魔法打败魔法_566d
+  - 🌐 未知地区 用魔法打败魔法_1e62
+  - 🌐 未知地区 用魔法打败魔法_75e9
+  - 🌐 未知地区 用魔法打败魔法_8489
+  - 🌐 未知地区 用魔法打败魔法_813d
+  - 🇺🇸 美国 用魔法打败魔法_31b2
+  - 🌐 未知地区 用魔法打败魔法_3b5a
+  - 🌐 未知地区 用魔法打败魔法_4d17
+  - 🇺🇸 美国 用魔法打败魔法_8d3e
+  - 🌐 未知地区 用魔法打败魔法_9408
+  - 🌐 未知地区 用魔法打败魔法_f6d0
+  - 🌐 未知地区 用魔法打败魔法_892c
+  - 🌐 未知地区 用魔法打败魔法_bef7
+  - 🇨🇳 中国 用魔法打败魔法_54c3
+  - 🇺🇸 美国 用魔法打败魔法_9f3c
+  - 🇺🇸 美国 用魔法打败魔法_8427
+  - 🇨🇳 中国 用魔法打败魔法_c591
+  - 🌐 未知地区 用魔法打败魔法_d0d4
+  - 🌐 未知地区 用魔法打败魔法_6e2c
+  - 🇨🇳 中国 用魔法打败魔法_cddf
+  - 🇨🇳 中国 用魔法打败魔法_9799
+  - 🇨🇳 中国 用魔法打败魔法_0ae2
+  - 🇨🇳 中国 用魔法打败魔法_a698
+  - 🇨🇳 中国 用魔法打败魔法_5bbd
+  - 🇨🇳 中国 用魔法打败魔法_60b5
+  - 🌐 未知地区 用魔法打败魔法_eb20
+  - 🌐 未知地区 用魔法打败魔法_afbd
+  - 🌐 未知地区 用魔法打败魔法_d647
+  - 🌐 未知地区 用魔法打败魔法_40c6
+  - 🇨🇳 中国 用魔法打败魔法_bffa
+  - 🌐 未知地区 用魔法打败魔法_283a
+  - 🌐 未知地区 用魔法打败魔法_6dcb
+  - 🌐 未知地区 用魔法打败魔法_6897
+  - 🌐 未知地区 用魔法打败魔法_ea53
+  - 🇨🇳 中国 用魔法打败魔法_270b
+  - 🇨🇳 中国 用魔法打败魔法_685f
+  - 🇨🇳 中国 用魔法打败魔法_45ef
+  - 🇨🇳 中国 用魔法打败魔法_2b58
+  - 🌐 未知地区 用魔法打败魔法_c784
+  - 🌐 未知地区 用魔法打败魔法_1c6a
+  - 🌐 未知地区 用魔法打败魔法_e820
+  - 🌐 未知地区 用魔法打败魔法_a6f1
+  - 🌐 未知地区 用魔法打败魔法_54fd
+  - 🌐 未知地区 用魔法打败魔法_a261
+  - 🌐 未知地区 用魔法打败魔法_5a8a
+  - 🌐 未知地区 用魔法打败魔法_1a05
+  - 🌐 未知地区 用魔法打败魔法_e338
+  - 🌐 未知地区 用魔法打败魔法_5fca
+  - 🌐 未知地区 用魔法打败魔法_43f1
+  - 🌐 未知地区 用魔法打败魔法_3c4e
+  - 🌐 未知地区 用魔法打败魔法_39c2
+  - 🌐 未知地区 用魔法打败魔法_e439
+  - 🌐 未知地区 用魔法打败魔法_f1fa
+  - 🌐 未知地区 用魔法打败魔法_f9d3
+  - 🌐 未知地区 用魔法打败魔法_b97c
+  - 🌐 未知地区 用魔法打败魔法_c74f
+  - 🌐 未知地区 用魔法打败魔法_d106
+  - 🌐 未知地区 用魔法打败魔法_f485
+  - 🌐 未知地区 用魔法打败魔法_94ac
+  - 🌐 未知地区 用魔法打败魔法_6da1
+  - 🌐 未知地区 用魔法打败魔法_40ad
+  - 🌐 未知地区 用魔法打败魔法_4fd5
+  - 🌐 未知地区 用魔法打败魔法_ec76
+  - 🌐 未知地区 用魔法打败魔法_6690
+  - 🌐 未知地区 用魔法打败魔法_09b5
+  - 🌐 未知地区 用魔法打败魔法_1a30
+  - 🌐 未知地区 用魔法打败魔法_b8d8
+  - 🌐 未知地区 用魔法打败魔法_8399
+  - 🌐 未知地区 用魔法打败魔法_1998
+  - 🌐 未知地区 用魔法打败魔法_4022
+  - 🌐 未知地区 用魔法打败魔法_6cd3
+  - 🌐 未知地区 用魔法打败魔法_d50b
+  - 🌐 未知地区 用魔法打败魔法_4d84
+  - 🌐 未知地区 用魔法打败魔法_040e
+  - 🌐 未知地区 用魔法打败魔法_4a30
+  - 🌐 未知地区 用魔法打败魔法_893a
+  - 🌐 未知地区 用魔法打败魔法_dbb4
+  - 🌐 未知地区 用魔法打败魔法_0a68
+  - 🌐 未知地区 用魔法打败魔法_7023
+  - 🌐 未知地区 用魔法打败魔法_5041
+  - 🌐 未知地区 用魔法打败魔法_b7aa
+  - 🌐 未知地区 用魔法打败魔法_4003
+  - 🌐 未知地区 用魔法打败魔法_c60c
+  - 🌐 未知地区 用魔法打败魔法_cb22
+  - 🇨🇳 中国 用魔法打败魔法_d156
+  - 🌐 未知地区 用魔法打败魔法_aa19
+  - 🇨🇳 中国 用魔法打败魔法_f556
+  - 🌐 未知地区 用魔法打败魔法_3457
+  - 🌐 未知地区 用魔法打败魔法_a6b1
+  - 🌐 未知地区 用魔法打败魔法_23ba
+  - 🌐 未知地区 用魔法打败魔法_7bd9
+  - 🌐 未知地区 用魔法打败魔法_fcd9
+  - 🌐 未知地区 用魔法打败魔法_ac59
+  - 🌐 未知地区 用魔法打败魔法_f30b
+  - 🌐 未知地区 用魔法打败魔法_179c
+  - 🌐 未知地区 用魔法打败魔法_aa4f
+  - 🌐 未知地区 用魔法打败魔法_cc40
+  - 🌐 未知地区 用魔法打败魔法_a58f
+  - 🌐 未知地区 用魔法打败魔法_131a
+  - 🌐 未知地区 用魔法打败魔法_6eb8
+  - 🌐 未知地区 用魔法打败魔法_a88e
+  - 🌐 未知地区 用魔法打败魔法_19f5
+  - 🌐 未知地区 用魔法打败魔法_eb83
+  - 🌐 未知地区 用魔法打败魔法_bbc2
+  - 🌐 未知地区 用魔法打败魔法_a9c5
+  - 🌐 未知地区 用魔法打败魔法_f590
+  - 🌐 未知地区 用魔法打败魔法_4df0
+  - 🌐 未知地区 用魔法打败魔法_143f
+  - 🌐 未知地区 用魔法打败魔法_f181
+  - 🌐 未知地区 用魔法打败魔法_b4e2
+  - 🌐 未知地区 用魔法打败魔法_bcff
+  - 🌐 未知地区 用魔法打败魔法_24ed
+  - 🌐 未知地区 用魔法打败魔法_9a5c
+  - 🌐 未知地区 用魔法打败魔法_57c0
+  - 🌐 未知地区 用魔法打败魔法_b180
+  - 🌐 未知地区 用魔法打败魔法_2d25
+  - 🌐 未知地区 用魔法打败魔法_23ed
+  - 🌐 未知地区 用魔法打败魔法_b30a
+  - 🌐 未知地区 用魔法打败魔法_1647
+  - 🌐 未知地区 用魔法打败魔法_8a11
+  - 🌐 未知地区 用魔法打败魔法_c6ea
+  - 🌐 未知地区 用魔法打败魔法_8cf8
+  - 🌐 未知地区 用魔法打败魔法_53fc
+  - 🌐 未知地区 用魔法打败魔法_9e2e
+  - 🌐 未知地区 用魔法打败魔法_8e23
+  - 🌐 未知地区 用魔法打败魔法_4075
+  - 🌐 未知地区 用魔法打败魔法_5aa3
+  - 🌐 未知地区 用魔法打败魔法_9fed
+  - 🌐 未知地区 用魔法打败魔法_7054
+  - 🌐 未知地区 用魔法打败魔法_b222
+  - 🌐 未知地区 用魔法打败魔法_8022
+  - 🌐 未知地区 用魔法打败魔法_ef94
+  - 🌐 未知地区 用魔法打败魔法_b93a
+  - 🌐 未知地区 用魔法打败魔法_44a1
+  - 🌐 未知地区 用魔法打败魔法_8cf5
+  - 🌐 未知地区 用魔法打败魔法_4326
+  - 🌐 未知地区 用魔法打败魔法_90de
+  - 🌐 未知地区 用魔法打败魔法_114c
+  - 🌐 未知地区 用魔法打败魔法_199c
+  - 🇲🇾 马来西亚 用魔法打败魔法_8362
+  - 🇵🇭 菲律宾 用魔法打败魔法_bbb6
+  - 🌐 未知地区 用魔法打败魔法_49d7
+  - 🇲🇾 马来西亚 用魔法打败魔法_01b3
+  - 🇵🇭 菲律宾 用魔法打败魔法_e9c8
+  - 🇨🇳 中国 用魔法打败魔法_9717
+  - 🇨🇳 中国 用魔法打败魔法_cc44
+  - 🇨🇳 中国 用魔法打败魔法_3867
+  - 🇨🇳 中国 用魔法打败魔法_7cb5
+  - 🇨🇳 中国 用魔法打败魔法_d345
+  - 🇨🇳 中国 用魔法打败魔法_8372
+  - 🇨🇳 中国 用魔法打败魔法_cc3c
+  - 🇨🇳 中国 用魔法打败魔法_df31
+  - 🇨🇳 中国 用魔法打败魔法_3906
+  - 🇨🇳 中国 用魔法打败魔法_a1ae
+  - 🇨🇳 中国 用魔法打败魔法_9a40
+  - 🇨🇳 中国 用魔法打败魔法_d443
+  - 🇨🇳 中国 用魔法打败魔法_1cd8
+  - 🇨🇳 中国 用魔法打败魔法_8f6a
+  - 🌐 未知地区 用魔法打败魔法_17be
+  - 🌐 未知地区 用魔法打败魔法_926e
+  - 🌐 未知地区 用魔法打败魔法_d650
+  - 🇨🇳 中国 用魔法打败魔法_cf93
+  - 🌐 未知地区 用魔法打败魔法_f260
+  - 🇬🇧 英国 用魔法打败魔法_1777
+  - 🇹🇼 台湾 用魔法打败魔法_d133
+  - 🇯🇵 日本 用魔法打败魔法_ebf3
+  - 🇺🇸 美国 用魔法打败魔法_62eb
+  - 🌐 未知地区 用魔法打败魔法_bfef
+  - 🇬🇧 英国 用魔法打败魔法_1876
+  - 🌐 未知地区 用魔法打败魔法_f151
+  - 🇸🇬 新加坡 用魔法打败魔法_6b3c
+  - 🇨🇦 加拿大 用魔法打败魔法_4ba3
+  - 🇯🇵 日本 用魔法打败魔法_92b4
+  - 🇸🇬 新加坡 用魔法打败魔法_209a
+  - 🇬🇧 英国 用魔法打败魔法_0754
+  - 🇨🇳 中国 用魔法打败魔法_37bd
+  - 🇭🇰 香港 用魔法打败魔法_8e9e
+  - 🌐 未知地区 用魔法打败魔法_d8c4
+  - 🌐 未知地区 用魔法打败魔法_ff7e
+  - 🌐 未知地区 用魔法打败魔法_5553
+  - 🌐 未知地区 用魔法打败魔法_5ac3
+  - 🇷🇺 俄罗斯联邦 用魔法打败魔法_dfe7
+  - 🇨🇭 瑞士 用魔法打败魔法_fcc8
+  - 🌐 未知地区 用魔法打败魔法_43f6
+  - 🌐 未知地区 用魔法打败魔法_426e
+  - 🌐 未知地区 用魔法打败魔法_ee50
+  - 🌐 未知地区 用魔法打败魔法_7536
+  - 🇵🇭 菲律宾 用魔法打败魔法_0a1a
+  - 🌐 未知地区 用魔法打败魔法_3edf
+  - 🌐 未知地区 用魔法打败魔法_ac56
+  - 🌐 未知地区 用魔法打败魔法_da84
+  - 🌐 未知地区 用魔法打败魔法_de23
+  - 🇬🇧 英国 用魔法打败魔法_a0c1
+  - 🇯🇵 日本 用魔法打败魔法_beae
+  - 🇵🇭 菲律宾 用魔法打败魔法_6ea9
+  - 🇹🇭 泰国 用魔法打败魔法_fdee
+  - 🇹🇭 泰国 用魔法打败魔法_5eeb
+  - 🇭🇰 香港 用魔法打败魔法_6585
+  - 🇨🇦 加拿大 用魔法打败魔法_fd5d
+  - 🇸🇬 新加坡 用魔法打败魔法_81ae
+  - 🇸🇬 新加坡 用魔法打败魔法_1e51
+  - 🇭🇰 香港 用魔法打败魔法_7e08
+  - 🇸🇬 新加坡 用魔法打败魔法_4827
+  - 🇸🇬 新加坡 用魔法打败魔法_9993
+  - 🇮🇩 印度尼西亚 用魔法打败魔法_c943
+  - 🇵🇱 波兰 用魔法打败魔法_3003
+  - 🇦🇺 澳大利亚 用魔法打败魔法_2c4d
+  - 🇰🇷 韩国 用魔法打败魔法_dfdf
+  - 🌐 未知地区 用魔法打败魔法_b4cf
+  - 🌐 未知地区 用魔法打败魔法_6ae7
+  - 🌐 未知地区 用魔法打败魔法_368e
+  - 🌐 未知地区 用魔法打败魔法_7b31
+  - 🇦🇪 阿联酋 用魔法打败魔法_d065
+  - 🇲🇾 马来西亚 用魔法打败魔法_cb76
+  - 🇨🇳 中国 用魔法打败魔法_e499
+  - 🇨🇳 中国 用魔法打败魔法_8386
+  - 🇨🇳 中国 用魔法打败魔法_4c1f
+  - 🇨🇳 中国 用魔法打败魔法_7714
+  - 🇨🇳 中国 用魔法打败魔法_18a9
+  - 🇨🇳 中国 用魔法打败魔法_adf5
+  - 🇨🇳 中国 用魔法打败魔法_12b4
+  - 🇨🇳 中国 用魔法打败魔法_caf8
+  - 🇨🇳 中国 用魔法打败魔法_b7b6
+  - 🇨🇳 中国 用魔法打败魔法_09b9
+  - 🇨🇳 中国 用魔法打败魔法_73f7
+  - 🇨🇳 中国 用魔法打败魔法_2a38
+  - 🇨🇳 中国 用魔法打败魔法_3b45
+  - 🇨🇳 中国 用魔法打败魔法_fae3
+  - 🇯🇵 日本 用魔法打败魔法_b53a
+  - 🇯🇵 日本 用魔法打败魔法_f684
+  - 🇨🇳 中国 用魔法打败魔法_51fa
+  - 🌐 未知地区 用魔法打败魔法_9fd6
+  - 🌐 未知地区 用魔法打败魔法_b68e
+  - 🌐 未知地区 用魔法打败魔法_4fb1
+  - 🇹🇼 台湾 用魔法打败魔法_555f
+  - 🇨🇭 瑞士 用魔法打败魔法_872a
+  - 🇷🇺 俄罗斯联邦 用魔法打败魔法_ddc6
+  - 🇯🇵 日本 用魔法打败魔法_3d0f
+  - 🇮🇱 以色列 用魔法打败魔法_b0ed
+  - 🇰🇷 韩国 用魔法打败魔法_37cf
+  - 🇭🇰 香港 用魔法打败魔法_aed0
+  - 🇨🇳 中国 用魔法打败魔法_935c
+  - 🇮🇩 印度尼西亚 用魔法打败魔法_2610
+  - 🇺🇸 美国 用魔法打败魔法_19d5
+  - 🇨🇳 中国 用魔法打败魔法_d9a6
+  - 🇸🇬 新加坡 用魔法打败魔法_1cce
+  - 🇵🇱 波兰 用魔法打败魔法_4167
+  - 🌐 未知地区 用魔法打败魔法_5880
+  - 🌐 未知地区 用魔法打败魔法_1a6b
+  - 🇭🇰 香港 用魔法打败魔法_a08f
+  - 🇦🇺 澳大利亚 用魔法打败魔法_27a7
+  - 🇲🇾 马来西亚 用魔法打败魔法_8396
+  - 🌐 未知地区 用魔法打败魔法_3b85
+  - 🌐 未知地区 用魔法打败魔法_c5e6
+  - 🌐 未知地区 用魔法打败魔法_f761
+  - 🌐 未知地区 用魔法打败魔法_459a
+  - 🇨🇳 中国 用魔法打败魔法_e6a1
+  - 🇦🇪 阿联酋 用魔法打败魔法_68d0
+  - 🇨🇳 中国 用魔法打败魔法_e231
+  - 🇺🇸 美国 用魔法打败魔法_b368
+  - 🇨🇳 中国 用魔法打败魔法_6f71
+  - 🇨🇳 中国 用魔法打败魔法_be94
+  - 🇨🇳 中国 用魔法打败魔法_c003
+  - 🇨🇳 中国 用魔法打败魔法_7ac7
+  - 🌐 未知地区 用魔法打败魔法_f5d5
+  - 🌐 未知地区 用魔法打败魔法_7b1b
+  - 🌐 未知地区 用魔法打败魔法_c569
+  - 🌐 未知地区 用魔法打败魔法_32ab
+  - 🇺🇸 美国 用魔法打败魔法_10fa
+  - 🌐 未知地区 用魔法打败魔法_1452
+  - 🌐 未知地区 用魔法打败魔法_b0ab
+  - 🌐 未知地区 用魔法打败魔法_3f69
+  - 🌐 未知地区 用魔法打败魔法_28eb
+  - 🌐 未知地区 用魔法打败魔法_39cc
+  - 🌐 未知地区 用魔法打败魔法_60e5
+  - 🌐 未知地区 用魔法打败魔法_a902
+  - 🌐 未知地区 用魔法打败魔法_6cf9
+  - 🌐 未知地区 用魔法打败魔法_38a3
+  - 🇺🇸 美国 用魔法打败魔法_fc44
+  - 🇨🇳 中国 用魔法打败魔法_dd2a
+  - 🇭🇰 香港 用魔法打败魔法_9c31
+  - 🇨🇳 中国 用魔法打败魔法_5154
+  - 🌐 未知地区 用魔法打败魔法_8ad9
+  - 🌐 未知地区 用魔法打败魔法_80c6
+  - 🌐 未知地区 用魔法打败魔法_5eae
+  - 🌐 未知地区 用魔法打败魔法_d4a3
+  - 🇨🇳 中国 用魔法打败魔法_3c71
+  - 🇨🇳 中国 用魔法打败魔法_ade0
+  - 🇨🇳 中国 用魔法打败魔法_61af
+  - 🇨🇳 中国 用魔法打败魔法_1e28
+  - 🇨🇳 中国 用魔法打败魔法_484a
+  - 🇨🇳 中国 用魔法打败魔法_759e
+  - 🇨🇳 中国 用魔法打败魔法_d420
+  - 🌐 未知地区 用魔法打败魔法_c0bd
+  - 🌐 未知地区 用魔法打败魔法_b341
+  - 🌐 未知地区 用魔法打败魔法_753b
+  - 🌐 未知地区 用魔法打败魔法_8733
+  - 🇯🇵 日本 用魔法打败魔法_3fb8
+  - 🌐 未知地区 用魔法打败魔法_cff2
+  - 🌐 未知地区 用魔法打败魔法_28ff
+  - 🇨🇳 中国 用魔法打败魔法_d5d3
+  - 🇨🇳 中国 用魔法打败魔法_b6db
+  - 🇨🇳 中国 用魔法打败魔法_42cd
+  - 🇨🇳 中国 用魔法打败魔法_dfce
+  - 🇨🇳 中国 用魔法打败魔法_707b
+  - 🇨🇳 中国 用魔法打败魔法_d2f9
+  - 🇨🇳 中国 用魔法打败魔法_7318
+  - 🇨🇳 中国 用魔法打败魔法_0b62
+  - 🇺🇸 美国 用魔法打败魔法_91e7
+  - 🇺🇸 美国 用魔法打败魔法_93f8
+  - 🇺🇸 美国 用魔法打败魔法_ad8d
+  - 🇨🇳 中国 用魔法打败魔法_676d
+  - 🇨🇳 中国 用魔法打败魔法_7f6b
+  - 🇺🇸 美国 用魔法打败魔法_1d22
+  - 🇨🇳 中国 用魔法打败魔法_0620
+  - 🇨🇳 中国 用魔法打败魔法_f17f
+  - 🇨🇳 中国 用魔法打败魔法_b427
+  - 🇨🇳 中国 用魔法打败魔法_314f
+  - 🇨🇳 中国 用魔法打败魔法_b42e
+  - 🇨🇳 中国 用魔法打败魔法_cb09
+  - 🇨🇳 中国 用魔法打败魔法_d6fc
+  - 🇨🇳 中国 用魔法打败魔法_764e
+  - 🇨🇳 中国 用魔法打败魔法_8b9e
+  - 🇨🇳 中国 用魔法打败魔法_0b6c
+  - 🇨🇳 中国 用魔法打败魔法_8cd0
+  - 🇨🇳 中国 用魔法打败魔法_0914
+  - 🇨🇳 中国 用魔法打败魔法_a8f8
+  - 🌐 未知地区 用魔法打败魔法_c594
+  - 🌐 未知地区 用魔法打败魔法_f54e
+  - 🌐 未知地区 用魔法打败魔法_74e6
+  - 🌐 未知地区 用魔法打败魔法_53bf
+  - 🌐 未知地区 用魔法打败魔法_d7ac
+  - 🌐 未知地区 用魔法打败魔法_b237
+  - 🌐 未知地区 用魔法打败魔法_e096
+  - 🌐 未知地区 用魔法打败魔法_d38e
+  - 🌐 未知地区 用魔法打败魔法_f623
+  - 🌐 未知地区 用魔法打败魔法_565a
+  - 🌐 未知地区 用魔法打败魔法_00b9
+  - 🌐 未知地区 用魔法打败魔法_b4b7
+  - 🌐 未知地区 用魔法打败魔法_db81
+  - 🌐 未知地区 用魔法打败魔法_3331
+  - 🌐 未知地区 用魔法打败魔法_30b4
+  - 🌐 未知地区 用魔法打败魔法_5bda
+  - 🌐 未知地区 用魔法打败魔法_e7ec
+  - 🌐 未知地区 用魔法打败魔法_2048
+  - 🇨🇳 中国 用魔法打败魔法_9011
+  - 🇨🇳 中国 用魔法打败魔法_26ca
+  - 🇨🇳 中国 用魔法打败魔法_a2fe
+  - 🇺🇸 美国 用魔法打败魔法_a143
+  - 🇰🇷 韩国 用魔法打败魔法_71dd
+  - 🇺🇸 美国 用魔法打败魔法_feec
+  - 🌐 未知地区 用魔法打败魔法_f370
+  - 🌐 未知地区 用魔法打败魔法_c160
+  - 🌐 未知地区 用魔法打败魔法_0aeb
+  - 🇨🇳 中国 用魔法打败魔法_9631
+  - 🌐 未知地区 用魔法打败魔法_4b76
+  - 🌐 未知地区 用魔法打败魔法_2029
+  - 🌐 未知地区 用魔法打败魔法_d2f8
+  - 🇩🇪 德国 用魔法打败魔法_866a
+  - 🇨🇳 中国 用魔法打败魔法_4ea6
+  - 🌐 未知地区 用魔法打败魔法_29a6
+  - 🌐 未知地区 用魔法打败魔法_b801
+  - 🌐 未知地区 用魔法打败魔法_dc77
+  - 🇺🇸 美国 用魔法打败魔法_da26
+  - 🇨🇳 中国 用魔法打败魔法_f94f
+  - 🌐 未知地区 用魔法打败魔法_0461
+  - 🌐 未知地区 用魔法打败魔法_de13
+  - 🌐 未知地区 用魔法打败魔法_40fa
+  - 🌐 未知地区 用魔法打败魔法_5d70
+  - 🇨🇳 中国 用魔法打败魔法_c5da
+  - 🌐 未知地区 用魔法打败魔法_c2e4
+  - 🌐 未知地区 用魔法打败魔法_0dad
+  - 🌐 未知地区 用魔法打败魔法_d61f
+  - 🌐 未知地区 用魔法打败魔法_9e69
+  - 🇨🇳 中国 用魔法打败魔法_08ed
+  - 🌐 未知地区 用魔法打败魔法_66cc
+  - 🇨🇳 中国 用魔法打败魔法_26bc
+  - 🌐 未知地区 用魔法打败魔法_d77c
+  - 🌐 未知地区 用魔法打败魔法_b0c1
+  - 🌐 未知地区 用魔法打败魔法_8268
+  - 🌐 未知地区 用魔法打败魔法_f976
+  - 🌐 未知地区 用魔法打败魔法_0bf4
+  - 🌐 未知地区 用魔法打败魔法_b505
+  - 🌐 未知地区 用魔法打败魔法_2643
+  - 🌐 未知地区 用魔法打败魔法_d6fd
+  - 🌐 未知地区 用魔法打败魔法_36d1
+  - 🌐 未知地区 用魔法打败魔法_9cf5
+  - 🌐 未知地区 用魔法打败魔法_918d
+  - 🌐 未知地区 用魔法打败魔法_c397
+  - 🌐 未知地区 用魔法打败魔法_fa73
+  - 🌐 未知地区 用魔法打败魔法_a066
+  - 🌐 未知地区 用魔法打败魔法_b0ce
+  - 🌐 未知地区 用魔法打败魔法_86ac
+  - 🌐 未知地区 用魔法打败魔法_61ab
+  - 🌐 未知地区 用魔法打败魔法_b229
+  - 🌐 未知地区 用魔法打败魔法_8b9b
+  - 🌐 未知地区 用魔法打败魔法_78cb
+  - 🌐 未知地区 用魔法打败魔法_2f06
+  - 🌐 未知地区 用魔法打败魔法_8b50
+  - 🌐 未知地区 用魔法打败魔法_3567
+  - 🌐 未知地区 用魔法打败魔法_55d1
+  - 🌐 未知地区 用魔法打败魔法_2dde
+  - 🌐 未知地区 用魔法打败魔法_ef34
+  - 🌐 未知地区 用魔法打败魔法_3d3d
+  - 🌐 未知地区 用魔法打败魔法_4984
+  - 🌐 未知地区 用魔法打败魔法_e8a6
+  - 🌐 未知地区 用魔法打败魔法_221d
+  - 🌐 未知地区 用魔法打败魔法_32d1
+  - 🌐 未知地区 用魔法打败魔法_91be
+  - 🌐 未知地区 用魔法打败魔法_9f1f
+  - 🌐 未知地区 用魔法打败魔法_33de
+  - 🌐 未知地区 用魔法打败魔法_92b0
+  - 🌐 未知地区 用魔法打败魔法_a861
+  - 🌐 未知地区 用魔法打败魔法_d6d4
+  - 🌐 未知地区 用魔法打败魔法_2efa
+  - 🌐 未知地区 用魔法打败魔法_3119
+  - 🌐 未知地区 用魔法打败魔法_ed36
+  - 🌐 未知地区 用魔法打败魔法_1ed6
+  - 🌐 未知地区 用魔法打败魔法_5dd1
+  - 🌐 未知地区 用魔法打败魔法_4f72
+  - 🌐 未知地区 用魔法打败魔法_110a
+  - 🌐 未知地区 用魔法打败魔法_2c54
+  - 🌐 未知地区 用魔法打败魔法_6c1f
+  - 🌐 未知地区 用魔法打败魔法_2918
+  - 🌐 未知地区 用魔法打败魔法_f92e
+  - 🌐 未知地区 用魔法打败魔法_74bd
+  - 🌐 未知地区 用魔法打败魔法_f507
+  - 🌐 未知地区 用魔法打败魔法_929e
+  - 🌐 未知地区 用魔法打败魔法_b987
+  - 🌐 未知地区 用魔法打败魔法_c870
+  - 🌐 未知地区 用魔法打败魔法_714d
+  - 🌐 未知地区 用魔法打败魔法_f790
+  - 🌐 未知地区 用魔法打败魔法_1324
+  - 🌐 未知地区 用魔法打败魔法_a6cd
+  - 🌐 未知地区 用魔法打败魔法_8ac3
+  - 🌐 未知地区 用魔法打败魔法_16f3
+  - 🌐 未知地区 用魔法打败魔法_773e
+  - 🌐 未知地区 用魔法打败魔法_5092
+  - 🌐 未知地区 用魔法打败魔法_a5a5
+  - 🌐 未知地区 用魔法打败魔法_f469
+  - 🌐 未知地区 用魔法打败魔法_72b9
+  - 🌐 未知地区 用魔法打败魔法_80a6
+  - 🌐 未知地区 用魔法打败魔法_9c48
+  - 🌐 未知地区 用魔法打败魔法_652c
+  - 🌐 未知地区 用魔法打败魔法_8d1f
+  - 🌐 未知地区 用魔法打败魔法_81f1
+  - 🌐 未知地区 用魔法打败魔法_1c2e
+  - 🌐 未知地区 用魔法打败魔法_c093
+  - 🌐 未知地区 用魔法打败魔法_b66a
+  - 🌐 未知地区 用魔法打败魔法_cf31
+  - 🌐 未知地区 用魔法打败魔法_0631
+  - 🌐 未知地区 用魔法打败魔法_9f60
+  - 🌐 未知地区 用魔法打败魔法_c73c
+  - 🌐 未知地区 用魔法打败魔法_2a5b
+  - 🌐 未知地区 用魔法打败魔法_73b8
+  - 🌐 未知地区 用魔法打败魔法_5f08
+  - 🌐 未知地区 用魔法打败魔法_daee
+  - 🌐 未知地区 用魔法打败魔法_9a09
+  - 🌐 未知地区 用魔法打败魔法_303a
+  - 🌐 未知地区 用魔法打败魔法_49c9
+  - 🌐 未知地区 用魔法打败魔法_7b41
+  - 🌐 未知地区 用魔法打败魔法_422f
+  - 🌐 未知地区 用魔法打败魔法_beb8
+  - 🌐 未知地区 用魔法打败魔法_21a3
+  - 🌐 未知地区 用魔法打败魔法_e0fe
+  - 🌐 未知地区 用魔法打败魔法_fee7
+  - 🌐 未知地区 用魔法打败魔法_dc91
+  - 🌐 未知地区 用魔法打败魔法_a378
+  - 🌐 未知地区 用魔法打败魔法_de96
+  - 🌐 未知地区 用魔法打败魔法_be1a
+  - 🌐 未知地区 用魔法打败魔法_8892
+  - 🌐 未知地区 用魔法打败魔法_7db7
+  - 🌐 未知地区 用魔法打败魔法_444c
+  - 🌐 未知地区 用魔法打败魔法_872f
+  - 🌐 未知地区 用魔法打败魔法_03b7
+  - 🌐 未知地区 用魔法打败魔法_044e
+  - 🌐 未知地区 用魔法打败魔法_f237
+  - 🇨🇳 中国 用魔法打败魔法_c5a1
+  - 🌐 未知地区 用魔法打败魔法_eb02
+  - 🌐 未知地区 用魔法打败魔法_c765
+  - 🌐 未知地区 用魔法打败魔法_9ff8
+  - 🌐 未知地区 用魔法打败魔法_42fd
+  - 🌐 未知地区 用魔法打败魔法_9310
+  - 🌐 未知地区 用魔法打败魔法_04c4
+  - 🌐 未知地区 用魔法打败魔法_3f90
+  - 🇺🇸 美国 用魔法打败魔法_5c1a
+  - 🇭🇰 香港 用魔法打败魔法_a770
+  - 🇹🇼 台湾 用魔法打败魔法_0c9d
+  - 🌐 未知地区 用魔法打败魔法_4953
+  - 🇯🇵 日本 用魔法打败魔法_6443
+  - 🇺🇸 美国 用魔法打败魔法_2fef
+  - 🇯🇵 日本 用魔法打败魔法_d956
+  - 🇨🇳 中国 用魔法打败魔法_06fe
+  - 🇨🇳 中国 用魔法打败魔法_889c
+  - 🇺🇸 美国 用魔法打败魔法_4c68
+  - 🇺🇸 美国 用魔法打败魔法_59dd
+  - 🇺🇸 美国 用魔法打败魔法_d5ab
+  - 🇨🇳 中国 用魔法打败魔法_27da
+  - 🇨🇳 中国 用魔法打败魔法_b88f
+  - 🇭🇰 香港 用魔法打败魔法_c8a2
+  - 🇩🇪 德国 用魔法打败魔法_017f
+  - 🇰🇷 韩国 用魔法打败魔法_22b7
+  - 🇨🇳 中国 用魔法打败魔法_be7f
+  - 🇩🇪 德国 用魔法打败魔法_944b
+  - 🇨🇳 中国 用魔法打败魔法_ee17
+  - 🇸🇨 塞舌尔 用魔法打败魔法_b5d3
+  - 🇩🇪 德国 用魔法打败魔法_278e
+  - 🇸🇬 新加坡 用魔法打败魔法_f35d
+  - 🇸🇬 新加坡 用魔法打败魔法_4128
+  - 🇸🇬 新加坡 用魔法打败魔法_94e9
+  - 🇭🇰 香港 用魔法打败魔法_0fe7
+  - 🇸🇬 新加坡 用魔法打败魔法_bd16
+  - 🇸🇬 新加坡 用魔法打败魔法_b4af
+  - 🇯🇵 日本 用魔法打败魔法_d3fd
+  - 🇯🇵 日本 用魔法打败魔法_b87d
+  - 🇸🇬 新加坡 用魔法打败魔法_92cd
+  - 🇸🇬 新加坡 用魔法打败魔法_1e8a
+  - 🇭🇰 香港 用魔法打败魔法_b4d6
+  - 🇸🇬 新加坡 用魔法打败魔法_3e6a
+  - 🇨🇳 中国 用魔法打败魔法_47f6
+  - 🇯🇵 日本 用魔法打败魔法_ead9
+  - 🇸🇬 新加坡 用魔法打败魔法_a280
+  - 🇸🇬 新加坡 用魔法打败魔法_00f2
+  - 🇭🇰 香港 用魔法打败魔法_c05d
+  - 🇸🇬 新加坡 用魔法打败魔法_fbd4
+  - 🇸🇬 新加坡 用魔法打败魔法_891e
+  - 🇸🇬 新加坡 用魔法打败魔法_702d
+  - 🇰🇷 韩国 用魔法打败魔法_b983
+  - 🇸🇬 新加坡 用魔法打败魔法_cedc
+  - 🇰🇷 韩国 用魔法打败魔法_4c10
+  - 🇸🇬 新加坡 用魔法打败魔法_12d5
+  - 🇸🇬 新加坡 用魔法打败魔法_971d
+  - 🇯🇵 日本 用魔法打败魔法_f335
+  - 🇨🇳 中国 用魔法打败魔法_be64
+  - 🇯🇵 日本 用魔法打败魔法_37e2
+  - 🇯🇵 日本 用魔法打败魔法_430e
+  - 🇸🇬 新加坡 用魔法打败魔法_da22
+  - 🇸🇬 新加坡 用魔法打败魔法_25b4
+  - 🇨🇳 中国 用魔法打败魔法_70dd
+  - 🇨🇳 中国 用魔法打败魔法_8c6d
+  - 🇨🇳 中国 用魔法打败魔法_9cc2
+  - 🇨🇳 中国 用魔法打败魔法_3243
+  - 🇨🇳 中国 用魔法打败魔法_50af
+  - 🇸🇬 新加坡 用魔法打败魔法_5c66
+  - 🇸🇬 新加坡 用魔法打败魔法_6e51
+  - 🇸🇬 新加坡 用魔法打败魔法_6710
+  - 🇸🇬 新加坡 用魔法打败魔法_d0c4
+  - 🇸🇬 新加坡 用魔法打败魔法_39de
+  - 🇸🇬 新加坡 用魔法打败魔法_cd99
+  - 🇸🇬 新加坡 用魔法打败魔法_ae68
+  - 🇯🇵 日本 用魔法打败魔法_ca76
+  - 🇨🇳 中国 用魔法打败魔法_3c16
+  - 🇯🇵 日本 用魔法打败魔法_3bfe
+  - 🇸🇬 新加坡 用魔法打败魔法_d237
+  - 🇭🇰 香港 用魔法打败魔法_46b8
+  - 🇸🇬 新加坡 用魔法打败魔法_15dd
+  - 🇰🇷 韩国 用魔法打败魔法_2a70
+  - 🇯🇵 日本 用魔法打败魔法_67bb
+  - 🇯🇵 日本 用魔法打败魔法_30c5
+  - 🇯🇵 日本 用魔法打败魔法_6045
+  - 🇰🇷 韩国 用魔法打败魔法_febb
+  - 🇯🇵 日本 用魔法打败魔法_671e
+  - 🇯🇵 日本 用魔法打败魔法_dd5c
+  - 🇯🇵 日本 用魔法打败魔法_fa2c
+  - 🇯🇵 日本 用魔法打败魔法_0fb6
+  - 🇰🇷 韩国 用魔法打败魔法_2a6d
+  - 🇰🇷 韩国 用魔法打败魔法_301d
+  - 🇯🇵 日本 用魔法打败魔法_8257
+  - 🇸🇬 新加坡 用魔法打败魔法_c720
+  - 🇯🇵 日本 用魔法打败魔法_afef
+  - 🇯🇵 日本 用魔法打败魔法_1029
+  - 🇸🇬 新加坡 用魔法打败魔法_2c6a
+  - 🇸🇬 新加坡 用魔法打败魔法_5ee3
+  - 🌐 未知地区 用魔法打败魔法_bafa
+  - 🌐 未知地区 用魔法打败魔法_6a08
+  - 🌐 未知地区 用魔法打败魔法_ee9c
+  - 🌐 未知地区 用魔法打败魔法_a727
 - name: 🚀 自动测速
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
-  proxies: []
+  proxies:
+  - 🌐 未知地区 用魔法打败魔法_2a86
+  - 🌐 未知地区 用魔法打败魔法_89e5
+  - 🌐 未知地区 用魔法打败魔法_b522
+  - 🌐 未知地区 用魔法打败魔法_9954
+  - 🌐 未知地区 用魔法打败魔法_ec87
+  - 🌐 未知地区 用魔法打败魔法_8c62
+  - 🌐 未知地区 用魔法打败魔法_3b32
+  - 🌐 未知地区 用魔法打败魔法_6bc4
+  - 🌐 未知地区 用魔法打败魔法_93b5
+  - 🌐 未知地区 用魔法打败魔法_be20
+  - 🌐 未知地区 用魔法打败魔法_1877
+  - 🌐 未知地区 用魔法打败魔法_0ed1
+  - 🌐 未知地区 用魔法打败魔法_e801
+  - 🌐 未知地区 用魔法打败魔法_3edc
+  - 🌐 未知地区 用魔法打败魔法_29c6
+  - 🌐 未知地区 用魔法打败魔法_b408
+  - 🌐 未知地区 用魔法打败魔法_56a6
+  - 🇮🇩 印度尼西亚 用魔法打败魔法_3ddb
+  - 🌐 未知地区 用魔法打败魔法_c9ce
+  - 🌐 未知地区 用魔法打败魔法_1356
+  - 🌐 未知地区 用魔法打败魔法_8669
+  - 🌐 未知地区 用魔法打败魔法_8a62
+  - 🌐 未知地区 用魔法打败魔法_1117
+  - 🌐 未知地区 用魔法打败魔法_f169
+  - 🌐 未知地区 用魔法打败魔法_5bf7
+  - 🌐 未知地区 用魔法打败魔法_58d9
+  - 🌐 未知地区 用魔法打败魔法_833e
+  - 🌐 未知地区 用魔法打败魔法_0696
+  - 🌐 未知地区 用魔法打败魔法_355b
+  - 🌐 未知地区 用魔法打败魔法_6185
+  - 🌐 未知地区 用魔法打败魔法_566d
+  - 🌐 未知地区 用魔法打败魔法_1e62
+  - 🌐 未知地区 用魔法打败魔法_75e9
+  - 🌐 未知地区 用魔法打败魔法_8489
+  - 🌐 未知地区 用魔法打败魔法_813d
+  - 🇺🇸 美国 用魔法打败魔法_31b2
+  - 🌐 未知地区 用魔法打败魔法_3b5a
+  - 🌐 未知地区 用魔法打败魔法_4d17
+  - 🇺🇸 美国 用魔法打败魔法_8d3e
+  - 🌐 未知地区 用魔法打败魔法_9408
+  - 🌐 未知地区 用魔法打败魔法_f6d0
+  - 🌐 未知地区 用魔法打败魔法_892c
+  - 🌐 未知地区 用魔法打败魔法_bef7
+  - 🇨🇳 中国 用魔法打败魔法_54c3
+  - 🇺🇸 美国 用魔法打败魔法_9f3c
+  - 🇺🇸 美国 用魔法打败魔法_8427
+  - 🇨🇳 中国 用魔法打败魔法_c591
+  - 🌐 未知地区 用魔法打败魔法_d0d4
+  - 🌐 未知地区 用魔法打败魔法_6e2c
+  - 🇨🇳 中国 用魔法打败魔法_cddf
+  - 🇨🇳 中国 用魔法打败魔法_9799
+  - 🇨🇳 中国 用魔法打败魔法_0ae2
+  - 🇨🇳 中国 用魔法打败魔法_a698
+  - 🇨🇳 中国 用魔法打败魔法_5bbd
+  - 🇨🇳 中国 用魔法打败魔法_60b5
+  - 🌐 未知地区 用魔法打败魔法_eb20
+  - 🌐 未知地区 用魔法打败魔法_afbd
+  - 🌐 未知地区 用魔法打败魔法_d647
+  - 🌐 未知地区 用魔法打败魔法_40c6
+  - 🇨🇳 中国 用魔法打败魔法_bffa
+  - 🌐 未知地区 用魔法打败魔法_283a
+  - 🌐 未知地区 用魔法打败魔法_6dcb
+  - 🌐 未知地区 用魔法打败魔法_6897
+  - 🌐 未知地区 用魔法打败魔法_ea53
+  - 🇨🇳 中国 用魔法打败魔法_270b
+  - 🇨🇳 中国 用魔法打败魔法_685f
+  - 🇨🇳 中国 用魔法打败魔法_45ef
+  - 🇨🇳 中国 用魔法打败魔法_2b58
+  - 🌐 未知地区 用魔法打败魔法_c784
+  - 🌐 未知地区 用魔法打败魔法_1c6a
+  - 🌐 未知地区 用魔法打败魔法_e820
+  - 🌐 未知地区 用魔法打败魔法_a6f1
+  - 🌐 未知地区 用魔法打败魔法_54fd
+  - 🌐 未知地区 用魔法打败魔法_a261
+  - 🌐 未知地区 用魔法打败魔法_5a8a
+  - 🌐 未知地区 用魔法打败魔法_1a05
+  - 🌐 未知地区 用魔法打败魔法_e338
+  - 🌐 未知地区 用魔法打败魔法_5fca
+  - 🌐 未知地区 用魔法打败魔法_43f1
+  - 🌐 未知地区 用魔法打败魔法_3c4e
+  - 🌐 未知地区 用魔法打败魔法_39c2
+  - 🌐 未知地区 用魔法打败魔法_e439
+  - 🌐 未知地区 用魔法打败魔法_f1fa
+  - 🌐 未知地区 用魔法打败魔法_f9d3
+  - 🌐 未知地区 用魔法打败魔法_b97c
+  - 🌐 未知地区 用魔法打败魔法_c74f
+  - 🌐 未知地区 用魔法打败魔法_d106
+  - 🌐 未知地区 用魔法打败魔法_f485
+  - 🌐 未知地区 用魔法打败魔法_94ac
+  - 🌐 未知地区 用魔法打败魔法_6da1
+  - 🌐 未知地区 用魔法打败魔法_40ad
+  - 🌐 未知地区 用魔法打败魔法_4fd5
+  - 🌐 未知地区 用魔法打败魔法_ec76
+  - 🌐 未知地区 用魔法打败魔法_6690
+  - 🌐 未知地区 用魔法打败魔法_09b5
+  - 🌐 未知地区 用魔法打败魔法_1a30
+  - 🌐 未知地区 用魔法打败魔法_b8d8
+  - 🌐 未知地区 用魔法打败魔法_8399
+  - 🌐 未知地区 用魔法打败魔法_1998
+  - 🌐 未知地区 用魔法打败魔法_4022
+  - 🌐 未知地区 用魔法打败魔法_6cd3
+  - 🌐 未知地区 用魔法打败魔法_d50b
+  - 🌐 未知地区 用魔法打败魔法_4d84
+  - 🌐 未知地区 用魔法打败魔法_040e
+  - 🌐 未知地区 用魔法打败魔法_4a30
+  - 🌐 未知地区 用魔法打败魔法_893a
+  - 🌐 未知地区 用魔法打败魔法_dbb4
+  - 🌐 未知地区 用魔法打败魔法_0a68
+  - 🌐 未知地区 用魔法打败魔法_7023
+  - 🌐 未知地区 用魔法打败魔法_5041
+  - 🌐 未知地区 用魔法打败魔法_b7aa
+  - 🌐 未知地区 用魔法打败魔法_4003
+  - 🌐 未知地区 用魔法打败魔法_c60c
+  - 🌐 未知地区 用魔法打败魔法_cb22
+  - 🇨🇳 中国 用魔法打败魔法_d156
+  - 🌐 未知地区 用魔法打败魔法_aa19
+  - 🇨🇳 中国 用魔法打败魔法_f556
+  - 🌐 未知地区 用魔法打败魔法_3457
+  - 🌐 未知地区 用魔法打败魔法_a6b1
+  - 🌐 未知地区 用魔法打败魔法_23ba
+  - 🌐 未知地区 用魔法打败魔法_7bd9
+  - 🌐 未知地区 用魔法打败魔法_fcd9
+  - 🌐 未知地区 用魔法打败魔法_ac59
+  - 🌐 未知地区 用魔法打败魔法_f30b
+  - 🌐 未知地区 用魔法打败魔法_179c
+  - 🌐 未知地区 用魔法打败魔法_aa4f
+  - 🌐 未知地区 用魔法打败魔法_cc40
+  - 🌐 未知地区 用魔法打败魔法_a58f
+  - 🌐 未知地区 用魔法打败魔法_131a
+  - 🌐 未知地区 用魔法打败魔法_6eb8
+  - 🌐 未知地区 用魔法打败魔法_a88e
+  - 🌐 未知地区 用魔法打败魔法_19f5
+  - 🌐 未知地区 用魔法打败魔法_eb83
+  - 🌐 未知地区 用魔法打败魔法_bbc2
+  - 🌐 未知地区 用魔法打败魔法_a9c5
+  - 🌐 未知地区 用魔法打败魔法_f590
+  - 🌐 未知地区 用魔法打败魔法_4df0
+  - 🌐 未知地区 用魔法打败魔法_143f
+  - 🌐 未知地区 用魔法打败魔法_f181
+  - 🌐 未知地区 用魔法打败魔法_b4e2
+  - 🌐 未知地区 用魔法打败魔法_bcff
+  - 🌐 未知地区 用魔法打败魔法_24ed
+  - 🌐 未知地区 用魔法打败魔法_9a5c
+  - 🌐 未知地区 用魔法打败魔法_57c0
+  - 🌐 未知地区 用魔法打败魔法_b180
+  - 🌐 未知地区 用魔法打败魔法_2d25
+  - 🌐 未知地区 用魔法打败魔法_23ed
+  - 🌐 未知地区 用魔法打败魔法_b30a
+  - 🌐 未知地区 用魔法打败魔法_1647
+  - 🌐 未知地区 用魔法打败魔法_8a11
+  - 🌐 未知地区 用魔法打败魔法_c6ea
+  - 🌐 未知地区 用魔法打败魔法_8cf8
+  - 🌐 未知地区 用魔法打败魔法_53fc
+  - 🌐 未知地区 用魔法打败魔法_9e2e
+  - 🌐 未知地区 用魔法打败魔法_8e23
+  - 🌐 未知地区 用魔法打败魔法_4075
+  - 🌐 未知地区 用魔法打败魔法_5aa3
+  - 🌐 未知地区 用魔法打败魔法_9fed
+  - 🌐 未知地区 用魔法打败魔法_7054
+  - 🌐 未知地区 用魔法打败魔法_b222
+  - 🌐 未知地区 用魔法打败魔法_8022
+  - 🌐 未知地区 用魔法打败魔法_ef94
+  - 🌐 未知地区 用魔法打败魔法_b93a
+  - 🌐 未知地区 用魔法打败魔法_44a1
+  - 🌐 未知地区 用魔法打败魔法_8cf5
+  - 🌐 未知地区 用魔法打败魔法_4326
+  - 🌐 未知地区 用魔法打败魔法_90de
+  - 🌐 未知地区 用魔法打败魔法_114c
+  - 🌐 未知地区 用魔法打败魔法_199c
+  - 🇲🇾 马来西亚 用魔法打败魔法_8362
+  - 🇵🇭 菲律宾 用魔法打败魔法_bbb6
+  - 🌐 未知地区 用魔法打败魔法_49d7
+  - 🇲🇾 马来西亚 用魔法打败魔法_01b3
+  - 🇵🇭 菲律宾 用魔法打败魔法_e9c8
+  - 🇨🇳 中国 用魔法打败魔法_9717
+  - 🇨🇳 中国 用魔法打败魔法_cc44
+  - 🇨🇳 中国 用魔法打败魔法_3867
+  - 🇨🇳 中国 用魔法打败魔法_7cb5
+  - 🇨🇳 中国 用魔法打败魔法_d345
+  - 🇨🇳 中国 用魔法打败魔法_8372
+  - 🇨🇳 中国 用魔法打败魔法_cc3c
+  - 🇨🇳 中国 用魔法打败魔法_df31
+  - 🇨🇳 中国 用魔法打败魔法_3906
+  - 🇨🇳 中国 用魔法打败魔法_a1ae
+  - 🇨🇳 中国 用魔法打败魔法_9a40
+  - 🇨🇳 中国 用魔法打败魔法_d443
+  - 🇨🇳 中国 用魔法打败魔法_1cd8
+  - 🇨🇳 中国 用魔法打败魔法_8f6a
+  - 🌐 未知地区 用魔法打败魔法_17be
+  - 🌐 未知地区 用魔法打败魔法_926e
+  - 🌐 未知地区 用魔法打败魔法_d650
+  - 🇨🇳 中国 用魔法打败魔法_cf93
+  - 🌐 未知地区 用魔法打败魔法_f260
+  - 🇬🇧 英国 用魔法打败魔法_1777
+  - 🇹🇼 台湾 用魔法打败魔法_d133
+  - 🇯🇵 日本 用魔法打败魔法_ebf3
+  - 🇺🇸 美国 用魔法打败魔法_62eb
+  - 🌐 未知地区 用魔法打败魔法_bfef
+  - 🇬🇧 英国 用魔法打败魔法_1876
+  - 🌐 未知地区 用魔法打败魔法_f151
+  - 🇸🇬 新加坡 用魔法打败魔法_6b3c
+  - 🇨🇦 加拿大 用魔法打败魔法_4ba3
+  - 🇯🇵 日本 用魔法打败魔法_92b4
+  - 🇸🇬 新加坡 用魔法打败魔法_209a
+  - 🇬🇧 英国 用魔法打败魔法_0754
+  - 🇨🇳 中国 用魔法打败魔法_37bd
+  - 🇭🇰 香港 用魔法打败魔法_8e9e
+  - 🌐 未知地区 用魔法打败魔法_d8c4
+  - 🌐 未知地区 用魔法打败魔法_ff7e
+  - 🌐 未知地区 用魔法打败魔法_5553
+  - 🌐 未知地区 用魔法打败魔法_5ac3
+  - 🇷🇺 俄罗斯联邦 用魔法打败魔法_dfe7
+  - 🇨🇭 瑞士 用魔法打败魔法_fcc8
+  - 🌐 未知地区 用魔法打败魔法_43f6
+  - 🌐 未知地区 用魔法打败魔法_426e
+  - 🌐 未知地区 用魔法打败魔法_ee50
+  - 🌐 未知地区 用魔法打败魔法_7536
+  - 🇵🇭 菲律宾 用魔法打败魔法_0a1a
+  - 🌐 未知地区 用魔法打败魔法_3edf
+  - 🌐 未知地区 用魔法打败魔法_ac56
+  - 🌐 未知地区 用魔法打败魔法_da84
+  - 🌐 未知地区 用魔法打败魔法_de23
+  - 🇬🇧 英国 用魔法打败魔法_a0c1
+  - 🇯🇵 日本 用魔法打败魔法_beae
+  - 🇵🇭 菲律宾 用魔法打败魔法_6ea9
+  - 🇹🇭 泰国 用魔法打败魔法_fdee
+  - 🇹🇭 泰国 用魔法打败魔法_5eeb
+  - 🇭🇰 香港 用魔法打败魔法_6585
+  - 🇨🇦 加拿大 用魔法打败魔法_fd5d
+  - 🇸🇬 新加坡 用魔法打败魔法_81ae
+  - 🇸🇬 新加坡 用魔法打败魔法_1e51
+  - 🇭🇰 香港 用魔法打败魔法_7e08
+  - 🇸🇬 新加坡 用魔法打败魔法_4827
+  - 🇸🇬 新加坡 用魔法打败魔法_9993
+  - 🇮🇩 印度尼西亚 用魔法打败魔法_c943
+  - 🇵🇱 波兰 用魔法打败魔法_3003
+  - 🇦🇺 澳大利亚 用魔法打败魔法_2c4d
+  - 🇰🇷 韩国 用魔法打败魔法_dfdf
+  - 🌐 未知地区 用魔法打败魔法_b4cf
+  - 🌐 未知地区 用魔法打败魔法_6ae7
+  - 🌐 未知地区 用魔法打败魔法_368e
+  - 🌐 未知地区 用魔法打败魔法_7b31
+  - 🇦🇪 阿联酋 用魔法打败魔法_d065
+  - 🇲🇾 马来西亚 用魔法打败魔法_cb76
+  - 🇨🇳 中国 用魔法打败魔法_e499
+  - 🇨🇳 中国 用魔法打败魔法_8386
+  - 🇨🇳 中国 用魔法打败魔法_4c1f
+  - 🇨🇳 中国 用魔法打败魔法_7714
+  - 🇨🇳 中国 用魔法打败魔法_18a9
+  - 🇨🇳 中国 用魔法打败魔法_adf5
+  - 🇨🇳 中国 用魔法打败魔法_12b4
+  - 🇨🇳 中国 用魔法打败魔法_caf8
+  - 🇨🇳 中国 用魔法打败魔法_b7b6
+  - 🇨🇳 中国 用魔法打败魔法_09b9
+  - 🇨🇳 中国 用魔法打败魔法_73f7
+  - 🇨🇳 中国 用魔法打败魔法_2a38
+  - 🇨🇳 中国 用魔法打败魔法_3b45
+  - 🇨🇳 中国 用魔法打败魔法_fae3
+  - 🇯🇵 日本 用魔法打败魔法_b53a
+  - 🇯🇵 日本 用魔法打败魔法_f684
+  - 🇨🇳 中国 用魔法打败魔法_51fa
+  - 🌐 未知地区 用魔法打败魔法_9fd6
+  - 🌐 未知地区 用魔法打败魔法_b68e
+  - 🌐 未知地区 用魔法打败魔法_4fb1
+  - 🇹🇼 台湾 用魔法打败魔法_555f
+  - 🇨🇭 瑞士 用魔法打败魔法_872a
+  - 🇷🇺 俄罗斯联邦 用魔法打败魔法_ddc6
+  - 🇯🇵 日本 用魔法打败魔法_3d0f
+  - 🇮🇱 以色列 用魔法打败魔法_b0ed
+  - 🇰🇷 韩国 用魔法打败魔法_37cf
+  - 🇭🇰 香港 用魔法打败魔法_aed0
+  - 🇨🇳 中国 用魔法打败魔法_935c
+  - 🇮🇩 印度尼西亚 用魔法打败魔法_2610
+  - 🇺🇸 美国 用魔法打败魔法_19d5
+  - 🇨🇳 中国 用魔法打败魔法_d9a6
+  - 🇸🇬 新加坡 用魔法打败魔法_1cce
+  - 🇵🇱 波兰 用魔法打败魔法_4167
+  - 🌐 未知地区 用魔法打败魔法_5880
+  - 🌐 未知地区 用魔法打败魔法_1a6b
+  - 🇭🇰 香港 用魔法打败魔法_a08f
+  - 🇦🇺 澳大利亚 用魔法打败魔法_27a7
+  - 🇲🇾 马来西亚 用魔法打败魔法_8396
+  - 🌐 未知地区 用魔法打败魔法_3b85
+  - 🌐 未知地区 用魔法打败魔法_c5e6
+  - 🌐 未知地区 用魔法打败魔法_f761
+  - 🌐 未知地区 用魔法打败魔法_459a
+  - 🇨🇳 中国 用魔法打败魔法_e6a1
+  - 🇦🇪 阿联酋 用魔法打败魔法_68d0
+  - 🇨🇳 中国 用魔法打败魔法_e231
+  - 🇺🇸 美国 用魔法打败魔法_b368
+  - 🇨🇳 中国 用魔法打败魔法_6f71
+  - 🇨🇳 中国 用魔法打败魔法_be94
+  - 🇨🇳 中国 用魔法打败魔法_c003
+  - 🇨🇳 中国 用魔法打败魔法_7ac7
+  - 🌐 未知地区 用魔法打败魔法_f5d5
+  - 🌐 未知地区 用魔法打败魔法_7b1b
+  - 🌐 未知地区 用魔法打败魔法_c569
+  - 🌐 未知地区 用魔法打败魔法_32ab
+  - 🇺🇸 美国 用魔法打败魔法_10fa
+  - 🌐 未知地区 用魔法打败魔法_1452
+  - 🌐 未知地区 用魔法打败魔法_b0ab
+  - 🌐 未知地区 用魔法打败魔法_3f69
+  - 🌐 未知地区 用魔法打败魔法_28eb
+  - 🌐 未知地区 用魔法打败魔法_39cc
+  - 🌐 未知地区 用魔法打败魔法_60e5
+  - 🌐 未知地区 用魔法打败魔法_a902
+  - 🌐 未知地区 用魔法打败魔法_6cf9
+  - 🌐 未知地区 用魔法打败魔法_38a3
+  - 🇺🇸 美国 用魔法打败魔法_fc44
+  - 🇨🇳 中国 用魔法打败魔法_dd2a
+  - 🇭🇰 香港 用魔法打败魔法_9c31
+  - 🇨🇳 中国 用魔法打败魔法_5154
+  - 🌐 未知地区 用魔法打败魔法_8ad9
+  - 🌐 未知地区 用魔法打败魔法_80c6
+  - 🌐 未知地区 用魔法打败魔法_5eae
+  - 🌐 未知地区 用魔法打败魔法_d4a3
+  - 🇨🇳 中国 用魔法打败魔法_3c71
+  - 🇨🇳 中国 用魔法打败魔法_ade0
+  - 🇨🇳 中国 用魔法打败魔法_61af
+  - 🇨🇳 中国 用魔法打败魔法_1e28
+  - 🇨🇳 中国 用魔法打败魔法_484a
+  - 🇨🇳 中国 用魔法打败魔法_759e
+  - 🇨🇳 中国 用魔法打败魔法_d420
+  - 🌐 未知地区 用魔法打败魔法_c0bd
+  - 🌐 未知地区 用魔法打败魔法_b341
+  - 🌐 未知地区 用魔法打败魔法_753b
+  - 🌐 未知地区 用魔法打败魔法_8733
+  - 🇯🇵 日本 用魔法打败魔法_3fb8
+  - 🌐 未知地区 用魔法打败魔法_cff2
+  - 🌐 未知地区 用魔法打败魔法_28ff
+  - 🇨🇳 中国 用魔法打败魔法_d5d3
+  - 🇨🇳 中国 用魔法打败魔法_b6db
+  - 🇨🇳 中国 用魔法打败魔法_42cd
+  - 🇨🇳 中国 用魔法打败魔法_dfce
+  - 🇨🇳 中国 用魔法打败魔法_707b
+  - 🇨🇳 中国 用魔法打败魔法_d2f9
+  - 🇨🇳 中国 用魔法打败魔法_7318
+  - 🇨🇳 中国 用魔法打败魔法_0b62
+  - 🇺🇸 美国 用魔法打败魔法_91e7
+  - 🇺🇸 美国 用魔法打败魔法_93f8
+  - 🇺🇸 美国 用魔法打败魔法_ad8d
+  - 🇨🇳 中国 用魔法打败魔法_676d
+  - 🇨🇳 中国 用魔法打败魔法_7f6b
+  - 🇺🇸 美国 用魔法打败魔法_1d22
+  - 🇨🇳 中国 用魔法打败魔法_0620
+  - 🇨🇳 中国 用魔法打败魔法_f17f
+  - 🇨🇳 中国 用魔法打败魔法_b427
+  - 🇨🇳 中国 用魔法打败魔法_314f
+  - 🇨🇳 中国 用魔法打败魔法_b42e
+  - 🇨🇳 中国 用魔法打败魔法_cb09
+  - 🇨🇳 中国 用魔法打败魔法_d6fc
+  - 🇨🇳 中国 用魔法打败魔法_764e
+  - 🇨🇳 中国 用魔法打败魔法_8b9e
+  - 🇨🇳 中国 用魔法打败魔法_0b6c
+  - 🇨🇳 中国 用魔法打败魔法_8cd0
+  - 🇨🇳 中国 用魔法打败魔法_0914
+  - 🇨🇳 中国 用魔法打败魔法_a8f8
+  - 🌐 未知地区 用魔法打败魔法_c594
+  - 🌐 未知地区 用魔法打败魔法_f54e
+  - 🌐 未知地区 用魔法打败魔法_74e6
+  - 🌐 未知地区 用魔法打败魔法_53bf
+  - 🌐 未知地区 用魔法打败魔法_d7ac
+  - 🌐 未知地区 用魔法打败魔法_b237
+  - 🌐 未知地区 用魔法打败魔法_e096
+  - 🌐 未知地区 用魔法打败魔法_d38e
+  - 🌐 未知地区 用魔法打败魔法_f623
+  - 🌐 未知地区 用魔法打败魔法_565a
+  - 🌐 未知地区 用魔法打败魔法_00b9
+  - 🌐 未知地区 用魔法打败魔法_b4b7
+  - 🌐 未知地区 用魔法打败魔法_db81
+  - 🌐 未知地区 用魔法打败魔法_3331
+  - 🌐 未知地区 用魔法打败魔法_30b4
+  - 🌐 未知地区 用魔法打败魔法_5bda
+  - 🌐 未知地区 用魔法打败魔法_e7ec
+  - 🌐 未知地区 用魔法打败魔法_2048
+  - 🇨🇳 中国 用魔法打败魔法_9011
+  - 🇨🇳 中国 用魔法打败魔法_26ca
+  - 🇨🇳 中国 用魔法打败魔法_a2fe
+  - 🇺🇸 美国 用魔法打败魔法_a143
+  - 🇰🇷 韩国 用魔法打败魔法_71dd
+  - 🇺🇸 美国 用魔法打败魔法_feec
+  - 🌐 未知地区 用魔法打败魔法_f370
+  - 🌐 未知地区 用魔法打败魔法_c160
+  - 🌐 未知地区 用魔法打败魔法_0aeb
+  - 🇨🇳 中国 用魔法打败魔法_9631
+  - 🌐 未知地区 用魔法打败魔法_4b76
+  - 🌐 未知地区 用魔法打败魔法_2029
+  - 🌐 未知地区 用魔法打败魔法_d2f8
+  - 🇩🇪 德国 用魔法打败魔法_866a
+  - 🇨🇳 中国 用魔法打败魔法_4ea6
+  - 🌐 未知地区 用魔法打败魔法_29a6
+  - 🌐 未知地区 用魔法打败魔法_b801
+  - 🌐 未知地区 用魔法打败魔法_dc77
+  - 🇺🇸 美国 用魔法打败魔法_da26
+  - 🇨🇳 中国 用魔法打败魔法_f94f
+  - 🌐 未知地区 用魔法打败魔法_0461
+  - 🌐 未知地区 用魔法打败魔法_de13
+  - 🌐 未知地区 用魔法打败魔法_40fa
+  - 🌐 未知地区 用魔法打败魔法_5d70
+  - 🇨🇳 中国 用魔法打败魔法_c5da
+  - 🌐 未知地区 用魔法打败魔法_c2e4
+  - 🌐 未知地区 用魔法打败魔法_0dad
+  - 🌐 未知地区 用魔法打败魔法_d61f
+  - 🌐 未知地区 用魔法打败魔法_9e69
+  - 🇨🇳 中国 用魔法打败魔法_08ed
+  - 🌐 未知地区 用魔法打败魔法_66cc
+  - 🇨🇳 中国 用魔法打败魔法_26bc
+  - 🌐 未知地区 用魔法打败魔法_d77c
+  - 🌐 未知地区 用魔法打败魔法_b0c1
+  - 🌐 未知地区 用魔法打败魔法_8268
+  - 🌐 未知地区 用魔法打败魔法_f976
+  - 🌐 未知地区 用魔法打败魔法_0bf4
+  - 🌐 未知地区 用魔法打败魔法_b505
+  - 🌐 未知地区 用魔法打败魔法_2643
+  - 🌐 未知地区 用魔法打败魔法_d6fd
+  - 🌐 未知地区 用魔法打败魔法_36d1
+  - 🌐 未知地区 用魔法打败魔法_9cf5
+  - 🌐 未知地区 用魔法打败魔法_918d
+  - 🌐 未知地区 用魔法打败魔法_c397
+  - 🌐 未知地区 用魔法打败魔法_fa73
+  - 🌐 未知地区 用魔法打败魔法_a066
+  - 🌐 未知地区 用魔法打败魔法_b0ce
+  - 🌐 未知地区 用魔法打败魔法_86ac
+  - 🌐 未知地区 用魔法打败魔法_61ab
+  - 🌐 未知地区 用魔法打败魔法_b229
+  - 🌐 未知地区 用魔法打败魔法_8b9b
+  - 🌐 未知地区 用魔法打败魔法_78cb
+  - 🌐 未知地区 用魔法打败魔法_2f06
+  - 🌐 未知地区 用魔法打败魔法_8b50
+  - 🌐 未知地区 用魔法打败魔法_3567
+  - 🌐 未知地区 用魔法打败魔法_55d1
+  - 🌐 未知地区 用魔法打败魔法_2dde
+  - 🌐 未知地区 用魔法打败魔法_ef34
+  - 🌐 未知地区 用魔法打败魔法_3d3d
+  - 🌐 未知地区 用魔法打败魔法_4984
+  - 🌐 未知地区 用魔法打败魔法_e8a6
+  - 🌐 未知地区 用魔法打败魔法_221d
+  - 🌐 未知地区 用魔法打败魔法_32d1
+  - 🌐 未知地区 用魔法打败魔法_91be
+  - 🌐 未知地区 用魔法打败魔法_9f1f
+  - 🌐 未知地区 用魔法打败魔法_33de
+  - 🌐 未知地区 用魔法打败魔法_92b0
+  - 🌐 未知地区 用魔法打败魔法_a861
+  - 🌐 未知地区 用魔法打败魔法_d6d4
+  - 🌐 未知地区 用魔法打败魔法_2efa
+  - 🌐 未知地区 用魔法打败魔法_3119
+  - 🌐 未知地区 用魔法打败魔法_ed36
+  - 🌐 未知地区 用魔法打败魔法_1ed6
+  - 🌐 未知地区 用魔法打败魔法_5dd1
+  - 🌐 未知地区 用魔法打败魔法_4f72
+  - 🌐 未知地区 用魔法打败魔法_110a
+  - 🌐 未知地区 用魔法打败魔法_2c54
+  - 🌐 未知地区 用魔法打败魔法_6c1f
+  - 🌐 未知地区 用魔法打败魔法_2918
+  - 🌐 未知地区 用魔法打败魔法_f92e
+  - 🌐 未知地区 用魔法打败魔法_74bd
+  - 🌐 未知地区 用魔法打败魔法_f507
+  - 🌐 未知地区 用魔法打败魔法_929e
+  - 🌐 未知地区 用魔法打败魔法_b987
+  - 🌐 未知地区 用魔法打败魔法_c870
+  - 🌐 未知地区 用魔法打败魔法_714d
+  - 🌐 未知地区 用魔法打败魔法_f790
+  - 🌐 未知地区 用魔法打败魔法_1324
+  - 🌐 未知地区 用魔法打败魔法_a6cd
+  - 🌐 未知地区 用魔法打败魔法_8ac3
+  - 🌐 未知地区 用魔法打败魔法_16f3
+  - 🌐 未知地区 用魔法打败魔法_773e
+  - 🌐 未知地区 用魔法打败魔法_5092
+  - 🌐 未知地区 用魔法打败魔法_a5a5
+  - 🌐 未知地区 用魔法打败魔法_f469
+  - 🌐 未知地区 用魔法打败魔法_72b9
+  - 🌐 未知地区 用魔法打败魔法_80a6
+  - 🌐 未知地区 用魔法打败魔法_9c48
+  - 🌐 未知地区 用魔法打败魔法_652c
+  - 🌐 未知地区 用魔法打败魔法_8d1f
+  - 🌐 未知地区 用魔法打败魔法_81f1
+  - 🌐 未知地区 用魔法打败魔法_1c2e
+  - 🌐 未知地区 用魔法打败魔法_c093
+  - 🌐 未知地区 用魔法打败魔法_b66a
+  - 🌐 未知地区 用魔法打败魔法_cf31
+  - 🌐 未知地区 用魔法打败魔法_0631
+  - 🌐 未知地区 用魔法打败魔法_9f60
+  - 🌐 未知地区 用魔法打败魔法_c73c
+  - 🌐 未知地区 用魔法打败魔法_2a5b
+  - 🌐 未知地区 用魔法打败魔法_73b8
+  - 🌐 未知地区 用魔法打败魔法_5f08
+  - 🌐 未知地区 用魔法打败魔法_daee
+  - 🌐 未知地区 用魔法打败魔法_9a09
+  - 🌐 未知地区 用魔法打败魔法_303a
+  - 🌐 未知地区 用魔法打败魔法_49c9
+  - 🌐 未知地区 用魔法打败魔法_7b41
+  - 🌐 未知地区 用魔法打败魔法_422f
+  - 🌐 未知地区 用魔法打败魔法_beb8
+  - 🌐 未知地区 用魔法打败魔法_21a3
+  - 🌐 未知地区 用魔法打败魔法_e0fe
+  - 🌐 未知地区 用魔法打败魔法_fee7
+  - 🌐 未知地区 用魔法打败魔法_dc91
+  - 🌐 未知地区 用魔法打败魔法_a378
+  - 🌐 未知地区 用魔法打败魔法_de96
+  - 🌐 未知地区 用魔法打败魔法_be1a
+  - 🌐 未知地区 用魔法打败魔法_8892
+  - 🌐 未知地区 用魔法打败魔法_7db7
+  - 🌐 未知地区 用魔法打败魔法_444c
+  - 🌐 未知地区 用魔法打败魔法_872f
+  - 🌐 未知地区 用魔法打败魔法_03b7
+  - 🌐 未知地区 用魔法打败魔法_044e
+  - 🌐 未知地区 用魔法打败魔法_f237
+  - 🇨🇳 中国 用魔法打败魔法_c5a1
+  - 🌐 未知地区 用魔法打败魔法_eb02
+  - 🌐 未知地区 用魔法打败魔法_c765
+  - 🌐 未知地区 用魔法打败魔法_9ff8
+  - 🌐 未知地区 用魔法打败魔法_42fd
+  - 🌐 未知地区 用魔法打败魔法_9310
+  - 🌐 未知地区 用魔法打败魔法_04c4
+  - 🌐 未知地区 用魔法打败魔法_3f90
+  - 🇺🇸 美国 用魔法打败魔法_5c1a
+  - 🇭🇰 香港 用魔法打败魔法_a770
+  - 🇹🇼 台湾 用魔法打败魔法_0c9d
+  - 🌐 未知地区 用魔法打败魔法_4953
+  - 🇯🇵 日本 用魔法打败魔法_6443
+  - 🇺🇸 美国 用魔法打败魔法_2fef
+  - 🇯🇵 日本 用魔法打败魔法_d956
+  - 🇨🇳 中国 用魔法打败魔法_06fe
+  - 🇨🇳 中国 用魔法打败魔法_889c
+  - 🇺🇸 美国 用魔法打败魔法_4c68
+  - 🇺🇸 美国 用魔法打败魔法_59dd
+  - 🇺🇸 美国 用魔法打败魔法_d5ab
+  - 🇨🇳 中国 用魔法打败魔法_27da
+  - 🇨🇳 中国 用魔法打败魔法_b88f
+  - 🇭🇰 香港 用魔法打败魔法_c8a2
+  - 🇩🇪 德国 用魔法打败魔法_017f
+  - 🇰🇷 韩国 用魔法打败魔法_22b7
+  - 🇨🇳 中国 用魔法打败魔法_be7f
+  - 🇩🇪 德国 用魔法打败魔法_944b
+  - 🇨🇳 中国 用魔法打败魔法_ee17
+  - 🇸🇨 塞舌尔 用魔法打败魔法_b5d3
+  - 🇩🇪 德国 用魔法打败魔法_278e
+  - 🇸🇬 新加坡 用魔法打败魔法_f35d
+  - 🇸🇬 新加坡 用魔法打败魔法_4128
+  - 🇸🇬 新加坡 用魔法打败魔法_94e9
+  - 🇭🇰 香港 用魔法打败魔法_0fe7
+  - 🇸🇬 新加坡 用魔法打败魔法_bd16
+  - 🇸🇬 新加坡 用魔法打败魔法_b4af
+  - 🇯🇵 日本 用魔法打败魔法_d3fd
+  - 🇯🇵 日本 用魔法打败魔法_b87d
+  - 🇸🇬 新加坡 用魔法打败魔法_92cd
+  - 🇸🇬 新加坡 用魔法打败魔法_1e8a
+  - 🇭🇰 香港 用魔法打败魔法_b4d6
+  - 🇸🇬 新加坡 用魔法打败魔法_3e6a
+  - 🇨🇳 中国 用魔法打败魔法_47f6
+  - 🇯🇵 日本 用魔法打败魔法_ead9
+  - 🇸🇬 新加坡 用魔法打败魔法_a280
+  - 🇸🇬 新加坡 用魔法打败魔法_00f2
+  - 🇭🇰 香港 用魔法打败魔法_c05d
+  - 🇸🇬 新加坡 用魔法打败魔法_fbd4
+  - 🇸🇬 新加坡 用魔法打败魔法_891e
+  - 🇸🇬 新加坡 用魔法打败魔法_702d
+  - 🇰🇷 韩国 用魔法打败魔法_b983
+  - 🇸🇬 新加坡 用魔法打败魔法_cedc
+  - 🇰🇷 韩国 用魔法打败魔法_4c10
+  - 🇸🇬 新加坡 用魔法打败魔法_12d5
+  - 🇸🇬 新加坡 用魔法打败魔法_971d
+  - 🇯🇵 日本 用魔法打败魔法_f335
+  - 🇨🇳 中国 用魔法打败魔法_be64
+  - 🇯🇵 日本 用魔法打败魔法_37e2
+  - 🇯🇵 日本 用魔法打败魔法_430e
+  - 🇸🇬 新加坡 用魔法打败魔法_da22
+  - 🇸🇬 新加坡 用魔法打败魔法_25b4
+  - 🇨🇳 中国 用魔法打败魔法_70dd
+  - 🇨🇳 中国 用魔法打败魔法_8c6d
+  - 🇨🇳 中国 用魔法打败魔法_9cc2
+  - 🇨🇳 中国 用魔法打败魔法_3243
+  - 🇨🇳 中国 用魔法打败魔法_50af
+  - 🇸🇬 新加坡 用魔法打败魔法_5c66
+  - 🇸🇬 新加坡 用魔法打败魔法_6e51
+  - 🇸🇬 新加坡 用魔法打败魔法_6710
+  - 🇸🇬 新加坡 用魔法打败魔法_d0c4
+  - 🇸🇬 新加坡 用魔法打败魔法_39de
+  - 🇸🇬 新加坡 用魔法打败魔法_cd99
+  - 🇸🇬 新加坡 用魔法打败魔法_ae68
+  - 🇯🇵 日本 用魔法打败魔法_ca76
+  - 🇨🇳 中国 用魔法打败魔法_3c16
+  - 🇯🇵 日本 用魔法打败魔法_3bfe
+  - 🇸🇬 新加坡 用魔法打败魔法_d237
+  - 🇭🇰 香港 用魔法打败魔法_46b8
+  - 🇸🇬 新加坡 用魔法打败魔法_15dd
+  - 🇰🇷 韩国 用魔法打败魔法_2a70
+  - 🇯🇵 日本 用魔法打败魔法_67bb
+  - 🇯🇵 日本 用魔法打败魔法_30c5
+  - 🇯🇵 日本 用魔法打败魔法_6045
+  - 🇰🇷 韩国 用魔法打败魔法_febb
+  - 🇯🇵 日本 用魔法打败魔法_671e
+  - 🇯🇵 日本 用魔法打败魔法_dd5c
+  - 🇯🇵 日本 用魔法打败魔法_fa2c
+  - 🇯🇵 日本 用魔法打败魔法_0fb6
+  - 🇰🇷 韩国 用魔法打败魔法_2a6d
+  - 🇰🇷 韩国 用魔法打败魔法_301d
+  - 🇯🇵 日本 用魔法打败魔法_8257
+  - 🇸🇬 新加坡 用魔法打败魔法_c720
+  - 🇯🇵 日本 用魔法打败魔法_afef
+  - 🇯🇵 日本 用魔法打败魔法_1029
+  - 🇸🇬 新加坡 用魔法打败魔法_2c6a
+  - 🇸🇬 新加坡 用魔法打败魔法_5ee3
+  - 🌐 未知地区 用魔法打败魔法_bafa
+  - 🌐 未知地区 用魔法打败魔法_6a08
+  - 🌐 未知地区 用魔法打败魔法_ee9c
+  - 🌐 未知地区 用魔法打败魔法_a727
 rules:
 - MATCH,🔰 节点选择
