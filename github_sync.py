@@ -1,5 +1,6 @@
 import os
 import time
+import re
 import requests
 from datetime import datetime, timezone
 
@@ -11,7 +12,7 @@ MY_TOKEN = os.getenv("GITHUB_TOKEN")
 if MY_TOKEN:
     HEADERS["Authorization"] = f"token {MY_TOKEN}"
 
-# 关键词：用于“先命中候选”
+# 候选：文件名/路径含这些（先缩小数量）
 TARGET_KEYWORDS = [
     "subscribes.txt",
     "clash.yaml",
@@ -24,36 +25,37 @@ TARGET_KEYWORDS = [
     "node",
 ]
 
-# 结构性特征：用于“排除误报”
-# 只要命中其一就认为更像节点/配置文件
-STRUCTURE_HINTS = [
-    # Clash / Mihomo YAML
-    "proxies:",
-    "proxy-groups:",
-    "rules:",
-    "rule-providers:",
-    "domain-suffix",
-    "domain-keyword",
-    "port: ",
-    "- name:",
-
-    # V2Ray / Xray JSON/YAML
-    "outbounds:",
-    "inbounds:",
-    "routing:",
-    "transport:",
-
-    # 订阅链接（常见于文本节点列表）
-    "ss://",
-    "vmess://",
-    "trojan://",
-    "vless://",
-]
-
 CANDIDATE_SUFFIXES = (".txt", ".yaml", ".yml")
-
 MAX_RAW_BYTES = 250_000
 TIMEOUT = 20
+
+# 关键词/格式强校验
+CLASH_MUST = [
+    "proxies:",
+]
+
+CLASH_ANY = [
+    "proxy-groups:",
+    "rules:",
+    "port:",
+    "- name:",
+    "type:",
+    "domain-suffix",
+]
+
+# base64强校验：只看字符比例与长段长度
+BASE64_CHARS_RE = re.compile(r'^[A-Za-z0-9+/=\s]+$')
+
+# 取文本做 base64 估计时的最大样本长度
+BASE64_SAMPLE_CHARS = 20000
+BASE64_MIN_LEN = 1000
+BASE64_MIN_B64_RATIO = 0.65
+
+# 常见订阅链接前缀（如果出现直接通过）
+SUB_LINK_PREFIXES = ("vmess://", "vless://", "trojan://", "ss://")
+
+# 日志过滤：命中则直接拒绝（可继续加）
+LOG_BLACK_HINTS = ("output_log", "log:", "error", "warning", "traceback")
 
 
 def github_get(url, params=None, timeout=TIMEOUT, max_retries=5):
@@ -89,10 +91,13 @@ def is_candidate_by_filename(fname: str) -> bool:
     if not fname:
         return False
     lower = fname.lower()
-    return any(lower.endswith(suf) for suf in CANDIDATE_SUFFIXES)
+    if not any(lower.endswith(suf) for suf in CANDIDATE_SUFFIXES):
+        return False
+    # 先做关键词命中缩小
+    return any(k.lower() in lower for k in TARGET_KEYWORDS)
 
 
-def download_snippet(raw_url: str) -> str:
+def fetch_snippet(raw_url: str) -> str:
     r = requests.get(raw_url, headers={"User-Agent": "Mozilla/5.0"}, timeout=TIMEOUT, stream=True)
     if r.status_code != 200:
         return ""
@@ -103,27 +108,70 @@ def download_snippet(raw_url: str) -> str:
         content += chunk
         if len(content) >= MAX_RAW_BYTES:
             break
-    return content.decode("utf-8", errors="ignore").lower()
+    return content.decode("utf-8", errors="ignore")
 
 
-def raw_content_matches(raw_url: str) -> bool:
-    text = download_snippet(raw_url)
-    if not text:
+def clash_strong_check(text_lower: str) -> bool:
+    # 必须出现 proxies:
+    if not any(k in text_lower for k in CLASH_MUST):
+        return False
+    # 再要求至少出现一个其它结构字段
+    return any(k in text_lower for k in CLASH_ANY)
+
+
+def contains_sub_links(text_lower: str) -> bool:
+    return any(p in text_lower for p in SUB_LINK_PREFIXES)
+
+
+def base64_long_segment_check(text: str) -> bool:
+    # 先拒绝明显是日志/短文本
+    t = text.strip()
+    if not t or len(t) < BASE64_MIN_LEN:
         return False
 
-    # 第一步：关键词先命中
-    if not any(kw.lower() in text for kw in TARGET_KEYWORDS):
+    sample = t[:BASE64_SAMPLE_CHARS]
+    sample_compact = "".join(sample.split())  # 去空白
+    if len(sample_compact) < BASE64_MIN_LEN:
         return False
 
-    # 第二步：结构性特征必须命中（防止像 Bug Bounty Resources 这种误报）
-    if not any(hint.lower() in text for hint in STRUCTURE_HINTS):
+    # 字符集必须像 base64
+    if not BASE64_CHARS_RE.match(sample):
         return False
 
-    return True
+    # 计算 base64 字符占比（不含空白）
+    b64_allowed = set("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=")
+    total = len(sample_compact)
+    if total == 0:
+        return False
+    b64_count = sum(1 for c in sample_compact if c in b64_allowed)
+    ratio = b64_count / total
+    return ratio >= BASE64_MIN_B64_RATIO
+
+
+def strong_check(raw_url: str, text: str) -> bool:
+    low = text.lower()
+
+    # 黑名单拒绝
+    if any(h in low for h in LOG_BLACK_HINTS):
+        return False
+
+    # Clash 强校验
+    if clash_strong_check(low):
+        return True
+
+    # 订阅链接前缀
+    if contains_sub_links(low):
+        return True
+
+    # V2Ray base64 长段强校验
+    if base64_long_segment_check(text):
+        return True
+
+    return False
 
 
 def main():
-    print(f"[*] 扫描 public gists；仅保留 {WITHIN_HOURS}h 内更新，并做结构性校验（防止误报）")
+    print(f"[*] 扫描 public gists：{WITHIN_HOURS}h 内候选，并做强格式校验（Clash/Vmess/V2Ray base64）")
 
     all_raw_urls = set()
     page = 1
@@ -150,12 +198,15 @@ def main():
             for fname, finfo in files.items():
                 if not is_candidate_by_filename(fname):
                     continue
-
                 raw_url = finfo.get("raw_url")
                 if not raw_url:
                     continue
 
-                if raw_content_matches(raw_url):
+                text = fetch_snippet(raw_url)
+                if not text:
+                    continue
+
+                if strong_check(raw_url, text):
                     all_raw_urls.add(raw_url)
 
         page += 1
