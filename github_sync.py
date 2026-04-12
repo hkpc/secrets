@@ -1,5 +1,6 @@
 import os
 import time
+import re
 import requests
 from datetime import datetime, timezone
 
@@ -14,26 +15,30 @@ MY_TOKEN = os.getenv("GITHUB_TOKEN")
 if MY_TOKEN:
     HEADERS["Authorization"] = f"token {MY_TOKEN}"
 
-
-# 你要的目标特征（对“文件名/文件路径”做匹配）
-# 注意：这里只匹配 gist 接口返回的文件名 key（gist.files 的 key）
-TARGET_PATTERNS = [
+# 内容特征：你给的这些词（这里做成“不区分大小写”的子串）
+TARGET_KEYWORDS = [
     "subscribes.txt",
     "clash.yaml",
-    "proxies",
     "proxies.yaml",
+    "proxies",
     "v2ray.txt",
     "nodes.txt",
 ]
 
-# 可选：如果你想更严格一点，可以改成全等/后缀匹配
-# 目前是“包含匹配”，更容易命中你给的那些常见命名
+# 先用后缀缩小候选（减少请求 raw 的数量）
+CANDIDATE_SUFFIXES = (".txt", ".yaml", ".yml")
+
+# 拉取 raw 内容时限制最大读取字节，避免超大文件拖垮
+MAX_RAW_BYTES = 200_000  # 约200KB
+TIMEOUT = 20
 
 
-def github_get(url, params=None, timeout=20, max_retries=5):
+def github_get(url, params=None, timeout=TIMEOUT, max_retries=5):
     for _ in range(max_retries):
         res = requests.get(url, headers=HEADERS, params=params, timeout=timeout)
 
+        if res.status_code in (404, 422):
+            return None
         if res.status_code == 403:
             reset = res.headers.get("X-RateLimit-Reset")
             if reset:
@@ -44,15 +49,11 @@ def github_get(url, params=None, timeout=20, max_retries=5):
             time.sleep(10)
             continue
 
-        if res.status_code in (404, 422):
-            return None
-
         if res.status_code != 200:
             time.sleep(2)
             continue
 
         return res.json()
-
     return None
 
 
@@ -64,19 +65,41 @@ def within_last_hours(dt_str: str, hours: int) -> bool:
     return (now - dt).total_seconds() <= hours * 3600
 
 
-def is_target_filename(name: str) -> bool:
-    if not name:
+def is_candidate_by_filename(fname: str) -> bool:
+    if not fname:
         return False
-    lower = name.lower()
-    # 对每个 pattern 做包含匹配（pattern 也转小写）
-    for p in TARGET_PATTERNS:
-        if p.lower() in lower:
-            return True
-    return False
+    lower = fname.lower()
+    return any(lower.endswith(suf) for suf in CANDIDATE_SUFFIXES)
+
+
+def raw_content_hits(raw_url: str) -> bool:
+    try:
+        # 直接用 requests 流式读，尽量少读
+        r = requests.get(raw_url, headers={"User-Agent": "Mozilla/5.0"}, timeout=TIMEOUT, stream=True)
+        if r.status_code != 200:
+            return False
+
+        content = b""
+        for chunk in r.iter_content(chunk_size=4096):
+            if not chunk:
+                break
+            content += chunk
+            if len(content) >= MAX_RAW_BYTES:
+                break
+
+        # 尝试按 utf-8/gzip? 这里按忽略错误解码更稳
+        text = content.decode("utf-8", errors="ignore").lower()
+
+        # 命中任一关键词即可
+        return any(kw.lower() in text for kw in TARGET_KEYWORDS)
+
+    except Exception:
+        return False
 
 
 def main():
-    print(f"[*] 扫描 public gists，并仅输出：文件名命中 {TARGET_PATTERNS} 且 {WITHIN_HOURS}h 内更新的 raw_url")
+    print(f"[*] 扫描 public gists；仅保留 {WITHIN_HOURS}h 内更新，且 raw 内容命中关键词：{TARGET_KEYWORDS}")
+    print("[*] 候选文件后缀：", CANDIDATE_SUFFIXES)
 
     all_raw_urls = set()
     page = 1
@@ -101,10 +124,14 @@ def main():
 
             files = gist.get("files") or {}
             for fname, finfo in files.items():
-                if not is_target_filename(fname):
+                if not is_candidate_by_filename(fname):
                     continue
+
                 raw_url = finfo.get("raw_url")
-                if raw_url:
+                if not raw_url:
+                    continue
+
+                if raw_content_hits(raw_url):
                     all_raw_urls.add(raw_url)
 
         page += 1
