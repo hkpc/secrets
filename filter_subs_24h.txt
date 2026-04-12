@@ -1,3 +1,2 @@
-https://gist.githubusercontent.com/ARCTRE/009c8a4b59ec252f4281e4d24041b6f5/raw/a1c1392666a76a81a502c7916a816caeb5f9e79a/V2Nodes_config.txt
 https://gist.githubusercontent.com/BluesYoung-web/7488b448783b5ad980d4f658f04dc8d5/raw/8883854484c60dba1c3c3c2ee7ef9aa615ce8a73/free-node-2026_4_12_21_06_17.yaml
-https://gist.githubusercontent.com/BluesYoung-web/bce0db2fe242c589510716680df7b8af/raw/ba7903a1c015953e0f34e4f3bdb6b1e82c714f8b/free-node-2026_4_12_10_57_17.yaml
+https://gist.githubusercontent.com/v2clash/cbc095ea4736ed5e1c3c81741db2418c/raw/6e15da533b6978f3589b2fb117234b94aa9619f4/V2Nodes_config.txt
