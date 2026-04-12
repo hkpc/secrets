@@ -1,10 +1,13 @@
 import os
 import time
 import requests
+from datetime import datetime, timezone
 
-SAVE_PATH = "filter_subs.txt"
+SAVE_PATH = "filter_subs_24h.txt"
 
-# 你关心的常见订阅/代理配置后缀（可自行增减）
+# 只保留更新时间在过去多少小时内的 gist
+WITHIN_HOURS = 24
+
 ALLOWED_SUFFIXES = (
     ".txt", ".yaml", ".yml", ".conf", ".config", ".json",
     ".md", ".list", ".cfg", ".properties"
@@ -21,10 +24,9 @@ if MY_TOKEN:
 
 
 def github_get(url, params=None, timeout=20):
-    """带基本限流处理的 GET"""
     while True:
         res = requests.get(url, headers=HEADERS, params=params, timeout=timeout)
-        # rate limit
+
         if res.status_code == 403:
             reset = res.headers.get("X-RateLimit-Reset")
             if reset:
@@ -47,17 +49,28 @@ def is_allowed_file(filename: str) -> bool:
     return any(lower.endswith(suf) for suf in ALLOWED_SUFFIXES)
 
 
+def within_last_hours(dt_str: str, hours: int) -> bool:
+    """
+    dt_str: GitHub 返回的 updated_at，例如 "2024-01-01T12:34:56Z"
+    """
+    if not dt_str:
+        return False
+    # 统一按 UTC 解析
+    dt = datetime.fromisoformat(dt_str.replace("Z", "+00:00"))
+    now = datetime.now(timezone.utc)
+    delta = now - dt
+    return delta.total_seconds() <= hours * 3600
+
+
 def main():
-    print("[*] 开始扫描所有公共 Gist（分页抓取）...")
+    print(f"[*] 开始扫描所有公共 Gist（仅保留过去 {WITHIN_HOURS} 小时内更新）...")
 
     all_raw_urls = set()
     page = 1
     per_page = 100
+    api_url = "https://api.github.com/gists/public"
 
-    # Public gists endpoint：/gists/public
-    # https://docs.github.com/en/rest/gists/gists?apiVersion=2022-11-28#list-public-gists
     while True:
-        api_url = "https://api.github.com/gists/public"
         data = github_get(api_url, params={"per_page": per_page, "page": page})
 
         if not data:
@@ -66,25 +79,29 @@ def main():
         print(f"[*] 第 {page} 页：抓到 {len(data)} 个 public gist")
 
         for gist in data:
+            updated_at = gist.get("updated_at")
+            if not within_last_hours(updated_at, WITHIN_HOURS):
+                # 因为 /gists/public 默认按 updated 排序的话，
+                # 这里可以选择“提前停止”。但为了稳妥，先不做 break。
+                continue
+
             files = gist.get("files") or {}
             for fname, finfo in files.items():
                 if is_allowed_file(fname):
                     raw_url = finfo.get("raw_url")
-                    # raw_url 有时为空；通常 raw_url 不为空
                     if raw_url:
                         all_raw_urls.add(raw_url)
 
         page += 1
-
-        # 小睡一下，避免太频繁
         time.sleep(0.2)
 
     final_urls = sorted(all_raw_urls)
     try:
         with open(SAVE_PATH, "w", encoding="utf-8") as f:
             f.write("\n".join(final_urls))
+
         print("\n[+] 扫描完成")
-        print(f" └─ 总计发现：{len(final_urls)} 条 Raw 链接")
+        print(f" └─ 总计发现：{len(final_urls)} 条 Raw 链接（{WITHIN_HOURS}h 内更新）")
         print(f" └─ 存储路径：{os.path.abspath(SAVE_PATH)}")
     except Exception as e:
         print(f"[!] 保存文件失败: {e}")
