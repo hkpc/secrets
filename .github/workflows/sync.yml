@@ -1,0 +1,56 @@
+name: Auto Fork Sync
+
+on:
+  # 场景 1：当以下指定文件有变动并 push 到仓库时触发
+  push:
+    branches:
+      - main
+    paths:
+      - 'github_sync.py'            # 监控脚本变动
+      - '.github/workflows/sync.yml' # 监控工作流自身变动
+  
+  # 场景 2：每天北京时间早上 6:00 定时运行 (UTC 22:00)
+  schedule:
+    - cron: '0 22 * * *'
+
+  # 场景 3：支持在 GitHub 页面手动点击运行
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    # 添加权限，确保 Action 有权将抓取到的数据 push 回仓库
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run Sync Script
+        env:
+          GITHUB_TOKEN: ${{ secrets.BOT }}
+          TZ: Asia/Shanghai
+        run: python github_sync.py
+
+      - name: Commit and Push if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          git add .
+          # 检查是否有文件更新，防止没有新内容时 commit 报错
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Auto-update: detected script or config change [$(date +'%Y-%m-%d %H:%M:%S')]"
+            git push
+          fi
