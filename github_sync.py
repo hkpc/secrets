@@ -1,42 +1,64 @@
 import os
 import time
-import re
 import requests
 from datetime import datetime, timezone
 
 SAVE_PATH = "filter_subs_24h.txt"
 WITHIN_HOURS = 24
 
-HEADERS = {
-    "Accept": "application/vnd.github+json",
-    "User-Agent": "Mozilla/5.0",
-}
+HEADERS = {"Accept": "application/vnd.github+json", "User-Agent": "Mozilla/5.0"}
 MY_TOKEN = os.getenv("GITHUB_TOKEN")
 if MY_TOKEN:
     HEADERS["Authorization"] = f"token {MY_TOKEN}"
 
-# 内容特征：你给的这些词（这里做成“不区分大小写”的子串）
+# 关键词：用于“先命中候选”
 TARGET_KEYWORDS = [
     "subscribes.txt",
     "clash.yaml",
     "proxies.yaml",
-    "proxies",
     "v2ray.txt",
     "nodes.txt",
+    "proxies",
+    "clash",
+    "v2ray",
+    "node",
 ]
 
-# 先用后缀缩小候选（减少请求 raw 的数量）
+# 结构性特征：用于“排除误报”
+# 只要命中其一就认为更像节点/配置文件
+STRUCTURE_HINTS = [
+    # Clash / Mihomo YAML
+    "proxies:",
+    "proxy-groups:",
+    "rules:",
+    "rule-providers:",
+    "domain-suffix",
+    "domain-keyword",
+    "port: ",
+    "- name:",
+
+    # V2Ray / Xray JSON/YAML
+    "outbounds:",
+    "inbounds:",
+    "routing:",
+    "transport:",
+
+    # 订阅链接（常见于文本节点列表）
+    "ss://",
+    "vmess://",
+    "trojan://",
+    "vless://",
+]
+
 CANDIDATE_SUFFIXES = (".txt", ".yaml", ".yml")
 
-# 拉取 raw 内容时限制最大读取字节，避免超大文件拖垮
-MAX_RAW_BYTES = 200_000  # 约200KB
+MAX_RAW_BYTES = 250_000
 TIMEOUT = 20
 
 
 def github_get(url, params=None, timeout=TIMEOUT, max_retries=5):
     for _ in range(max_retries):
         res = requests.get(url, headers=HEADERS, params=params, timeout=timeout)
-
         if res.status_code in (404, 422):
             return None
         if res.status_code == 403:
@@ -48,11 +70,9 @@ def github_get(url, params=None, timeout=TIMEOUT, max_retries=5):
                 continue
             time.sleep(10)
             continue
-
         if res.status_code != 200:
             time.sleep(2)
             continue
-
         return res.json()
     return None
 
@@ -72,34 +92,38 @@ def is_candidate_by_filename(fname: str) -> bool:
     return any(lower.endswith(suf) for suf in CANDIDATE_SUFFIXES)
 
 
-def raw_content_hits(raw_url: str) -> bool:
-    try:
-        # 直接用 requests 流式读，尽量少读
-        r = requests.get(raw_url, headers={"User-Agent": "Mozilla/5.0"}, timeout=TIMEOUT, stream=True)
-        if r.status_code != 200:
-            return False
+def download_snippet(raw_url: str) -> str:
+    r = requests.get(raw_url, headers={"User-Agent": "Mozilla/5.0"}, timeout=TIMEOUT, stream=True)
+    if r.status_code != 200:
+        return ""
+    content = b""
+    for chunk in r.iter_content(chunk_size=4096):
+        if not chunk:
+            break
+        content += chunk
+        if len(content) >= MAX_RAW_BYTES:
+            break
+    return content.decode("utf-8", errors="ignore").lower()
 
-        content = b""
-        for chunk in r.iter_content(chunk_size=4096):
-            if not chunk:
-                break
-            content += chunk
-            if len(content) >= MAX_RAW_BYTES:
-                break
 
-        # 尝试按 utf-8/gzip? 这里按忽略错误解码更稳
-        text = content.decode("utf-8", errors="ignore").lower()
-
-        # 命中任一关键词即可
-        return any(kw.lower() in text for kw in TARGET_KEYWORDS)
-
-    except Exception:
+def raw_content_matches(raw_url: str) -> bool:
+    text = download_snippet(raw_url)
+    if not text:
         return False
+
+    # 第一步：关键词先命中
+    if not any(kw.lower() in text for kw in TARGET_KEYWORDS):
+        return False
+
+    # 第二步：结构性特征必须命中（防止像 Bug Bounty Resources 这种误报）
+    if not any(hint.lower() in text for hint in STRUCTURE_HINTS):
+        return False
+
+    return True
 
 
 def main():
-    print(f"[*] 扫描 public gists；仅保留 {WITHIN_HOURS}h 内更新，且 raw 内容命中关键词：{TARGET_KEYWORDS}")
-    print("[*] 候选文件后缀：", CANDIDATE_SUFFIXES)
+    print(f"[*] 扫描 public gists；仅保留 {WITHIN_HOURS}h 内更新，并做结构性校验（防止误报）")
 
     all_raw_urls = set()
     page = 1
@@ -131,7 +155,7 @@ def main():
                 if not raw_url:
                     continue
 
-                if raw_content_hits(raw_url):
+                if raw_content_matches(raw_url):
                     all_raw_urls.add(raw_url)
 
         page += 1
