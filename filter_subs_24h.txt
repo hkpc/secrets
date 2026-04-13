@@ -1,2 +1,0 @@
-https://gist.githubusercontent.com/BluesYoung-web/7488b448783b5ad980d4f658f04dc8d5/raw/8883854484c60dba1c3c3c2ee7ef9aa615ce8a73/free-node-2026_4_12_21_06_17.yaml
-https://gist.githubusercontent.com/v2clash/cbc095ea4736ed5e1c3c81741db2418c/raw/6e15da533b6978f3589b2fb117234b94aa9619f4/V2Nodes_config.txt
