@@ -1,0 +1,39 @@
+name: 定时任务 自动获取节点信息
+
+on:
+  push:
+    branches:
+      - main  # 触发主分支推送时运行
+  workflow_dispatch:  # 允许手动触发
+  schedule:
+    - cron: '0 10 * * *'
+
+jobs:
+  scraper:
+    runs-on: ubuntu-latest  # 使用 GitHub 提供的 Ubuntu 环境
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3  # 检出代码仓库
+
+    - name: Set up Python
+      uses: actions/setup-python@v4  # 设置 Python 环境
+      with:
+        python-version: '3.9'  # 使用 Python 3.9
+
+    - name: Install dependencies
+      run: |
+        pip install requests beautifulsoup4  # 安装必要的依赖库
+
+    - name: Run scraper script
+      env:
+        MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 从 GitHub secrets 获取 GitHub Token
+        MY_GIST_ID: ${{ secrets.MY_GIST_ID }}  # 从 GitHub secrets 获取 Gist ID
+        GIST_FILENAME: ${{ secrets.GIST_FILENAME }}
+      run: |
+        python main.py  # 运行你的 Python 脚本
+
+    - name: Check Git Configuration
+      run: |
+        git config --list  # 输出 Git 配置信息，确保 safe.directory 被正确配置
+        git config --get safe.directory  # 查看 safe.directory 配置
