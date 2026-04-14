@@ -1,4 +1,4 @@
-# Last Updated: 2026-04-14 23:58:31
+# Last Updated: 2026-04-15 01:08:58
 # Total Nodes: 151
 
 port: 7890
@@ -20,6 +20,14 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
+- name: 🌐 未知地区 用魔法打败魔法_3f90
+  server: empty.node
+  port: 443
+  type: trojan
+  password: f08155ed-94a2-462f-ba9e-ac2353558ab3
+  sni: empty.node
+  skip-cert-verify: false
+  udp: true
 - name: 🇹🇼 台湾 用魔法打败魔法_f0d9
   server: 118.232.199.14
   port: 443
@@ -28,33 +36,11 @@ proxies:
   sni: node3.yuntongclouds.com
   skip-cert-verify: true
   udp: true
-- name: 🌐 未知地区 用魔法打败魔法_3f90
-  server: empty.node
-  port: 443
-  type: trojan
-  password: 87e766d1-1bff-419f-aadf-e978ed6866b8
-  sni: empty.node
-  skip-cert-verify: false
-  udp: true
-- name: 🌐 未知地区 用魔法打败魔法_ebc6
-  server: cxsfvn.uhomdex.shop
-  port: 443
-  type: vmess
-  uuid: 26e536d3-3c1e-4881-8c50-537b55372a05
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cxsfvn.uhomdex.shop
-  udp: true
 - name: 🌐 未知地区 用魔法打败魔法_6938
   server: zzrt.uhomdex.shop
   port: 8443
   type: vmess
-  uuid: 75fddc73-c5c3-44e8-9b47-ce90168be836
+  uuid: 4bdfafc7-3cff-43a7-a455-f26aae648e94
   alterId: 0
   cipher: auto
   tls: true
@@ -64,41 +50,81 @@ proxies:
     headers:
       Host: zzrt.uhomdex.shop
   udp: true
-- name: 🇸🇨 塞舌尔 用魔法打败魔法_cadc
-  server: xianggangtgyouhua01vadzc.mmbreed.sbs
-  port: 30002
-  type: vless
-  uuid: 5a585e16-044e-47a5-89f4-6ba5627887e6
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  network: tcp
+- name: 🇯🇵 日本 用魔法打败魔法_04f7
+  server: basic9873cheap.fq-number-001.co
+  port: 42046
+  type: ss
+  cipher: aes-128-gcm
+  password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
   udp: true
-- name: 🌐 未知地区 用魔法打败魔法_67bf
-  server: xianggangyouhuagaosunftgmw7th.mmbreed.sbs
-  port: 30013
-  type: vless
-  uuid: 5a585e16-044e-47a5-89f4-6ba5627887e6
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  network: tcp
+- name: 🇯🇵 日本 用魔法打败魔法_ea4a
+  server: basic9873cheap.fq-number-001.co
+  port: 41621
+  type: ss
+  cipher: aes-128-gcm
+  password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
   udp: true
-- name: 🌐 未知地区 用魔法打败魔法_e92f
-  server: hanguoyouhuagaosunftgaiuow2hj.mmbreed.sbs
-  port: 30013
-  type: vless
-  uuid: 5a585e16-044e-47a5-89f4-6ba5627887e6
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  network: tcp
+- name: 🇯🇵 日本 用魔法打败魔法_1b54
+  server: basic9873cheap.fq-number-001.co
+  port: 39221
+  type: ss
+  cipher: aes-128-gcm
+  password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
   udp: true
-- name: 🌐 未知地区 用魔法打败魔法_c1ae
-  server: qvxbtx.uhomdex.shop
+- name: 🇯🇵 日本 用魔法打败魔法_6980
+  server: basic9873cheap.fq-number-001.co
+  port: 38094
+  type: ss
+  cipher: aes-128-gcm
+  password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
+  udp: true
+- name: 🇯🇵 日本 用魔法打败魔法_daae
+  server: basic9873cheap.fq-number-001.co
+  port: 38031
+  type: ss
+  cipher: aes-128-gcm
+  password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
+  udp: true
+- name: 🇯🇵 日本 用魔法打败魔法_55cc
+  server: basic9873cheap.fq-number-001.co
+  port: 45335
+  type: ss
+  cipher: aes-128-gcm
+  password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
+  udp: true
+- name: 🇯🇵 日本 用魔法打败魔法_d3b9
+  server: basic9873cheap.fq-number-001.co
+  port: 55421
+  type: ss
+  cipher: aes-128-gcm
+  password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
+  udp: true
+- name: 🇯🇵 日本 用魔法打败魔法_7fe1
+  server: basic9873cheap.fq-number-001.co
+  port: 56368
+  type: ss
+  cipher: aes-128-gcm
+  password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
+  udp: true
+- name: 🇯🇵 日本 用魔法打败魔法_9248
+  server: basic9873cheap.fq-number-001.co
+  port: 47510
+  type: ss
+  cipher: aes-128-gcm
+  password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
+  udp: true
+- name: 🇯🇵 日本 用魔法打败魔法_cacf
+  server: basic9873cheap.fq-number-001.co
+  port: 22717
+  type: ss
+  cipher: aes-128-gcm
+  password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
+  udp: true
+- name: 🌐 未知地区 用魔法打败魔法_ebc6
+  server: cxsfvn.uhomdex.shop
   port: 443
   type: vmess
-  uuid: 21e591a9-d30e-4643-ba58-5e33c9bbca76
+  uuid: 573c9018-e338-41ea-a93f-e3af7e36aa6b
   alterId: 0
   cipher: auto
   tls: true
@@ -106,45 +132,13 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: qvxbtx.uhomdex.shop
+      Host: cxsfvn.uhomdex.shop
   udp: true
-- name: 🇹🇼 台湾 用魔法打败魔法_ea3a
+- name: 🇹🇼 台湾 用魔法打败魔法_927e
   server: cdnfire.xiaomispeed.com
-  port: 21103
+  port: 23311
   type: trojan
-  password: 4e15dfd8-da9e-470e-a524-8e33479e1e8b
-  sni: cdnfire.xiaomispeed.com
-  skip-cert-verify: true
-  udp: true
-- name: 🇹🇼 台湾 用魔法打败魔法_8b56
-  server: cdnfire.xiaomispeed.com
-  port: 24421
-  type: trojan
-  password: 4567a5f6-5f3c-4b36-9ab5-951626e558fd
-  sni: cdnfire.xiaomispeed.com
-  skip-cert-verify: true
-  udp: true
-- name: 🇹🇼 台湾 用魔法打败魔法_19db
-  server: cdnfire.xiaomispeed.com
-  port: 21102
-  type: trojan
-  password: 915493ea-f383-4632-99a2-ac31d7c313b2
-  sni: cdnfire.xiaomispeed.com
-  skip-cert-verify: true
-  udp: true
-- name: 🇹🇼 台湾 用魔法打败魔法_3eae
-  server: cdnfire.xiaomispeed.com
-  port: 24422
-  type: trojan
-  password: 3ef3a4fb-f1bf-46f6-a68e-3bb0f4a601e5
-  sni: cdnfire.xiaomispeed.com
-  skip-cert-verify: true
-  udp: true
-- name: 🇹🇼 台湾 用魔法打败魔法_8e30
-  server: cdnfire.xiaomispeed.com
-  port: 25501
-  type: trojan
-  password: 4567a5f6-5f3c-4b36-9ab5-951626e558fd
+  password: 15271037-7d72-4718-8f48-b6accc651c75
   sni: cdnfire.xiaomispeed.com
   skip-cert-verify: true
   udp: true
@@ -156,27 +150,27 @@ proxies:
   sni: cdnfire.xiaomispeed.com
   skip-cert-verify: true
   udp: true
-- name: 🇹🇼 台湾 用魔法打败魔法_b5b9
+- name: 🇹🇼 台湾 用魔法打败魔法_8b56
   server: cdnfire.xiaomispeed.com
-  port: 21101
+  port: 24421
   type: trojan
-  password: 50d14eb3-be26-4bea-919d-df16a98cfed3
-  sni: cdnfire.xiaomispeed.com
-  skip-cert-verify: false
-  udp: true
-- name: 🇹🇼 台湾 用魔法打败魔法_927e
-  server: cdnfire.xiaomispeed.com
-  port: 23311
-  type: trojan
-  password: 0be5b453-7553-4b6a-87ba-a130620b174d
+  password: 30d91afa-cdcd-46cb-a83d-76786a597f09
   sni: cdnfire.xiaomispeed.com
   skip-cert-verify: true
   udp: true
-- name: 🇹🇼 台湾 用魔法打败魔法_8534
+- name: 🇹🇼 台湾 用魔法打败魔法_3eae
   server: cdnfire.xiaomispeed.com
-  port: 21115
+  port: 24422
   type: trojan
-  password: ab7ce4e6-0428-4e23-a70b-52b5265d0969
+  password: 3ef3a4fb-f1bf-46f6-a68e-3bb0f4a601e5
+  sni: cdnfire.xiaomispeed.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇹🇼 台湾 用魔法打败魔法_ea3a
+  server: cdnfire.xiaomispeed.com
+  port: 21103
+  type: trojan
+  password: faa329cd-072a-4f93-9257-f678b87dcddf
   sni: cdnfire.xiaomispeed.com
   skip-cert-verify: true
   udp: true
@@ -188,6 +182,21 @@ proxies:
   sni: cdnfire.xiaomispeed.com
   skip-cert-verify: true
   udp: true
+- name: 🇯🇵 日本 用魔法打败魔法_356b
+  server: basic9873cheap.fq-number-001.co
+  port: 35072
+  type: ss
+  cipher: aes-128-gcm
+  password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
+  udp: true
+- name: 🇹🇼 台湾 用魔法打败魔法_8534
+  server: cdnfire.xiaomispeed.com
+  port: 21115
+  type: trojan
+  password: 646dd957-2cf3-400b-8cfd-bdc08669aaa9
+  sni: cdnfire.xiaomispeed.com
+  skip-cert-verify: true
+  udp: true
 - name: 🇹🇼 台湾 用魔法打败魔法_e14a
   server: cdnfire.xiaomispeed.com
   port: 24423
@@ -196,6 +205,13 @@ proxies:
   sni: cdnfire.xiaomispeed.com
   skip-cert-verify: true
   udp: true
+- name: 🇯🇵 日本 用魔法打败魔法_6f98
+  server: basic9873cheap.fq-number-001.co
+  port: 55289
+  type: ss
+  cipher: aes-128-gcm
+  password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
+  udp: true
 - name: 🇹🇼 台湾 用魔法打败魔法_4e7e
   server: cdnfire.xiaomispeed.com
   port: 443
@@ -203,6 +219,79 @@ proxies:
   password: 4567a5f6-5f3c-4b36-9ab5-951626e558fd
   sni: cdntwa.xiaomispeed.com
   skip-cert-verify: false
+  udp: true
+- name: 🇯🇵 日本 用魔法打败魔法_bc3f
+  server: basic9873cheap.fq-number-001.co
+  port: 22211
+  type: ss
+  cipher: aes-128-gcm
+  password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
+  udp: true
+- name: 🇹🇼 台湾 用魔法打败魔法_19db
+  server: cdnfire.xiaomispeed.com
+  port: 21102
+  type: trojan
+  password: cbd0c50a-8615-4990-bd5e-42ff14a76e7d
+  sni: cdnfire.xiaomispeed.com
+  skip-cert-verify: true
+  udp: true
+- name: 🌐 未知地区 用魔法打败魔法_12d5
+  server: hwtqcp.uhomdex.shop
+  port: 8443
+  type: vmess
+  uuid: f90f8048-fd80-48e0-921f-881587c9e40d
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hwtqcp.uhomdex.shop
+  udp: true
+- name: 🇹🇼 台湾 用魔法打败魔法_b5b9
+  server: cdnfire.xiaomispeed.com
+  port: 21101
+  type: trojan
+  password: ab7ce4e6-0428-4e23-a70b-52b5265d0969
+  sni: cdnfire.xiaomispeed.com
+  skip-cert-verify: false
+  udp: true
+- name: 🇹🇼 台湾 用魔法打败魔法_8e30
+  server: cdnfire.xiaomispeed.com
+  port: 25501
+  type: trojan
+  password: 30d91afa-cdcd-46cb-a83d-76786a597f09
+  sni: cdnfire.xiaomispeed.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 日本 用魔法打败魔法_6919
+  server: basic9873cheap.fq-number-001.co
+  port: 58353
+  type: ss
+  cipher: aes-128-gcm
+  password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
+  udp: true
+- name: 🌐 未知地区 用魔法打败魔法_c1ae
+  server: qvxbtx.uhomdex.shop
+  port: 443
+  type: vmess
+  uuid: 573c9018-e338-41ea-a93f-e3af7e36aa6b
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: qvxbtx.uhomdex.shop
+  udp: true
+- name: 🇯🇵 日本 用魔法打败魔法_473f
+  server: basic9873cheap.fq-number-001.co
+  port: 59990
+  type: ss
+  cipher: aes-128-gcm
+  password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
   udp: true
 - name: 🇹🇼 台湾 用魔法打败魔法_6691
   server: 103.137.63.77
@@ -220,23 +309,9 @@ proxies:
   sni: node4.yuntongclouds.com
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵 日本 用魔法打败魔法_9248
+- name: 🇯🇵 日本 用魔法打败魔法_24b0
   server: basic9873cheap.fq-number-001.co
-  port: 47510
-  type: ss
-  cipher: aes-128-gcm
-  password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
-  udp: true
-- name: 🇯🇵 日本 用魔法打败魔法_7fe1
-  server: basic9873cheap.fq-number-001.co
-  port: 56368
-  type: ss
-  cipher: aes-128-gcm
-  password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
-  udp: true
-- name: 🇯🇵 日本 用魔法打败魔法_356b
-  server: basic9873cheap.fq-number-001.co
-  port: 35072
+  port: 19752
   type: ss
   cipher: aes-128-gcm
   password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
@@ -244,34 +319,6 @@ proxies:
 - name: 🇯🇵 日本 用魔法打败魔法_9809
   server: basic9873cheap.fq-number-001.co
   port: 26626
-  type: ss
-  cipher: aes-128-gcm
-  password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
-  udp: true
-- name: 🇯🇵 日本 用魔法打败魔法_6f98
-  server: basic9873cheap.fq-number-001.co
-  port: 55289
-  type: ss
-  cipher: aes-128-gcm
-  password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
-  udp: true
-- name: 🇯🇵 日本 用魔法打败魔法_bc3f
-  server: basic9873cheap.fq-number-001.co
-  port: 22211
-  type: ss
-  cipher: aes-128-gcm
-  password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
-  udp: true
-- name: 🇯🇵 日本 用魔法打败魔法_6919
-  server: basic9873cheap.fq-number-001.co
-  port: 58353
-  type: ss
-  cipher: aes-128-gcm
-  password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
-  udp: true
-- name: 🇯🇵 日本 用魔法打败魔法_473f
-  server: basic9873cheap.fq-number-001.co
-  port: 59990
   type: ss
   cipher: aes-128-gcm
   password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
@@ -327,34 +374,6 @@ proxies:
   sni: nodecn1.jiayinetwork.es
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵 日本 用魔法打败魔法_ea4a
-  server: basic9873cheap.fq-number-001.co
-  port: 41621
-  type: ss
-  cipher: aes-128-gcm
-  password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
-  udp: true
-- name: 🇯🇵 日本 用魔法打败魔法_04f7
-  server: basic9873cheap.fq-number-001.co
-  port: 42046
-  type: ss
-  cipher: aes-128-gcm
-  password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
-  udp: true
-- name: 🌐 未知地区 用魔法打败魔法_12d5
-  server: hwtqcp.uhomdex.shop
-  port: 8443
-  type: vmess
-  uuid: f90f8048-fd80-48e0-921f-881587c9e40d
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hwtqcp.uhomdex.shop
-  udp: true
 - name: 🇯🇵 日本 用魔法打败魔法_1191
   server: basic9873cheap.fq-number-001.co
   port: 48319
@@ -379,20 +398,6 @@ proxies:
 - name: 🇯🇵 日本 用魔法打败魔法_0b8f
   server: basic9873cheap.fq-number-001.co
   port: 10031
-  type: ss
-  cipher: aes-128-gcm
-  password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
-  udp: true
-- name: 🇯🇵 日本 用魔法打败魔法_daae
-  server: basic9873cheap.fq-number-001.co
-  port: 38031
-  type: ss
-  cipher: aes-128-gcm
-  password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
-  udp: true
-- name: 🇯🇵 日本 用魔法打败魔法_6980
-  server: basic9873cheap.fq-number-001.co
-  port: 38094
   type: ss
   cipher: aes-128-gcm
   password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
@@ -432,13 +437,6 @@ proxies:
   cipher: aes-128-gcm
   password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
   udp: true
-- name: 🇯🇵 日本 用魔法打败魔法_55cc
-  server: basic9873cheap.fq-number-001.co
-  port: 45335
-  type: ss
-  cipher: aes-128-gcm
-  password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
-  udp: true
 - name: 🇯🇵 日本 用魔法打败魔法_71a0
   server: basic9873cheap.fq-number-001.co
   port: 30122
@@ -446,37 +444,9 @@ proxies:
   cipher: aes-128-gcm
   password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
   udp: true
-- name: 🇯🇵 日本 用魔法打败魔法_24b0
-  server: basic9873cheap.fq-number-001.co
-  port: 19752
-  type: ss
-  cipher: aes-128-gcm
-  password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
-  udp: true
-- name: 🇯🇵 日本 用魔法打败魔法_cacf
-  server: basic9873cheap.fq-number-001.co
-  port: 22717
-  type: ss
-  cipher: aes-128-gcm
-  password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
-  udp: true
-- name: 🇯🇵 日本 用魔法打败魔法_d3b9
-  server: basic9873cheap.fq-number-001.co
-  port: 55421
-  type: ss
-  cipher: aes-128-gcm
-  password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
-  udp: true
-- name: 🇯🇵 日本 用魔法打败魔法_1b54
-  server: basic9873cheap.fq-number-001.co
-  port: 39221
-  type: ss
-  cipher: aes-128-gcm
-  password: c51967b2-cb68-4ddc-ba7f-e01e1f6e22f4
-  udp: true
-- name: 🇭🇰 香港 用魔法打败魔法_4113
-  server: xianggangyouhuagaosunftgzptxk.mmbreed.sbs
-  port: 30007
+- name: 🇯🇵 日本 用魔法打败魔法_cdc3
+  server: xianggangtgyouhua03x1qd1.mmbreed.sbs
+  port: 30010
   type: vless
   uuid: 5a585e16-044e-47a5-89f4-6ba5627887e6
   tls: true
@@ -484,40 +454,19 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_78a1
-  server: z.4.n.s.o.s.z.8.d.hk03-ae5.entry.v51124-4.qpon
-  port: 762
-  type: ss
-  cipher: aes-256-gcm
-  password: 99840981-d157-3437-b5a2-b2f8b67161ff
+- name: 🌐 未知地区 用魔法打败魔法_e072
+  server: meiguoniuyueyouhuagaosunzm10q.mmbreed.sbs
+  port: 30001
+  type: vless
+  uuid: 5a585e16-044e-47a5-89f4-6ba5627887e6
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  network: tcp
   udp: true
 - name: 🇭🇰 香港 用魔法打败魔法_eaf7
   server: xianggangyouhuagaosunftg7u2l4.mmbreed.sbs
   port: 30008
-  type: vless
-  uuid: 5a585e16-044e-47a5-89f4-6ba5627887e6
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_382b
-  server: v.w.6.4.6.g.7.e.d.fr01-ae5.entry.v51124-5.qpon
-  port: 20068
-  type: ss
-  cipher: aes-256-gcm
-  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_ff5e
-  server: z.l.6.d.j.a.7.e.d.jp08-ae5.entry.v51124-5.qpon
-  port: 12546
-  type: ss
-  cipher: aes-256-gcm
-  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
-  udp: true
-- name: 🇯🇵 日本 用魔法打败魔法_cdc3
-  server: xianggangtgyouhua03x1qd1.mmbreed.sbs
-  port: 30010
   type: vless
   uuid: 5a585e16-044e-47a5-89f4-6ba5627887e6
   tls: true
@@ -535,9 +484,9 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇯🇵 日本 用魔法打败魔法_e14e
-  server: ribendongjingyouhuagaosu82n4y.mmbreed.sbs
-  port: 30014
+- name: 🇭🇰 香港 用魔法打败魔法_4113
+  server: xianggangyouhuagaosunftgzptxk.mmbreed.sbs
+  port: 30007
   type: vless
   uuid: 5a585e16-044e-47a5-89f4-6ba5627887e6
   tls: true
@@ -545,33 +494,9 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_3886
-  server: 8.r.6.4.6.7.u.e.d.sg02-ae5.entry.v51124-5.qpon
-  port: 20078
-  type: ss
-  cipher: aes-256-gcm
-  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
-  udp: true
-- name: 🇭🇰 香港 用魔法打败魔法_08a0
-  server: xianggangyouhuagaosunftg6y1q1.mmbreed.sbs
-  port: 30006
-  type: vless
-  uuid: 5a585e16-044e-47a5-89f4-6ba5627887e6
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_708a
-  server: z.4.5.n.x.g.t.8.d.hk07-ae5.entry.v51124-4.qpon
-  port: 1422
-  type: ss
-  cipher: aes-256-gcm
-  password: 99840981-d157-3437-b5a2-b2f8b67161ff
-  udp: true
-- name: 🇸🇨 塞舌尔 用魔法打败魔法_aaa7
-  server: xianggangtgyouhua023bi18.mmbreed.sbs
-  port: 30005
+- name: 🇯🇵 日本 用魔法打败魔法_eede
+  server: ribendongjingyouhuagaosudj8sd.mmbreed.sbs
+  port: 30011
   type: vless
   uuid: 5a585e16-044e-47a5-89f4-6ba5627887e6
   tls: true
@@ -589,6 +514,16 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
+- name: 🇸🇨 塞舌尔 用魔法打败魔法_aaa7
+  server: xianggangtgyouhua023bi18.mmbreed.sbs
+  port: 30005
+  type: vless
+  uuid: 5a585e16-044e-47a5-89f4-6ba5627887e6
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
 - name: 🌐 未知地区 用魔法打败魔法_b241
   server: meiguoniuyueyouhuagaosunlf5yd.mmbreed.sbs
   port: 30000
@@ -598,6 +533,13 @@ proxies:
   flow: xtls-rprx-vision
   client-fingerprint: chrome
   network: tcp
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_7e6e
+  server: 8.g.n.j.p.g.t.8.d.hk06-ae5.entry.v51124-4.qpon
+  port: 1415
+  type: ss
+  cipher: aes-256-gcm
+  password: 99840981-d157-3437-b5a2-b2f8b67161ff
   udp: true
 - name: 🌐 未知地区 用魔法打败魔法_b7eb
   server: yingguolundunyouhuagaosu1diib.mmbreed.sbs
@@ -609,9 +551,159 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇰🇷 韩国 用魔法打败魔法_e041
-  server: hanguoyouhuagaosunftgaiuerw8d.mmbreed.sbs
-  port: 30015
+- name: 🇨🇳 中国 用魔法打败魔法_68df
+  server: v.z.y.9.l.7.u.e.d.ca01-ae5.entry.v51124-5.qpon
+  port: 20058
+  type: ss
+  cipher: aes-256-gcm
+  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
+  udp: true
+- name: 🇬🇧 英国 用魔法打败魔法_d964
+  server: z.g.e.s.o.7.9.8.d.tw01-ae5.entry.v51124-4.qpon
+  port: 20007
+  type: ss
+  cipher: aes-256-gcm
+  password: 99840981-d157-3437-b5a2-b2f8b67161ff
+  udp: true
+- name: 🇬🇧 英国 用魔法打败魔法_4e0d
+  server: v.w.y.b.i.7.u.e.d.ar01-ae5.entry.v51124-5.qpon
+  port: 20028
+  type: ss
+  cipher: aes-256-gcm
+  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
+  udp: true
+- name: 🇬🇧 英国 用魔法打败魔法_7033
+  server: 8.r.1.d.6.g.8.e.d.jp03-ae5.entry.v51124-5.qpon
+  port: 491
+  type: ss
+  cipher: aes-256-gcm
+  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
+  udp: true
+- name: 🇬🇧 英国 用魔法打败魔法_9cdc
+  server: 8.z.y.4.l.7.7.e.d.tr01-ae5.entry.v51124-5.qpon
+  port: 20038
+  type: ss
+  cipher: aes-256-gcm
+  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
+  udp: true
+- name: 🇬🇧 英国 用魔法打败魔法_af94
+  server: z.l.1.4.l.7.7.e.d.ru01-ae5.entry.v51124-5.qpon
+  port: 20033
+  type: ss
+  cipher: aes-256-gcm
+  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_9dfc
+  server: 8.w.c.9.6.g.7.e.d.sg03-ae5.entry.v51124-5.qpon
+  port: 20083
+  type: ss
+  cipher: aes-256-gcm
+  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
+  udp: true
+- name: 🇬🇧 英国 用魔法打败魔法_46bd
+  server: v.l.y.4.i.g.8.e.d.jp02-ae5.entry.v51124-5.qpon
+  port: 486
+  type: ss
+  cipher: aes-256-gcm
+  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_1f32
+  server: v.g.5.j.x.g.z.8.d.ar01-ae5.entry.v51124-4.qpon
+  port: 20027
+  type: ss
+  cipher: aes-256-gcm
+  password: 99840981-d157-3437-b5a2-b2f8b67161ff
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_c615
+  server: z.l.y.b.i.s.u.e.d.jp07-ae5.entry.v51124-5.qpon
+  port: 14008
+  type: ss
+  cipher: aes-256-gcm
+  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_78ee
+  server: z.l.y.d.j.a.8.e.d.hk07-ae5.entry.v51124-5.qpon
+  port: 1423
+  type: ss
+  cipher: aes-256-gcm
+  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
+  udp: true
+- name: 🇸🇨 塞舌尔 用魔法打败魔法_cadc
+  server: xianggangtgyouhua01vadzc.mmbreed.sbs
+  port: 30002
+  type: vless
+  uuid: 5a585e16-044e-47a5-89f4-6ba5627887e6
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇬🇧 英国 用魔法打败魔法_d7ec
+  server: 8.g.n.s.s.7.9.8.d.tr01-ae5.entry.v51124-4.qpon
+  port: 20037
+  type: ss
+  cipher: aes-256-gcm
+  password: 99840981-d157-3437-b5a2-b2f8b67161ff
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_e090
+  server: 8.4.e.1.x.7.9.8.d.hk09-vm5.entry.v51124-4.qpon
+  port: 15267
+  type: ss
+  cipher: aes-256-gcm
+  password: 99840981-d157-3437-b5a2-b2f8b67161ff
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_0357
+  server: 8.z.y.9.6.a.u.e.d.au01-ae5.entry.v51124-5.qpon
+  port: 20063
+  type: ss
+  cipher: aes-256-gcm
+  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_25d9
+  server: 8.d.5.s.o.g.9.8.d.hk08-ae5.entry.v51124-4.qpon
+  port: 18645
+  type: ss
+  cipher: aes-256-gcm
+  password: 99840981-d157-3437-b5a2-b2f8b67161ff
+  udp: true
+- name: 🇬🇧 英国 用魔法打败魔法_838b
+  server: v.g.8.1.x.s.9.8.d.ua01-ae5.entry.v51124-4.qpon
+  port: 20072
+  type: ss
+  cipher: aes-256-gcm
+  password: 99840981-d157-3437-b5a2-b2f8b67161ff
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_2eb1
+  server: j.g.n.n.o.7.z.8.d.au01-ae5.entry.v51124-4.qpon
+  port: 20062
+  type: ss
+  cipher: aes-256-gcm
+  password: 99840981-d157-3437-b5a2-b2f8b67161ff
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_93be
+  server: v.g.5.s.x.7.t.8.d.us02-ae5.entry.v51124-4.qpon
+  port: 20017
+  type: ss
+  cipher: aes-256-gcm
+  password: 99840981-d157-3437-b5a2-b2f8b67161ff
+  udp: true
+- name: 🇬🇧 英国 用魔法打败魔法_ce22
+  server: v.d.5.s.o.7.9.8.d.sg01-ae5.entry.v51124-4.qpon
+  port: 20002
+  type: ss
+  cipher: aes-256-gcm
+  password: 99840981-d157-3437-b5a2-b2f8b67161ff
+  udp: true
+- name: 🇬🇧 英国 用魔法打败魔法_0464
+  server: 8.w.6.b.l.a.7.e.d.gb01-ae5.entry.v51124-5.qpon
+  port: 20023
+  type: ss
+  cipher: aes-256-gcm
+  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
+  udp: true
+- name: 🇭🇰 香港 用魔法打败魔法_08a0
+  server: xianggangyouhuagaosunftg6y1q1.mmbreed.sbs
+  port: 30006
   type: vless
   uuid: 5a585e16-044e-47a5-89f4-6ba5627887e6
   tls: true
@@ -626,260 +718,9 @@ proxies:
   cipher: aes-256-gcm
   password: 7b562532-8f03-3a69-bb44-3c3e18227c19
   udp: true
-- name: 🌐 未知地区 用魔法打败魔法_e072
-  server: meiguoniuyueyouhuagaosunzm10q.mmbreed.sbs
-  port: 30001
-  type: vless
-  uuid: 5a585e16-044e-47a5-89f4-6ba5627887e6
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_cf90
-  server: 8.r.c.b.6.7.7.e.d.jp04-ae5.entry.v51124-5.qpon
-  port: 496
-  type: ss
-  cipher: aes-256-gcm
-  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_82cf
-  server: v.d.8.n.o.g.z.8.d.hk01-ae5.entry.v51124-4.qpon
-  port: 19274
-  type: ss
-  cipher: aes-256-gcm
-  password: 99840981-d157-3437-b5a2-b2f8b67161ff
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_c615
-  server: z.l.y.b.i.s.u.e.d.jp07-ae5.entry.v51124-5.qpon
-  port: 14008
-  type: ss
-  cipher: aes-256-gcm
-  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_bab2
-  server: 8.d.n.1.o.s.z.8.d.sg03-ae5.entry.v51124-4.qpon
-  port: 20082
-  type: ss
-  cipher: aes-256-gcm
-  password: 99840981-d157-3437-b5a2-b2f8b67161ff
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_caf1
-  server: j.d.n.j.o.a.9.8.d.ru01-ae5.entry.v51124-4.qpon
-  port: 20032
-  type: ss
-  cipher: aes-256-gcm
-  password: 99840981-d157-3437-b5a2-b2f8b67161ff
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_7e6e
-  server: 8.g.n.j.p.g.t.8.d.hk06-ae5.entry.v51124-4.qpon
-  port: 1415
-  type: ss
-  cipher: aes-256-gcm
-  password: 99840981-d157-3437-b5a2-b2f8b67161ff
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_9cdc
-  server: 8.z.y.4.l.7.7.e.d.tr01-ae5.entry.v51124-5.qpon
-  port: 20038
-  type: ss
-  cipher: aes-256-gcm
-  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_495c
-  server: 8.g.8.j.x.g.i.8.d.jp01-ae5.entry.v51124-4.qpon
-  port: 475
-  type: ss
-  cipher: aes-256-gcm
-  password: 99840981-d157-3437-b5a2-b2f8b67161ff
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_838b
-  server: v.g.8.1.x.s.9.8.d.ua01-ae5.entry.v51124-4.qpon
-  port: 20072
-  type: ss
-  cipher: aes-256-gcm
-  password: 99840981-d157-3437-b5a2-b2f8b67161ff
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_2966
-  server: z.z.c.9.j.a.7.e.d.hk03-ae5.entry.v51124-5.qpon
-  port: 763
-  type: ss
-  cipher: aes-256-gcm
-  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_f536
-  server: v.4.8.j.s.g.t.8.d.sg02-ae5.entry.v51124-4.qpon
-  port: 20077
-  type: ss
-  cipher: aes-256-gcm
-  password: 99840981-d157-3437-b5a2-b2f8b67161ff
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_1f32
-  server: v.g.5.j.x.g.z.8.d.ar01-ae5.entry.v51124-4.qpon
-  port: 20027
-  type: ss
-  cipher: aes-256-gcm
-  password: 99840981-d157-3437-b5a2-b2f8b67161ff
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_0357
-  server: 8.z.y.9.6.a.u.e.d.au01-ae5.entry.v51124-5.qpon
-  port: 20063
-  type: ss
-  cipher: aes-256-gcm
-  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_0464
-  server: 8.w.6.b.l.a.7.e.d.gb01-ae5.entry.v51124-5.qpon
-  port: 20023
-  type: ss
-  cipher: aes-256-gcm
-  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_470f
-  server: j.w.c.b.j.7.7.e.d.sg01-ae5.entry.v51124-5.qpon
-  port: 20003
-  type: ss
-  cipher: aes-256-gcm
-  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_170d
-  server: v.d.n.s.p.g.i.8.d.de01-ae5.entry.v51124-4.qpon
-  port: 20052
-  type: ss
-  cipher: aes-256-gcm
-  password: 99840981-d157-3437-b5a2-b2f8b67161ff
-  udp: true
 - name: 🇨🇳 中国 用魔法打败魔法_63b9
   server: j.r.1.b.j.s.e.e.d.hk05-ae5.entry.v51124-5.qpon
   port: 1815
-  type: ss
-  cipher: aes-256-gcm
-  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_93be
-  server: v.g.5.s.x.7.t.8.d.us02-ae5.entry.v51124-4.qpon
-  port: 20017
-  type: ss
-  cipher: aes-256-gcm
-  password: 99840981-d157-3437-b5a2-b2f8b67161ff
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_8680
-  server: j.l.6.b.i.g.u.e.d.hk04-ae5.entry.v51124-5.qpon
-  port: 807
-  type: ss
-  cipher: aes-256-gcm
-  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
-  udp: true
-- name: 🇬🇧 英国 用魔法打败魔法_e090
-  server: 8.4.e.1.x.7.9.8.d.hk09-vm5.entry.v51124-4.qpon
-  port: 15267
-  type: ss
-  cipher: aes-256-gcm
-  password: 99840981-d157-3437-b5a2-b2f8b67161ff
-  udp: true
-- name: 🇬🇧 英国 用魔法打败魔法_9346
-  server: v.r.6.9.i.g.7.e.d.jp09-ae5.entry.v51124-5.qpon
-  port: 11161
-  type: ss
-  cipher: aes-256-gcm
-  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_5ebd
-  server: 8.z.6.4.6.7.e.e.d.hk09-vm5.entry.v51124-5.qpon
-  port: 19275
-  type: ss
-  cipher: aes-256-gcm
-  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
-  udp: true
-- name: 🇬🇧 英国 用魔法打败魔法_70ac
-  server: 8.z.6.4.i.7.u.e.d.jp10-ae5.entry.v51124-5.qpon
-  port: 16527
-  type: ss
-  cipher: aes-256-gcm
-  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
-  udp: true
-- name: 🇬🇧 英国 用魔法打败魔法_a8aa
-  server: v.w.6.9.6.g.8.e.d.jp11-ae5.entry.v51124-5.qpon
-  port: 17744
-  type: ss
-  cipher: aes-256-gcm
-  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
-  udp: true
-- name: 🇯🇵 日本 用魔法打败魔法_eede
-  server: ribendongjingyouhuagaosudj8sd.mmbreed.sbs
-  port: 30011
-  type: vless
-  uuid: 5a585e16-044e-47a5-89f4-6ba5627887e6
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_ce0c
-  server: z.l.y.d.j.7.u.e.d.hk06-ae5.entry.v51124-5.qpon
-  port: 1416
-  type: ss
-  cipher: aes-256-gcm
-  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_b5cc
-  server: j.w.1.9.l.7.7.e.d.kr01-ae5.entry.v51124-5.qpon
-  port: 20043
-  type: ss
-  cipher: aes-256-gcm
-  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
-  udp: true
-- name: 🇬🇧 英国 用魔法打败魔法_c479
-  server: z.w.1.4.j.a.8.e.d.us01-ae5.entry.v51124-5.qpon
-  port: 20013
-  type: ss
-  cipher: aes-256-gcm
-  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
-  udp: true
-- name: 🇬🇧 英国 用魔法打败魔法_7eae
-  server: 8.l.y.4.i.g.e.e.d.us02-ae5.entry.v51124-5.qpon
-  port: 20018
-  type: ss
-  cipher: aes-256-gcm
-  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_e1f5
-  server: 8.w.1.d.6.g.e.e.d.de01-ae5.entry.v51124-5.qpon
-  port: 20053
-  type: ss
-  cipher: aes-256-gcm
-  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
-  udp: true
-- name: 🇬🇧 英国 用魔法打败魔法_05fb
-  server: z.g.8.1.o.a.t.8.d.fr01-ae5.entry.v51124-4.qpon
-  port: 20067
-  type: ss
-  cipher: aes-256-gcm
-  password: 99840981-d157-3437-b5a2-b2f8b67161ff
-  udp: true
-- name: 🇬🇧 英国 用魔法打败魔法_d7ec
-  server: 8.g.n.s.s.7.9.8.d.tr01-ae5.entry.v51124-4.qpon
-  port: 20037
-  type: ss
-  cipher: aes-256-gcm
-  password: 99840981-d157-3437-b5a2-b2f8b67161ff
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_1904
-  server: z.4.8.1.p.g.z.8.d.jp04-ae5.entry.v51124-4.qpon
-  port: 495
-  type: ss
-  cipher: aes-256-gcm
-  password: 99840981-d157-3437-b5a2-b2f8b67161ff
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_4890
-  server: z.d.5.s.x.s.z.8.d.hk04-ae5.entry.v51124-4.qpon
-  port: 806
-  type: ss
-  cipher: aes-256-gcm
-  password: 99840981-d157-3437-b5a2-b2f8b67161ff
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_46bd
-  server: v.l.y.4.i.g.8.e.d.jp02-ae5.entry.v51124-5.qpon
-  port: 486
   type: ss
   cipher: aes-256-gcm
   password: 7b562532-8f03-3a69-bb44-3c3e18227c19
@@ -891,114 +732,9 @@ proxies:
   cipher: aes-256-gcm
   password: 99840981-d157-3437-b5a2-b2f8b67161ff
   udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_25d9
-  server: 8.d.5.s.o.g.9.8.d.hk08-ae5.entry.v51124-4.qpon
-  port: 18645
-  type: ss
-  cipher: aes-256-gcm
-  password: 99840981-d157-3437-b5a2-b2f8b67161ff
-  udp: true
-- name: 🇬🇧 英国 用魔法打败魔法_8555
-  server: z.r.c.4.i.a.e.e.d.ua01-ae5.entry.v51124-5.qpon
-  port: 20073
-  type: ss
-  cipher: aes-256-gcm
-  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
-  udp: true
 - name: 🇨🇳 中国 用魔法打败魔法_7a61
   server: j.g.e.s.s.a.z.8.d.gb01-ae5.entry.v51124-4.qpon
   port: 20022
-  type: ss
-  cipher: aes-256-gcm
-  password: 99840981-d157-3437-b5a2-b2f8b67161ff
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_47f3
-  server: j.g.5.1.s.7.9.8.d.ca01-ae5.entry.v51124-4.qpon
-  port: 20057
-  type: ss
-  cipher: aes-256-gcm
-  password: 99840981-d157-3437-b5a2-b2f8b67161ff
-  udp: true
-- name: 🇬🇧 英国 用魔法打败魔法_4e0d
-  server: v.w.y.b.i.7.u.e.d.ar01-ae5.entry.v51124-5.qpon
-  port: 20028
-  type: ss
-  cipher: aes-256-gcm
-  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_d964
-  server: z.g.e.s.o.7.9.8.d.tw01-ae5.entry.v51124-4.qpon
-  port: 20007
-  type: ss
-  cipher: aes-256-gcm
-  password: 99840981-d157-3437-b5a2-b2f8b67161ff
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_da10
-  server: z.l.y.d.i.s.u.e.d.tw01-ae5.entry.v51124-5.qpon
-  port: 20008
-  type: ss
-  cipher: aes-256-gcm
-  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_8700
-  server: 8.r.y.4.6.g.e.e.d.hk08-ae5.entry.v51124-5.qpon
-  port: 18646
-  type: ss
-  cipher: aes-256-gcm
-  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_0053
-  server: v.d.5.j.x.g.t.8.d.kr01-ae5.entry.v51124-4.qpon
-  port: 20042
-  type: ss
-  cipher: aes-256-gcm
-  password: 99840981-d157-3437-b5a2-b2f8b67161ff
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_6d00
-  server: 8.w.y.b.i.s.u.e.d.hk02-ae5.entry.v51124-5.qpon
-  port: 14563
-  type: ss
-  cipher: aes-256-gcm
-  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_78ee
-  server: z.l.y.d.j.a.8.e.d.hk07-ae5.entry.v51124-5.qpon
-  port: 1423
-  type: ss
-  cipher: aes-256-gcm
-  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_9dfc
-  server: 8.w.c.9.6.g.7.e.d.sg03-ae5.entry.v51124-5.qpon
-  port: 20083
-  type: ss
-  cipher: aes-256-gcm
-  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_e219
-  server: 8.4.n.n.s.7.i.8.d.in01-ae5.entry.v51124-4.qpon
-  port: 20047
-  type: ss
-  cipher: aes-256-gcm
-  password: 99840981-d157-3437-b5a2-b2f8b67161ff
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_7033
-  server: 8.r.1.d.6.g.8.e.d.jp03-ae5.entry.v51124-5.qpon
-  port: 491
-  type: ss
-  cipher: aes-256-gcm
-  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
-  udp: true
-- name: 🇬🇧 英国 用魔法打败魔法_2eb1
-  server: j.g.n.n.o.7.z.8.d.au01-ae5.entry.v51124-4.qpon
-  port: 20062
-  type: ss
-  cipher: aes-256-gcm
-  password: 99840981-d157-3437-b5a2-b2f8b67161ff
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_ce22
-  server: v.d.5.s.o.7.9.8.d.sg01-ae5.entry.v51124-4.qpon
-  port: 20002
   type: ss
   cipher: aes-256-gcm
   password: 99840981-d157-3437-b5a2-b2f8b67161ff
@@ -1010,37 +746,23 @@ proxies:
   cipher: aes-256-gcm
   password: 99840981-d157-3437-b5a2-b2f8b67161ff
   udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_af94
-  server: z.l.1.4.l.7.7.e.d.ru01-ae5.entry.v51124-5.qpon
-  port: 20033
+- name: 🇨🇳 中国 用魔法打败魔法_9346
+  server: v.r.6.9.i.g.7.e.d.jp09-ae5.entry.v51124-5.qpon
+  port: 11161
   type: ss
   cipher: aes-256-gcm
   password: 7b562532-8f03-3a69-bb44-3c3e18227c19
   udp: true
-- name: 🇹🇼 台湾 用魔法打败魔法_4f1f
-  server: s1pmqnkdcsess.q2y5t1n1o2d4e.com
-  port: 39073
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 057d1cd0-ef62-4f48-acb2-7aefd08aaf31
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_8da0
-  server: z.4.5.n.s.7.z.8.d.jp03-ae5.entry.v51124-4.qpon
-  port: 490
+- name: 🇨🇳 中国 用魔法打败魔法_470f
+  server: j.w.c.b.j.7.7.e.d.sg01-ae5.entry.v51124-5.qpon
+  port: 20003
   type: ss
   cipher: aes-256-gcm
-  password: 99840981-d157-3437-b5a2-b2f8b67161ff
+  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
   udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_5a2b
-  server: j.4.8.s.x.a.9.8.d.hk02-ae5.entry.v51124-4.qpon
-  port: 14562
-  type: ss
-  cipher: aes-256-gcm
-  password: 99840981-d157-3437-b5a2-b2f8b67161ff
-  udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_68df
-  server: v.z.y.9.l.7.u.e.d.ca01-ae5.entry.v51124-5.qpon
-  port: 20058
+- name: 🇨🇳 中国 用魔法打败魔法_7eae
+  server: 8.l.y.4.i.g.e.e.d.us02-ae5.entry.v51124-5.qpon
+  port: 20018
   type: ss
   cipher: aes-256-gcm
   password: 7b562532-8f03-3a69-bb44-3c3e18227c19
@@ -1052,9 +774,113 @@ proxies:
   cipher: aes-256-gcm
   password: 7b562532-8f03-3a69-bb44-3c3e18227c19
   udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_5a2b
+  server: j.4.8.s.x.a.9.8.d.hk02-ae5.entry.v51124-4.qpon
+  port: 14562
+  type: ss
+  cipher: aes-256-gcm
+  password: 99840981-d157-3437-b5a2-b2f8b67161ff
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_8700
+  server: 8.r.y.4.6.g.e.e.d.hk08-ae5.entry.v51124-5.qpon
+  port: 18646
+  type: ss
+  cipher: aes-256-gcm
+  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_da79
+  server: 8.d.n.j.p.s.t.8.d.jp07-ae5.entry.v51124-4.qpon
+  port: 14007
+  type: ss
+  cipher: aes-256-gcm
+  password: 99840981-d157-3437-b5a2-b2f8b67161ff
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_e219
+  server: 8.4.n.n.s.7.i.8.d.in01-ae5.entry.v51124-4.qpon
+  port: 20047
+  type: ss
+  cipher: aes-256-gcm
+  password: 99840981-d157-3437-b5a2-b2f8b67161ff
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_708a
+  server: z.4.5.n.x.g.t.8.d.hk07-ae5.entry.v51124-4.qpon
+  port: 1422
+  type: ss
+  cipher: aes-256-gcm
+  password: 99840981-d157-3437-b5a2-b2f8b67161ff
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_495c
+  server: 8.g.8.j.x.g.i.8.d.jp01-ae5.entry.v51124-4.qpon
+  port: 475
+  type: ss
+  cipher: aes-256-gcm
+  password: 99840981-d157-3437-b5a2-b2f8b67161ff
+  udp: true
+- name: 🇰🇷 韩国 用魔法打败魔法_e041
+  server: hanguoyouhuagaosunftgaiuerw8d.mmbreed.sbs
+  port: 30015
+  type: vless
+  uuid: 5a585e16-044e-47a5-89f4-6ba5627887e6
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇬🇧 英国 用魔法打败魔法_285b
+  server: z.d.5.n.x.g.t.8.d.hk05-ae5.entry.v51124-4.qpon
+  port: 1814
+  type: ss
+  cipher: aes-256-gcm
+  password: 99840981-d157-3437-b5a2-b2f8b67161ff
+  udp: true
+- name: 🇯🇵 日本 用魔法打败魔法_e14e
+  server: ribendongjingyouhuagaosu82n4y.mmbreed.sbs
+  port: 30014
+  type: vless
+  uuid: 5a585e16-044e-47a5-89f4-6ba5627887e6
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_170d
+  server: v.d.n.s.p.g.i.8.d.de01-ae5.entry.v51124-4.qpon
+  port: 20052
+  type: ss
+  cipher: aes-256-gcm
+  password: 99840981-d157-3437-b5a2-b2f8b67161ff
+  udp: true
+- name: 🇬🇧 英国 用魔法打败魔法_8555
+  server: z.r.c.4.i.a.e.e.d.ua01-ae5.entry.v51124-5.qpon
+  port: 20073
+  type: ss
+  cipher: aes-256-gcm
+  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_82cf
+  server: v.d.8.n.o.g.z.8.d.hk01-ae5.entry.v51124-4.qpon
+  port: 19274
+  type: ss
+  cipher: aes-256-gcm
+  password: 99840981-d157-3437-b5a2-b2f8b67161ff
+  udp: true
+- name: 🇬🇧 英国 用魔法打败魔法_da10
+  server: z.l.y.d.i.s.u.e.d.tw01-ae5.entry.v51124-5.qpon
+  port: 20008
+  type: ss
+  cipher: aes-256-gcm
+  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
+  udp: true
 - name: 🇭🇰 香港 用魔法打败魔法_c5da
   server: jry.izenny.com
   port: 47831
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: b05d12bd-b445-43d9-8691-873bfcdea849
+  udp: true
+- name: 🇭🇰 香港 用魔法打败魔法_26bc
+  server: jry.izenny.com
+  port: 27689
   type: ss
   cipher: chacha20-ietf-poly1305
   password: b05d12bd-b445-43d9-8691-873bfcdea849
@@ -1080,23 +906,190 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: b05d12bd-b445-43d9-8691-873bfcdea849
   udp: true
-- name: 🇭🇰 香港 用魔法打败魔法_26bc
-  server: jry.izenny.com
-  port: 27689
+- name: 🇨🇳 中国 用魔法打败魔法_ff5e
+  server: z.l.6.d.j.a.7.e.d.jp08-ae5.entry.v51124-5.qpon
+  port: 12546
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: b05d12bd-b445-43d9-8691-873bfcdea849
+  cipher: aes-256-gcm
+  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
   udp: true
-- name: 🇨🇳 中国 用魔法打败魔法_da79
-  server: 8.d.n.j.p.s.t.8.d.jp07-ae5.entry.v51124-4.qpon
-  port: 14007
+- name: 🌐 未知地区 用魔法打败魔法_e92f
+  server: hanguoyouhuagaosunftgaiuow2hj.mmbreed.sbs
+  port: 30013
+  type: vless
+  uuid: 5a585e16-044e-47a5-89f4-6ba5627887e6
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_78a1
+  server: z.4.n.s.o.s.z.8.d.hk03-ae5.entry.v51124-4.qpon
+  port: 762
   type: ss
   cipher: aes-256-gcm
   password: 99840981-d157-3437-b5a2-b2f8b67161ff
   udp: true
-- name: 🇬🇧 英国 用魔法打败魔法_285b
-  server: z.d.5.n.x.g.t.8.d.hk05-ae5.entry.v51124-4.qpon
-  port: 1814
+- name: 🇨🇳 中国 用魔法打败魔法_ce0c
+  server: z.l.y.d.j.7.u.e.d.hk06-ae5.entry.v51124-5.qpon
+  port: 1416
+  type: ss
+  cipher: aes-256-gcm
+  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
+  udp: true
+- name: 🇬🇧 英国 用魔法打败魔法_0053
+  server: v.d.5.j.x.g.t.8.d.kr01-ae5.entry.v51124-4.qpon
+  port: 20042
+  type: ss
+  cipher: aes-256-gcm
+  password: 99840981-d157-3437-b5a2-b2f8b67161ff
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_05fb
+  server: z.g.8.1.o.a.t.8.d.fr01-ae5.entry.v51124-4.qpon
+  port: 20067
+  type: ss
+  cipher: aes-256-gcm
+  password: 99840981-d157-3437-b5a2-b2f8b67161ff
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_8680
+  server: j.l.6.b.i.g.u.e.d.hk04-ae5.entry.v51124-5.qpon
+  port: 807
+  type: ss
+  cipher: aes-256-gcm
+  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_f536
+  server: v.4.8.j.s.g.t.8.d.sg02-ae5.entry.v51124-4.qpon
+  port: 20077
+  type: ss
+  cipher: aes-256-gcm
+  password: 99840981-d157-3437-b5a2-b2f8b67161ff
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_8da0
+  server: z.4.5.n.s.7.z.8.d.jp03-ae5.entry.v51124-4.qpon
+  port: 490
+  type: ss
+  cipher: aes-256-gcm
+  password: 99840981-d157-3437-b5a2-b2f8b67161ff
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_b5cc
+  server: j.w.1.9.l.7.7.e.d.kr01-ae5.entry.v51124-5.qpon
+  port: 20043
+  type: ss
+  cipher: aes-256-gcm
+  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_4890
+  server: z.d.5.s.x.s.z.8.d.hk04-ae5.entry.v51124-4.qpon
+  port: 806
+  type: ss
+  cipher: aes-256-gcm
+  password: 99840981-d157-3437-b5a2-b2f8b67161ff
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_c479
+  server: z.w.1.4.j.a.8.e.d.us01-ae5.entry.v51124-5.qpon
+  port: 20013
+  type: ss
+  cipher: aes-256-gcm
+  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_a8aa
+  server: v.w.6.9.6.g.8.e.d.jp11-ae5.entry.v51124-5.qpon
+  port: 17744
+  type: ss
+  cipher: aes-256-gcm
+  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
+  udp: true
+- name: 🇬🇧 英国 用魔法打败魔法_cf90
+  server: 8.r.c.b.6.7.7.e.d.jp04-ae5.entry.v51124-5.qpon
+  port: 496
+  type: ss
+  cipher: aes-256-gcm
+  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_70ac
+  server: 8.z.6.4.i.7.u.e.d.jp10-ae5.entry.v51124-5.qpon
+  port: 16527
+  type: ss
+  cipher: aes-256-gcm
+  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_47f3
+  server: j.g.5.1.s.7.9.8.d.ca01-ae5.entry.v51124-4.qpon
+  port: 20057
+  type: ss
+  cipher: aes-256-gcm
+  password: 99840981-d157-3437-b5a2-b2f8b67161ff
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_e1f5
+  server: 8.w.1.d.6.g.e.e.d.de01-ae5.entry.v51124-5.qpon
+  port: 20053
+  type: ss
+  cipher: aes-256-gcm
+  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
+  udp: true
+- name: 🇬🇧 英国 用魔法打败魔法_3886
+  server: 8.r.6.4.6.7.u.e.d.sg02-ae5.entry.v51124-5.qpon
+  port: 20078
+  type: ss
+  cipher: aes-256-gcm
+  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_6d00
+  server: 8.w.y.b.i.s.u.e.d.hk02-ae5.entry.v51124-5.qpon
+  port: 14563
+  type: ss
+  cipher: aes-256-gcm
+  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_1904
+  server: z.4.8.1.p.g.z.8.d.jp04-ae5.entry.v51124-4.qpon
+  port: 495
+  type: ss
+  cipher: aes-256-gcm
+  password: 99840981-d157-3437-b5a2-b2f8b67161ff
+  udp: true
+- name: 🌐 未知地区 用魔法打败魔法_67bf
+  server: xianggangyouhuagaosunftgmw7th.mmbreed.sbs
+  port: 30013
+  type: vless
+  uuid: 5a585e16-044e-47a5-89f4-6ba5627887e6
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_382b
+  server: v.w.6.4.6.g.7.e.d.fr01-ae5.entry.v51124-5.qpon
+  port: 20068
+  type: ss
+  cipher: aes-256-gcm
+  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_caf1
+  server: j.d.n.j.o.a.9.8.d.ru01-ae5.entry.v51124-4.qpon
+  port: 20032
+  type: ss
+  cipher: aes-256-gcm
+  password: 99840981-d157-3437-b5a2-b2f8b67161ff
+  udp: true
+- name: 🇹🇼 台湾 用魔法打败魔法_4f1f
+  server: s1pmqnkdcsess.q2y5t1n1o2d4e.com
+  port: 39073
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 057d1cd0-ef62-4f48-acb2-7aefd08aaf31
+  udp: true
+- name: 🇬🇧 英国 用魔法打败魔法_2966
+  server: z.z.c.9.j.a.7.e.d.hk03-ae5.entry.v51124-5.qpon
+  port: 763
+  type: ss
+  cipher: aes-256-gcm
+  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
+  udp: true
+- name: 🇨🇳 中国 用魔法打败魔法_bab2
+  server: 8.d.n.1.o.s.z.8.d.sg03-ae5.entry.v51124-4.qpon
+  port: 20082
   type: ss
   cipher: aes-256-gcm
   password: 99840981-d157-3437-b5a2-b2f8b67161ff
@@ -1108,16 +1101,16 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 6a32eefb-1268-4d4a-90f3-b37bfe8547c9
   udp: true
-- name: 🇭🇰 香港 用魔法打败魔法_a1ca
+- name: 🇭🇰 香港 用魔法打败魔法_7894
   server: slur.izenny.com
-  port: 53387
+  port: 14187
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 6a32eefb-1268-4d4a-90f3-b37bfe8547c9
   udp: true
-- name: 🇭🇰 香港 用魔法打败魔法_0ee5
+- name: 🇭🇰 香港 用魔法打败魔法_a1ca
   server: slur.izenny.com
-  port: 17254
+  port: 53387
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 6a32eefb-1268-4d4a-90f3-b37bfe8547c9
@@ -1129,9 +1122,9 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 6a32eefb-1268-4d4a-90f3-b37bfe8547c9
   udp: true
-- name: 🇭🇰 香港 用魔法打败魔法_df33
+- name: 🇭🇰 香港 用魔法打败魔法_0ee5
   server: slur.izenny.com
-  port: 48907
+  port: 17254
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 6a32eefb-1268-4d4a-90f3-b37bfe8547c9
@@ -1139,13 +1132,6 @@ proxies:
 - name: 🇭🇰 香港 用魔法打败魔法_8537
   server: slur.izenny.com
   port: 36199
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 6a32eefb-1268-4d4a-90f3-b37bfe8547c9
-  udp: true
-- name: 🇭🇰 香港 用魔法打败魔法_7894
-  server: slur.izenny.com
-  port: 14187
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 6a32eefb-1268-4d4a-90f3-b37bfe8547c9
@@ -1164,6 +1150,13 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 6a32eefb-1268-4d4a-90f3-b37bfe8547c9
   udp: true
+- name: 🇭🇰 香港 用魔法打败魔法_df33
+  server: slur.izenny.com
+  port: 48907
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 6a32eefb-1268-4d4a-90f3-b37bfe8547c9
+  udp: true
 - name: 🇭🇰 香港 用魔法打败魔法_4336
   server: slur.izenny.com
   port: 40063
@@ -1171,42 +1164,56 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 6a32eefb-1268-4d4a-90f3-b37bfe8547c9
   udp: true
+- name: 🇬🇧 英国 用魔法打败魔法_5ebd
+  server: 8.z.6.4.6.7.e.e.d.hk09-vm5.entry.v51124-5.qpon
+  port: 19275
+  type: ss
+  cipher: aes-256-gcm
+  password: 7b562532-8f03-3a69-bb44-3c3e18227c19
+  udp: true
 proxy-groups:
 - name: 🔰 节点选择
   type: select
   proxies:
   - 🚀 自动测速
   - DIRECT
-  - 🇹🇼 台湾 用魔法打败魔法_f0d9
   - 🌐 未知地区 用魔法打败魔法_3f90
-  - 🌐 未知地区 用魔法打败魔法_ebc6
+  - 🇹🇼 台湾 用魔法打败魔法_f0d9
   - 🌐 未知地区 用魔法打败魔法_6938
-  - 🇸🇨 塞舌尔 用魔法打败魔法_cadc
-  - 🌐 未知地区 用魔法打败魔法_67bf
-  - 🌐 未知地区 用魔法打败魔法_e92f
-  - 🌐 未知地区 用魔法打败魔法_c1ae
-  - 🇹🇼 台湾 用魔法打败魔法_ea3a
-  - 🇹🇼 台湾 用魔法打败魔法_8b56
-  - 🇹🇼 台湾 用魔法打败魔法_19db
-  - 🇹🇼 台湾 用魔法打败魔法_3eae
-  - 🇹🇼 台湾 用魔法打败魔法_8e30
-  - 🇹🇼 台湾 用魔法打败魔法_a126
-  - 🇹🇼 台湾 用魔法打败魔法_b5b9
+  - 🇯🇵 日本 用魔法打败魔法_04f7
+  - 🇯🇵 日本 用魔法打败魔法_ea4a
+  - 🇯🇵 日本 用魔法打败魔法_1b54
+  - 🇯🇵 日本 用魔法打败魔法_6980
+  - 🇯🇵 日本 用魔法打败魔法_daae
+  - 🇯🇵 日本 用魔法打败魔法_55cc
+  - 🇯🇵 日本 用魔法打败魔法_d3b9
+  - 🇯🇵 日本 用魔法打败魔法_7fe1
+  - 🇯🇵 日本 用魔法打败魔法_9248
+  - 🇯🇵 日本 用魔法打败魔法_cacf
+  - 🌐 未知地区 用魔法打败魔法_ebc6
   - 🇹🇼 台湾 用魔法打败魔法_927e
-  - 🇹🇼 台湾 用魔法打败魔法_8534
+  - 🇹🇼 台湾 用魔法打败魔法_a126
+  - 🇹🇼 台湾 用魔法打败魔法_8b56
+  - 🇹🇼 台湾 用魔法打败魔法_3eae
+  - 🇹🇼 台湾 用魔法打败魔法_ea3a
   - 🇹🇼 台湾 用魔法打败魔法_2114
+  - 🇯🇵 日本 用魔法打败魔法_356b
+  - 🇹🇼 台湾 用魔法打败魔法_8534
   - 🇹🇼 台湾 用魔法打败魔法_e14a
+  - 🇯🇵 日本 用魔法打败魔法_6f98
   - 🇹🇼 台湾 用魔法打败魔法_4e7e
+  - 🇯🇵 日本 用魔法打败魔法_bc3f
+  - 🇹🇼 台湾 用魔法打败魔法_19db
+  - 🌐 未知地区 用魔法打败魔法_12d5
+  - 🇹🇼 台湾 用魔法打败魔法_b5b9
+  - 🇹🇼 台湾 用魔法打败魔法_8e30
+  - 🇯🇵 日本 用魔法打败魔法_6919
+  - 🌐 未知地区 用魔法打败魔法_c1ae
+  - 🇯🇵 日本 用魔法打败魔法_473f
   - 🇹🇼 台湾 用魔法打败魔法_6691
   - 🇺🇸 美国 用魔法打败魔法_cdf1
-  - 🇯🇵 日本 用魔法打败魔法_9248
-  - 🇯🇵 日本 用魔法打败魔法_7fe1
-  - 🇯🇵 日本 用魔法打败魔法_356b
+  - 🇯🇵 日本 用魔法打败魔法_24b0
   - 🇯🇵 日本 用魔法打败魔法_9809
-  - 🇯🇵 日本 用魔法打败魔法_6f98
-  - 🇯🇵 日本 用魔法打败魔法_bc3f
-  - 🇯🇵 日本 用魔法打败魔法_6919
-  - 🇯🇵 日本 用魔法打败魔法_473f
   - 🇯🇵 日本 用魔法打败魔法_1e0a
   - 🇯🇵 日本 用魔法打败魔法_6f03
   - 🇹🇼 台湾 用魔法打败魔法_1603
@@ -1214,155 +1221,155 @@ proxy-groups:
   - 🇯🇵 日本 用魔法打败魔法_c926
   - 🇯🇵 日本 用魔法打败魔法_2cba
   - 🇨🇳 中国 用魔法打败魔法_b2b7
-  - 🇯🇵 日本 用魔法打败魔法_ea4a
-  - 🇯🇵 日本 用魔法打败魔法_04f7
-  - 🌐 未知地区 用魔法打败魔法_12d5
   - 🇯🇵 日本 用魔法打败魔法_1191
   - 🇯🇵 日本 用魔法打败魔法_7096
   - 🇯🇵 日本 用魔法打败魔法_36ba
   - 🇯🇵 日本 用魔法打败魔法_0b8f
-  - 🇯🇵 日本 用魔法打败魔法_daae
-  - 🇯🇵 日本 用魔法打败魔法_6980
   - 🇯🇵 日本 用魔法打败魔法_95bb
   - 🇯🇵 日本 用魔法打败魔法_521b
   - 🇯🇵 日本 用魔法打败魔法_6628
   - 🇯🇵 日本 用魔法打败魔法_cdc4
   - 🇯🇵 日本 用魔法打败魔法_6682
-  - 🇯🇵 日本 用魔法打败魔法_55cc
   - 🇯🇵 日本 用魔法打败魔法_71a0
-  - 🇯🇵 日本 用魔法打败魔法_24b0
-  - 🇯🇵 日本 用魔法打败魔法_cacf
-  - 🇯🇵 日本 用魔法打败魔法_d3b9
-  - 🇯🇵 日本 用魔法打败魔法_1b54
-  - 🇭🇰 香港 用魔法打败魔法_4113
-  - 🇨🇳 中国 用魔法打败魔法_78a1
-  - 🇭🇰 香港 用魔法打败魔法_eaf7
-  - 🇨🇳 中国 用魔法打败魔法_382b
-  - 🇨🇳 中国 用魔法打败魔法_ff5e
   - 🇯🇵 日本 用魔法打败魔法_cdc3
-  - 🇸🇬 新加坡 用魔法打败魔法_7505
-  - 🇯🇵 日本 用魔法打败魔法_e14e
-  - 🇨🇳 中国 用魔法打败魔法_3886
-  - 🇭🇰 香港 用魔法打败魔法_08a0
-  - 🇨🇳 中国 用魔法打败魔法_708a
-  - 🇸🇨 塞舌尔 用魔法打败魔法_aaa7
-  - 🇭🇰 香港 用魔法打败魔法_76d3
-  - 🌐 未知地区 用魔法打败魔法_b241
-  - 🌐 未知地区 用魔法打败魔法_b7eb
-  - 🇰🇷 韩国 用魔法打败魔法_e041
-  - 🇨🇳 中国 用魔法打败魔法_7c09
   - 🌐 未知地区 用魔法打败魔法_e072
-  - 🇨🇳 中国 用魔法打败魔法_cf90
-  - 🇨🇳 中国 用魔法打败魔法_82cf
-  - 🇨🇳 中国 用魔法打败魔法_c615
-  - 🇨🇳 中国 用魔法打败魔法_bab2
-  - 🇨🇳 中国 用魔法打败魔法_caf1
-  - 🇨🇳 中国 用魔法打败魔法_7e6e
-  - 🇨🇳 中国 用魔法打败魔法_9cdc
-  - 🇨🇳 中国 用魔法打败魔法_495c
-  - 🇨🇳 中国 用魔法打败魔法_838b
-  - 🇨🇳 中国 用魔法打败魔法_2966
-  - 🇨🇳 中国 用魔法打败魔法_f536
-  - 🇨🇳 中国 用魔法打败魔法_1f32
-  - 🇨🇳 中国 用魔法打败魔法_0357
-  - 🇨🇳 中国 用魔法打败魔法_0464
-  - 🇨🇳 中国 用魔法打败魔法_470f
-  - 🇨🇳 中国 用魔法打败魔法_170d
-  - 🇨🇳 中国 用魔法打败魔法_63b9
-  - 🇨🇳 中国 用魔法打败魔法_93be
-  - 🇨🇳 中国 用魔法打败魔法_8680
-  - 🇬🇧 英国 用魔法打败魔法_e090
-  - 🇬🇧 英国 用魔法打败魔法_9346
-  - 🇨🇳 中国 用魔法打败魔法_5ebd
-  - 🇬🇧 英国 用魔法打败魔法_70ac
-  - 🇬🇧 英国 用魔法打败魔法_a8aa
+  - 🇭🇰 香港 用魔法打败魔法_eaf7
+  - 🇸🇬 新加坡 用魔法打败魔法_7505
+  - 🇭🇰 香港 用魔法打败魔法_4113
   - 🇯🇵 日本 用魔法打败魔法_eede
-  - 🇨🇳 中国 用魔法打败魔法_ce0c
-  - 🇨🇳 中国 用魔法打败魔法_b5cc
-  - 🇬🇧 英国 用魔法打败魔法_c479
-  - 🇬🇧 英国 用魔法打败魔法_7eae
-  - 🇨🇳 中国 用魔法打败魔法_e1f5
-  - 🇬🇧 英国 用魔法打败魔法_05fb
-  - 🇬🇧 英国 用魔法打败魔法_d7ec
-  - 🇨🇳 中国 用魔法打败魔法_1904
-  - 🇨🇳 中国 用魔法打败魔法_4890
-  - 🇨🇳 中国 用魔法打败魔法_46bd
-  - 🇨🇳 中国 用魔法打败魔法_aaa7
-  - 🇨🇳 中国 用魔法打败魔法_25d9
-  - 🇬🇧 英国 用魔法打败魔法_8555
-  - 🇨🇳 中国 用魔法打败魔法_7a61
-  - 🇨🇳 中国 用魔法打败魔法_47f3
-  - 🇬🇧 英国 用魔法打败魔法_4e0d
-  - 🇨🇳 中国 用魔法打败魔法_d964
-  - 🇨🇳 中国 用魔法打败魔法_da10
-  - 🇨🇳 中国 用魔法打败魔法_8700
-  - 🇨🇳 中国 用魔法打败魔法_0053
-  - 🇨🇳 中国 用魔法打败魔法_6d00
-  - 🇨🇳 中国 用魔法打败魔法_78ee
-  - 🇨🇳 中国 用魔法打败魔法_9dfc
-  - 🇨🇳 中国 用魔法打败魔法_e219
-  - 🇨🇳 中国 用魔法打败魔法_7033
-  - 🇬🇧 英国 用魔法打败魔法_2eb1
-  - 🇨🇳 中国 用魔法打败魔法_ce22
-  - 🇨🇳 中国 用魔法打败魔法_b1c0
-  - 🇨🇳 中国 用魔法打败魔法_af94
-  - 🇹🇼 台湾 用魔法打败魔法_4f1f
-  - 🇨🇳 中国 用魔法打败魔法_8da0
-  - 🇨🇳 中国 用魔法打败魔法_5a2b
+  - 🇭🇰 香港 用魔法打败魔法_76d3
+  - 🇸🇨 塞舌尔 用魔法打败魔法_aaa7
+  - 🌐 未知地区 用魔法打败魔法_b241
+  - 🇨🇳 中国 用魔法打败魔法_7e6e
+  - 🌐 未知地区 用魔法打败魔法_b7eb
   - 🇨🇳 中国 用魔法打败魔法_68df
+  - 🇬🇧 英国 用魔法打败魔法_d964
+  - 🇬🇧 英国 用魔法打败魔法_4e0d
+  - 🇬🇧 英国 用魔法打败魔法_7033
+  - 🇬🇧 英国 用魔法打败魔法_9cdc
+  - 🇬🇧 英国 用魔法打败魔法_af94
+  - 🇨🇳 中国 用魔法打败魔法_9dfc
+  - 🇬🇧 英国 用魔法打败魔法_46bd
+  - 🇨🇳 中国 用魔法打败魔法_1f32
+  - 🇨🇳 中国 用魔法打败魔法_c615
+  - 🇨🇳 中国 用魔法打败魔法_78ee
+  - 🇸🇨 塞舌尔 用魔法打败魔法_cadc
+  - 🇬🇧 英国 用魔法打败魔法_d7ec
+  - 🇨🇳 中国 用魔法打败魔法_e090
+  - 🇨🇳 中国 用魔法打败魔法_0357
+  - 🇨🇳 中国 用魔法打败魔法_25d9
+  - 🇬🇧 英国 用魔法打败魔法_838b
+  - 🇨🇳 中国 用魔法打败魔法_2eb1
+  - 🇨🇳 中国 用魔法打败魔法_93be
+  - 🇬🇧 英国 用魔法打败魔法_ce22
+  - 🇬🇧 英国 用魔法打败魔法_0464
+  - 🇭🇰 香港 用魔法打败魔法_08a0
+  - 🇨🇳 中国 用魔法打败魔法_7c09
+  - 🇨🇳 中国 用魔法打败魔法_63b9
+  - 🇨🇳 中国 用魔法打败魔法_aaa7
+  - 🇨🇳 中国 用魔法打败魔法_7a61
+  - 🇨🇳 中国 用魔法打败魔法_b1c0
+  - 🇨🇳 中国 用魔法打败魔法_9346
+  - 🇨🇳 中国 用魔法打败魔法_470f
+  - 🇨🇳 中国 用魔法打败魔法_7eae
   - 🇨🇳 中国 用魔法打败魔法_3302
+  - 🇨🇳 中国 用魔法打败魔法_5a2b
+  - 🇨🇳 中国 用魔法打败魔法_8700
+  - 🇨🇳 中国 用魔法打败魔法_da79
+  - 🇨🇳 中国 用魔法打败魔法_e219
+  - 🇨🇳 中国 用魔法打败魔法_708a
+  - 🇨🇳 中国 用魔法打败魔法_495c
+  - 🇰🇷 韩国 用魔法打败魔法_e041
+  - 🇬🇧 英国 用魔法打败魔法_285b
+  - 🇯🇵 日本 用魔法打败魔法_e14e
+  - 🇨🇳 中国 用魔法打败魔法_170d
+  - 🇬🇧 英国 用魔法打败魔法_8555
+  - 🇨🇳 中国 用魔法打败魔法_82cf
+  - 🇬🇧 英国 用魔法打败魔法_da10
   - 🇭🇰 香港 用魔法打败魔法_c5da
+  - 🇭🇰 香港 用魔法打败魔法_26bc
   - 🇭🇰 香港 用魔法打败魔法_f94f
   - 🇭🇰 香港 用魔法打败魔法_08ed
   - 🇭🇰 香港 用魔法打败魔法_4ea6
-  - 🇭🇰 香港 用魔法打败魔法_26bc
-  - 🇨🇳 中国 用魔法打败魔法_da79
-  - 🇬🇧 英国 用魔法打败魔法_285b
+  - 🇨🇳 中国 用魔法打败魔法_ff5e
+  - 🌐 未知地区 用魔法打败魔法_e92f
+  - 🇨🇳 中国 用魔法打败魔法_78a1
+  - 🇨🇳 中国 用魔法打败魔法_ce0c
+  - 🇬🇧 英国 用魔法打败魔法_0053
+  - 🇨🇳 中国 用魔法打败魔法_05fb
+  - 🇨🇳 中国 用魔法打败魔法_8680
+  - 🇨🇳 中国 用魔法打败魔法_f536
+  - 🇨🇳 中国 用魔法打败魔法_8da0
+  - 🇨🇳 中国 用魔法打败魔法_b5cc
+  - 🇨🇳 中国 用魔法打败魔法_4890
+  - 🇨🇳 中国 用魔法打败魔法_c479
+  - 🇨🇳 中国 用魔法打败魔法_a8aa
+  - 🇬🇧 英国 用魔法打败魔法_cf90
+  - 🇨🇳 中国 用魔法打败魔法_70ac
+  - 🇨🇳 中国 用魔法打败魔法_47f3
+  - 🇨🇳 中国 用魔法打败魔法_e1f5
+  - 🇬🇧 英国 用魔法打败魔法_3886
+  - 🇨🇳 中国 用魔法打败魔法_6d00
+  - 🇨🇳 中国 用魔法打败魔法_1904
+  - 🌐 未知地区 用魔法打败魔法_67bf
+  - 🇨🇳 中国 用魔法打败魔法_382b
+  - 🇨🇳 中国 用魔法打败魔法_caf1
+  - 🇹🇼 台湾 用魔法打败魔法_4f1f
+  - 🇬🇧 英国 用魔法打败魔法_2966
+  - 🇨🇳 中国 用魔法打败魔法_bab2
   - 🇭🇰 香港 用魔法打败魔法_a846
-  - 🇭🇰 香港 用魔法打败魔法_a1ca
-  - 🇭🇰 香港 用魔法打败魔法_0ee5
-  - 🇭🇰 香港 用魔法打败魔法_5eec
-  - 🇭🇰 香港 用魔法打败魔法_df33
-  - 🇭🇰 香港 用魔法打败魔法_8537
   - 🇭🇰 香港 用魔法打败魔法_7894
+  - 🇭🇰 香港 用魔法打败魔法_a1ca
+  - 🇭🇰 香港 用魔法打败魔法_5eec
+  - 🇭🇰 香港 用魔法打败魔法_0ee5
+  - 🇭🇰 香港 用魔法打败魔法_8537
   - 🇭🇰 香港 用魔法打败魔法_6475
   - 🇭🇰 香港 用魔法打败魔法_0eab
+  - 🇭🇰 香港 用魔法打败魔法_df33
   - 🇭🇰 香港 用魔法打败魔法_4336
+  - 🇬🇧 英国 用魔法打败魔法_5ebd
 - name: 🚀 自动测速
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇹🇼 台湾 用魔法打败魔法_f0d9
   - 🌐 未知地区 用魔法打败魔法_3f90
-  - 🌐 未知地区 用魔法打败魔法_ebc6
+  - 🇹🇼 台湾 用魔法打败魔法_f0d9
   - 🌐 未知地区 用魔法打败魔法_6938
-  - 🇸🇨 塞舌尔 用魔法打败魔法_cadc
-  - 🌐 未知地区 用魔法打败魔法_67bf
-  - 🌐 未知地区 用魔法打败魔法_e92f
-  - 🌐 未知地区 用魔法打败魔法_c1ae
-  - 🇹🇼 台湾 用魔法打败魔法_ea3a
-  - 🇹🇼 台湾 用魔法打败魔法_8b56
-  - 🇹🇼 台湾 用魔法打败魔法_19db
-  - 🇹🇼 台湾 用魔法打败魔法_3eae
-  - 🇹🇼 台湾 用魔法打败魔法_8e30
-  - 🇹🇼 台湾 用魔法打败魔法_a126
-  - 🇹🇼 台湾 用魔法打败魔法_b5b9
+  - 🇯🇵 日本 用魔法打败魔法_04f7
+  - 🇯🇵 日本 用魔法打败魔法_ea4a
+  - 🇯🇵 日本 用魔法打败魔法_1b54
+  - 🇯🇵 日本 用魔法打败魔法_6980
+  - 🇯🇵 日本 用魔法打败魔法_daae
+  - 🇯🇵 日本 用魔法打败魔法_55cc
+  - 🇯🇵 日本 用魔法打败魔法_d3b9
+  - 🇯🇵 日本 用魔法打败魔法_7fe1
+  - 🇯🇵 日本 用魔法打败魔法_9248
+  - 🇯🇵 日本 用魔法打败魔法_cacf
+  - 🌐 未知地区 用魔法打败魔法_ebc6
   - 🇹🇼 台湾 用魔法打败魔法_927e
-  - 🇹🇼 台湾 用魔法打败魔法_8534
+  - 🇹🇼 台湾 用魔法打败魔法_a126
+  - 🇹🇼 台湾 用魔法打败魔法_8b56
+  - 🇹🇼 台湾 用魔法打败魔法_3eae
+  - 🇹🇼 台湾 用魔法打败魔法_ea3a
   - 🇹🇼 台湾 用魔法打败魔法_2114
+  - 🇯🇵 日本 用魔法打败魔法_356b
+  - 🇹🇼 台湾 用魔法打败魔法_8534
   - 🇹🇼 台湾 用魔法打败魔法_e14a
+  - 🇯🇵 日本 用魔法打败魔法_6f98
   - 🇹🇼 台湾 用魔法打败魔法_4e7e
+  - 🇯🇵 日本 用魔法打败魔法_bc3f
+  - 🇹🇼 台湾 用魔法打败魔法_19db
+  - 🌐 未知地区 用魔法打败魔法_12d5
+  - 🇹🇼 台湾 用魔法打败魔法_b5b9
+  - 🇹🇼 台湾 用魔法打败魔法_8e30
+  - 🇯🇵 日本 用魔法打败魔法_6919
+  - 🌐 未知地区 用魔法打败魔法_c1ae
+  - 🇯🇵 日本 用魔法打败魔法_473f
   - 🇹🇼 台湾 用魔法打败魔法_6691
   - 🇺🇸 美国 用魔法打败魔法_cdf1
-  - 🇯🇵 日本 用魔法打败魔法_9248
-  - 🇯🇵 日本 用魔法打败魔法_7fe1
-  - 🇯🇵 日本 用魔法打败魔法_356b
+  - 🇯🇵 日本 用魔法打败魔法_24b0
   - 🇯🇵 日本 用魔法打败魔法_9809
-  - 🇯🇵 日本 用魔法打败魔法_6f98
-  - 🇯🇵 日本 用魔法打败魔法_bc3f
-  - 🇯🇵 日本 用魔法打败魔法_6919
-  - 🇯🇵 日本 用魔法打败魔法_473f
   - 🇯🇵 日本 用魔法打败魔法_1e0a
   - 🇯🇵 日本 用魔法打败魔法_6f03
   - 🇹🇼 台湾 用魔法打败魔法_1603
@@ -1370,119 +1377,112 @@ proxy-groups:
   - 🇯🇵 日本 用魔法打败魔法_c926
   - 🇯🇵 日本 用魔法打败魔法_2cba
   - 🇨🇳 中国 用魔法打败魔法_b2b7
-  - 🇯🇵 日本 用魔法打败魔法_ea4a
-  - 🇯🇵 日本 用魔法打败魔法_04f7
-  - 🌐 未知地区 用魔法打败魔法_12d5
   - 🇯🇵 日本 用魔法打败魔法_1191
   - 🇯🇵 日本 用魔法打败魔法_7096
   - 🇯🇵 日本 用魔法打败魔法_36ba
   - 🇯🇵 日本 用魔法打败魔法_0b8f
-  - 🇯🇵 日本 用魔法打败魔法_daae
-  - 🇯🇵 日本 用魔法打败魔法_6980
   - 🇯🇵 日本 用魔法打败魔法_95bb
   - 🇯🇵 日本 用魔法打败魔法_521b
   - 🇯🇵 日本 用魔法打败魔法_6628
   - 🇯🇵 日本 用魔法打败魔法_cdc4
   - 🇯🇵 日本 用魔法打败魔法_6682
-  - 🇯🇵 日本 用魔法打败魔法_55cc
   - 🇯🇵 日本 用魔法打败魔法_71a0
-  - 🇯🇵 日本 用魔法打败魔法_24b0
-  - 🇯🇵 日本 用魔法打败魔法_cacf
-  - 🇯🇵 日本 用魔法打败魔法_d3b9
-  - 🇯🇵 日本 用魔法打败魔法_1b54
-  - 🇭🇰 香港 用魔法打败魔法_4113
-  - 🇨🇳 中国 用魔法打败魔法_78a1
-  - 🇭🇰 香港 用魔法打败魔法_eaf7
-  - 🇨🇳 中国 用魔法打败魔法_382b
-  - 🇨🇳 中国 用魔法打败魔法_ff5e
   - 🇯🇵 日本 用魔法打败魔法_cdc3
-  - 🇸🇬 新加坡 用魔法打败魔法_7505
-  - 🇯🇵 日本 用魔法打败魔法_e14e
-  - 🇨🇳 中国 用魔法打败魔法_3886
-  - 🇭🇰 香港 用魔法打败魔法_08a0
-  - 🇨🇳 中国 用魔法打败魔法_708a
-  - 🇸🇨 塞舌尔 用魔法打败魔法_aaa7
-  - 🇭🇰 香港 用魔法打败魔法_76d3
-  - 🌐 未知地区 用魔法打败魔法_b241
-  - 🌐 未知地区 用魔法打败魔法_b7eb
-  - 🇰🇷 韩国 用魔法打败魔法_e041
-  - 🇨🇳 中国 用魔法打败魔法_7c09
   - 🌐 未知地区 用魔法打败魔法_e072
-  - 🇨🇳 中国 用魔法打败魔法_cf90
-  - 🇨🇳 中国 用魔法打败魔法_82cf
-  - 🇨🇳 中国 用魔法打败魔法_c615
-  - 🇨🇳 中国 用魔法打败魔法_bab2
-  - 🇨🇳 中国 用魔法打败魔法_caf1
-  - 🇨🇳 中国 用魔法打败魔法_7e6e
-  - 🇨🇳 中国 用魔法打败魔法_9cdc
-  - 🇨🇳 中国 用魔法打败魔法_495c
-  - 🇨🇳 中国 用魔法打败魔法_838b
-  - 🇨🇳 中国 用魔法打败魔法_2966
-  - 🇨🇳 中国 用魔法打败魔法_f536
-  - 🇨🇳 中国 用魔法打败魔法_1f32
-  - 🇨🇳 中国 用魔法打败魔法_0357
-  - 🇨🇳 中国 用魔法打败魔法_0464
-  - 🇨🇳 中国 用魔法打败魔法_470f
-  - 🇨🇳 中国 用魔法打败魔法_170d
-  - 🇨🇳 中国 用魔法打败魔法_63b9
-  - 🇨🇳 中国 用魔法打败魔法_93be
-  - 🇨🇳 中国 用魔法打败魔法_8680
-  - 🇬🇧 英国 用魔法打败魔法_e090
-  - 🇬🇧 英国 用魔法打败魔法_9346
-  - 🇨🇳 中国 用魔法打败魔法_5ebd
-  - 🇬🇧 英国 用魔法打败魔法_70ac
-  - 🇬🇧 英国 用魔法打败魔法_a8aa
+  - 🇭🇰 香港 用魔法打败魔法_eaf7
+  - 🇸🇬 新加坡 用魔法打败魔法_7505
+  - 🇭🇰 香港 用魔法打败魔法_4113
   - 🇯🇵 日本 用魔法打败魔法_eede
-  - 🇨🇳 中国 用魔法打败魔法_ce0c
-  - 🇨🇳 中国 用魔法打败魔法_b5cc
-  - 🇬🇧 英国 用魔法打败魔法_c479
-  - 🇬🇧 英国 用魔法打败魔法_7eae
-  - 🇨🇳 中国 用魔法打败魔法_e1f5
-  - 🇬🇧 英国 用魔法打败魔法_05fb
-  - 🇬🇧 英国 用魔法打败魔法_d7ec
-  - 🇨🇳 中国 用魔法打败魔法_1904
-  - 🇨🇳 中国 用魔法打败魔法_4890
-  - 🇨🇳 中国 用魔法打败魔法_46bd
-  - 🇨🇳 中国 用魔法打败魔法_aaa7
-  - 🇨🇳 中国 用魔法打败魔法_25d9
-  - 🇬🇧 英国 用魔法打败魔法_8555
-  - 🇨🇳 中国 用魔法打败魔法_7a61
-  - 🇨🇳 中国 用魔法打败魔法_47f3
-  - 🇬🇧 英国 用魔法打败魔法_4e0d
-  - 🇨🇳 中国 用魔法打败魔法_d964
-  - 🇨🇳 中国 用魔法打败魔法_da10
-  - 🇨🇳 中国 用魔法打败魔法_8700
-  - 🇨🇳 中国 用魔法打败魔法_0053
-  - 🇨🇳 中国 用魔法打败魔法_6d00
-  - 🇨🇳 中国 用魔法打败魔法_78ee
-  - 🇨🇳 中国 用魔法打败魔法_9dfc
-  - 🇨🇳 中国 用魔法打败魔法_e219
-  - 🇨🇳 中国 用魔法打败魔法_7033
-  - 🇬🇧 英国 用魔法打败魔法_2eb1
-  - 🇨🇳 中国 用魔法打败魔法_ce22
-  - 🇨🇳 中国 用魔法打败魔法_b1c0
-  - 🇨🇳 中国 用魔法打败魔法_af94
-  - 🇹🇼 台湾 用魔法打败魔法_4f1f
-  - 🇨🇳 中国 用魔法打败魔法_8da0
-  - 🇨🇳 中国 用魔法打败魔法_5a2b
+  - 🇭🇰 香港 用魔法打败魔法_76d3
+  - 🇸🇨 塞舌尔 用魔法打败魔法_aaa7
+  - 🌐 未知地区 用魔法打败魔法_b241
+  - 🇨🇳 中国 用魔法打败魔法_7e6e
+  - 🌐 未知地区 用魔法打败魔法_b7eb
   - 🇨🇳 中国 用魔法打败魔法_68df
+  - 🇬🇧 英国 用魔法打败魔法_d964
+  - 🇬🇧 英国 用魔法打败魔法_4e0d
+  - 🇬🇧 英国 用魔法打败魔法_7033
+  - 🇬🇧 英国 用魔法打败魔法_9cdc
+  - 🇬🇧 英国 用魔法打败魔法_af94
+  - 🇨🇳 中国 用魔法打败魔法_9dfc
+  - 🇬🇧 英国 用魔法打败魔法_46bd
+  - 🇨🇳 中国 用魔法打败魔法_1f32
+  - 🇨🇳 中国 用魔法打败魔法_c615
+  - 🇨🇳 中国 用魔法打败魔法_78ee
+  - 🇸🇨 塞舌尔 用魔法打败魔法_cadc
+  - 🇬🇧 英国 用魔法打败魔法_d7ec
+  - 🇨🇳 中国 用魔法打败魔法_e090
+  - 🇨🇳 中国 用魔法打败魔法_0357
+  - 🇨🇳 中国 用魔法打败魔法_25d9
+  - 🇬🇧 英国 用魔法打败魔法_838b
+  - 🇨🇳 中国 用魔法打败魔法_2eb1
+  - 🇨🇳 中国 用魔法打败魔法_93be
+  - 🇬🇧 英国 用魔法打败魔法_ce22
+  - 🇬🇧 英国 用魔法打败魔法_0464
+  - 🇭🇰 香港 用魔法打败魔法_08a0
+  - 🇨🇳 中国 用魔法打败魔法_7c09
+  - 🇨🇳 中国 用魔法打败魔法_63b9
+  - 🇨🇳 中国 用魔法打败魔法_aaa7
+  - 🇨🇳 中国 用魔法打败魔法_7a61
+  - 🇨🇳 中国 用魔法打败魔法_b1c0
+  - 🇨🇳 中国 用魔法打败魔法_9346
+  - 🇨🇳 中国 用魔法打败魔法_470f
+  - 🇨🇳 中国 用魔法打败魔法_7eae
   - 🇨🇳 中国 用魔法打败魔法_3302
+  - 🇨🇳 中国 用魔法打败魔法_5a2b
+  - 🇨🇳 中国 用魔法打败魔法_8700
+  - 🇨🇳 中国 用魔法打败魔法_da79
+  - 🇨🇳 中国 用魔法打败魔法_e219
+  - 🇨🇳 中国 用魔法打败魔法_708a
+  - 🇨🇳 中国 用魔法打败魔法_495c
+  - 🇰🇷 韩国 用魔法打败魔法_e041
+  - 🇬🇧 英国 用魔法打败魔法_285b
+  - 🇯🇵 日本 用魔法打败魔法_e14e
+  - 🇨🇳 中国 用魔法打败魔法_170d
+  - 🇬🇧 英国 用魔法打败魔法_8555
+  - 🇨🇳 中国 用魔法打败魔法_82cf
+  - 🇬🇧 英国 用魔法打败魔法_da10
   - 🇭🇰 香港 用魔法打败魔法_c5da
+  - 🇭🇰 香港 用魔法打败魔法_26bc
   - 🇭🇰 香港 用魔法打败魔法_f94f
   - 🇭🇰 香港 用魔法打败魔法_08ed
   - 🇭🇰 香港 用魔法打败魔法_4ea6
-  - 🇭🇰 香港 用魔法打败魔法_26bc
-  - 🇨🇳 中国 用魔法打败魔法_da79
-  - 🇬🇧 英国 用魔法打败魔法_285b
+  - 🇨🇳 中国 用魔法打败魔法_ff5e
+  - 🌐 未知地区 用魔法打败魔法_e92f
+  - 🇨🇳 中国 用魔法打败魔法_78a1
+  - 🇨🇳 中国 用魔法打败魔法_ce0c
+  - 🇬🇧 英国 用魔法打败魔法_0053
+  - 🇨🇳 中国 用魔法打败魔法_05fb
+  - 🇨🇳 中国 用魔法打败魔法_8680
+  - 🇨🇳 中国 用魔法打败魔法_f536
+  - 🇨🇳 中国 用魔法打败魔法_8da0
+  - 🇨🇳 中国 用魔法打败魔法_b5cc
+  - 🇨🇳 中国 用魔法打败魔法_4890
+  - 🇨🇳 中国 用魔法打败魔法_c479
+  - 🇨🇳 中国 用魔法打败魔法_a8aa
+  - 🇬🇧 英国 用魔法打败魔法_cf90
+  - 🇨🇳 中国 用魔法打败魔法_70ac
+  - 🇨🇳 中国 用魔法打败魔法_47f3
+  - 🇨🇳 中国 用魔法打败魔法_e1f5
+  - 🇬🇧 英国 用魔法打败魔法_3886
+  - 🇨🇳 中国 用魔法打败魔法_6d00
+  - 🇨🇳 中国 用魔法打败魔法_1904
+  - 🌐 未知地区 用魔法打败魔法_67bf
+  - 🇨🇳 中国 用魔法打败魔法_382b
+  - 🇨🇳 中国 用魔法打败魔法_caf1
+  - 🇹🇼 台湾 用魔法打败魔法_4f1f
+  - 🇬🇧 英国 用魔法打败魔法_2966
+  - 🇨🇳 中国 用魔法打败魔法_bab2
   - 🇭🇰 香港 用魔法打败魔法_a846
-  - 🇭🇰 香港 用魔法打败魔法_a1ca
-  - 🇭🇰 香港 用魔法打败魔法_0ee5
-  - 🇭🇰 香港 用魔法打败魔法_5eec
-  - 🇭🇰 香港 用魔法打败魔法_df33
-  - 🇭🇰 香港 用魔法打败魔法_8537
   - 🇭🇰 香港 用魔法打败魔法_7894
+  - 🇭🇰 香港 用魔法打败魔法_a1ca
+  - 🇭🇰 香港 用魔法打败魔法_5eec
+  - 🇭🇰 香港 用魔法打败魔法_0ee5
+  - 🇭🇰 香港 用魔法打败魔法_8537
   - 🇭🇰 香港 用魔法打败魔法_6475
   - 🇭🇰 香港 用魔法打败魔法_0eab
+  - 🇭🇰 香港 用魔法打败魔法_df33
   - 🇭🇰 香港 用魔法打败魔法_4336
+  - 🇬🇧 英国 用魔法打败魔法_5ebd
 rules:
 - MATCH,🔰 节点选择
