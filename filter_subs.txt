@@ -1,4 +1,0 @@
-https://gist.githubusercontent.com/Hugh0306/f42185d78702219e5970e671ab40885e/raw/25821a3e9f82695f5292781ff40cf5449a35f339/proxies.txt
-https://gist.githubusercontent.com/Hugh0306/f42185d78702219e5970e671ab40885e/raw/37aa4a877c4dc82064c74697a1eb2ba3e560d9df/v2ray.txt
-https://gist.githubusercontent.com/Hugh0306/f42185d78702219e5970e671ab40885e/raw/5461a3cf7f283b429e5455e7a905e4483f0c32ba/subs.txt
-https://gist.githubusercontent.com/Hugh0306/f42185d78702219e5970e671ab40885e/raw/8a182e527e30bda243bfd9f3618e27993c7cbf0d/clash.yaml
